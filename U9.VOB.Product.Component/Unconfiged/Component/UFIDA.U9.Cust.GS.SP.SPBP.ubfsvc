@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <system.serviceModel>
+    <services>
+                  
+	<service name="UFIDA.U9.Cust.GS.SP.SupplyPlanBP.CreateSupplyPlanBPStub">
+        <endpoint contract="UFIDA.U9.Cust.GS.SP.SupplyPlanBP.ICreateSupplyPlanBP"
+                  binding="basicHttpBinding" />
+
+	</service>
+   
+	<service name="UFIDA.U9.Cust.GS.SP.SupplyPlanBP.GetSupplyDetailStub">
+        <endpoint contract="UFIDA.U9.Cust.GS.SP.SupplyPlanBP.IGetSupplyDetail"
+                  binding="basicHttpBinding" />
+
+	</service>
+   
+	<service name="UFIDA.U9.Cust.GS.SP.SupplyPlanBP.GetReserveInfoStub">
+        <endpoint contract="UFIDA.U9.Cust.GS.SP.SupplyPlanBP.IGetReserveInfo"
+                  binding="basicHttpBinding" />
+
+	</service>
+   
+	<service name="UFIDA.U9.Cust.GS.SP.SupplyPlanBP.CreateAssessmentTaskStub">
+        <endpoint contract="UFIDA.U9.Cust.GS.SP.SupplyPlanBP.ICreateAssessmentTask"
+                  binding="basicHttpBinding" />
+
+	</service>
+   
+	<service name="UFIDA.U9.Cust.GS.SP.SupplyPlanBP.GetRulesSetIDStub">
+        <endpoint contract="UFIDA.U9.Cust.GS.SP.SupplyPlanBP.IGetRulesSetID"
+                  binding="basicHttpBinding" />
+
+	</service>
+   
+	<service name="UFIDA.U9.Cust.GS.SP.SupplyPlanBP.DeleteSupplyPlanBPStub">
+        <endpoint contract="UFIDA.U9.Cust.GS.SP.SupplyPlanBP.IDeleteSupplyPlanBP"
+                  binding="basicHttpBinding" />
+
+	</service>
+      
+	<service name="UFIDA.U9.Cust.GS.SP.PublicBP.ApproveBPStub">
+        <endpoint contract="UFIDA.U9.Cust.GS.SP.PublicBP.IApproveBP"
+                  binding="basicHttpBinding" />
+
+	</service>
+   
+	<service name="UFIDA.U9.Cust.GS.SP.PublicBP.OperationReserveStub">
+        <endpoint contract="UFIDA.U9.Cust.GS.SP.PublicBP.IOperationReserve"
+                  binding="basicHttpBinding" />
+
+	</service>
+      
+	<service name="UFIDA.U9.Cust.GS.SP.SupplyPlanIssuedBP.CreatePOStub">
+        <endpoint contract="UFIDA.U9.Cust.GS.SP.SupplyPlanIssuedBP.ICreatePO"
+                  binding="basicHttpBinding" />
+
+	</service>
+         
+	<service name="UFIDA.U9.Cust.GS.SP.ACEApprovelBP.CreateACEApprovelStub">
+        <endpoint contract="UFIDA.U9.Cust.GS.SP.ACEApprovelBP.ICreateACEApprovel"
+                  binding="basicHttpBinding" />
+
+	</service>
+   
+	<service name="UFIDA.U9.Cust.GS.SP.ACEApprovelBP.GetACEStub">
+        <endpoint contract="UFIDA.U9.Cust.GS.SP.ACEApprovelBP.IGetACE"
+                  binding="basicHttpBinding" />
+
+	</service>
+ 
+    </services>
+</system.serviceModel>
+</configuration>

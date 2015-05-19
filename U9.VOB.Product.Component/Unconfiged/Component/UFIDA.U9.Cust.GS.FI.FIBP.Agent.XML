@@ -1,0 +1,452 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UFIDA.U9.Cust.GS.FI.FIBP.Agent</name>
+    </assembly>
+    <members>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBP.Proxy.ApprovedPrePaymentBPProxy.EntityKey_SKey">
+            <summary>
+            预付款通知单Key 序列化Key属性。（传递跨组织序列列字段）
+            预付款通知单审核BP.Misc.预付款通知单Key
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBP.Proxy.ApprovedPrePaymentBPProxy.EntityKey">
+            <summary>
+            预付款通知单Key (该属性可为空,且无默认值)
+            预付款通知单审核BP.Misc.预付款通知单Key
+            </summary>
+            <value>UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePayment</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBP.Proxy.ApprovedPrePaymentBPProxy.Type">
+            <summary>
+            类型 (该属性可为空,但有默认值)
+            预付款通知单审核BP.Misc.类型
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBP.Proxy.GetPurchaseOrderBPProxy.POOrgCode">
+            <summary>
+            采购组织 (该属性可为空,且无默认值)
+            获取采购订单BP.Misc.采购组织
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBP.Proxy.GetPurchaseOrderBPProxy.SrcOrg">
+            <summary>
+            来源组织 (该属性可为空,但有默认值)
+            获取采购订单BP.Misc.来源组织
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBP.Proxy.GetPurchaseOrderBPProxy.Supplier_Code">
+            <summary>
+            供应商编码 (该属性可为空,且无默认值)
+            获取采购订单BP.Misc.供应商编码
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBP.Proxy.GetPurchaseOrderBPProxy.PODocNoFrom">
+            <summary>
+            单号从 (该属性可为空,且无默认值)
+            获取采购订单BP.Misc.单号从
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBP.Proxy.GetPurchaseOrderBPProxy.PODocNoTo">
+            <summary>
+            单号到 (该属性可为空,且无默认值)
+            获取采购订单BP.Misc.单号到
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBP.Proxy.GetPurchaseOrderBPProxy.BusDateFrom">
+            <summary>
+            日期从 (该属性可为空,且无默认值)
+            获取采购订单BP.Misc.日期从
+            </summary>
+            <value>System.Date</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBP.Proxy.GetPurchaseOrderBPProxy.BusDateTo">
+            <summary>
+            日期到 (该属性可为空,且无默认值)
+            获取采购订单BP.Misc.日期到
+            </summary>
+            <value>System.Date</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBP.Proxy.GetPurchaseOrderBPProxy.Currency">
+            <summary>
+            币种 (该属性可为空,但有默认值)
+            获取采购订单BP.Misc.币种
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBP.Proxy.GetPurchaseOrderBPProxy.Buyer_Code">
+            <summary>
+            采购员 (该属性可为空,且无默认值)
+            获取采购订单BP.Misc.采购员
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBP.Proxy.GetPurchaseOrderBPProxy.Dept_Code">
+            <summary>
+            部门 (该属性可为空,且无默认值)
+            获取采购订单BP.Misc.部门
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBP.Proxy.BatchCreatePrePaymentBPProxy.PrePaymentHeadDTOs">
+            <summary>
+            PrePaymentHeadDTOs (该属性可为空,且无默认值)
+            批量创建预付款通知单BP.Misc.PrePaymentHeadDTOs
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBP.Proxy.BatchCreatePrePaymentDRDetailBPProxy.PreDeductionRegisterDTOs">
+            <summary>
+            PreDeductionRegisterDTOs (该属性可为空,且无默认值)
+            预付款通知单扣款BP.Misc.PreDeductionRegisterDTOs
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBP.Proxy.UpdatePrePaymentStatusBPProxy.EntityKeyList_SKey">
+            <summary>
+            EntityKeyList 序列化Key属性集合。（传递跨组织序列列字段）
+             平台使用.开发人员不可使用该属性赋值.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBP.Proxy.UpdatePrePaymentStatusBPProxy.EntityKeyList">
+            <summary>
+            EntityKeyList (该属性可为空,且无默认值)
+            更新预付款通知单状态BP.Misc.EntityKeyList
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBP.Proxy.UpdatePrePaymentStatusBPProxy.Type">
+            <summary>
+            操作类型 (该属性可为空,但有默认值)
+            更新预付款通知单状态BP.Misc.操作类型
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBP.Proxy.UpdatePrePaymentStatusBPProxy.IsCancel">
+            <summary>
+            取消操作 (该属性可为空,但有默认值)
+            更新预付款通知单状态BP.Misc.取消操作
+            </summary>
+            <value>System.Boolean</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBP.Proxy.GetPrePaymentDocTypeBPProxy.DocType">
+            <summary>
+            单据类型ID (该属性可为空,但有默认值)
+            获取预付款通知单据类型BP.Misc.单据类型ID
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBP.Proxy.PrePaymentMoveBPProxy.PrePaymentHeadDTOs">
+            <summary>
+            PrePaymentHeadDTOs (该属性可为空,且无默认值)
+            预付款挪用BP.Misc.PrePaymentHeadDTOs
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBP.Proxy.RedFlushPrePaymentBPProxy.PrePaymentHeadDTOs">
+            <summary>
+            PrePaymentHeadDTOs (该属性可为空,且无默认值)
+            预付款通知单红冲BP.Misc.PrePaymentHeadDTOs
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.Proxy.ApprovedDeductionRegisterBPProxy.EntityKey_SKey">
+            <summary>
+            实体Key 序列化Key属性。（传递跨组织序列列字段）
+            扣款登记审核BP.Misc.实体Key
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.Proxy.ApprovedDeductionRegisterBPProxy.EntityKey">
+            <summary>
+            实体Key (该属性可为空,且无默认值)
+            扣款登记审核BP.Misc.实体Key
+            </summary>
+            <value>UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegister</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.Proxy.ApprovedDeductionRegisterBPProxy.DocStatus">
+            <summary>
+            单据状态 (该属性可为空,但有默认值)
+            扣款登记审核BP.Misc.单据状态
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.Proxy.CalculationDRMoneyBPProxy.CalculationDRMoneyDTOs">
+            <summary>
+            CalculationDRMoneyDTO (该属性可为空,且无默认值)
+            计算扣款金额BP.Misc.CalculationDRMoneyDTO
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.Proxy.CalculationDRMoneyBPProxy.Type">
+            <summary>
+            操作方向 (该属性可为空,但有默认值)
+            计算扣款金额BP.Misc.操作方向
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.Proxy.CreateDeductionRegisterBPProxy.DeductionRegisterDTOs">
+            <summary>
+            DeductionRegisterDTOs (该属性可为空,且无默认值)
+            创建扣款登记BP.Misc.DeductionRegisterDTOs
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PubBP.Proxy.GetDefaultOrgBPProxy.Org">
+            <summary>
+            组织ID (该属性可为空,但有默认值)
+            获取默认组织BP.Misc.组织ID
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PubBP.Proxy.GetDefaultOrgBPProxy.OrgCode">
+            <summary>
+            OrgCode (该属性可为空,且无默认值)
+            获取默认组织BP.Misc.OrgCode
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PubBP.Proxy.GetCurrencyBPProxy.Supplier">
+            <summary>
+            Supplier (该属性可为空,但有默认值)
+            获取币种档案BP.Misc.Supplier
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PubBP.Proxy.GetCurrencyBPProxy.Customer">
+            <summary>
+            Customer (该属性可为空,但有默认值)
+            获取币种档案BP.Misc.Customer
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PubBP.Proxy.GetCurrencyBPProxy.IsDefault">
+            <summary>
+            获取默认币种 (该属性可为空,但有默认值)
+            获取币种档案BP.Misc.获取默认币种
+            </summary>
+            <value>System.Boolean</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBP.Proxy.GetPaymentSrcDocBPProxy.InvocieGroup">
+            <summary>
+            发票组 (该属性可为空,但有默认值)
+            付款通知单批量拉单查询BP.Misc.发票组
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBP.Proxy.GetPaymentSrcDocBPProxy.PayOrg">
+            <summary>
+            付款组织 (该属性可为空,但有默认值)
+            付款通知单批量拉单查询BP.Misc.付款组织
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBP.Proxy.GetPaymentSrcDocBPProxy.SrcDocNoFrom">
+            <summary>
+            来源单号从 (该属性可为空,且无默认值)
+            付款通知单批量拉单查询BP.Misc.来源单号从
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBP.Proxy.GetPaymentSrcDocBPProxy.SrcDocNoTo">
+            <summary>
+            来源单号到 (该属性可为空,且无默认值)
+            付款通知单批量拉单查询BP.Misc.来源单号到
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBP.Proxy.GetPaymentSrcDocBPProxy.PODocNoFrom">
+            <summary>
+            采购订单号从 (该属性可为空,且无默认值)
+            付款通知单批量拉单查询BP.Misc.采购订单号从
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBP.Proxy.GetPaymentSrcDocBPProxy.PODocNoTo">
+            <summary>
+            采购订单号到 (该属性可为空,且无默认值)
+            付款通知单批量拉单查询BP.Misc.采购订单号到
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBP.Proxy.GetPaymentSrcDocBPProxy.RcvDateFrom">
+            <summary>
+            入库日期从 (该属性可为空,且无默认值)
+            付款通知单批量拉单查询BP.Misc.入库日期从
+            </summary>
+            <value>System.Date</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBP.Proxy.GetPaymentSrcDocBPProxy.RcvDateTo">
+            <summary>
+            入库日期到 (该属性可为空,且无默认值)
+            付款通知单批量拉单查询BP.Misc.入库日期到
+            </summary>
+            <value>System.Date</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBP.Proxy.GetPaymentSrcDocBPProxy.Operators">
+            <summary>
+            业务员 (该属性可为空,且无默认值)
+            付款通知单批量拉单查询BP.Misc.业务员
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBP.Proxy.GetPaymentSrcDocBPProxy.Project">
+            <summary>
+            项目号 (该属性可为空,且无默认值)
+            付款通知单批量拉单查询BP.Misc.项目号
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBP.Proxy.GetPaymentSrcDocBPProxy.Supplier">
+            <summary>
+            供应商 (该属性可为空,且无默认值)
+            付款通知单批量拉单查询BP.Misc.供应商
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBP.Proxy.GetPaymentSrcDocBPProxy.Currency">
+            <summary>
+            币种 (该属性可为空,但有默认值)
+            付款通知单批量拉单查询BP.Misc.币种
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBP.Proxy.GetPaymentSrcDocBPProxy.Item">
+            <summary>
+            料品 (该属性可为空,且无默认值)
+            付款通知单批量拉单查询BP.Misc.料品
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBP.Proxy.GetPaymentSrcDocBPProxy.ItemCate">
+            <summary>
+            料品分类 (该属性可为空,且无默认值)
+            付款通知单批量拉单查询BP.Misc.料品分类
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBP.Proxy.GetPaymentSrcDocBPProxy.Lot">
+            <summary>
+            批号 (该属性可为空,且无默认值)
+            付款通知单批量拉单查询BP.Misc.批号
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBP.Proxy.GetPaymentSrcDocBPProxy.DocumentType">
+            <summary>
+            单据类型 (该属性可为空,但有默认值)
+            付款通知单批量拉单查询BP.Misc.单据类型
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBP.Proxy.ApprovedPaymentBPProxy.EntityKey_SKey">
+            <summary>
+            付款通知单Key 序列化Key属性。（传递跨组织序列列字段）
+            付款通知单审核BP.Misc.付款通知单Key
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBP.Proxy.ApprovedPaymentBPProxy.EntityKey">
+            <summary>
+            付款通知单Key (该属性可为空,且无默认值)
+            付款通知单审核BP.Misc.付款通知单Key
+            </summary>
+            <value>UFIDA.U9.Cust.GS.FI.PaymentBE.Payment</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBP.Proxy.ApprovedPaymentBPProxy.Type">
+            <summary>
+            操作类型 (该属性可为空,但有默认值)
+            付款通知单审核BP.Misc.操作类型
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.OperatorBonusBP.Proxy.SelectOperatorBonusProxy.Type">
+            <summary>
+            采购业务员/包装业务员 (该属性可为空,但有默认值)
+            查询业务员奖金计算记录.Misc.采购业务员/包装业务员
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.OperatorBonusBP.Proxy.SelectOperatorBonusProxy.Year">
+            <summary>
+            会计年度 (该属性可为空,但有默认值)
+            查询业务员奖金计算记录.Misc.会计年度
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.OperatorBonusBP.Proxy.ApproveOperatorBonusProxy.DocID">
+            <summary>
+            单据ID (该属性可为空,但有默认值)
+            业务员奖金单据状态改变.Misc.单据ID
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.OperatorBonusBP.Proxy.ApproveOperatorBonusProxy.DocStatus">
+            <summary>
+            单据状态 (该属性可为空,但有默认值)
+            业务员奖金单据状态改变.Misc.单据状态
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.OperatorBonusBP.Proxy.ApproveOperatorBonusProxy.VIVersion">
+            <summary>
+            版本 (该属性可为空,但有默认值)
+            业务员奖金单据状态改变.Misc.版本
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.OperatorBonusBP.Proxy.ApproveOperatorBonusProxy.DocType">
+            <summary>
+            单据Type (该属性可为空,但有默认值)
+            业务员奖金单据状态改变.Misc.单据Type
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.OperatorBonusBP.Proxy.CalculateOperatorBonusProxy.Type">
+            <summary>
+            计算业务员类型 (该属性可为空,但有默认值)
+            计算业务员奖金BP.Misc.计算业务员类型
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.OperatorBonusBP.Proxy.CalculateOperatorBonusProxy.BonusCalcuteList">
+            <summary>
+            计算的会计期间数据 (该属性可为空,且无默认值)
+            计算业务员奖金BP.Misc.计算的会计期间数据
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.OperatorBonusBP.Proxy.CalculateOperatorBonusProxy.OperatorsList">
+            <summary>
+            计算奖金的业务员数据 (该属性可为空,且无默认值)
+            计算业务员奖金BP.Misc.计算奖金的业务员数据
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.OperatorBonusBP.Proxy.CalculateOperatorBonusProxy.IsJobServer">
+            <summary>
+            调度执行 (该属性可为空,但有默认值)
+            计算业务员奖金BP.Misc.调度执行
+            </summary>
+            <value>System.Boolean</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.OperatorBonusBP.Proxy.CalculateOperatorBonusProxy.CalculateType">
+            <summary>
+            计算类型 (该属性可为空,但有默认值)
+            计算业务员奖金BP.Misc.计算类型
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.OperatorBonusBP.Proxy.CalculateOperatorBonusProxy.Year">
+            <summary>
+            年度 (该属性可为空,但有默认值)
+            计算业务员奖金BP.Misc.年度
+            </summary>
+            <value>System.Int32</value>
+        </member>
+    </members>
+</doc>

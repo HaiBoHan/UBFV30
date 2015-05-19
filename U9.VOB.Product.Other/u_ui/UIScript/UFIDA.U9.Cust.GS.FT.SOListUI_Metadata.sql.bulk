@@ -1,0 +1,141 @@
+{9CC14AC0-AD29-47f6-8711-C5047938016E}
+BaseFile|20
+UBF_MD_UIReference|63|62
+ID, UID, Name, CreatedBy, CreatedOn, ModifiedBy, ModifiedOn, UIReferenceComponent, Container, IsMain, RefEntityId, RefEntityName, Filter, RefType
+
+UBF_MD_UIRComponent|63|62
+ID, UID, Name, CreatedBy, CreatedOn, ModifiedBy, ModifiedOn, IsMultiSelect, RefType, IsDefault, Path, URI, Classify, ForMultOrg
+
+UBF_MD_UIEvent|63|83
+ID, Name, ActionName, CreatedBy, CreatedOn, ModifiedBy, ModifiedOn, UIControl, Container
+
+UBF_MD_UIRefParam|84|83
+ID, UID, Name, CreatedBy, CreatedOn, ModifiedBy, ModifiedOn, UIReferenceComponent, Container, DefaultValue, MDDataType, DataType
+
+UBF_MD_UIROrderField|84|83
+ID, UID, Name, CreatedBy, CreatedOn, ModifiedBy, ModifiedOn, UIReference, Container, RefAttributeName, Direction, Sequence
+
+UBF_MD_UIControl|84|104
+ID, UID, Name, Container, UIForm, ControlType, ParentControl, IsBinding, UIView, UIField, CreatedBy, CreatedOn, ModifiedBy, ModifiedOn, RefType, Visible
+
+UBF_MD_UIForm|105|107
+ID, UID, Container, UIComponent, Name, DataSource, IsMain, IsAuthority, CreatedBy, CreatedOn, ModifiedBy, ModifiedOn, ClassName, AssemblyName, URI, PublishDetail, Width, Height
+
+UBF_MD_UIFormParamter|108|107
+ID, CreatedBy, CreatedOn, ModifiedBy, ModifiedOn, UIForm, Container, Name, UIViewID, DataType, UIModelParameterName, IsConsumer, IsPersoner
+
+UBF_MD_UIView|108|110
+ID, UID, Name, CreatedBy, CreatedOn, ModifiedBy, ModifiedOn, UIModel, IsMainView, IsExtendView, FilterOriginalOPath, FilterOrderBy, DataSource, Container, MappingID
+
+aspnet_parts|111|113
+ID, FormId, CreatedBy, CreatedOn, ModifiedBy, ModifiedOn, ClassName, Assembly, Path, URI
+
+UBF_MD_UILink|114|113
+ID, UID, Name, CreatedBy, CreatedOn, ModifiedBy, ModifiedOn, UIModel, ParentView, ParentField, ParentCardinality, ChildView, ChildField, ChildCardinality, Association, Container
+
+UBF_MD_EntityReference|114|113
+MD_Template_ID, MD_Class_ID
+
+UBF_MD_UIRefAssociation|114|113
+ID, UID, Name, CreatedBy, CreatedOn, ModifiedBy, ModifiedOn, UIReferenceComponent, Container, SourceRef, SourceField, TargetParameter
+
+UBF_MD_UIModel|114|116
+ID, UID, Name, CreatedBy, CreatedOn, ModifiedBy, ModifiedOn, UIComponent
+
+UBF_MD_UIFormDetail|117|116
+ID,  Container, Content, CreatedBy, CreatedOn, ModifiedBy, ModifiedOn
+
+UBF_MD_UIAction|117|137
+ID, UID, Name, CreatedBy, CreatedOn, ModifiedBy, ModifiedOn, UIModel, Container, GroupName
+
+UBF_MD_UIField|138|140
+ID, UID, Name, CreatedBy, CreatedOn, ModifiedBy, ModifiedOn, UIView, ToolTips, DataType, DefaultValue, GroupName, IsReadOnly, IsBinding, Container, MappingID
+
+UBF_MD_UIProperty|141|140
+ID, UID, Name, CreatedBy, CreatedOn, ModifiedBy, ModifiedOn, UIView, UIModel, Container, DataType, DefaultValue, IsNullable, IsReadOnly
+
+UBF_MD_UIComponent|141|141
+ID, UID, Name, CreatedBy, CreatedOn, ModifiedBy, ModifiedOn, AssemblyName
+
+UBF_MD_UIRefField|142|141
+ID, UID, Name, CreatedBy, CreatedOn, ModifiedBy, ModifiedOn, UIReference, Container, RefAttributeName, IsVisible, IsKey, IsEdit, IsName, Sequence, Length, IsParent
+
+@SNIndex+20	Click	OnNew	Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25	@SNIndex+12	7f26ad8a-1315-4adc-890f-6363c0fbdbcc
+@SNIndex+22	Click	OnDelete	Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25	@SNIndex+13	cf51c337-d39e-4175-8458-438f58255cc7
+@SNIndex+24	Click	OnOutPut	Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25	@SNIndex+14	18975fe6-50e3-4c3d-8c55-2e993cbda73b
+@SNIndex+26	Click	OnPrint	Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25	@SNIndex+15	d4d46c12-0d17-470c-9e00-e5c45df0d995
+@SNIndex+28	TextChanged	OnCaseChanged	Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25	@SNIndex+18	6ecb53ef-0ed8-4b57-b145-bb9000f20c7e
+@SNIndex+30	Click	OnLookCase	Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25	@SNIndex+16	bc594729-2b0f-4048-8560-72b7a400c364
+@SNIndex+32	GridRowDbClicked	OnGridRowDbClick	Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25	@SNIndex+17	8397ec77-4034-402f-addc-1fa473519c3f
+@SNIndex+52	Click	OnNew	Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25	@SNIndex+44	b7b10b74-3daf-47d2-9aef-9df6008a787b
+@SNIndex+54	Click	OnDelete	Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25	@SNIndex+45	3d68c98c-eb50-43b0-a89a-f790ad57f44a
+@SNIndex+56	Click	OnOutPut	Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25	@SNIndex+46	e3ed91c7-046a-4512-a87f-f0daf615f964
+@SNIndex+58	Click	OnPrint	Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25	@SNIndex+47	16c44d08-9022-497a-81c7-1dc80c53a535
+@SNIndex+60	TextChanged	OnCaseChanged	Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25	@SNIndex+50	981cfc0d-932a-442b-9979-3769f96f9b9a
+@SNIndex+62	Click	OnLookCase	Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25	@SNIndex+48	77ee4eec-d5ca-4a09-9a73-814799379db2
+@SNIndex+64	GridRowDbClicked	OnGridRowDbClick	Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25	@SNIndex+49	ddea2811-1c63-4ca6-9f1a-8aa8896e69f9
+@SNIndex+84	Click	OnNew	Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25	@SNIndex+76	24e74a63-3893-47f9-9406-dfeec63e8596
+@SNIndex+86	Click	OnDelete	Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25	@SNIndex+77	23f00123-6aab-4fc4-89c5-c27988fa0fe1
+@SNIndex+88	Click	OnOutPut	Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25	@SNIndex+78	5e433693-940b-48f6-b88b-5ba82abc2d26
+@SNIndex+90	Click	OnPrint	Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25	@SNIndex+79	aeb1b650-fe07-44b4-801f-0dc66d7501ce
+@SNIndex+92	TextChanged	OnCaseChanged	Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25	@SNIndex+82	4cbb8026-52d2-4064-8661-bd10578cb371
+@SNIndex+94	Click	OnLookCase	Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25	@SNIndex+80	0629f707-85af-473a-902d-f113d99bd8c5
+@SNIndex+96	GridRowDbClicked	OnGridRowDbClick	Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25	@SNIndex+81	4b2e3bf8-706e-4064-985a-0cdb9d135ac9
+@SNIndex+12	7f26ad8a-1315-4adc-890f-6363c0fbdbcc	BtnNew	5b792b89-2a35-4fe3-8c0d-d6b6a83b078d	@SNIndex+11	Button		0			Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25		1
+@SNIndex+13	cf51c337-d39e-4175-8458-438f58255cc7	BtnDelete	5b792b89-2a35-4fe3-8c0d-d6b6a83b078d	@SNIndex+11	Button		0			Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25		1
+@SNIndex+14	18975fe6-50e3-4c3d-8c55-2e993cbda73b	BtnOutPut	5b792b89-2a35-4fe3-8c0d-d6b6a83b078d	@SNIndex+11	Button		0			Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25		1
+@SNIndex+15	d4d46c12-0d17-470c-9e00-e5c45df0d995	BtnPrint	5b792b89-2a35-4fe3-8c0d-d6b6a83b078d	@SNIndex+11	Button		0			Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25		1
+@SNIndex+16	bc594729-2b0f-4048-8560-72b7a400c364	OnLookCase	5b792b89-2a35-4fe3-8c0d-d6b6a83b078d	@SNIndex+11	Button		0			Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25		1
+@SNIndex+17	8397ec77-4034-402f-addc-1fa473519c3f	DataGrid1	5b792b89-2a35-4fe3-8c0d-d6b6a83b078d	@SNIndex+11	DataGrid		0			Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25		1
+@SNIndex+18	6ecb53ef-0ed8-4b57-b145-bb9000f20c7e	DDLCase	5b792b89-2a35-4fe3-8c0d-d6b6a83b078d	@SNIndex+11	DropDownList		0			Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25		1
+@SNIndex+44	b7b10b74-3daf-47d2-9aef-9df6008a787b	BtnNew	47aad492-c48b-4f88-9829-5400c7046af4	@SNIndex+43	Button		0			Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25		1
+@SNIndex+45	3d68c98c-eb50-43b0-a89a-f790ad57f44a	BtnDelete	47aad492-c48b-4f88-9829-5400c7046af4	@SNIndex+43	Button		0			Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25		1
+@SNIndex+46	e3ed91c7-046a-4512-a87f-f0daf615f964	BtnOutPut	47aad492-c48b-4f88-9829-5400c7046af4	@SNIndex+43	Button		0			Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25		1
+@SNIndex+47	16c44d08-9022-497a-81c7-1dc80c53a535	BtnPrint	47aad492-c48b-4f88-9829-5400c7046af4	@SNIndex+43	Button		0			Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25		1
+@SNIndex+48	77ee4eec-d5ca-4a09-9a73-814799379db2	OnLookCase	47aad492-c48b-4f88-9829-5400c7046af4	@SNIndex+43	Button		0			Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25		1
+@SNIndex+49	ddea2811-1c63-4ca6-9f1a-8aa8896e69f9	DataGrid1	47aad492-c48b-4f88-9829-5400c7046af4	@SNIndex+43	DataGrid		0			Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25		1
+@SNIndex+50	981cfc0d-932a-442b-9979-3769f96f9b9a	DDLCase	47aad492-c48b-4f88-9829-5400c7046af4	@SNIndex+43	DropDownList		0			Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25		1
+@SNIndex+76	24e74a63-3893-47f9-9406-dfeec63e8596	BtnNew	55cf6a6c-1884-4aea-8dd5-fe989701fbb1	@SNIndex+75	Button		0			Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25		1
+@SNIndex+77	23f00123-6aab-4fc4-89c5-c27988fa0fe1	BtnDelete	55cf6a6c-1884-4aea-8dd5-fe989701fbb1	@SNIndex+75	Button		0			Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25		1
+@SNIndex+78	5e433693-940b-48f6-b88b-5ba82abc2d26	BtnOutPut	55cf6a6c-1884-4aea-8dd5-fe989701fbb1	@SNIndex+75	Button		0			Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25		1
+@SNIndex+79	aeb1b650-fe07-44b4-801f-0dc66d7501ce	BtnPrint	55cf6a6c-1884-4aea-8dd5-fe989701fbb1	@SNIndex+75	Button		0			Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25		1
+@SNIndex+80	0629f707-85af-473a-902d-f113d99bd8c5	OnLookCase	55cf6a6c-1884-4aea-8dd5-fe989701fbb1	@SNIndex+75	Button		0			Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25		1
+@SNIndex+81	4b2e3bf8-706e-4064-985a-0cdb9d135ac9	DataGrid1	55cf6a6c-1884-4aea-8dd5-fe989701fbb1	@SNIndex+75	DataGrid		0			Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25		1
+@SNIndex+82	4cbb8026-52d2-4064-8661-bd10578cb371	DDLCase	55cf6a6c-1884-4aea-8dd5-fe989701fbb1	@SNIndex+75	DropDownList		0			Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25		1
+@SNIndex+11	5b792b89-2a35-4fe3-8c0d-d6b6a83b078d	0d1ccafc-f3ec-4780-9178-eadeecd2e480	@SNIndex+0	SoOrderSaleBListUIForm	56c5f870-b1c5-4f42-9322-1183e61ef15d	1	1	Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25	UFIDA.U9.Cust.GS.FT.SoOrderSaleBListUIModel.SoOrderSaleBListUIFormWebPart	UFIDA.U9.Cust.GS.FT.SOListUI.WebPart	.UI_列表Form带CheckBoxWebPart	0	992	504
+@SNIndex+43	47aad492-c48b-4f88-9829-5400c7046af4	0d1ccafc-f3ec-4780-9178-eadeecd2e480	@SNIndex+0	SoOrderTypeBListUIForm	111d53bc-60c9-4f48-b03f-daa4905fb311	1	1	Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25	UFIDA.U9.Cust.GS.FT.SoOrderTypeBListUIModel.SoOrderTypeBListUIFormWebPart	UFIDA.U9.Cust.GS.FT.SOListUI.WebPart	.UI_列表Form带CheckBoxWebPart	0	992	504
+@SNIndex+75	55cf6a6c-1884-4aea-8dd5-fe989701fbb1	0d1ccafc-f3ec-4780-9178-eadeecd2e480	@SNIndex+0	OrderBomChangeBListUIForm	5b48f009-2b26-4790-874a-1b3d9ee4c511	1	1	Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25	UFIDA.U9.Cust.GS.FT.OrderBomChangeBListUIModel.OrderBomChangeBListUIFormWebPart	UFIDA.U9.Cust.GS.FT.SOListUI.WebPart	.UI_列表Form带CheckBoxWebPart	0	992	504
+@SNIndex+2	f0a9883b-4921-489f-8b6c-866aa7cc9a4d	SoOrderSaleHead	Administrator	2015-04-25T09:42:13	Administrator	2015-04-25T09:42:25	@SNIndex+1	1	0			4139b2cf-eb2b-450d-afc7-86babf455bf4	56c5f870-b1c5-4f42-9322-1183e61ef15d	00000000-0000-0000-0000-000000000000
+@SNIndex+34	32b44698-5a26-41d2-9db3-e02715dceaa4	AllFormType	Administrator	2015-04-25T09:42:14	Administrator	2015-04-25T09:42:25	@SNIndex+33	1	0			c4dbb945-0017-4438-8bb0-e8b8e6bb39fa	111d53bc-60c9-4f48-b03f-daa4905fb311	00000000-0000-0000-0000-000000000000
+@SNIndex+66	ff80e1b2-e5c0-4372-836b-a4205e8cb543	OrderBomChangeHead	Administrator	2015-04-25T09:42:14	Administrator	2015-04-25T09:42:25	@SNIndex+65	1	0			8ca8142f-2b9d-4f97-aa2b-f2100bdd4e26	5b48f009-2b26-4790-874a-1b3d9ee4c511	00000000-0000-0000-0000-000000000000
+@SNIndex+11	5b792b89-2a35-4fe3-8c0d-d6b6a83b078d	Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25	UFIDA.U9.Cust.GS.FT.SoOrderSaleBListUIModel.SoOrderSaleBListUIFormWebPart	UFIDA.U9.Cust.GS.FT.SOListUI.WebPart	UFIDA\U9\Cust\GS\FT\SOListUI	.UI_列表Form带CheckBoxWebPart
+@SNIndex+43	47aad492-c48b-4f88-9829-5400c7046af4	Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25	UFIDA.U9.Cust.GS.FT.SoOrderTypeBListUIModel.SoOrderTypeBListUIFormWebPart	UFIDA.U9.Cust.GS.FT.SOListUI.WebPart	UFIDA\U9\Cust\GS\FT\SOListUI	.UI_列表Form带CheckBoxWebPart
+@SNIndex+75	55cf6a6c-1884-4aea-8dd5-fe989701fbb1	Administrator	2015-04-25T09:42:25	Administrator	2015-04-25T09:42:25	UFIDA.U9.Cust.GS.FT.OrderBomChangeBListUIModel.OrderBomChangeBListUIFormWebPart	UFIDA.U9.Cust.GS.FT.SOListUI.WebPart	UFIDA\U9\Cust\GS\FT\SOListUI	.UI_列表Form带CheckBoxWebPart
+@SNIndex+1	56c5f870-b1c5-4f42-9322-1183e61ef15d	SoOrderSaleBListUIModel	Administrator	2015-04-25T09:42:13	Administrator	2015-04-25T09:42:25	@SNIndex+0
+@SNIndex+33	111d53bc-60c9-4f48-b03f-daa4905fb311	SoOrderTypeBListUIModel	Administrator	2015-04-25T09:42:14	Administrator	2015-04-25T09:42:25	@SNIndex+0
+@SNIndex+65	5b48f009-2b26-4790-874a-1b3d9ee4c511	OrderBomChangeBListUIModel	Administrator	2015-04-25T09:42:14	Administrator	2015-04-25T09:42:25	@SNIndex+0
+@SNIndex+4	9a3966cb-3090-4da3-b1b0-458c93332c85	OnLookCase	Administrator	2015-04-25T09:42:13	Administrator	2015-04-25T09:42:25	@SNIndex+1	56c5f870-b1c5-4f42-9322-1183e61ef15d	Case
+@SNIndex+5	e951b7ad-7d5f-4066-a329-edcbf609130e	OnCaseChanged	Administrator	2015-04-25T09:42:13	Administrator	2015-04-25T09:42:25	@SNIndex+1	56c5f870-b1c5-4f42-9322-1183e61ef15d	Case
+@SNIndex+6	1a40f978-ea1d-4036-b333-4c1dbf9fcb3d	OnOutPut	Administrator	2015-04-25T09:42:13	Administrator	2015-04-25T09:42:25	@SNIndex+1	56c5f870-b1c5-4f42-9322-1183e61ef15d	Case
+@SNIndex+7	f6d25b70-2406-4472-b40e-7a9c4f45631b	OnGridRowDbClick	Administrator	2015-04-25T09:42:13	Administrator	2015-04-25T09:42:25	@SNIndex+1	56c5f870-b1c5-4f42-9322-1183e61ef15d	Case
+@SNIndex+8	ddb8ff6f-97f7-4e8b-ba0e-c05d4927bb20	OnNew	Administrator	2015-04-25T09:42:13	Administrator	2015-04-25T09:42:25	@SNIndex+1	56c5f870-b1c5-4f42-9322-1183e61ef15d	Case
+@SNIndex+9	6b0794fa-3888-4d1a-aaab-b9cffff3f201	OnPrint	Administrator	2015-04-25T09:42:13	Administrator	2015-04-25T09:42:25	@SNIndex+1	56c5f870-b1c5-4f42-9322-1183e61ef15d	Case
+@SNIndex+10	362a113e-64e6-4be2-a224-31400a7e799c	OnDelete	Administrator	2015-04-25T09:42:13	Administrator	2015-04-25T09:42:25	@SNIndex+1	56c5f870-b1c5-4f42-9322-1183e61ef15d	Case
+@SNIndex+36	473e59cc-ba05-4201-a861-7a700d93b4b4	OnLookCase	Administrator	2015-04-25T09:42:14	Administrator	2015-04-25T09:42:25	@SNIndex+33	111d53bc-60c9-4f48-b03f-daa4905fb311	Case
+@SNIndex+37	737d9989-b541-406c-8075-536260ab1980	OnCaseChanged	Administrator	2015-04-25T09:42:14	Administrator	2015-04-25T09:42:25	@SNIndex+33	111d53bc-60c9-4f48-b03f-daa4905fb311	Case
+@SNIndex+38	574266c7-e6b9-4318-916e-bff7871ead5d	OnOutPut	Administrator	2015-04-25T09:42:14	Administrator	2015-04-25T09:42:25	@SNIndex+33	111d53bc-60c9-4f48-b03f-daa4905fb311	Case
+@SNIndex+39	ad9cfe76-5514-431f-ae23-a965240e41ec	OnGridRowDbClick	Administrator	2015-04-25T09:42:14	Administrator	2015-04-25T09:42:25	@SNIndex+33	111d53bc-60c9-4f48-b03f-daa4905fb311	Case
+@SNIndex+40	f4fe9de2-ad33-4156-ac08-c2d2e976a974	OnNew	Administrator	2015-04-25T09:42:14	Administrator	2015-04-25T09:42:25	@SNIndex+33	111d53bc-60c9-4f48-b03f-daa4905fb311	Case
+@SNIndex+41	f713a429-6230-4803-a819-73367ab1dad0	OnPrint	Administrator	2015-04-25T09:42:14	Administrator	2015-04-25T09:42:25	@SNIndex+33	111d53bc-60c9-4f48-b03f-daa4905fb311	Case
+@SNIndex+42	f68f6892-fd6c-4cc4-ab28-37d8cead5ad1	OnDelete	Administrator	2015-04-25T09:42:14	Administrator	2015-04-25T09:42:25	@SNIndex+33	111d53bc-60c9-4f48-b03f-daa4905fb311	Case
+@SNIndex+68	a56e3dbe-205c-4c2f-bf0c-145a0edac5df	OnLookCase	Administrator	2015-04-25T09:42:14	Administrator	2015-04-25T09:42:25	@SNIndex+65	5b48f009-2b26-4790-874a-1b3d9ee4c511	Case
+@SNIndex+69	f7abe4a5-36f1-41f1-8ae3-de7c8d8c6502	OnCaseChanged	Administrator	2015-04-25T09:42:14	Administrator	2015-04-25T09:42:25	@SNIndex+65	5b48f009-2b26-4790-874a-1b3d9ee4c511	Case
+@SNIndex+70	f3217c50-a344-4bc0-a43a-c167ee40c7a3	OnOutPut	Administrator	2015-04-25T09:42:14	Administrator	2015-04-25T09:42:25	@SNIndex+65	5b48f009-2b26-4790-874a-1b3d9ee4c511	Case
+@SNIndex+71	f9302bd7-31cb-401e-8952-2d812fe5c054	OnGridRowDbClick	Administrator	2015-04-25T09:42:14	Administrator	2015-04-25T09:42:25	@SNIndex+65	5b48f009-2b26-4790-874a-1b3d9ee4c511	Case
+@SNIndex+72	9f248f16-62d7-4041-956b-44f45bf4e7f5	OnNew	Administrator	2015-04-25T09:42:14	Administrator	2015-04-25T09:42:25	@SNIndex+65	5b48f009-2b26-4790-874a-1b3d9ee4c511	Case
+@SNIndex+73	411d4843-cee6-4cc4-8f32-0263c651cc49	OnPrint	Administrator	2015-04-25T09:42:14	Administrator	2015-04-25T09:42:25	@SNIndex+65	5b48f009-2b26-4790-874a-1b3d9ee4c511	Case
+@SNIndex+74	8346cde6-b6d7-42a6-b4f7-f498dee3226e	OnDelete	Administrator	2015-04-25T09:42:14	Administrator	2015-04-25T09:42:25	@SNIndex+65	5b48f009-2b26-4790-874a-1b3d9ee4c511	Case
+@SNIndex+3	c6fcc8f8-6475-4961-8ca6-8a4b57132650	ID	Administrator	2015-04-25T09:42:13	Administrator	2015-04-25T09:42:25	@SNIndex+2	单据基类.Key.ID	ba391065-6c27-4c82-acc8-b52b1c93a910		Key	0	0	f0a9883b-4921-489f-8b6c-866aa7cc9a4d	a566a901-7150-45c5-bb4b-e3982743a036
+@SNIndex+35	3dc49b5d-9931-4950-8d30-09d9d5e27a44	ID	Administrator	2015-04-25T09:42:14	Administrator	2015-04-25T09:42:25	@SNIndex+34	单据类型基类.Key.ID	ba391065-6c27-4c82-acc8-b52b1c93a910		Key	0	0	32b44698-5a26-41d2-9db3-e02715dceaa4	dae443c3-f006-49e3-a87d-335706a7d400
+@SNIndex+67	72777834-4bfb-4b7b-9486-64df49716b2c	ID	Administrator	2015-04-25T09:42:14	Administrator	2015-04-25T09:42:25	@SNIndex+66	单据基类.Key.ID	ba391065-6c27-4c82-acc8-b52b1c93a910		Key	0	0	ff80e1b2-e5c0-4372-836b-a4205e8cb543	a566a901-7150-45c5-bb4b-e3982743a036
+@SNIndex+0	0d1ccafc-f3ec-4780-9178-eadeecd2e480	SOListUI	Administrator	2015-04-25T09:42:13	Administrator	2015-04-25T09:42:25	UFIDA.U9.Cust.GS.FT.SOListUI

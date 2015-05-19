@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <system.serviceModel>
+    <services>
+      
+	<service name="UFIDA.U9.Cust.GS.CBO.GetBarCodeRuleBP.GetBarCodeRuleStub">
+        <endpoint contract="UFIDA.U9.Cust.GS.CBO.GetBarCodeRuleBP.IGetBarCodeRule"
+                  binding="basicHttpBinding" />
+
+	</service>
+   
+	<service name="UFIDA.U9.Cust.GS.CBO.ItemMasterApplyQryBP.ItemMasterApplyQryBPStub">
+        <endpoint contract="UFIDA.U9.Cust.GS.CBO.ItemMasterApplyQryBP.IItemMasterApplyQryBP"
+                  binding="basicHttpBinding" />
+
+	</service>
+   
+	<service name="UFIDA.U9.Cust.GS.CBO.ItemMasterApplyLineQrBP.ItemMasterApplyLineBPStub">
+        <endpoint contract="UFIDA.U9.Cust.GS.CBO.ItemMasterApplyLineQrBP.IItemMasterApplyLineBP"
+                  binding="basicHttpBinding" />
+
+	</service>
+   
+	<service name="UFIDA.U9.Cust.GS.CBO.GetValueSetDefBP.GetValueSetDefBPStub">
+        <endpoint contract="UFIDA.U9.Cust.GS.CBO.GetValueSetDefBP.IGetValueSetDefBP"
+                  binding="basicHttpBinding" />
+
+	</service>
+   
+	<service name="UFIDA.U9.Cust.GS.CBO.GetItemMasterNoBP.GetItemMasterNoBPStub">
+        <endpoint contract="UFIDA.U9.Cust.GS.CBO.GetItemMasterNoBP.IGetItemMasterNoBP"
+                  binding="basicHttpBinding" />
+
+	</service>
+         
+	<service name="UFIDA.U9.Cust.GS.CBO.CreateItemMasterBP.CreateItemMasterBPStub">
+        <endpoint contract="UFIDA.U9.Cust.GS.CBO.CreateItemMasterBP.ICreateItemMasterBP"
+                  binding="basicHttpBinding" />
+
+	</service>
+   
+	<service name="UFIDA.U9.Cust.GS.CBO.QryBarCodeRuleBP.QryBarCodeRuleBPStub">
+        <endpoint contract="UFIDA.U9.Cust.GS.CBO.QryBarCodeRuleBP.IQryBarCodeRuleBP"
+                  binding="basicHttpBinding" />
+
+	</service>
+      
+	<service name="UFIDA.U9.Cust.GS.CBO.GetDepartmentByOperaterBP.GepDepartmentByOperatorBPStub">
+        <endpoint contract="UFIDA.U9.Cust.GS.CBO.GetDepartmentByOperaterBP.IGepDepartmentByOperatorBP"
+                  binding="basicHttpBinding" />
+
+	</service>
+   
+	<service name="UFIDA.U9.Cust.GS.CBO.ItemMasterQryBP.ItemMasterQryBPStub">
+        <endpoint contract="UFIDA.U9.Cust.GS.CBO.ItemMasterQryBP.IItemMasterQryBP"
+                  binding="basicHttpBinding" />
+
+	</service>
+   
+	<service name="UFIDA.U9.Cust.GS.CBO.ItemMasterQryCodeBP.ItemMasterQryCodeBPStub">
+        <endpoint contract="UFIDA.U9.Cust.GS.CBO.ItemMasterQryCodeBP.IItemMasterQryCodeBP"
+                  binding="basicHttpBinding" />
+
+	</service>
+   
+	<service name="UFIDA.U9.Cust.GS.CBO.ItemMasterQryNameBP.ItemMasterQryNameStub">
+        <endpoint contract="UFIDA.U9.Cust.GS.CBO.ItemMasterQryNameBP.IItemMasterQryName"
+                  binding="basicHttpBinding" />
+
+	</service>
+ 
+    </services>
+</system.serviceModel>
+</configuration>

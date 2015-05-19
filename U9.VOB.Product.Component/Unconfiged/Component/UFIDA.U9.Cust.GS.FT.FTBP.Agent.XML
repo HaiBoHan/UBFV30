@@ -1,0 +1,1212 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UFIDA.U9.Cust.GS.FT.FTBP.Agent</name>
+    </assembly>
+    <members>
+        <member name="P:UFIDA.U9.Cust.GS.FT.BillNoRuleBP.Proxy.CreateBillNoRuleProxy.Prefix">
+            <summary>
+            前缀 (该属性可为空,且无默认值)
+            创建发票号组规则.Misc.前缀
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.BillNoRuleBP.Proxy.CreateBillNoRuleProxy.Center">
+            <summary>
+            中段 (该属性可为空,且无默认值)
+            创建发票号组规则.Misc.中段
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.BillNoRuleBP.Proxy.CreateBillNoRuleProxy.BillNoStart">
+            <summary>
+            流水号起 (该属性可为空,但有默认值)
+            创建发票号组规则.Misc.流水号起
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.BillNoRuleBP.Proxy.CreateBillNoRuleProxy.BillNoEnd">
+            <summary>
+            流水号止 (该属性可为空,但有默认值)
+            创建发票号组规则.Misc.流水号止
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.BillNoRuleBP.Proxy.CreateBillNoRuleProxy.BillNoRuleID">
+            <summary>
+            发票号组规则ID (该属性可为空,但有默认值)
+            创建发票号组规则.Misc.发票号组规则ID
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.BillNoRuleBP.Proxy.GetBillNoRuleIStrueProxy.BillNoRuleID">
+            <summary>
+            发票号规则实体ID (该属性可为空,但有默认值)
+            查询是否存在.Misc.发票号规则实体ID
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.BillNoRuleBP.Proxy.GetBillNoRuleIStrueProxy.IsType">
+            <summary>
+            判断标识 (该属性可为空,且无默认值)
+            查询是否存在.Misc.判断标识
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.BillNoRuleBP.Proxy.GetEnumNameProxy.Code">
+            <summary>
+            枚举Code (该属性可为空,且无默认值)
+            查询枚举名称.Misc.枚举Code
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.BillNoRuleBP.Proxy.GetEnumNameProxy.Evalues">
+            <summary>
+            枚举值 (该属性可为空,且无默认值)
+            查询枚举名称.Misc.枚举值
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.BillNoRuleBP.Proxy.DeleteBillNoProxy.BillNoRuleID">
+            <summary>
+            发票号规则ID (该属性可为空,且无默认值)
+            删除发票号.Misc.发票号规则ID
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.BillNoRuleBP.Proxy.GetIsRepeatBillNoRuleProxy.Prefix">
+            <summary>
+            前缀 (该属性可为空,且无默认值)
+            重复的发票号规则.Misc.前缀
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.BillNoRuleBP.Proxy.GetIsRepeatBillNoRuleProxy.Center">
+            <summary>
+            中段 (该属性可为空,且无默认值)
+            重复的发票号规则.Misc.中段
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.BillNoRuleBP.Proxy.GetIsRepeatBillNoRuleProxy.BillNoStart">
+            <summary>
+            起始值 (该属性可为空,但有默认值)
+            重复的发票号规则.Misc.起始值
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.BillNoRuleBP.Proxy.GetIsRepeatBillNoRuleProxy.BillNoEnd">
+            <summary>
+            结束值 (该属性可为空,但有默认值)
+            重复的发票号规则.Misc.结束值
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.BillNoRuleBP.Proxy.IsDeleteBillNoProxy.BillNoID_SKey">
+            <summary>
+            发票号ID 序列化Key属性集合。（传递跨组织序列列字段）
+             平台使用.开发人员不可使用该属性赋值.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.BillNoRuleBP.Proxy.IsDeleteBillNoProxy.BillNoID">
+            <summary>
+            发票号ID (该属性可为空,且无默认值)
+            删除发票号.Misc.发票号ID
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SalesManBP.Proxy.CreateSalesManProxy.SalesManDTO">
+            <summary>
+            业务员DTO (该属性可为空,且无默认值)
+            创建业务员表.Misc.业务员DTO
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SalesManBP.Proxy.GetSalesManProxy.Customer_ID_SKey">
+            <summary>
+            客户料品关系ID 序列化Key属性。（传递跨组织序列列字段）
+            查询业务员.Misc.客户料品关系ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SalesManBP.Proxy.GetSalesManProxy.Customer_ID">
+            <summary>
+            客户料品关系ID (该属性可为空,且无默认值)
+            查询业务员.Misc.客户料品关系ID
+            </summary>
+            <value>UFIDA.U9.CBO.SCM.Customer.CustomerItem</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SynergyStatusBP.Proxy.SynergyStatusBPProxy.SynergyDocKey_SKey">
+            <summary>
+            报关协同单 序列化Key属性。（传递跨组织序列列字段）
+            状态控制操作.Misc.报关协同单
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SynergyStatusBP.Proxy.SynergyStatusBPProxy.SynergyDocKey">
+            <summary>
+            报关协同单 (该属性可为空,且无默认值)
+            状态控制操作.Misc.报关协同单
+            </summary>
+            <value>UFIDA.U9.Cust.GS.FT.SynergyBE.SynergyHead</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SynergyStatusBP.Proxy.SynergyStatusBPProxy.OpType">
+            <summary>
+            操作类型 (该属性可为空,但有默认值)
+            状态控制操作.Misc.操作类型
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SynergyStatusBP.Proxy.SynergyStatusBPProxy.UISysVersion">
+            <summary>
+            事物版本 (该属性可为空,且无默认值)
+            状态控制操作.Misc.事物版本
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SynergyStatusBP.Proxy.SynergyStatusBPProxy.TypeEunm">
+            <summary>
+            类型枚举 (该属性可为空,但有默认值)
+            状态控制操作.Misc.类型枚举
+            </summary>
+            <value>UFIDA.U9.Cust.GS.FT.AllEnumBE.StatusTypeEnum</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SynergyStatusBP.Proxy.SynergyStatusBPProxy.SynergyDetail_SKey">
+            <summary>
+            报关明细单 序列化Key属性。（传递跨组织序列列字段）
+            状态控制操作.Misc.报关明细单
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SynergyStatusBP.Proxy.SynergyStatusBPProxy.SynergyDetail">
+            <summary>
+            报关明细单 (该属性可为空,且无默认值)
+            状态控制操作.Misc.报关明细单
+            </summary>
+            <value>UFIDA.U9.Cust.GS.FT.CustomsDetailBE.CustomsDetailHead</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoOrderSaleBP.Proxy.StateOperationProxy.DocID">
+            <summary>
+            单据ID (该属性可为空,但有默认值)
+            工作流状态操作.Misc.单据ID
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoOrderSaleBP.Proxy.StateOperationProxy.Viversion">
+            <summary>
+            版本 (该属性可为空,但有默认值)
+            工作流状态操作.Misc.版本
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoOrderSaleBP.Proxy.StateOperationProxy.DocState">
+            <summary>
+            单据状态 (该属性可为空,但有默认值)
+            工作流状态操作.Misc.单据状态
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoOrderSaleBP.Proxy.CreateSoOrderSaleProxy.SoOrderLineKeyID_SKey">
+            <summary>
+            销售订单行集合 序列化Key属性集合。（传递跨组织序列列字段）
+             平台使用.开发人员不可使用该属性赋值.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoOrderSaleBP.Proxy.CreateSoOrderSaleProxy.SoOrderLineKeyID">
+            <summary>
+            销售订单行集合 (该属性可为空,且无默认值)
+            创建销售特价申请单.Misc.销售订单行集合
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.CostForcastBP.Proxy.CostForcastFromSoProxy.SO_SKey">
+            <summary>
+            销售订单 序列化Key属性集合。（传递跨组织序列列字段）
+             平台使用.开发人员不可使用该属性赋值.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.CostForcastBP.Proxy.CostForcastFromSoProxy.SO">
+            <summary>
+            销售订单 (该属性可为空,且无默认值)
+            生成成本预测单.Misc.销售订单
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.CostForcastBP.Proxy.CostForcastFromSoProxy.SOLine_SKey">
+            <summary>
+            销售订单行 序列化Key属性集合。（传递跨组织序列列字段）
+             平台使用.开发人员不可使用该属性赋值.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.CostForcastBP.Proxy.CostForcastFromSoProxy.SOLine">
+            <summary>
+            销售订单行 (该属性可为空,且无默认值)
+            生成成本预测单.Misc.销售订单行
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.CostForcastBP.Proxy.CostForcastFromSoProxy.IsJobServer">
+            <summary>
+            是否调度执行 (该属性可为空,但有默认值)
+            生成成本预测单.Misc.是否调度执行
+            </summary>
+            <value>System.Boolean</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.CostForcastBP.Proxy.CostForcastFromShipProxy.ShipPlan_SKey">
+            <summary>
+            出运明细单集合 序列化Key属性集合。（传递跨组织序列列字段）
+             平台使用.开发人员不可使用该属性赋值.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.CostForcastBP.Proxy.CostForcastFromShipProxy.ShipPlan">
+            <summary>
+            出运明细单集合 (该属性可为空,且无默认值)
+            出运明细单成本预测.Misc.出运明细单集合
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.CostForcastBP.Proxy.CostForcastFromShipProxy.ShipLine_SKey">
+            <summary>
+            出运明细行集合 序列化Key属性集合。（传递跨组织序列列字段）
+             平台使用.开发人员不可使用该属性赋值.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.CostForcastBP.Proxy.CostForcastFromShipProxy.ShipLine">
+            <summary>
+            出运明细行集合 (该属性可为空,且无默认值)
+            出运明细单成本预测.Misc.出运明细行集合
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.CostForcastBP.Proxy.CostForcastFromShipProxy.IsJobServer">
+            <summary>
+            是否调度执行 (该属性可为空,但有默认值)
+            出运明细单成本预测.Misc.是否调度执行
+            </summary>
+            <value>System.Boolean</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.Proxy.GetBomMasterProxy.SOLineKeyID_SKey">
+            <summary>
+            销售订单行Key 序列化Key属性集合。（传递跨组织序列列字段）
+             平台使用.开发人员不可使用该属性赋值.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.Proxy.GetBomMasterProxy.SOLineKeyID">
+            <summary>
+            销售订单行Key (该属性可为空,且无默认值)
+            获取随单BOM.Misc.销售订单行Key
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.Proxy.ModifyBomSateProxy.Type">
+            <summary>
+            用于区分操作 (该属性可为空,但有默认值)
+            修改随单BOM确认状态.Misc.用于区分操作
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.Proxy.ModifyBomSateProxy.SoLineListKey_SKey">
+            <summary>
+            销售订单行key集合 序列化Key属性集合。（传递跨组织序列列字段）
+             平台使用.开发人员不可使用该属性赋值.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.Proxy.ModifyBomSateProxy.SoLineListKey">
+            <summary>
+            销售订单行key集合 (该属性可为空,且无默认值)
+            修改随单BOM确认状态.Misc.销售订单行key集合
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.Proxy.ModifySOPricesProxy.SO">
+            <summary>
+            SO (该属性可为空,但有默认值)
+            修改销售订单行最终价.Misc.SO
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.Proxy.ModifySOPricesProxy.SOLine">
+            <summary>
+            SOLine (该属性可为空,但有默认值)
+            修改销售订单行最终价.Misc.SOLine
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.Proxy.ModifySOPricesProxy.ReturnDiscountDTOs">
+            <summary>
+            ReturnDiscountDTOs (该属性可为空,且无默认值)
+            修改销售订单行最终价.Misc.ReturnDiscountDTOs
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.Proxy.ModifySOPricesProxy.IsAll">
+            <summary>
+            是否整单 (该属性可为空,但有默认值)
+            修改销售订单行最终价.Misc.是否整单
+            </summary>
+            <value>System.Boolean</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.Proxy.GetDiscountProxy.InDiscount">
+            <summary>
+            获取折扣入口参数DTO (该属性可为空,且无默认值)
+            获取折扣.Misc.获取折扣入口参数DTO
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.Proxy.CreateOrderCostProxy.SoKeyID_SKey">
+            <summary>
+            销售订单Key 序列化Key属性。（传递跨组织序列列字段）
+            创建订单费用.Misc.销售订单Key
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.Proxy.CreateOrderCostProxy.SoKeyID">
+            <summary>
+            销售订单Key (该属性可为空,且无默认值)
+            创建订单费用.Misc.销售订单Key
+            </summary>
+            <value>UFIDA.U9.SM.SO.SO</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.Proxy.CreateOrderCostProxy.FeeDTO">
+            <summary>
+            费用类和金额DTO (该属性可为空,且无默认值)
+            创建订单费用.Misc.费用类和金额DTO
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.Proxy.DeleteOrderCostFeeProxy.FeeListDTO">
+            <summary>
+            费用DTO (该属性可为空,且无默认值)
+            清空订单费用.Misc.费用DTO
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.Proxy.CreateProjectProxy.OrderNo">
+            <summary>
+            销售订单单号 (该属性可为空,且无默认值)
+            创建项目档案.Misc.销售订单单号
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.Proxy.CreateProjectProxy.CustomerNo">
+            <summary>
+            客户订单号 (该属性可为空,且无默认值)
+            创建项目档案.Misc.客户订单号
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.Proxy.ModitySoLineProjectCodeProxy.SoLineListID">
+            <summary>
+            销售订单行ID集合 (该属性可为空,且无默认值)
+            修改销售订单行项目号.Misc.销售订单行ID集合
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.Proxy.ModitySoLineProjectCodeProxy.ProjectID">
+            <summary>
+            项目档案ID (该属性可为空,但有默认值)
+            修改销售订单行项目号.Misc.项目档案ID
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.Proxy.GetSupplierModeProxy.SupplierModeDTO">
+            <summary>
+            查询供应方式DTO (该属性可为空,且无默认值)
+            查询供应方式.Misc.查询供应方式DTO
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.Proxy.GetSOBCurrencyProxy.OrgCode">
+            <summary>
+            接单组织Code (该属性可为空,且无默认值)
+            查询主账簿本币.Misc.接单组织Code
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.Proxy.ModitySoFeeProxy.FeeListDTO">
+            <summary>
+            费用DTO (该属性可为空,且无默认值)
+            修改销售订单费用.Misc.费用DTO
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.Proxy.ModifyDiscount_BrokerageProxy.SoID_SKey">
+            <summary>
+            销售订单ID 序列化Key属性。（传递跨组织序列列字段）
+            修改折扣佣金标识.Misc.销售订单ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.Proxy.ModifyDiscount_BrokerageProxy.SoID">
+            <summary>
+            销售订单ID (该属性可为空,且无默认值)
+            修改折扣佣金标识.Misc.销售订单ID
+            </summary>
+            <value>UFIDA.U9.SM.SO.SO</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.Proxy.ModifyDiscount_BrokerageProxy.Type">
+            <summary>
+            操作类型1折扣2佣金 (该属性可为空,但有默认值)
+            修改折扣佣金标识.Misc.操作类型1折扣2佣金
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.Proxy.GetIsProjectProxy.SoDocNo">
+            <summary>
+            销售订单单号 (该属性可为空,且无默认值)
+            是否存在项目档案.Misc.销售订单单号
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.Proxy.GetOrderOrgByCustomerBPProxy.Cust_Code">
+            <summary>
+            客户编码 (该属性可为空,且无默认值)
+            根据客户获取接单组织BP.Misc.客户编码
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBomBP.Proxy.DeleteSoLineBomProxy.SoLineListKey_SKey">
+            <summary>
+            销售订单行Key集合 序列化Key属性集合。（传递跨组织序列列字段）
+             平台使用.开发人员不可使用该属性赋值.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBomBP.Proxy.DeleteSoLineBomProxy.SoLineListKey">
+            <summary>
+            销售订单行Key集合 (该属性可为空,且无默认值)
+            删除随单行Bom.Misc.销售订单行Key集合
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBomBP.Proxy.UpDownLineBomProxy.SoLineRowNo">
+            <summary>
+            销售订单行行号 (该属性可为空,但有默认值)
+            上下一行BOM.Misc.销售订单行行号
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBomBP.Proxy.UpDownLineBomProxy.SoID_SKey">
+            <summary>
+            销售订单ID 序列化Key属性。（传递跨组织序列列字段）
+            上下一行BOM.Misc.销售订单ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBomBP.Proxy.UpDownLineBomProxy.SoID">
+            <summary>
+            销售订单ID (该属性可为空,且无默认值)
+            上下一行BOM.Misc.销售订单ID
+            </summary>
+            <value>UFIDA.U9.SM.SO.SO</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBomBP.Proxy.UpDownLineBomProxy.Type">
+            <summary>
+            区分操作 (该属性可为空,但有默认值)
+            上下一行BOM.Misc.区分操作
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBomBP.Proxy.CreateSOBomBPProxy.SOLineKeyList_SKey">
+            <summary>
+            销售订单行Key集合 序列化Key属性集合。（传递跨组织序列列字段）
+             平台使用.开发人员不可使用该属性赋值.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBomBP.Proxy.CreateSOBomBPProxy.SOLineKeyList">
+            <summary>
+            销售订单行Key集合 (该属性可为空,且无默认值)
+            创建销售订单随单BOM.Misc.销售订单行Key集合
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBomBP.Proxy.ConfirmSuItemBPProxy.SOKey">
+            <summary>
+            销售订单Key (该属性可为空,但有默认值)
+            包材子件确认\取消BP.Misc.销售订单Key
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBomBP.Proxy.ConfirmSuItemBPProxy.BOMLineKeyList">
+            <summary>
+            随单BOMKey集合 (该属性可为空,且无默认值)
+            包材子件确认\取消BP.Misc.随单BOMKey集合
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBomBP.Proxy.ConfirmSuItemBPProxy.IsConfirm">
+            <summary>
+            确认状态 (该属性可为空,但有默认值)
+            包材子件确认\取消BP.Misc.确认状态
+            </summary>
+            <value>System.Boolean</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBomBP.Proxy.SOBomAddOrRemoveBPProxy.InParams">
+            <summary>
+            传入参数 (该属性可为空,且无默认值)
+            新增或者删除.Misc.传入参数
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBomBP.Proxy.SOBomAddOrRemoveBPProxy.ActionType">
+            <summary>
+            操作类型[0,新增,1,删除] (该属性可为空,但有默认值)
+            新增或者删除.Misc.操作类型[0,新增,1,删除]
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBomBP.Proxy.SOBomAddOrRemoveBPProxy.SOLineID">
+            <summary>
+            销售订单行ID (该属性可为空,但有默认值)
+            新增或者删除.Misc.销售订单行ID
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.Proxy.GteBrokerageProxy.BrokerageDTO">
+            <summary>
+            佣金入口参数DTO (该属性可为空,且无默认值)
+            获取销售订单行佣金.Misc.佣金入口参数DTO
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.Proxy.GteBrokerageProxy.OperateType">
+            <summary>
+            0销售订单佣金1出运明细佣金 (该属性可为空,但有默认值)
+            获取销售订单行佣金.Misc.0销售订单佣金1出运明细佣金
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.Proxy.CreateBrokerageProxy.GetBrokerageDTO">
+            <summary>
+            佣金DTO (该属性可为空,且无默认值)
+            创建销售行佣金.Misc.佣金DTO
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.Proxy.CreateBrokerageProxy.OperateType">
+            <summary>
+            0销售订单佣金1出运明细佣金 (该属性可为空,但有默认值)
+            创建销售行佣金.Misc.0销售订单佣金1出运明细佣金
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.Proxy.DeleteBrokerageProxy.SoLineListID_SKey">
+            <summary>
+            销售订单行集合ID 序列化Key属性集合。（传递跨组织序列列字段）
+             平台使用.开发人员不可使用该属性赋值.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.Proxy.DeleteBrokerageProxy.SoLineListID">
+            <summary>
+            销售订单行集合ID (该属性可为空,且无默认值)
+            清除订单佣金.Misc.销售订单行集合ID
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.Proxy.DeleteBrokerageProxy.ShipPlanLineListID_SKey">
+            <summary>
+            出运明细行集合ID 序列化Key属性集合。（传递跨组织序列列字段）
+             平台使用.开发人员不可使用该属性赋值.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.Proxy.DeleteBrokerageProxy.ShipPlanLineListID">
+            <summary>
+            出运明细行集合ID (该属性可为空,且无默认值)
+            清除订单佣金.Misc.出运明细行集合ID
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.Proxy.DeleteBrokerageProxy.OperateType">
+            <summary>
+            0销售订单佣金1出运明细佣金 (该属性可为空,但有默认值)
+            清除订单佣金.Misc.0销售订单佣金1出运明细佣金
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.Proxy.DeleteBrokerageProxy.BrokerageLineID">
+            <summary>
+            BrokerageLineID (该属性可为空,但有默认值)
+            清除订单佣金.Misc.BrokerageLineID
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.Proxy.UpDownLineBrokerageProxy.SoLineRow">
+            <summary>
+            销售订单行号 (该属性可为空,但有默认值)
+            上下行佣金.Misc.销售订单行号
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.Proxy.UpDownLineBrokerageProxy.Type">
+            <summary>
+            区分操作 (该属性可为空,但有默认值)
+            上下行佣金.Misc.区分操作
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.Proxy.UpDownLineBrokerageProxy.SoID_SKey">
+            <summary>
+            销售订单ID 序列化Key属性。（传递跨组织序列列字段）
+            上下行佣金.Misc.销售订单ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.Proxy.UpDownLineBrokerageProxy.SoID">
+            <summary>
+            销售订单ID (该属性可为空,且无默认值)
+            上下行佣金.Misc.销售订单ID
+            </summary>
+            <value>UFIDA.U9.SM.SO.SO</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.Proxy.UpDownLineBrokerageProxy.ShipPlanID_SKey">
+            <summary>
+            出运明细单ID 序列化Key属性。（传递跨组织序列列字段）
+            上下行佣金.Misc.出运明细单ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.Proxy.UpDownLineBrokerageProxy.ShipPlanID">
+            <summary>
+            出运明细单ID (该属性可为空,且无默认值)
+            上下行佣金.Misc.出运明细单ID
+            </summary>
+            <value>UFIDA.U9.Cust.GS.FT.ShipPlanDetailBE.ShipPlanDetailHead</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.Proxy.UpDownLineBrokerageProxy.ShipLineRow">
+            <summary>
+            出运明细订单行号 (该属性可为空,但有默认值)
+            上下行佣金.Misc.出运明细订单行号
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.Proxy.UpDownLineBrokerageProxy.OperateType">
+            <summary>
+            0销售订单佣金1出运明细佣金 (该属性可为空,但有默认值)
+            上下行佣金.Misc.0销售订单佣金1出运明细佣金
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.Proxy.CreateSOBrokerageBPProxy.SOLineKey_SKey">
+            <summary>
+            销售订单行实体 序列化Key属性集合。（传递跨组织序列列字段）
+             平台使用.开发人员不可使用该属性赋值.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.Proxy.CreateSOBrokerageBPProxy.SOLineKey">
+            <summary>
+            销售订单行实体 (该属性可为空,且无默认值)
+            创建销售订单佣金BP.Misc.销售订单行实体
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.Proxy.CreateSOBrokerageBPProxy.IsReset">
+            <summary>
+            重置 (该属性可为空,但有默认值)
+            创建销售订单佣金BP.Misc.重置
+            </summary>
+            <value>System.Boolean</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.AssessTypeBP.Proxy.CreateAssessTypeProxy.SoLineID_SKey">
+            <summary>
+            销售订单行ID 序列化Key属性集合。（传递跨组织序列列字段）
+             平台使用.开发人员不可使用该属性赋值.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.AssessTypeBP.Proxy.CreateAssessTypeProxy.SoLineID">
+            <summary>
+            销售订单行ID (该属性可为空,且无默认值)
+            创建评估类型单.Misc.销售订单行ID
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.AssessTypeBP.Proxy.CreateAssessTypeProxy.Rate">
+            <summary>
+            汇率 (该属性可为空,但有默认值)
+            创建评估类型单.Misc.汇率
+            </summary>
+            <value>System.Decimal</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.AssessTypeBP.Proxy.GetRateProxy.OldCurrency_SKey">
+            <summary>
+            原币种 序列化Key属性。（传递跨组织序列列字段）
+            获取汇率.Misc.原币种
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.AssessTypeBP.Proxy.GetRateProxy.OldCurrency">
+            <summary>
+            原币种 (该属性可为空,且无默认值)
+            获取汇率.Misc.原币种
+            </summary>
+            <value>UFIDA.U9.Base.Currency.Currency</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.AssessTypeBP.Proxy.GetRateProxy.NewCurrency_SKey">
+            <summary>
+            目标币种 序列化Key属性。（传递跨组织序列列字段）
+            获取汇率.Misc.目标币种
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.AssessTypeBP.Proxy.GetRateProxy.NewCurrency">
+            <summary>
+            目标币种 (该属性可为空,且无默认值)
+            获取汇率.Misc.目标币种
+            </summary>
+            <value>UFIDA.U9.Base.Currency.Currency</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.AssessTypeBP.Proxy.DelectAssessTypeProxy.SoLineListID_SKey">
+            <summary>
+            销售订单行ID集合 序列化Key属性集合。（传递跨组织序列列字段）
+             平台使用.开发人员不可使用该属性赋值.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.AssessTypeBP.Proxy.DelectAssessTypeProxy.SoLineListID">
+            <summary>
+            销售订单行ID集合 (该属性可为空,且无默认值)
+            清除评估类型.Misc.销售订单行ID集合
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.AssessTypeBP.Proxy.UpDownLineAssessProxy.SoLineRow">
+            <summary>
+            销售订单行行号 (该属性可为空,但有默认值)
+            上下行操作.Misc.销售订单行行号
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.AssessTypeBP.Proxy.UpDownLineAssessProxy.SoID_SKey">
+            <summary>
+            销售订单ID 序列化Key属性。（传递跨组织序列列字段）
+            上下行操作.Misc.销售订单ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.AssessTypeBP.Proxy.UpDownLineAssessProxy.SoID">
+            <summary>
+            销售订单ID (该属性可为空,且无默认值)
+            上下行操作.Misc.销售订单ID
+            </summary>
+            <value>UFIDA.U9.SM.SO.SO</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.AssessTypeBP.Proxy.UpDownLineAssessProxy.Type">
+            <summary>
+            区分操作 (该属性可为空,但有默认值)
+            上下行操作.Misc.区分操作
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.AssessTypeBP.Proxy.IsNewGoodProxy.SoLineListID_SKey">
+            <summary>
+            销售订单行ID集合 序列化Key属性集合。（传递跨组织序列列字段）
+             平台使用.开发人员不可使用该属性赋值.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.AssessTypeBP.Proxy.IsNewGoodProxy.SoLineListID">
+            <summary>
+            销售订单行ID集合 (该属性可为空,且无默认值)
+            是否有新品评估.Misc.销售订单行ID集合
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderCancelBP.Proxy.GetOrderCancelProxy.ItemMaster_SKey">
+            <summary>
+            料号 序列化Key属性。（传递跨组织序列列字段）
+            查询库存核销.Misc.料号
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderCancelBP.Proxy.GetOrderCancelProxy.ItemMaster">
+            <summary>
+            料号 (该属性可为空,且无默认值)
+            查询库存核销.Misc.料号
+            </summary>
+            <value>UFIDA.U9.CBO.SCM.Item.ItemMaster</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderCancelBP.Proxy.GetOrderCancelProxy.Uom_SKey">
+            <summary>
+            单位 序列化Key属性。（传递跨组织序列列字段）
+            查询库存核销.Misc.单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderCancelBP.Proxy.GetOrderCancelProxy.Uom">
+            <summary>
+            单位 (该属性可为空,且无默认值)
+            查询库存核销.Misc.单位
+            </summary>
+            <value>UFIDA.U9.Base.UOM.UOM</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderCancelBP.Proxy.ModityOrderCancelQtyProxy.SoLineID_SKey">
+            <summary>
+            标准订单行ID 序列化Key属性。（传递跨组织序列列字段）
+            修改核销数量.Misc.标准订单行ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderCancelBP.Proxy.ModityOrderCancelQtyProxy.SoLineID">
+            <summary>
+            标准订单行ID (该属性可为空,且无默认值)
+            修改核销数量.Misc.标准订单行ID
+            </summary>
+            <value>UFIDA.U9.SM.SO.SOLine</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderCancelBP.Proxy.ModityOrderCancelQtyProxy.SoCancelQty">
+            <summary>
+            标准订单已核销数量 (该属性可为空,但有默认值)
+            修改核销数量.Misc.标准订单已核销数量
+            </summary>
+            <value>System.Decimal</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderCancelBP.Proxy.ModityOrderCancelQtyProxy.SelfStorageDTO">
+            <summary>
+            自备库存订单DTO (该属性可为空,且无默认值)
+            修改核销数量.Misc.自备库存订单DTO
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SelectSOLineForShipBP.Proxy.SelectSOLineProxy.Org">
+            <summary>
+            组织ID (该属性可为空,但有默认值)
+            出运明细拉单查询销售订单.Misc.组织ID
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SelectSOLineForShipBP.Proxy.SelectSOLineProxy.SODoc1">
+            <summary>
+            单号1 (该属性可为空,且无默认值)
+            出运明细拉单查询销售订单.Misc.单号1
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SelectSOLineForShipBP.Proxy.SelectSOLineProxy.SODoc2">
+            <summary>
+            单号2 (该属性可为空,且无默认值)
+            出运明细拉单查询销售订单.Misc.单号2
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SelectSOLineForShipBP.Proxy.SelectSOLineProxy.Date1">
+            <summary>
+            日期1 (该属性可为空,且无默认值)
+            出运明细拉单查询销售订单.Misc.日期1
+            </summary>
+            <value>System.Date</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SelectSOLineForShipBP.Proxy.SelectSOLineProxy.Date2">
+            <summary>
+            日期2 (该属性可为空,且无默认值)
+            出运明细拉单查询销售订单.Misc.日期2
+            </summary>
+            <value>System.Date</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SelectSOLineForShipBP.Proxy.SelectSOLineProxy.Currency">
+            <summary>
+            币种 (该属性可为空,但有默认值)
+            出运明细拉单查询销售订单.Misc.币种
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SelectSOLineForShipBP.Proxy.SelectSOLineProxy.Operators">
+            <summary>
+            业务员 (该属性可为空,但有默认值)
+            出运明细拉单查询销售订单.Misc.业务员
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SelectSOLineForShipBP.Proxy.SelectSOLineProxy.Department">
+            <summary>
+            部门 (该属性可为空,但有默认值)
+            出运明细拉单查询销售订单.Misc.部门
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SelectSOLineForShipBP.Proxy.SelectSOLineProxy.Project">
+            <summary>
+            项目 (该属性可为空,但有默认值)
+            出运明细拉单查询销售订单.Misc.项目
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SelectSOLineForShipBP.Proxy.SelectSOLineProxy.ItemMaster">
+            <summary>
+            料品 (该属性可为空,但有默认值)
+            出运明细拉单查询销售订单.Misc.料品
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SelectSOLineForShipBP.Proxy.SelectSOLineProxy.ShippingType">
+            <summary>
+            装柜方式 (该属性可为空,且无默认值)
+            出运明细拉单查询销售订单.Misc.装柜方式
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SelectSOLineForShipBP.Proxy.SelectSOLineProxy.Customer">
+            <summary>
+            客户 (该属性可为空,但有默认值)
+            出运明细拉单查询销售订单.Misc.客户
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SelectSOLineForShipBP.Proxy.SelectSOLineProxy.Org_Code">
+            <summary>
+            组织编码 (该属性可为空,且无默认值)
+            出运明细拉单查询销售订单.Misc.组织编码
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.CreateShipPlanBP.Proxy.CreatShipPlanProxy.SOLineIDDTO">
+            <summary>
+            传入销售订单行数据 (该属性可为空,且无默认值)
+            创建出运明细单.Misc.传入销售订单行数据
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.Proxy.ShipPlanCloseProxy.CloseType">
+            <summary>
+            关闭类型 (该属性可为空,但有默认值)
+            出运明细单关闭.Misc.关闭类型
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.Proxy.ShipPlanCloseProxy.ShipPlanID">
+            <summary>
+            出运明细单ID (该属性可为空,但有默认值)
+            出运明细单关闭.Misc.出运明细单ID
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.Proxy.GetShipPlanDocProxy.BillNoItemHead">
+            <summary>
+            发票号组ID (该属性可为空,但有默认值)
+            根据发票号组获取出运明细单.Misc.发票号组ID
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.Proxy.GetShipPlanDocProxy.Type">
+            <summary>
+            查询类型；0分配发票号用1装柜用 (该属性可为空,但有默认值)
+            根据发票号组获取出运明细单.Misc.查询类型；0分配发票号用1装柜用
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.Proxy.GetShipPlanDocProxy.Customer">
+            <summary>
+            查询预装柜使用客户ID (该属性可为空,但有默认值)
+            根据发票号组获取出运明细单.Misc.查询预装柜使用客户ID
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.Proxy.AllocationBillNoProxy.BillNoItemHead_SKey">
+            <summary>
+            发票号组ID 序列化Key属性。（传递跨组织序列列字段）
+            出运发票号分配.Misc.发票号组ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.Proxy.AllocationBillNoProxy.BillNoItemHead">
+            <summary>
+            发票号组ID (该属性可为空,且无默认值)
+            出运发票号分配.Misc.发票号组ID
+            </summary>
+            <value>UFIDA.U9.Cust.GS.FT.BillNoItemBE.BillNoItemHead</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.Proxy.AllocationBillNoProxy.ShipPlanList_SKey">
+            <summary>
+            出运明细单ID 序列化Key属性集合。（传递跨组织序列列字段）
+             平台使用.开发人员不可使用该属性赋值.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.Proxy.AllocationBillNoProxy.ShipPlanList">
+            <summary>
+            出运明细单ID (该属性可为空,且无默认值)
+            出运发票号分配.Misc.出运明细单ID
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.Proxy.AllocationBillNoProxy.Type">
+            <summary>
+            0分配号分配1取消预装柜 (该属性可为空,但有默认值)
+            出运发票号分配.Misc.0分配号分配1取消预装柜
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.Proxy.ShipFeeGetTaxBySupplierProxy.Type">
+            <summary>
+            0供应商1料品 (该属性可为空,但有默认值)
+            根据供应商/料品获取信息.Misc.0供应商1料品
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.Proxy.ShipFeeGetTaxBySupplierProxy.IDList">
+            <summary>
+            供应商/料品ID (该属性可为空,且无默认值)
+            根据供应商/料品获取信息.Misc.供应商/料品ID
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.DocStatusUpdateBP.Proxy.FTDocStatusUpdateProxy.DocID">
+            <summary>
+            单据ID (该属性可为空,但有默认值)
+            外贸业务单据状态修改.Misc.单据ID
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.DocStatusUpdateBP.Proxy.FTDocStatusUpdateProxy.DocStatus">
+            <summary>
+            单据状态 (该属性可为空,但有默认值)
+            外贸业务单据状态修改.Misc.单据状态
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.DocStatusUpdateBP.Proxy.FTDocStatusUpdateProxy.VIVersion">
+            <summary>
+            版本 (该属性可为空,但有默认值)
+            外贸业务单据状态修改.Misc.版本
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.DocStatusUpdateBP.Proxy.FTDocStatusUpdateProxy.DocType">
+            <summary>
+            单据Type (该属性可为空,但有默认值)
+            外贸业务单据状态修改.Misc.单据Type
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.Proxy.GetOrderBomChangeHeadProxy.SoID_SKey">
+            <summary>
+            销售订单ID 序列化Key属性。（传递跨组织序列列字段）
+            查询变更单头.Misc.销售订单ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.Proxy.GetOrderBomChangeHeadProxy.SoID">
+            <summary>
+            销售订单ID (该属性可为空,且无默认值)
+            查询变更单头.Misc.销售订单ID
+            </summary>
+            <value>UFIDA.U9.SM.SO.SO</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.Proxy.GetOrderBomProxy.SoLineID_SKey">
+            <summary>
+            销售订单行ID 序列化Key属性。（传递跨组织序列列字段）
+            查询随单BOM信息.Misc.销售订单行ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.Proxy.GetOrderBomProxy.SoLineID">
+            <summary>
+            销售订单行ID (该属性可为空,且无默认值)
+            查询随单BOM信息.Misc.销售订单行ID
+            </summary>
+            <value>UFIDA.U9.SM.SO.SOLine</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.Proxy.GetOrderBomProxy.SubKeyID_SKey">
+            <summary>
+            子项ID 序列化Key属性。（传递跨组织序列列字段）
+            查询随单BOM信息.Misc.子项ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.Proxy.GetOrderBomProxy.SubKeyID">
+            <summary>
+            子项ID (该属性可为空,且无默认值)
+            查询随单BOM信息.Misc.子项ID
+            </summary>
+            <value>UFIDA.U9.CBO.SCM.Item.ItemMaster</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.Proxy.StateOperationProxy.DocID">
+            <summary>
+            单据ID (该属性可为空,但有默认值)
+            高阶参数状态BP.Misc.单据ID
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.Proxy.StateOperationProxy.ViVersion">
+            <summary>
+            版本 (该属性可为空,但有默认值)
+            高阶参数状态BP.Misc.版本
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.Proxy.StateOperationProxy.DocStatus">
+            <summary>
+            单据状态 (该属性可为空,但有默认值)
+            高阶参数状态BP.Misc.单据状态
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SynergyFindBP.Proxy.SynergyFindProxy.DocOrg">
+            <summary>
+            接单组织 (该属性可为空,且无默认值)
+            报关协同单查询操作.Misc.接单组织
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SynergyFindBP.Proxy.SynergyFindProxy.InvoiceNo">
+            <summary>
+            发票号 (该属性可为空,但有默认值)
+            报关协同单查询操作.Misc.发票号
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SynergyFindBP.Proxy.GetTrimInfoProxy.Org">
+            <summary>
+            组织机构 (该属性可为空,但有默认值)
+            获取理单数据操作.Misc.组织机构
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SynergyFindBP.Proxy.GetTrimInfoProxy.Status">
+            <summary>
+            理单状态 (该属性可为空,但有默认值)
+            获取理单数据操作.Misc.理单状态
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SynergyFindBP.Proxy.GetTrimInfoProxy.BillNo">
+            <summary>
+            发票号 (该属性可为空,但有默认值)
+            获取理单数据操作.Misc.发票号
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SynergySplitBP.Proxy.SynergySplitProxy.ID">
+            <summary>
+            发票号组ID (该属性可为空,且无默认值)
+            报关协同拆分操作.Misc.发票号组ID
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SynergySplitBP.Proxy.SynergySplitProxy.SrcDocTypeEnum">
+            <summary>
+            操作类型 (该属性可为空,但有默认值)
+            报关协同拆分操作.Misc.操作类型
+            </summary>
+            <value>UFIDA.U9.Cust.GS.FT.AllEnumBE.SrcDocTypeEnum</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SynergySplitBP.Proxy.SynergySplitProxy.DocOrg">
+            <summary>
+            接单组织 (该属性可为空,但有默认值)
+            报关协同拆分操作.Misc.接单组织
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SynergySplitBP.Proxy.SynergySplitProxy.SoLineID">
+            <summary>
+            销售订单行ID (该属性可为空,但有默认值)
+            报关协同拆分操作.Misc.销售订单行ID
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SynergySplitBP.Proxy.SynergySplitProxy.TrimLineID">
+            <summary>
+            理单行ID (该属性可为空,但有默认值)
+            报关协同拆分操作.Misc.理单行ID
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.FTPubBP.Proxy.GetCurrencyBPProxy.ID">
+            <summary>
+            实体ID (该属性可为空,但有默认值)
+            获取币种BP.Misc.实体ID
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.FTPubBP.Proxy.GetCurrencyBPProxy.IsDefault">
+            <summary>
+            获取默认币种 (该属性可为空,但有默认值)
+            获取币种BP.Misc.获取默认币种
+            </summary>
+            <value>System.Boolean</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.FTPubBP.Proxy.GetCurrencyBPProxy.Type">
+            <summary>
+            默认实体类型 (该属性可为空,但有默认值)
+            获取币种BP.Misc.默认实体类型
+            </summary>
+            <value>System.Int32</value>
+        </member>
+    </members>
+</doc>

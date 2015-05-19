@@ -1,0 +1,818 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UFIDA.U9.Cust.GS.FT.FTSV</name>
+    </assembly>
+    <members>
+        <member name="T:UFIDA.U9.Cust.GS.SM.CreateShipSV.SrcSOInfoDTO">
+            <summary>
+            来源销售订单信息DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.SM.CreateShipSV.SrcSOInfoDTO.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.SM.CreateShipSV.SrcSOInfoDTO.FromEntityData(UFIDA.U9.Cust.GS.SM.CreateShipSV.SrcSOInfoDTOData)">
+            <summary>
+            Copy Entity From EntityData
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.SM.CreateShipSV.SrcSOInfoDTO.ToEntityData">
+            <summary>
+            Create EntityData From Entity
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.SM.CreateShipSV.SrcSOInfoDTO.ToEntityData(UFIDA.U9.Cust.GS.SM.CreateShipSV.SrcSOInfoDTOData,System.Collections.IDictionary)">
+            <summary>
+            Create EntityData From Entity - used by ubf 
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.SM.CreateShipSV.SrcSOInfoDTO.#ctor(System.String,System.Int32,System.String,System.Int32,System.String,System.Decimal,System.String)">
+            <summary>
+            Constructor with Full Argument 
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.SM.CreateShipSV.SrcSOInfoDTO.SrcDocNo">
+            <summary>
+            来源单号 (该属性可为空,且无默认值)
+            来源销售订单信息DTO.Misc.来源单号
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.SM.CreateShipSV.SrcSOInfoDTO.SrcDocLineNo">
+            <summary>
+            来源行号 (该属性可为空,但有默认值)
+            来源销售订单信息DTO.Misc.来源行号
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.SM.CreateShipSV.SrcSOInfoDTO.SrcSODocNo">
+            <summary>
+            来源销售订单号 (该属性可为空,且无默认值)
+            来源销售订单信息DTO.Misc.来源销售订单号
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.SM.CreateShipSV.SrcSOInfoDTO.SrcSODocLineNo">
+            <summary>
+            来源销售订单行号 (该属性可为空,但有默认值)
+            来源销售订单信息DTO.Misc.来源销售订单行号
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.SM.CreateShipSV.SrcSOInfoDTO.SrcDocOrg">
+            <summary>
+            来源销售订单组织编码 (该属性可为空,且无默认值)
+            来源销售订单信息DTO.Misc.来源销售订单组织编码
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.SM.CreateShipSV.SrcSOInfoDTO.ShipQty">
+            <summary>
+            出货数量 (该属性可为空,但有默认值)
+            来源销售订单信息DTO.Misc.出货数量
+            </summary>
+            <value>System.Decimal</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.SM.CreateShipSV.SrcSOInfoDTO.Lot">
+            <summary>
+            批号编码 (该属性可为空,且无默认值)
+            来源销售订单信息DTO.Misc.批号编码
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.SM.CreateShipSV.SrcSOInfoDTO.Res_TypeName">
+            <summary>
+            来源销售订单信息DTO的显示名称资源--已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.SM.CreateShipSV.SrcSOInfoDTO.Res_SrcDocNo">
+            <summary>
+            来源单号的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.SM.CreateShipSV.SrcSOInfoDTO.Res_SrcDocLineNo">
+            <summary>
+            来源行号的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.SM.CreateShipSV.SrcSOInfoDTO.Res_SrcSODocNo">
+            <summary>
+            来源销售订单号的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.SM.CreateShipSV.SrcSOInfoDTO.Res_SrcSODocLineNo">
+            <summary>
+            来源销售订单行号的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.SM.CreateShipSV.SrcSOInfoDTO.Res_SrcDocOrg">
+            <summary>
+            来源销售订单组织编码的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.SM.CreateShipSV.SrcSOInfoDTO.Res_ShipQty">
+            <summary>
+            出货数量的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.SM.CreateShipSV.SrcSOInfoDTO.Res_Lot">
+            <summary>
+            批号编码的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.SM.CreateShipSV.ReturnShipInfoDTO">
+            <summary>
+            出货单信息DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.SM.CreateShipSV.ReturnShipInfoDTO.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.SM.CreateShipSV.ReturnShipInfoDTO.FromEntityData(UFIDA.U9.Cust.GS.SM.CreateShipSV.ReturnShipInfoDTOData)">
+            <summary>
+            Copy Entity From EntityData
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.SM.CreateShipSV.ReturnShipInfoDTO.ToEntityData">
+            <summary>
+            Create EntityData From Entity
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.SM.CreateShipSV.ReturnShipInfoDTO.ToEntityData(UFIDA.U9.Cust.GS.SM.CreateShipSV.ReturnShipInfoDTOData,System.Collections.IDictionary)">
+            <summary>
+            Create EntityData From Entity - used by ubf 
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.SM.CreateShipSV.ReturnShipInfoDTO.#ctor(System.Boolean,System.String,System.String,System.String)">
+            <summary>
+            Constructor with Full Argument 
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.SM.CreateShipSV.ReturnShipInfoDTO.IsSuccess">
+            <summary>
+            是否成功 (该属性可为空,但有默认值)
+            出货单信息DTO.Misc.是否成功
+            </summary>
+            <value>System.Boolean</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.SM.CreateShipSV.ReturnShipInfoDTO.ErrorMessage">
+            <summary>
+            错误信息 (该属性可为空,且无默认值)
+            出货单信息DTO.Misc.错误信息
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.SM.CreateShipSV.ReturnShipInfoDTO.ShipDocNo">
+            <summary>
+            出货单号 (该属性可为空,且无默认值)
+            出货单信息DTO.Misc.出货单号
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.SM.CreateShipSV.ReturnShipInfoDTO.ShipDocOrg">
+            <summary>
+            出货单组织编码 (该属性可为空,且无默认值)
+            出货单信息DTO.Misc.出货单组织编码
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.SM.CreateShipSV.ReturnShipInfoDTO.Res_TypeName">
+            <summary>
+            出货单信息DTO的显示名称资源--已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.SM.CreateShipSV.ReturnShipInfoDTO.Res_IsSuccess">
+            <summary>
+            是否成功的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.SM.CreateShipSV.ReturnShipInfoDTO.Res_ErrorMessage">
+            <summary>
+            错误信息的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.SM.CreateShipSV.ReturnShipInfoDTO.Res_ShipDocNo">
+            <summary>
+            出货单号的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.SM.CreateShipSV.ReturnShipInfoDTO.Res_ShipDocOrg">
+            <summary>
+            出货单组织编码的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.SM.CreateShipSV.CreateShipSV">
+            <summary>
+            创建出货单接口 business operation
+            
+            </summary>
+            <summary>
+            CreateShipSV partial 
+            </summary>	
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.SM.CreateShipSV.CreateShipSV.SrcSOInfo">
+            <summary>
+            来源销售订单信息	
+            创建出货单接口.Misc.来源销售订单信息
+            </summary>
+            <value></value>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.SM.CreateShipSV.CreateShipSVImpementStrategy">
+            <summary>
+            Impement Implement
+            
+            </summary>	
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.SM.DeleteShipSV.ShipInfoDTO">
+            <summary>
+            出货单信息DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.SM.DeleteShipSV.ShipInfoDTO.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.SM.DeleteShipSV.ShipInfoDTO.FromEntityData(UFIDA.U9.Cust.GS.SM.DeleteShipSV.ShipInfoDTOData)">
+            <summary>
+            Copy Entity From EntityData
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.SM.DeleteShipSV.ShipInfoDTO.ToEntityData">
+            <summary>
+            Create EntityData From Entity
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.SM.DeleteShipSV.ShipInfoDTO.ToEntityData(UFIDA.U9.Cust.GS.SM.DeleteShipSV.ShipInfoDTOData,System.Collections.IDictionary)">
+            <summary>
+            Create EntityData From Entity - used by ubf 
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.SM.DeleteShipSV.ShipInfoDTO.#ctor(System.String,System.Int64)">
+            <summary>
+            Constructor with Full Argument 
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.SM.DeleteShipSV.ShipInfoDTO.Code">
+            <summary>
+            单号 (该属性可为空,且无默认值)
+            出货单信息DTO.Misc.单号
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.SM.DeleteShipSV.ShipInfoDTO.ID">
+            <summary>
+            单据ID (该属性可为空,但有默认值)
+            出货单信息DTO.Misc.单据ID
+            </summary>
+            <value>System.Int64</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.SM.DeleteShipSV.ShipInfoDTO.Res_TypeName">
+            <summary>
+            出货单信息DTO的显示名称资源--已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.SM.DeleteShipSV.ShipInfoDTO.Res_Code">
+            <summary>
+            单号的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.SM.DeleteShipSV.ShipInfoDTO.Res_ID">
+            <summary>
+            单据ID的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.SM.DeleteShipSV.DeleteShipSV">
+            <summary>
+            删除接口 business operation
+            
+            </summary>
+            <summary>
+            DeleteShipSV partial 
+            </summary>	
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.SM.DeleteShipSV.DeleteShipSV.ShipInfo">
+            <summary>
+            出货单信息	
+            删除接口.Misc.出货单信息
+            </summary>
+            <value></value>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.SM.DeleteShipSV.DeleteShipSVImpementStrategy">
+            <summary>
+            Impement Implement
+            
+            </summary>	
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.SrcSOInfoDTO">
+            <summary>
+            来源查询条件信息DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.SrcSOInfoDTO.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.SrcSOInfoDTO.FromEntityData(UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.SrcSOInfoDTOData)">
+            <summary>
+            Copy Entity From EntityData
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.SrcSOInfoDTO.ToEntityData">
+            <summary>
+            Create EntityData From Entity
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.SrcSOInfoDTO.ToEntityData(UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.SrcSOInfoDTOData,System.Collections.IDictionary)">
+            <summary>
+            Create EntityData From Entity - used by ubf 
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.SrcSOInfoDTO.#ctor(System.String,System.String,System.String,System.String,System.DateTime,System.DateTime,System.String,System.String)">
+            <summary>
+            Constructor with Full Argument 
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.SrcSOInfoDTO.DocNo">
+            <summary>
+            出运明细单单号 (该属性可为空,且无默认值)
+            来源查询条件信息DTO.Misc.出运明细单单号
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.SrcSOInfoDTO.SODocNo">
+            <summary>
+            销售订单号 (该属性可为空,且无默认值)
+            来源查询条件信息DTO.Misc.销售订单号
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.SrcSOInfoDTO.CustomerName">
+            <summary>
+            客户名称 (该属性可为空,且无默认值)
+            来源查询条件信息DTO.Misc.客户名称
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.SrcSOInfoDTO.CustomerCode">
+            <summary>
+            客户编码 (该属性可为空,且无默认值)
+            来源查询条件信息DTO.Misc.客户编码
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.SrcSOInfoDTO.SODateFrom">
+            <summary>
+            订单日期从 (该属性可为空,且无默认值)
+            来源查询条件信息DTO.Misc.订单日期从
+            </summary>
+            <value>System.DateTime</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.SrcSOInfoDTO.SODateTo">
+            <summary>
+            订单日期到 (该属性可为空,且无默认值)
+            来源查询条件信息DTO.Misc.订单日期到
+            </summary>
+            <value>System.DateTime</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.SrcSOInfoDTO.OrderOrg">
+            <summary>
+            接单组织名称 (该属性可为空,且无默认值)
+            来源查询条件信息DTO.Misc.接单组织名称
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.SrcSOInfoDTO.ShipInvoiceNo">
+            <summary>
+            出运发票号名称 (该属性可为空,且无默认值)
+            来源查询条件信息DTO.Misc.出运发票号名称
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.SrcSOInfoDTO.Res_TypeName">
+            <summary>
+            来源查询条件信息DTO的显示名称资源--已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.SrcSOInfoDTO.Res_DocNo">
+            <summary>
+            出运明细单单号的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.SrcSOInfoDTO.Res_SODocNo">
+            <summary>
+            销售订单号的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.SrcSOInfoDTO.Res_CustomerName">
+            <summary>
+            客户名称的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.SrcSOInfoDTO.Res_CustomerCode">
+            <summary>
+            客户编码的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.SrcSOInfoDTO.Res_SODateFrom">
+            <summary>
+            订单日期从的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.SrcSOInfoDTO.Res_SODateTo">
+            <summary>
+            订单日期到的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.SrcSOInfoDTO.Res_OrderOrg">
+            <summary>
+            接单组织名称的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.SrcSOInfoDTO.Res_ShipInvoiceNo">
+            <summary>
+            出运发票号名称的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO">
+            <summary>
+            出运明细单信息DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.FromEntityData(UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTOData)">
+            <summary>
+            Copy Entity From EntityData
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.ToEntityData">
+            <summary>
+            Create EntityData From Entity
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.ToEntityData(UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTOData,System.Collections.IDictionary)">
+            <summary>
+            Create EntityData From Entity - used by ubf 
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.#ctor(System.String,System.Int32,System.String,System.Int32,System.String,System.String,System.DateTime,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Decimal,System.String,System.String,System.String,System.String,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Decimal)">
+            <summary>
+            Constructor with Full Argument 
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.DocNo">
+            <summary>
+            出运明细单单号 (该属性可为空,且无默认值)
+            出运明细单信息DTO.Misc.出运明细单单号
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.DocLineNo">
+            <summary>
+            出运明细单行号 (该属性可为空,但有默认值)
+            出运明细单信息DTO.Misc.出运明细单行号
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.SODocNo">
+            <summary>
+            销售订单号 (该属性可为空,且无默认值)
+            出运明细单信息DTO.Misc.销售订单号
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.SOLineNo">
+            <summary>
+            销售订单行号 (该属性可为空,但有默认值)
+            出运明细单信息DTO.Misc.销售订单行号
+            </summary>
+            <value>System.Int32</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.CustomerName">
+            <summary>
+            客户名称 (该属性可为空,且无默认值)
+            出运明细单信息DTO.Misc.客户名称
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.CustomerCode">
+            <summary>
+            客户编码 (该属性可为空,且无默认值)
+            出运明细单信息DTO.Misc.客户编码
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.DocDate">
+            <summary>
+            出运明细单业务日期 (该属性可为空,且无默认值)
+            出运明细单信息DTO.Misc.出运明细单业务日期
+            </summary>
+            <value>System.DateTime</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.SODate">
+            <summary>
+            订单业务日期 (该属性可为空,且无默认值)
+            出运明细单信息DTO.Misc.订单业务日期
+            </summary>
+            <value>System.DateTime</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.OrderOrgCode">
+            <summary>
+            接单组织编码 (该属性可为空,且无默认值)
+            出运明细单信息DTO.Misc.接单组织编码
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.OrderOrgName">
+            <summary>
+            接单组织名称 (该属性可为空,且无默认值)
+            出运明细单信息DTO.Misc.接单组织名称
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.ShipInvoiceNo">
+            <summary>
+            出运发票号名称 (该属性可为空,且无默认值)
+            出运明细单信息DTO.Misc.出运发票号名称
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.OrgCode">
+            <summary>
+            单据组织编码 (该属性可为空,且无默认值)
+            出运明细单信息DTO.Misc.单据组织编码
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.ItemCode">
+            <summary>
+            料品编码 (该属性可为空,且无默认值)
+            出运明细单信息DTO.Misc.料品编码
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.ItemName">
+            <summary>
+            料品名称 (该属性可为空,且无默认值)
+            出运明细单信息DTO.Misc.料品名称
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.ItemSpece">
+            <summary>
+            料品规则 (该属性可为空,且无默认值)
+            出运明细单信息DTO.Misc.料品规则
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.ShipPlanQty">
+            <summary>
+            数量 (该属性可为空,但有默认值)
+            出运明细单信息DTO.Misc.数量
+            </summary>
+            <value>System.Decimal</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.UOMCode">
+            <summary>
+            计量单位编码 (该属性可为空,且无默认值)
+            出运明细单信息DTO.Misc.计量单位编码
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.UOMName">
+            <summary>
+            计量单位名称 (该属性可为空,且无默认值)
+            出运明细单信息DTO.Misc.计量单位名称
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.BoxTypeName">
+            <summary>
+            柜类型名称 (该属性可为空,且无默认值)
+            出运明细单信息DTO.Misc.柜类型名称
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.BoxTypeValue">
+            <summary>
+            柜类型值 (该属性可为空,且无默认值)
+            出运明细单信息DTO.Misc.柜类型值
+            </summary>
+            <value>System.String</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.Volume">
+            <summary>
+            体积 (该属性可为空,但有默认值)
+            出运明细单信息DTO.Misc.体积
+            </summary>
+            <value>System.Decimal</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.NetWeight">
+            <summary>
+            净重 (该属性可为空,但有默认值)
+            出运明细单信息DTO.Misc.净重
+            </summary>
+            <value>System.Decimal</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.GW">
+            <summary>
+            毛重 (该属性可为空,但有默认值)
+            出运明细单信息DTO.Misc.毛重
+            </summary>
+            <value>System.Decimal</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.L">
+            <summary>
+            长 (该属性可为空,但有默认值)
+            出运明细单信息DTO.Misc.长
+            </summary>
+            <value>System.Decimal</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.W">
+            <summary>
+            宽 (该属性可为空,但有默认值)
+            出运明细单信息DTO.Misc.宽
+            </summary>
+            <value>System.Decimal</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.H">
+            <summary>
+            高 (该属性可为空,但有默认值)
+            出运明细单信息DTO.Misc.高
+            </summary>
+            <value>System.Decimal</value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.Res_TypeName">
+            <summary>
+            出运明细单信息DTO的显示名称资源--已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.Res_DocNo">
+            <summary>
+            出运明细单单号的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.Res_DocLineNo">
+            <summary>
+            出运明细单行号的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.Res_SODocNo">
+            <summary>
+            销售订单号的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.Res_SOLineNo">
+            <summary>
+            销售订单行号的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.Res_CustomerName">
+            <summary>
+            客户名称的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.Res_CustomerCode">
+            <summary>
+            客户编码的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.Res_DocDate">
+            <summary>
+            出运明细单业务日期的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.Res_SODate">
+            <summary>
+            订单业务日期的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.Res_OrderOrgCode">
+            <summary>
+            接单组织编码的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.Res_OrderOrgName">
+            <summary>
+            接单组织名称的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.Res_ShipInvoiceNo">
+            <summary>
+            出运发票号名称的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.Res_OrgCode">
+            <summary>
+            单据组织编码的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.Res_ItemCode">
+            <summary>
+            料品编码的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.Res_ItemName">
+            <summary>
+            料品名称的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.Res_ItemSpece">
+            <summary>
+            料品规则的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.Res_ShipPlanQty">
+            <summary>
+            数量的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.Res_UOMCode">
+            <summary>
+            计量单位编码的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.Res_UOMName">
+            <summary>
+            计量单位名称的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.Res_BoxTypeName">
+            <summary>
+            柜类型名称的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.Res_BoxTypeValue">
+            <summary>
+            柜类型值的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.Res_Volume">
+            <summary>
+            体积的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.Res_NetWeight">
+            <summary>
+            净重的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.Res_GW">
+            <summary>
+            毛重的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.Res_L">
+            <summary>
+            长的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.Res_W">
+            <summary>
+            宽的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.ShipPlanDTO.Res_H">
+            <summary>
+            高的显示名称资源 -- 已经废弃，不使用.
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.QueryShipPlan">
+            <summary>
+            出运明细单查询接口 business operation
+            
+            </summary>
+            <summary>
+            QueryShipPlan partial 
+            </summary>	
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.QueryShipPlan.SrcSOInfoDTO">
+            <summary>
+            来源查询信息DTO	
+            出运明细单查询接口.Misc.来源查询信息DTO
+            </summary>
+            <value></value>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.QueryShipPlanImpementStrategy">
+            <summary>
+            Impement Implement
+            
+            </summary>	
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <system.serviceModel>
+    <services>
+         
+	<service name="UFIDA.U9.Cust.GS.SM.CreateShipSV.CreateShipSVStub">
+        <endpoint contract="UFIDA.U9.Cust.GS.SM.CreateShipSV.ICreateShipSV"
+                  binding="basicHttpBinding" />
+
+	</service>
+      
+	<service name="UFIDA.U9.Cust.GS.SM.DeleteShipSV.DeleteShipSVStub">
+        <endpoint contract="UFIDA.U9.Cust.GS.SM.DeleteShipSV.IDeleteShipSV"
+                  binding="basicHttpBinding" />
+
+	</service>
+         
+	<service name="UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.QueryShipPlanStub">
+        <endpoint contract="UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.IQueryShipPlan"
+                  binding="basicHttpBinding" />
+
+	</service>
+ 
+    </services>
+</system.serviceModel>
+</configuration>

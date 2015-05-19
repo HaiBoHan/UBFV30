@@ -1,0 +1,14 @@
+{9CC14AC0-AD29-47f6-8711-C5047938016E}
+BaseFile|1
+UBF_RES_ResourceValue|6|14
+LanguageName, ResourceName, Status, Description, DisplayName, Type, Help, ComponentID, ParentHelpResourceName, ResourceID, ParentResourceName
+
+zh-CN	f51972ac-33cf-4efc-bd2b-be8b0a86b4a6	T	创建出货单接口	创建出货单接口	SvrOperation		4c5b161d-4b3a-42b6-bd3c-c566582ca536		2aa9f46d-cba8-489d-ba85-694532759e02	
+zh-CN	9f6e1c18-4550-4263-a70c-46c27aab41db	T		来源销售订单信息	SvrOperationAttribute		4c5b161d-4b3a-42b6-bd3c-c566582ca536		b28c31f5-2923-41f5-9011-89c404b1feb1	
+zh-CN	a6cd73b6-b047-42b5-b712-da20ab057041	T		实现	SvrOperationImplementsOperation		4c5b161d-4b3a-42b6-bd3c-c566582ca536		0aa3f659-1d31-46e0-9a0b-b21d9717b4c4	
+zh-CN	0c8e4108-7d56-470e-b99a-ff86df0b6be5	T		删除接口	SvrOperation		22d15c99-a64b-4083-8bd4-6474f0aaa0fa		63e025c5-bfde-4435-96cd-eda61eee61f2	
+zh-CN	2d4f6540-389a-4a5a-820d-86603db1c6bd	T		出货单信息	SvrOperationAttribute		22d15c99-a64b-4083-8bd4-6474f0aaa0fa		c7d18b16-51ba-480e-8426-b24a8ae26180	
+zh-CN	8d814c8f-a95c-434e-acc6-d98b7883dc5b	T		实现	SvrOperationImplementsOperation		22d15c99-a64b-4083-8bd4-6474f0aaa0fa		a4a9b7cf-1207-4309-aeff-0fe9dbfd2246	
+zh-CN	1706acec-a0a8-49d6-b015-0e67c2581087	T		出运明细单查询接口	SvrOperation		e926984a-c478-430c-8b80-72991d1300da		a652dbc4-1f21-4ed3-b19d-2962c914eb4c	
+zh-CN	87798f5b-1fbd-4ca5-8d44-c075c3169641	T		来源查询信息DTO	SvrOperationAttribute		e926984a-c478-430c-8b80-72991d1300da		d53a4502-fbdb-4fa0-ae6f-ad7bf7d7b6f1	
+zh-CN	c7937ec2-cd86-4952-9092-9bda87f3bad9	T		实现	SvrOperationImplementsOperation		e926984a-c478-430c-8b80-72991d1300da		f05a7e9e-a694-4c12-9b05-98819ead258a	

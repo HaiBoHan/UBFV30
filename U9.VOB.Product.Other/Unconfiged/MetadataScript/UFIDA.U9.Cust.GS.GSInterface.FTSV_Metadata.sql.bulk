@@ -1,0 +1,46 @@
+{9CC14AC0-AD29-47f6-8711-C5047938016E}
+BaseFile|11
+UBF_MD_StereotypeValue|36|35
+Name, Value, StereotypeUid, StereotypeOwnerUid, ComponentId, StereotypeOrdinal
+Name, StereotypeUid, StereotypeOwnerUid, StereotypeOrdinal
+UBF_MD_Stereotype|36|35
+ID, Name, Template, Classify, OwnerId, OwnerType, ComponentId, Ordinal
+ID, OwnerId
+UBF_MD_Attribute|36|38
+ID, Name, CreateOp, CreateTime, ModifyOp, ModifyTime, Local_ID, MD_Class_ID, Local_Class_ID, DataTypeID, GroupName, IsCollection, DefaultValue, Length, Precision, Sequence, Scale, MaxValue, MinValue, IsKey, IsNullable, IsReadOnly, Visibility, IsCalculation, IsGlobalization, IsSystem, IsBusinessKey, IsQueryAttribute, IsForAsso, GroupID, IsModifyControl, IsDynamic, IsImpressible, IsInCache, IsKeySerializable, IsColumnDefine, IsFilterDefine, IsSortDefine, IsDefaultColumn, IsEntityData, DefaultColumnName, DataTypeFlag,ForOBAImport
+
+UBF_MD_Import|39|39
+Source_ID, Imported_ID
+
+UBF_MD_EntityIndex|40|39
+ID, Name, CreatedBy, CreatedOn, ModifiedBy, ModifiedOn, IsUnique, IsCluster, EntityUID, EntityFullName
+
+UBF_MD_Class|40|42
+ID, Name, CreateOp, CreateTime, ModifyOp, ModifyTime, Local_ID, MD_ParentClass_ID, MD_Component_ID, Local_Component_ID, ClassType, FullName, IsMain, IsAbstract, Discriminator, InheritanceMapKind, IsModifyControl, HasImpressibleAttribute, IsInCache, DefaultTableName, IsAuthority, IsDefault, IsService, TransactionType, ReturnTypeID, IsExtend, IsQueryDTO, IsPersistence, IsPkClustered,ForOBAImport
+
+UBF_MD_Component|43|45
+Local_ID, Kind, Name, ID, AssemblyName, CreateOp, ModifyTime, Version, ModifyOp, MD_Module_ID, CreateTime
+
+UBF_MD_Association|46|45
+ID, Name, CreateOp, CreateTime, ModifyOp, ModifyTime, Parent_Class_ID, Child_Class_ID, Parent_Attribute_ID, Child_Attribute_ID, ParentCardinality, ChildCardinality, Kind, IsCascadeDelete, IsCascadeUpdate, IsEnableCascadeValidation, CascadeDeleteRule, CascadeUpdateRule, IsCreateFK
+
+UBF_MD_IndexAttribute|46|45
+ID, CreatedBy, CreatedOn, ModifiedBy, ModifiedOn, EntityIndex, AttributeUID, AttributeName, ColumnName, DataTypeFullName, DataTypeUID, IsEntity, IsCollection, AttributeFullName, Sequence, IsAscend
+
+UBF_MD_IndexIncludeAttribute|46|45
+ID, CreatedBy, CreatedOn, ModifiedBy, ModifiedOn, EntityIndex, AttributeUID, AttributeName, ColumnName, DataTypeFullName, DataTypeUID, IsEntity, IsCollection, AttributeFullName, Sequence, IsAscend
+
+UBF_MD_Project|46|46
+Name, ID, AssemblyName, CreateOp, ComponentType, ModifyTime, ModifyOp, CreateTime
+
+9f6e1c18-4550-4263-a70c-46c27aab41db	SrcSOInfo	Administrator	2015-05-14T12:27:01		2015-05-14T12:27:01	@SNIndex+2	f51972ac-33cf-4efc-bd2b-be8b0a86b4a6	@SNIndex+1	a36b1e66-9006-49ee-86b8-4a551dbe501e	Misc	1		50	5	0	0			0	1	0	0	0	0	0	0	1	1	71bb8eea-f3e5-4daf-afa2-913c479dda08	0	0	0	0	0	1	1	1	1	1		4	0
+2d4f6540-389a-4a5a-820d-86603db1c6bd	ShipInfo	Administrator	2015-05-14T12:27:01		2015-05-14T12:27:01	@SNIndex+5	0c8e4108-7d56-470e-b99a-ff86df0b6be5	@SNIndex+4	9ba67bec-215e-472a-9920-e9ffb89e2832	Misc	1		50	5	0	0			0	1	0	0	0	0	0	0	1	1	12addac5-432d-4d34-9d76-060de78970cb	0	0	0	0	0	1	1	1	1	1		4	0
+87798f5b-1fbd-4ca5-8d44-c075c3169641	SrcSOInfoDTO	Administrator	2015-05-14T12:27:01		2015-05-14T12:27:01	@SNIndex+8	1706acec-a0a8-49d6-b015-0e67c2581087	@SNIndex+7	19d7ab9b-fd1f-4f27-84c3-73bf438924ae	Misc	1		50	5	0	0			0	1	0	0	0	0	0	0	1	1	4a41b154-de8e-474d-b436-58ee90d884ad	0	0	0	0	0	1	1	1	1	1		4	0
+9f05a2d7-8ea5-418f-811d-5138a0287df9	d5f38b6f-bd81-4f81-83c7-f44bc3018259
+f51972ac-33cf-4efc-bd2b-be8b0a86b4a6	CreateShipSV	Administrator	2015-05-14T12:27:01	Administrator	2015-05-14T12:27:07	@SNIndex+1	00000000-0000-0000-0000-000000000000	4c5b161d-4b3a-42b6-bd3c-c566582ca536	@SNIndex+0	7	UFIDA.U9.Cust.GS.SM.CreateShipSV.CreateShipSV			UFIDA.UBF.MD.Business.Service						1	0	1	0	378d45b4-375d-4b5d-8748-abc9575c26b3					
+0c8e4108-7d56-470e-b99a-ff86df0b6be5	DeleteShipSV	Administrator	2015-05-14T12:27:01	Administrator	2015-05-14T12:27:07	@SNIndex+4	00000000-0000-0000-0000-000000000000	22d15c99-a64b-4083-8bd4-6474f0aaa0fa	@SNIndex+3	7	UFIDA.U9.Cust.GS.SM.DeleteShipSV.DeleteShipSV			UFIDA.UBF.MD.Business.Service						1	0	1	0	378d45b4-375d-4b5d-8748-abc9575c26b3					
+1706acec-a0a8-49d6-b015-0e67c2581087	QueryShipPlan	Administrator	2015-05-14T12:27:01	Administrator	2015-05-14T12:27:07	@SNIndex+7	00000000-0000-0000-0000-000000000000	e926984a-c478-430c-8b80-72991d1300da	@SNIndex+6	7	UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.QueryShipPlan			UFIDA.UBF.MD.Business.Service						1	0	1	2	b0394393-17e7-42cc-8b72-25a0e4246ae1					
+@SNIndex+0	SV	CreateShipSV	4c5b161d-4b3a-42b6-bd3c-c566582ca536	UFIDA.U9.Cust.GS.GSInterface.FTSV	Administrator	2015-05-14T12:27:01			9f05a2d7-8ea5-418f-811d-5138a0287df9	2015-05-14T12:27:01
+@SNIndex+3	SV	DeleteShipSV	22d15c99-a64b-4083-8bd4-6474f0aaa0fa	UFIDA.U9.Cust.GS.GSInterface.FTSV	Administrator	2015-05-14T12:27:01			9f05a2d7-8ea5-418f-811d-5138a0287df9	2015-05-14T12:27:01
+@SNIndex+6	SV	QueryShipPlanSV	e926984a-c478-430c-8b80-72991d1300da	UFIDA.U9.Cust.GS.GSInterface.FTSV	Administrator	2015-05-14T12:27:01			9f05a2d7-8ea5-418f-811d-5138a0287df9	2015-05-14T12:27:01
+FTSV	9f05a2d7-8ea5-418f-811d-5138a0287df9	UFIDA.U9.Cust.GS.GSInterface.FTSV	Administrator	SV	2015-05-14T12:27:01		2015-05-14T12:27:01

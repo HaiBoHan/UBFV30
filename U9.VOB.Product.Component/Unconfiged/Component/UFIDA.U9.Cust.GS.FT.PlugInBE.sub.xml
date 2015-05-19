@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<pub-sub>
+
+  <subcription event="UFIDA.U9.CBO.SCM.Item.ItemMaster.AfterDeleted">
+    <subscriber type="UFIDA.U9.Cust.GS.FT.PlugInBE.ItemMaster_AfterDeletedExtend, UFIDA.U9.Cust.GS.FT.PlugInBE.dll"/>
+  </subcription>
+
+  <subcription event="UFIDA.U9.SM.SO.SO.BeforeDefaultValue">
+    <subscriber type="UFIDA.U9.Cust.GS.FT.PlugInBE.SO_BeforeDefaultValueExtend,UFIDA.U9.Cust.GS.FT.PlugInBE.dll" />
+  </subcription>
+  <subcription event="UFIDA.U9.SM.SO.SO.BeforeValidate">
+    <subscriber type="UFIDA.U9.Cust.GS.FT.PlugInBE.SO_BeforeValidateExtend,UFIDA.U9.Cust.GS.FT.PlugInBE.dll" />
+  </subcription>
+  <subcription event="UFIDA.U9.SM.SO.SO.AfterValidate">
+    <subscriber type="UFIDA.U9.Cust.GS.FT.PlugInBE.SO_AfterValidateExtend,UFIDA.U9.Cust.GS.FT.PlugInBE.dll" />
+  </subcription>  
+  <subcription event="UFIDA.U9.SM.SO.SO.AfterUpdated">
+    <subscriber  type="UFIDA.U9.Cust.GS.FT.PlugInBE.SO_AfterUpdatedExtend, UFIDA.U9.Cust.GS.FT.PlugInBE.dll" />
+  </subcription>
+  <subcription event="UFIDA.U9.SM.SO.SO.AfterDeleted">
+    <subscriber  type="UFIDA.U9.Cust.GS.FT.PlugInBE.SO_AfterInsertedExtend, UFIDA.U9.Cust.GS.FT.PlugInBE.dll" />
+  </subcription>
+
+  <subcription event="UFIDA.U9.SM.SO.SOLine.BeforeDefaultValue">
+    <subscriber type="UFIDA.U9.Cust.GS.FT.PlugInBE.SOLine_BeforeDefaultValueExtend,UFIDA.U9.Cust.GS.FT.PlugInBE.dll" />
+  </subcription>
+  <subcription event="UFIDA.U9.SM.SO.SOLine.AfterDeleted">
+    <subscriber  type="UFIDA.U9.Cust.GS.FT.PlugInBE.SOLine_AfterDeletedExtend, UFIDA.U9.Cust.GS.FT.PlugInBE.dll" />
+  </subcription>
+  
+  
+</pub-sub>

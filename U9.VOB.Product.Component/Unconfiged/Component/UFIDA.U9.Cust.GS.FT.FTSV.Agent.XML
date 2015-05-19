@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UFIDA.U9.Cust.GS.FT.FTSV.Agent</name>
+    </assembly>
+    <members>
+        <member name="P:UFIDA.U9.Cust.GS.SM.CreateShipSV.Proxy.CreateShipSVProxy.SrcSOInfo">
+            <summary>
+            来源销售订单信息 (该属性可为空,且无默认值)
+            创建出货单接口.Misc.来源销售订单信息
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.SM.DeleteShipSV.Proxy.DeleteShipSVProxy.ShipInfo">
+            <summary>
+            出货单信息 (该属性可为空,且无默认值)
+            删除接口.Misc.出货单信息
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.ISV.QueryShipPlanSV.Proxy.QueryShipPlanProxy.SrcSOInfoDTO">
+            <summary>
+            来源查询信息DTO (该属性可为空,且无默认值)
+            出运明细单查询接口.Misc.来源查询信息DTO
+            </summary>
+            <value></value>
+        </member>
+    </members>
+</doc>

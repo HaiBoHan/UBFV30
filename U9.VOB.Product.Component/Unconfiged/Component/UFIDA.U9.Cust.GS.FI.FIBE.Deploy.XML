@@ -1,0 +1,3974 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UFIDA.U9.Cust.GS.FI.FIBE.Deploy</name>
+    </assembly>
+    <members>
+        <member name="T:UFIDA.U9.Cust.GS.FI.DeductionRegisterDocTypeBE.DeductionRegisterDocTypeData">
+            <summary>
+            扣款登记单据类型 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.DeductionRegisterDocTypeBE.DeductionRegisterDocTypeData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterDocTypeBE.DeductionRegisterDocTypeData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.ProductCoefficientBE.ProductCoefficientData">
+            <summary>
+            新产品系数 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.ProductCoefficientBE.ProductCoefficientData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.ProductCoefficientBE.ProductCoefficientData.m_iD">
+            <summary>
+            ID
+            新产品系数.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.ProductCoefficientBE.ProductCoefficientData.m_createdOn">
+            <summary>
+            创建时间
+            新产品系数.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.ProductCoefficientBE.ProductCoefficientData.m_createdBy">
+            <summary>
+            创建人
+            新产品系数.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.ProductCoefficientBE.ProductCoefficientData.m_modifiedOn">
+            <summary>
+            修改时间
+            新产品系数.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.ProductCoefficientBE.ProductCoefficientData.m_modifiedBy">
+            <summary>
+            修改人
+            新产品系数.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.ProductCoefficientBE.ProductCoefficientData.m_sysVersion">
+            <summary>
+            事务版本
+            新产品系数.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.ProductCoefficientBE.ProductCoefficientData.m_applyBy">
+            <summary>
+            申请人
+            新产品系数.Misc.申请人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.ProductCoefficientBE.ProductCoefficientData.m_applyDate">
+            <summary>
+            申报日期
+            新产品系数.Misc.申报日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.ProductCoefficientBE.ProductCoefficientData.m_itemName">
+            <summary>
+            品名
+            新产品系数.Misc.品名
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.ProductCoefficientBE.ProductCoefficientData.m_coefficien">
+            <summary>
+            系数
+            新产品系数.Misc.系数
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.ProductCoefficientBE.ProductCoefficientData.m_productCoeffien">
+            <summary>
+            新产品系数奖金
+            新产品系数.Misc.新产品系数奖金
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.ProductCoefficientBE.ProductCoefficientData.m_firstRcvDate">
+            <summary>
+            新产品首次入库日期
+            新产品系数.Misc.新产品首次入库日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.ProductCoefficientBE.ProductCoefficientData.m_endDate">
+            <summary>
+            新产品产值计算截止日期
+            新产品系数.Misc.新产品产值计算截止日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.ProductCoefficientBE.ProductCoefficientData.m_meno">
+            <summary>
+            备注
+            新产品系数.Misc.备注
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.ProductCoefficientBE.ProductCoefficientData.m_status">
+            <summary>
+            状态
+            新产品系数.Misc.状态
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.ProductCoefficientBE.ProductCoefficientData.m_descFlexField">
+            <summary>
+            实体扩展字段
+            新产品系数.Misc.实体扩展字段
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.ProductCoefficientBE.ProductCoefficientData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.ProductCoefficientBE.ProductCoefficientData.Org_SKey">
+            <summary>
+            组织 序列化Key属性。（传递跨组织序列列字段）
+            新产品系数.Misc.组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.ProductCoefficientBE.ProductCoefficientData.Org">
+            <summary>
+            组织
+            新产品系数.Misc.组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.ProductCoefficientBE.ProductCoefficientData.CalcBy_SKey">
+            <summary>
+            奖金计算人 序列化Key属性。（传递跨组织序列列字段）
+            新产品系数.Misc.奖金计算人
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.ProductCoefficientBE.ProductCoefficientData.CalcBy">
+            <summary>
+            奖金计算人
+            新产品系数.Misc.奖金计算人
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.ProductCoefficientBE.ProductCoefficientData.CalcDept_SKey">
+            <summary>
+            部门 序列化Key属性。（传递跨组织序列列字段）
+            新产品系数.Misc.部门
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.ProductCoefficientBE.ProductCoefficientData.CalcDept">
+            <summary>
+            部门
+            新产品系数.Misc.部门
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.ProductCoefficientBE.ProductCoefficientData.ItemMaster_SKey">
+            <summary>
+            料品 序列化Key属性。（传递跨组织序列列字段）
+            新产品系数.Misc.料品
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.ProductCoefficientBE.ProductCoefficientData.ItemMaster">
+            <summary>
+            料品
+            新产品系数.Misc.料品
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.ProductCoefficientBE.ProductCoefficientData.SimilarItemMaster_SKey">
+            <summary>
+            类同料品 序列化Key属性。（传递跨组织序列列字段）
+            新产品系数.Misc.类同料品
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.ProductCoefficientBE.ProductCoefficientData.SimilarItemMaster">
+            <summary>
+            类同料品
+            新产品系数.Misc.类同料品
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.ProductDepreciateBE.ProductDepreciateData">
+            <summary>
+            产品降价档案 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.ProductDepreciateBE.ProductDepreciateData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.ProductDepreciateBE.ProductDepreciateData.m_iD">
+            <summary>
+            ID
+            产品降价档案.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.ProductDepreciateBE.ProductDepreciateData.m_createdOn">
+            <summary>
+            创建时间
+            产品降价档案.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.ProductDepreciateBE.ProductDepreciateData.m_createdBy">
+            <summary>
+            创建人
+            产品降价档案.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.ProductDepreciateBE.ProductDepreciateData.m_modifiedOn">
+            <summary>
+            修改时间
+            产品降价档案.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.ProductDepreciateBE.ProductDepreciateData.m_modifiedBy">
+            <summary>
+            修改人
+            产品降价档案.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.ProductDepreciateBE.ProductDepreciateData.m_sysVersion">
+            <summary>
+            事务版本
+            产品降价档案.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.ProductDepreciateBE.ProductDepreciateData.m_applyBy">
+            <summary>
+            申请人
+            产品降价档案.Misc.申请人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.ProductDepreciateBE.ProductDepreciateData.m_applyDate">
+            <summary>
+            申报日期
+            产品降价档案.Misc.申报日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.ProductDepreciateBE.ProductDepreciateData.m_itemName">
+            <summary>
+            品名
+            产品降价档案.Misc.品名
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.ProductDepreciateBE.ProductDepreciateData.m_oldPrice">
+            <summary>
+            原价
+            产品降价档案.Misc.原价
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.ProductDepreciateBE.ProductDepreciateData.m_newPrice">
+            <summary>
+            新价
+            产品降价档案.Misc.新价
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.ProductDepreciateBE.ProductDepreciateData.m_canPrice">
+            <summary>
+            可算降价单价
+            产品降价档案.Misc.可算降价单价
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.ProductDepreciateBE.ProductDepreciateData.m_firstRcvDate">
+            <summary>
+            新价首次入库日期
+            产品降价档案.Misc.新价首次入库日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.ProductDepreciateBE.ProductDepreciateData.m_bonusEndDate">
+            <summary>
+            降价奖金计算截止日期
+            产品降价档案.Misc.降价奖金计算截止日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.ProductDepreciateBE.ProductDepreciateData.m_outPutEndDate">
+            <summary>
+            降价产值计算截止日期
+            产品降价档案.Misc.降价产值计算截止日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.ProductDepreciateBE.ProductDepreciateData.m_meno">
+            <summary>
+            备注
+            产品降价档案.Misc.备注
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.ProductDepreciateBE.ProductDepreciateData.m_status">
+            <summary>
+            状态
+            产品降价档案.Misc.状态
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.ProductDepreciateBE.ProductDepreciateData.m_descFlexField">
+            <summary>
+            实体扩展字段
+            产品降价档案.Misc.实体扩展字段
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.ProductDepreciateBE.ProductDepreciateData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.ProductDepreciateBE.ProductDepreciateData.Org_SKey">
+            <summary>
+            组织 序列化Key属性。（传递跨组织序列列字段）
+            产品降价档案.Misc.组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.ProductDepreciateBE.ProductDepreciateData.Org">
+            <summary>
+            组织
+            产品降价档案.Misc.组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.ProductDepreciateBE.ProductDepreciateData.CalcBy_SKey">
+            <summary>
+            奖金计算人 序列化Key属性。（传递跨组织序列列字段）
+            产品降价档案.Misc.奖金计算人
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.ProductDepreciateBE.ProductDepreciateData.CalcBy">
+            <summary>
+            奖金计算人
+            产品降价档案.Misc.奖金计算人
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.ProductDepreciateBE.ProductDepreciateData.CalcDept_SKey">
+            <summary>
+            部门 序列化Key属性。（传递跨组织序列列字段）
+            产品降价档案.Misc.部门
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.ProductDepreciateBE.ProductDepreciateData.CalcDept">
+            <summary>
+            部门
+            产品降价档案.Misc.部门
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.ProductDepreciateBE.ProductDepreciateData.ItemMaster_SKey">
+            <summary>
+            料品 序列化Key属性。（传递跨组织序列列字段）
+            产品降价档案.Misc.料品
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.ProductDepreciateBE.ProductDepreciateData.ItemMaster">
+            <summary>
+            料品
+            产品降价档案.Misc.料品
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.ProductDepreciateBE.ProductDepreciateData.SimilarItemMaster_SKey">
+            <summary>
+            类同料品 序列化Key属性。（传递跨组织序列列字段）
+            产品降价档案.Misc.类同料品
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.ProductDepreciateBE.ProductDepreciateData.SimilarItemMaster">
+            <summary>
+            类同料品
+            产品降价档案.Misc.类同料品
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.ProductDepreciateBE.ProductDepreciateData.Currency_SKey">
+            <summary>
+            币种 序列化Key属性。（传递跨组织序列列字段）
+            产品降价档案.Misc.币种
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.ProductDepreciateBE.ProductDepreciateData.Currency">
+            <summary>
+            币种
+            产品降价档案.Misc.币种
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData">
+            <summary>
+            扣款登记 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData.m_srcDocType">
+            <summary>
+            来源类型
+            扣款登记.Misc.来源类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData.m_srcDocNo">
+            <summary>
+            来源单号
+            扣款登记.Misc.来源单号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData.m_srcDocID">
+            <summary>
+            来源单据ID
+            扣款登记.Misc.来源单据ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData.m_dRObject">
+            <summary>
+            扣款对象
+            扣款登记.Misc.扣款对象
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData.m_dRMoney">
+            <summary>
+            扣款金额
+            扣款登记.Misc.扣款金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData.m_dRReason">
+            <summary>
+            扣款原因
+            扣款登记.Misc.扣款原因
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData.m_dRAssess">
+            <summary>
+            扣款依据
+            扣款登记.Misc.扣款依据
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData.m_registerBy">
+            <summary>
+            开单人
+            扣款登记.Misc.开单人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData.m_registerDate">
+            <summary>
+            开单日期
+            扣款登记.Misc.开单日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData.m_status">
+            <summary>
+            单据状态
+            扣款登记.Misc.单据状态
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData.m_dRStatus">
+            <summary>
+            扣款状态
+            扣款登记.Misc.扣款状态
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData.m_lastDRDate">
+            <summary>
+            最后一次扣款日期
+            扣款登记.Misc.最后一次扣款日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData.m_sumDRMoney">
+            <summary>
+            累计扣款金额
+            扣款登记.Misc.累计扣款金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData.m_meno">
+            <summary>
+            备注
+            扣款登记.Misc.备注
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData.m_wFCurrentState">
+            <summary>
+            当前状态
+            扣款登记.StateMachine.当前状态
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData.m_wFOriginalState">
+            <summary>
+            之前状态
+            扣款登记.StateMachine.之前状态
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData.m_submitBy">
+            <summary>
+            提交人
+            扣款登记.Misc.提交人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData.m_submitOn">
+            <summary>
+            提交时间
+            扣款登记.Misc.提交时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData.m_approvedBy">
+            <summary>
+            审核人
+            扣款登记.Misc.审核人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData.m_approvedOn">
+            <summary>
+            审核时间
+            扣款登记.Misc.审核时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData.m_unApprovedOn">
+            <summary>
+            弃审时间
+            扣款登记.Misc.弃审时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData.m_unApprovedBy">
+            <summary>
+            弃审人
+            扣款登记.Misc.弃审人
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData.SrcOrg_SKey">
+            <summary>
+            来源组织 序列化Key属性。（传递跨组织序列列字段）
+            扣款登记.Misc.来源组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData.SrcOrg">
+            <summary>
+            来源组织
+            扣款登记.Misc.来源组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData.Currency_SKey">
+            <summary>
+            币种 序列化Key属性。（传递跨组织序列列字段）
+            扣款登记.Misc.币种
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData.Currency">
+            <summary>
+            币种
+            扣款登记.Misc.币种
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData.Customer_SKey">
+            <summary>
+            客户 序列化Key属性。（传递跨组织序列列字段）
+            扣款登记.Misc.客户
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData.Customer">
+            <summary>
+            客户
+            扣款登记.Misc.客户
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData.Supplier_SKey">
+            <summary>
+            供应商 序列化Key属性。（传递跨组织序列列字段）
+            扣款登记.Misc.供应商
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData.Supplier">
+            <summary>
+            供应商
+            扣款登记.Misc.供应商
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData.DROrg_SKey">
+            <summary>
+            扣款组织 序列化Key属性。（传递跨组织序列列字段）
+            扣款登记.Misc.扣款组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData.DROrg">
+            <summary>
+            扣款组织
+            扣款登记.Misc.扣款组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData.RegisterOrg_SKey">
+            <summary>
+            开单组织 序列化Key属性。（传递跨组织序列列字段）
+            扣款登记.Misc.开单组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData.RegisterOrg">
+            <summary>
+            开单组织
+            扣款登记.Misc.开单组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData.RegisterDept_SKey">
+            <summary>
+            开单部门 序列化Key属性。（传递跨组织序列列字段）
+            扣款登记.Misc.开单部门
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData.RegisterDept">
+            <summary>
+            开单部门
+            扣款登记.Misc.开单部门
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData.Buyer_SKey">
+            <summary>
+            采购员 序列化Key属性。（传递跨组织序列列字段）
+            扣款登记.Misc.采购员
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData.Buyer">
+            <summary>
+            采购员
+            扣款登记.Misc.采购员
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData.DocumentType_SKey">
+            <summary>
+            单据类型 序列化Key属性。（传递跨组织序列列字段）
+            扣款登记.Misc.单据类型
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.DeductionRegisterData.DocumentType">
+            <summary>
+            单据类型
+            扣款登记.Misc.单据类型
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.SubmintEventData">
+            <summary>
+            EntityData: 提交
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.SubmintEventData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.UnApprovedEventData">
+            <summary>
+            EntityData: 弃审
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.DeductionRegisterBE.UnApprovedEventData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.PrePaymentDocTypeBE.PrePaymentDocTypeData">
+            <summary>
+            预付款通知单单据类型 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.PrePaymentDocTypeBE.PrePaymentDocTypeData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentDocTypeBE.PrePaymentDocTypeData.m_busType">
+            <summary>
+            业务类型
+            预付款通知单单据类型.Misc.业务类型
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentDocTypeBE.PrePaymentDocTypeData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentDocTypeBE.PrePaymentDocTypeData.PayReqDocType_SKey">
+            <summary>
+            请款单单据类型 序列化Key属性。（传递跨组织序列列字段）
+            预付款通知单单据类型.Misc.请款单单据类型
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentDocTypeBE.PrePaymentDocTypeData.PayReqDocType">
+            <summary>
+            请款单单据类型
+            预付款通知单单据类型.Misc.请款单单据类型
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData">
+            <summary>
+            预付款通知单 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.m_prePaymentLines">
+            <summary>
+            预付款通知单行
+            预付款通知单.Misc.预付款通知单行
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.m_srcDocType">
+            <summary>
+            来源类型
+            预付款通知单.Misc.来源类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.m_status">
+            <summary>
+            单据状态
+            预付款通知单.Misc.单据状态
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.m_prePayDate">
+            <summary>
+            预计付款日期
+            预付款通知单.Misc.预计付款日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.m_meno">
+            <summary>
+            备注
+            预付款通知单.Misc.备注
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.m_isReview">
+            <summary>
+            复核
+            预付款通知单.Misc.复核
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.m_reviewBy">
+            <summary>
+            复核人
+            预付款通知单.Misc.复核人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.m_reviewOn">
+            <summary>
+            复核时间
+            预付款通知单.Misc.复核时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.m_isFinal">
+            <summary>
+            终审
+            预付款通知单.Misc.终审
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.m_finalBy">
+            <summary>
+            终审人
+            预付款通知单.Misc.终审人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.m_finalOn">
+            <summary>
+            终审时间
+            预付款通知单.Misc.终审时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.m_isPayment">
+            <summary>
+            已付款
+            预付款通知单.Misc.已付款
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.m_paymentBy">
+            <summary>
+            付款人
+            预付款通知单.Misc.付款人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.m_paymentOn">
+            <summary>
+            付款时间
+            预付款通知单.Misc.付款时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.m_submitBy">
+            <summary>
+            提交人
+            预付款通知单.Misc.提交人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.m_submitOn">
+            <summary>
+            提交时间
+            预付款通知单.Misc.提交时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.m_approvedBy">
+            <summary>
+            审核人
+            预付款通知单.Misc.审核人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.m_approvedOn">
+            <summary>
+            审核时间
+            预付款通知单.Misc.审核时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.m_unApprovedBy">
+            <summary>
+            弃审人
+            预付款通知单.Misc.弃审人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.m_unApprovedOn">
+            <summary>
+            弃审时间
+            预付款通知单.Misc.弃审时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.m_refundBy">
+            <summary>
+            退款人
+            预付款通知单.Misc.退款人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.m_refundOn">
+            <summary>
+            退款时间
+            预付款通知单.Misc.退款时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.m_srcPrePayDocNo">
+            <summary>
+            来源预付款通知单号
+            预付款通知单.Misc.来源预付款通知单号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.m_srcPrePayDocID">
+            <summary>
+            来源预付款通知ID
+            预付款通知单.Misc.来源预付款通知ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.m_wFCurrentState">
+            <summary>
+            当前状态
+            预付款通知单.StateMachine.当前状态
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.m_wFOriginalState">
+            <summary>
+            之前状态
+            预付款通知单.StateMachine.之前状态
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.m_isRefund">
+            <summary>
+            退款
+            预付款通知单.Misc.退款
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.DocumentType_SKey">
+            <summary>
+            单据类型 序列化Key属性。（传递跨组织序列列字段）
+            预付款通知单.Misc.单据类型
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.DocumentType">
+            <summary>
+            单据类型
+            预付款通知单.Misc.单据类型
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.Currency_SKey">
+            <summary>
+            币种 序列化Key属性。（传递跨组织序列列字段）
+            预付款通知单.Misc.币种
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.Currency">
+            <summary>
+            币种
+            预付款通知单.Misc.币种
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.AccountPeriod_SKey">
+            <summary>
+            记账期间 序列化Key属性。（传递跨组织序列列字段）
+            预付款通知单.Misc.记账期间
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.AccountPeriod">
+            <summary>
+            记账期间
+            预付款通知单.Misc.记账期间
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.Supplier_SKey">
+            <summary>
+            供应商 序列化Key属性。（传递跨组织序列列字段）
+            预付款通知单.Misc.供应商
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.Supplier">
+            <summary>
+            供应商
+            预付款通知单.Misc.供应商
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.Dept_SKey">
+            <summary>
+            采购部门 序列化Key属性。（传递跨组织序列列字段）
+            预付款通知单.Misc.采购部门
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.Dept">
+            <summary>
+            采购部门
+            预付款通知单.Misc.采购部门
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.Buyer_SKey">
+            <summary>
+            采购员 序列化Key属性。（传递跨组织序列列字段）
+            预付款通知单.Misc.采购员
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.Buyer">
+            <summary>
+            采购员
+            预付款通知单.Misc.采购员
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.POOrg_SKey">
+            <summary>
+            采购组织 序列化Key属性。（传递跨组织序列列字段）
+            预付款通知单.Misc.采购组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentData.POOrg">
+            <summary>
+            采购组织
+            预付款通知单.Misc.采购组织
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentLineData">
+            <summary>
+            预付款通知单行 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentLineData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentLineData.m_prePayment">
+            <summary>
+            预付款通知单
+            预付款通知单行.Misc.预付款通知单
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentLineData.m_prePaymentDRDetails">
+            <summary>
+            扣款登记明细行
+            预付款通知单行.Misc.扣款登记明细行
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentLineData.m_iD">
+            <summary>
+            ID
+            预付款通知单行.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentLineData.m_createdOn">
+            <summary>
+            创建时间
+            预付款通知单行.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentLineData.m_createdBy">
+            <summary>
+            创建人
+            预付款通知单行.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentLineData.m_modifiedOn">
+            <summary>
+            修改时间
+            预付款通知单行.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentLineData.m_modifiedBy">
+            <summary>
+            修改人
+            预付款通知单行.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentLineData.m_sysVersion">
+            <summary>
+            事务版本
+            预付款通知单行.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentLineData.m_lineNum">
+            <summary>
+            行号
+            预付款通知单行.Misc.行号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentLineData.m_prePayMoney">
+            <summary>
+            预付金额
+            预付款通知单行.Misc.预付金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentLineData.m_dRMoney">
+            <summary>
+            扣款金额
+            预付款通知单行.Misc.扣款金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentLineData.m_actualMoeny">
+            <summary>
+            实付金额
+            预付款通知单行.Misc.实付金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentLineData.m_sumApplyMoney">
+            <summary>
+            已核销金额
+            预付款通知单行.Misc.已核销金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentLineData.m_sumRedFlushMoney">
+            <summary>
+            已红冲金额
+            预付款通知单行.Misc.已红冲金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentLineData.m_sumMoveMoney">
+            <summary>
+            已挪出金额
+            预付款通知单行.Misc.已挪出金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentLineData.m_srcMoveDocNo">
+            <summary>
+            挪入来源单号
+            预付款通知单行.Misc.挪入来源单号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentLineData.m_srcMoveDocID">
+            <summary>
+            挪入来源单ID
+            预付款通知单行.Misc.挪入来源单ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentLineData.m_srcMoveLineNum">
+            <summary>
+            挪入来源单行号
+            预付款通知单行.Misc.挪入来源单行号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentLineData.m_srcMoveLineID">
+            <summary>
+            挪入来源单行ID
+            预付款通知单行.Misc.挪入来源单行ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentLineData.m_srcPrePayLineID">
+            <summary>
+            来源蓝字付款通知单行ID
+            预付款通知单行.Misc.来源蓝字付款通知单行ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentLineData.m_srcPrePayLineNum">
+            <summary>
+            来源蓝字付款通知单行号
+            预付款通知单行.Misc.来源蓝字付款通知单行号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentLineData.m_meno">
+            <summary>
+            备注
+            预付款通知单行.Misc.备注
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentLineData.m_descFlexSegments">
+            <summary>
+            描述性弹性域
+            预付款通知单行.Misc.描述性弹性域
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentLineData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentLineData.PrePayment_SKey">
+            <summary>
+            预付款通知单 序列化Key属性。（传递跨组织序列列字段）
+            预付款通知单行.Misc.预付款通知单
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentLineData.SrcPO_SKey">
+            <summary>
+            采购订单 序列化Key属性。（传递跨组织序列列字段）
+            预付款通知单行.Misc.采购订单
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentLineData.SrcPO">
+            <summary>
+            采购订单
+            预付款通知单行.Misc.采购订单
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentDRDetailData">
+            <summary>
+            扣款登记明细行 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentDRDetailData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentDRDetailData.m_prePaymentLine">
+            <summary>
+            预付款通知单行
+            扣款登记明细行.Misc.预付款通知单行
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentDRDetailData.m_iD">
+            <summary>
+            ID
+            扣款登记明细行.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentDRDetailData.m_createdOn">
+            <summary>
+            创建时间
+            扣款登记明细行.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentDRDetailData.m_createdBy">
+            <summary>
+            创建人
+            扣款登记明细行.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentDRDetailData.m_modifiedOn">
+            <summary>
+            修改时间
+            扣款登记明细行.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentDRDetailData.m_modifiedBy">
+            <summary>
+            修改人
+            扣款登记明细行.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentDRDetailData.m_sysVersion">
+            <summary>
+            事务版本
+            扣款登记明细行.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentDRDetailData.m_lineNum">
+            <summary>
+            行号
+            扣款登记明细行.Misc.行号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentDRDetailData.m_srcDocNo">
+            <summary>
+            来源单号
+            扣款登记明细行.Misc.来源单号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentDRDetailData.m_srcDocID">
+            <summary>
+            来源单据ID
+            扣款登记明细行.Misc.来源单据ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentDRDetailData.m_srcBusDate">
+            <summary>
+            来源单据业务日期
+            扣款登记明细行.Misc.来源单据业务日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentDRDetailData.m_sumDRMoney">
+            <summary>
+            扣款金额
+            扣款登记明细行.Misc.扣款金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentDRDetailData.m_dRMoney">
+            <summary>
+            本次扣款金额
+            扣款登记明细行.Misc.本次扣款金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentDRDetailData.m_meno">
+            <summary>
+            备注
+            扣款登记明细行.Misc.备注
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentDRDetailData.m_descFlexSegments">
+            <summary>
+            实体扩展字段
+            扣款登记明细行.Misc.实体扩展字段
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentDRDetailData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentDRDetailData.PrePaymentLine_SKey">
+            <summary>
+            预付款通知单行 序列化Key属性。（传递跨组织序列列字段）
+            扣款登记明细行.Misc.预付款通知单行
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentDRDetailData.SrcDocOrg_SKey">
+            <summary>
+            来源组织 序列化Key属性。（传递跨组织序列列字段）
+            扣款登记明细行.Misc.来源组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentDRDetailData.SrcDocOrg">
+            <summary>
+            来源组织
+            扣款登记明细行.Misc.来源组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentDRDetailData.Supplier_SKey">
+            <summary>
+            供应商 序列化Key属性。（传递跨组织序列列字段）
+            扣款登记明细行.Misc.供应商
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentDRDetailData.Supplier">
+            <summary>
+            供应商
+            扣款登记明细行.Misc.供应商
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentDRDetailData.Currency_SKey">
+            <summary>
+            币种 序列化Key属性。（传递跨组织序列列字段）
+            扣款登记明细行.Misc.币种
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBE.PrePaymentDRDetailData.Currency">
+            <summary>
+            币种
+            扣款登记明细行.Misc.币种
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.PrePaymentBE.SubmintEventData">
+            <summary>
+            EntityData: 提交
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.PrePaymentBE.SubmintEventData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.PrePaymentBE.UnApprovedEventData">
+            <summary>
+            EntityData: 弃审
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.PrePaymentBE.UnApprovedEventData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.PaymentDocTypeBE.PaymentDocTypeData">
+            <summary>
+            付款通知单单据类型 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.PaymentDocTypeBE.PaymentDocTypeData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentDocTypeBE.PaymentDocTypeData.m_busType">
+            <summary>
+            业务类型
+            付款通知单单据类型.Misc.业务类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentDocTypeBE.PaymentDocTypeData.m_isShipPay">
+            <summary>
+            按出运发票付款
+            付款通知单单据类型.Misc.按出运发票付款
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentDocTypeBE.PaymentDocTypeData.m_isDrawBack">
+            <summary>
+            退税
+            付款通知单单据类型.Misc.退税
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentDocTypeBE.PaymentDocTypeData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentDocTypeBE.PaymentDocTypeData.APDocType_SKey">
+            <summary>
+            应付单单据类型 序列化Key属性。（传递跨组织序列列字段）
+            付款通知单单据类型.Misc.应付单单据类型
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentDocTypeBE.PaymentDocTypeData.APDocType">
+            <summary>
+            应付单单据类型
+            付款通知单单据类型.Misc.应付单单据类型
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData">
+            <summary>
+            付款通知单 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.m_paymentLine">
+            <summary>
+            付款通知单行
+            付款通知单.Misc.付款通知单行
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.m_paymentDRDetail">
+            <summary>
+            付款通知单扣款明细
+            付款通知单.Misc.付款通知单扣款明细
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.m_status">
+            <summary>
+            单据状态
+            付款通知单.Misc.单据状态
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.m_isTax">
+            <summary>
+            价格含税
+            付款通知单.Misc.价格含税
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.m_drawBackRate">
+            <summary>
+            退税率
+            付款通知单.Misc.退税率
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.m_pOType">
+            <summary>
+            内/外采
+            付款通知单.Misc.内/外采
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.m_sumPayMoney">
+            <summary>
+            应付总额
+            付款通知单.Misc.应付总额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.m_sumDRMoney">
+            <summary>
+            扣款总额
+            付款通知单.Misc.扣款总额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.m_sumPreMoney">
+            <summary>
+            预付总额
+            付款通知单.Misc.预付总额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.m_sumActualMoeny">
+            <summary>
+            实付总额
+            付款通知单.Misc.实付总额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.m_isPrint">
+            <summary>
+            打印
+            付款通知单.Misc.打印
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.m_isReview">
+            <summary>
+            复核
+            付款通知单.Misc.复核
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.m_reviewBy">
+            <summary>
+            复核人
+            付款通知单.Misc.复核人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.m_reviewOn">
+            <summary>
+            复核时间
+            付款通知单.Misc.复核时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.m_isBill">
+            <summary>
+            挂账
+            付款通知单.Misc.挂账
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.m_billBy">
+            <summary>
+            挂账人
+            付款通知单.Misc.挂账人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.m_billOn">
+            <summary>
+            挂账时间
+            付款通知单.Misc.挂账时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.m_isPay">
+            <summary>
+            付款
+            付款通知单.Misc.付款
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.m_payBy">
+            <summary>
+            付款人
+            付款通知单.Misc.付款人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.m_payOn">
+            <summary>
+            付款时间
+            付款通知单.Misc.付款时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.m_changeCount">
+            <summary>
+            变更次数
+            付款通知单.Misc.变更次数
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.m_isRed">
+            <summary>
+            红冲
+            付款通知单.Misc.红冲
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.m_redBy">
+            <summary>
+            红冲人
+            付款通知单.Misc.红冲人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.m_redOn">
+            <summary>
+            红冲时间
+            付款通知单.Misc.红冲时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.m_meno">
+            <summary>
+            备注
+            付款通知单.Misc.备注
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.m_srcPaymentDocNo">
+            <summary>
+            来源付款通知单号
+            付款通知单.Misc.来源付款通知单号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.m_srcPaymentDocID">
+            <summary>
+            来源付款通知单ID
+            付款通知单.Misc.来源付款通知单ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.m_wFCurrentState">
+            <summary>
+            当前状态
+            付款通知单.StateMachine.当前状态
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.m_wFOriginalState">
+            <summary>
+            之前状态
+            付款通知单.StateMachine.之前状态
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.m_unApprovedBy">
+            <summary>
+            弃审人
+            付款通知单.Misc.弃审人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.m_unApprovedOn">
+            <summary>
+            弃审时间
+            付款通知单.Misc.弃审时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.m_submitBy">
+            <summary>
+            提交人
+            付款通知单.Misc.提交人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.m_submitOn">
+            <summary>
+            提交时间
+            付款通知单.Misc.提交时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.m_approvedBy">
+            <summary>
+            审核人
+            付款通知单.Misc.审核人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.m_approvedOn">
+            <summary>
+            审核时间
+            付款通知单.Misc.审核时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.m_sumInvoiceMoney">
+            <summary>
+            开票总金额
+            付款通知单.Misc.开票总金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.m_isRefund">
+            <summary>
+            退款
+            付款通知单.Misc.退款
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.DocumentType_SKey">
+            <summary>
+            单据类型 序列化Key属性。（传递跨组织序列列字段）
+            付款通知单.Misc.单据类型
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.DocumentType">
+            <summary>
+            单据类型
+            付款通知单.Misc.单据类型
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.Currency_SKey">
+            <summary>
+            币种 序列化Key属性。（传递跨组织序列列字段）
+            付款通知单.Misc.币种
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.Currency">
+            <summary>
+            币种
+            付款通知单.Misc.币种
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.AccountPeriod_SKey">
+            <summary>
+            记账期间 序列化Key属性。（传递跨组织序列列字段）
+            付款通知单.Misc.记账期间
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.AccountPeriod">
+            <summary>
+            记账期间
+            付款通知单.Misc.记账期间
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.Operators_SKey">
+            <summary>
+            业务员 序列化Key属性。（传递跨组织序列列字段）
+            付款通知单.Misc.业务员
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.Operators">
+            <summary>
+            业务员
+            付款通知单.Misc.业务员
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.Dept_SKey">
+            <summary>
+            部门 序列化Key属性。（传递跨组织序列列字段）
+            付款通知单.Misc.部门
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.Dept">
+            <summary>
+            部门
+            付款通知单.Misc.部门
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.Supplier_SKey">
+            <summary>
+            供应商 序列化Key属性。（传递跨组织序列列字段）
+            付款通知单.Misc.供应商
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.Supplier">
+            <summary>
+            供应商
+            付款通知单.Misc.供应商
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.PayOrg_SKey">
+            <summary>
+            付款组织 序列化Key属性。（传递跨组织序列列字段）
+            付款通知单.Misc.付款组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.PayOrg">
+            <summary>
+            付款组织
+            付款通知单.Misc.付款组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.RecOrg_SKey">
+            <summary>
+            收款组织 序列化Key属性。（传递跨组织序列列字段）
+            付款通知单.Misc.收款组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.RecOrg">
+            <summary>
+            收款组织
+            付款通知单.Misc.收款组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.TaxSchedule_SKey">
+            <summary>
+            税组合 序列化Key属性。（传递跨组织序列列字段）
+            付款通知单.Misc.税组合
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.TaxSchedule">
+            <summary>
+            税组合
+            付款通知单.Misc.税组合
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.APAccrueTerm_SKey">
+            <summary>
+            立账条件 序列化Key属性。（传递跨组织序列列字段）
+            付款通知单.Misc.立账条件
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.APAccrueTerm">
+            <summary>
+            立账条件
+            付款通知单.Misc.立账条件
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.PayTerm_SKey">
+            <summary>
+            付款条件 序列化Key属性。（传递跨组织序列列字段）
+            付款通知单.Misc.付款条件
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentData.PayTerm">
+            <summary>
+            付款条件
+            付款通知单.Misc.付款条件
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData">
+            <summary>
+            付款通知单行 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_payment">
+            <summary>
+            付款通知单
+            付款通知单行.Misc.付款通知单
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_paymentDRDetail">
+            <summary>
+            付款通知单扣款明细
+            付款通知单行.Misc.付款通知单扣款明细
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_paymentApplyLine">
+            <summary>
+            预付核销行
+            付款通知单行.Misc.预付核销行
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_iD">
+            <summary>
+            ID
+            付款通知单行.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_createdOn">
+            <summary>
+            创建时间
+            付款通知单行.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_createdBy">
+            <summary>
+            创建人
+            付款通知单行.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_modifiedOn">
+            <summary>
+            修改时间
+            付款通知单行.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_modifiedBy">
+            <summary>
+            修改人
+            付款通知单行.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_sysVersion">
+            <summary>
+            事务版本
+            付款通知单行.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_lineNum">
+            <summary>
+            行号
+            付款通知单行.Misc.行号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_srcDocType">
+            <summary>
+            来源类型
+            付款通知单行.Misc.来源类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_payQty">
+            <summary>
+            数量
+            付款通知单行.Misc.数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_finallyPrice">
+            <summary>
+            单价
+            付款通知单行.Misc.单价
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_netFinallyPrice">
+            <summary>
+            未税单价
+            付款通知单行.Misc.未税单价
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_totalMoney">
+            <summary>
+            应付金额
+            付款通知单行.Misc.应付金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_netTotalMoney">
+            <summary>
+            应付金额（未税）
+            付款通知单行.Misc.应付金额（未税）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_dRMoney">
+            <summary>
+            扣款金额
+            付款通知单行.Misc.扣款金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_netMoney">
+            <summary>
+            扣款金额（未税）
+            付款通知单行.Misc.扣款金额（未税）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_applyMoney">
+            <summary>
+            核销金额
+            付款通知单行.Misc.核销金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_netApplyMoney">
+            <summary>
+            核销金额（未税）
+            付款通知单行.Misc.核销金额（未税）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_actualMoeny">
+            <summary>
+            实付金额
+            付款通知单行.Misc.实付金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_netActualMoeny">
+            <summary>
+            实付金额（未税）
+            付款通知单行.Misc.实付金额（未税）
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_balanceDocNo">
+            <summary>
+            结算单号
+            付款通知单行.Misc.结算单号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_customerNo">
+            <summary>
+            客户订单号
+            付款通知单行.Misc.客户订单号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_srcDocNo">
+            <summary>
+            来源单号
+            付款通知单行.Misc.来源单号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_srcDocID">
+            <summary>
+            来源单据ID
+            付款通知单行.Misc.来源单据ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_srcDocLineID">
+            <summary>
+            来源行ID
+            付款通知单行.Misc.来源行ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_srcLineNum">
+            <summary>
+            来源行号
+            付款通知单行.Misc.来源行号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_pODocNo">
+            <summary>
+            来源采购订单号
+            付款通知单行.Misc.来源采购订单号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_pODocID">
+            <summary>
+            来源采购订单ID
+            付款通知单行.Misc.来源采购订单ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_pOLineID">
+            <summary>
+            来源采购订单行ID
+            付款通知单行.Misc.来源采购订单行ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_pOLineLineNum">
+            <summary>
+            来源采购订单行号
+            付款通知单行.Misc.来源采购订单行号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_pOShipLineID">
+            <summary>
+            来源采购订单计划行ID
+            付款通知单行.Misc.来源采购订单计划行ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_pOShipLineNum">
+            <summary>
+            来源采购订单计划行号
+            付款通知单行.Misc.来源采购订单计划行号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_exportCost">
+            <summary>
+            换汇成本
+            付款通知单行.Misc.换汇成本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_dollarMoney">
+            <summary>
+            美元金额
+            付款通知单行.Misc.美元金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_invoiceItemName">
+            <summary>
+            开票品名
+            付款通知单行.Misc.开票品名
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_invoiceQty">
+            <summary>
+            开票数量
+            付款通知单行.Misc.开票数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_invoicePrice">
+            <summary>
+            开票单价
+            付款通知单行.Misc.开票单价
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_invoiceMoney">
+            <summary>
+            开票金额
+            付款通知单行.Misc.开票金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_meno">
+            <summary>
+            备注
+            付款通知单行.Misc.备注
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_sumLineID">
+            <summary>
+            汇总页签ID
+            付款通知单行.Misc.汇总页签ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_sumLineLineNum">
+            <summary>
+            汇总页签行号
+            付款通知单行.Misc.汇总页签行号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_srcPaymentLineID">
+            <summary>
+            来源付款通知单行
+            付款通知单行.Misc.来源付款通知单行
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_srcPaymentLineNum">
+            <summary>
+            来源付款通知单行号
+            付款通知单行.Misc.来源付款通知单行号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.m_descFlexField">
+            <summary>
+            实体扩展字段集合
+            付款通知单行.Misc.实体扩展字段集合
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.Payment_SKey">
+            <summary>
+            付款通知单 序列化Key属性。（传递跨组织序列列字段）
+            付款通知单行.Misc.付款通知单
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.InvoiceGroupNo_SKey">
+            <summary>
+            发票组 序列化Key属性。（传递跨组织序列列字段）
+            付款通知单行.Misc.发票组
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.InvoiceGroupNo">
+            <summary>
+            发票组
+            付款通知单行.Misc.发票组
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.ItemMaster_SKey">
+            <summary>
+            料品 序列化Key属性。（传递跨组织序列列字段）
+            付款通知单行.Misc.料品
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.ItemMaster">
+            <summary>
+            料品
+            付款通知单行.Misc.料品
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.Lot_SKey">
+            <summary>
+            批号 序列化Key属性。（传递跨组织序列列字段）
+            付款通知单行.Misc.批号
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.Lot">
+            <summary>
+            批号
+            付款通知单行.Misc.批号
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.UOM_SKey">
+            <summary>
+            计量单位 序列化Key属性。（传递跨组织序列列字段）
+            付款通知单行.Misc.计量单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.UOM">
+            <summary>
+            计量单位
+            付款通知单行.Misc.计量单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.InvoiceNo_SKey">
+            <summary>
+            发票号 序列化Key属性。（传递跨组织序列列字段）
+            付款通知单行.Misc.发票号
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.InvoiceNo">
+            <summary>
+            发票号
+            付款通知单行.Misc.发票号
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.HSCode_SKey">
+            <summary>
+            HS编码 序列化Key属性。（传递跨组织序列列字段）
+            付款通知单行.Misc.HS编码
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.HSCode">
+            <summary>
+            HS编码
+            付款通知单行.Misc.HS编码
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.InvoiceUOM_SKey">
+            <summary>
+            开票单位 序列化Key属性。（传递跨组织序列列字段）
+            付款通知单行.Misc.开票单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentLineData.InvoiceUOM">
+            <summary>
+            开票单位
+            付款通知单行.Misc.开票单位
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentDRDetailData">
+            <summary>
+            付款通知单扣款明细 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentDRDetailData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentDRDetailData.m_payment">
+            <summary>
+            付款通知单
+            付款通知单扣款明细.Misc.付款通知单
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentDRDetailData.m_paymentLine">
+            <summary>
+            付款通知单行
+            付款通知单扣款明细.Misc.付款通知单行
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentDRDetailData.m_iD">
+            <summary>
+            ID
+            付款通知单扣款明细.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentDRDetailData.m_createdOn">
+            <summary>
+            创建时间
+            付款通知单扣款明细.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentDRDetailData.m_createdBy">
+            <summary>
+            创建人
+            付款通知单扣款明细.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentDRDetailData.m_modifiedOn">
+            <summary>
+            修改时间
+            付款通知单扣款明细.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentDRDetailData.m_modifiedBy">
+            <summary>
+            修改人
+            付款通知单扣款明细.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentDRDetailData.m_sysVersion">
+            <summary>
+            事务版本
+            付款通知单扣款明细.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentDRDetailData.m_lineNum">
+            <summary>
+            行号
+            付款通知单扣款明细.Misc.行号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentDRDetailData.m_thisDRMoney">
+            <summary>
+            本次扣款金额
+            付款通知单扣款明细.Misc.本次扣款金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentDRDetailData.m_meno">
+            <summary>
+            备注
+            付款通知单扣款明细.Misc.备注
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentDRDetailData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentDRDetailData.Payment_SKey">
+            <summary>
+            付款通知单 序列化Key属性。（传递跨组织序列列字段）
+            付款通知单扣款明细.Misc.付款通知单
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentDRDetailData.PaymentLine_SKey">
+            <summary>
+            付款通知单行 序列化Key属性。（传递跨组织序列列字段）
+            付款通知单扣款明细.Misc.付款通知单行
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentDRDetailData.DeductionRegister_SKey">
+            <summary>
+            来源扣款登记单 序列化Key属性。（传递跨组织序列列字段）
+            付款通知单扣款明细.Misc.来源扣款登记单
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentDRDetailData.DeductionRegister">
+            <summary>
+            来源扣款登记单
+            付款通知单扣款明细.Misc.来源扣款登记单
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentDRDetailData.SrcDocumentType_SKey">
+            <summary>
+            扣款登记单据类型 序列化Key属性。（传递跨组织序列列字段）
+            付款通知单扣款明细.Misc.扣款登记单据类型
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentDRDetailData.SrcDocumentType">
+            <summary>
+            扣款登记单据类型
+            付款通知单扣款明细.Misc.扣款登记单据类型
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentDRDetailData.Currency_SKey">
+            <summary>
+            币种 序列化Key属性。（传递跨组织序列列字段）
+            付款通知单扣款明细.Misc.币种
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentDRDetailData.Currency">
+            <summary>
+            币种
+            付款通知单扣款明细.Misc.币种
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentDRDetailData.Supplier_SKey">
+            <summary>
+            供应商 序列化Key属性。（传递跨组织序列列字段）
+            付款通知单扣款明细.Misc.供应商
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentDRDetailData.Supplier">
+            <summary>
+            供应商
+            付款通知单扣款明细.Misc.供应商
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentApplyLineData">
+            <summary>
+            预付核销行 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentApplyLineData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentApplyLineData.m_paymentLine">
+            <summary>
+            付款通知单行
+            预付核销行.Misc.付款通知单行
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentApplyLineData.m_iD">
+            <summary>
+            ID
+            预付核销行.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentApplyLineData.m_createdOn">
+            <summary>
+            创建时间
+            预付核销行.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentApplyLineData.m_createdBy">
+            <summary>
+            创建人
+            预付核销行.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentApplyLineData.m_modifiedOn">
+            <summary>
+            修改时间
+            预付核销行.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentApplyLineData.m_modifiedBy">
+            <summary>
+            修改人
+            预付核销行.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentApplyLineData.m_sysVersion">
+            <summary>
+            事务版本
+            预付核销行.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentApplyLineData.m_lineNum">
+            <summary>
+            行号
+            预付核销行.Misc.行号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentApplyLineData.m_prePayMoney">
+            <summary>
+            预付金额
+            预付核销行.Misc.预付金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentApplyLineData.m_applyMoney">
+            <summary>
+            本次核销金额
+            预付核销行.Misc.本次核销金额
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentApplyLineData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentApplyLineData.PaymentLine_SKey">
+            <summary>
+            付款通知单行 序列化Key属性。（传递跨组织序列列字段）
+            预付核销行.Misc.付款通知单行
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentApplyLineData.SrcDocumentType_SKey">
+            <summary>
+            预付款单据类型 序列化Key属性。（传递跨组织序列列字段）
+            预付核销行.Misc.预付款单据类型
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentApplyLineData.SrcDocumentType">
+            <summary>
+            预付款单据类型
+            预付核销行.Misc.预付款单据类型
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentApplyLineData.PrePaymentLine_SKey">
+            <summary>
+            预付款通知单行 序列化Key属性。（传递跨组织序列列字段）
+            预付核销行.Misc.预付款通知单行
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentApplyLineData.PrePaymentLine">
+            <summary>
+            预付款通知单行
+            预付核销行.Misc.预付款通知单行
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentApplyLineData.PrePayment_SKey">
+            <summary>
+            预付款通知单 序列化Key属性。（传递跨组织序列列字段）
+            预付核销行.Misc.预付款通知单
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentApplyLineData.PrePayment">
+            <summary>
+            预付款通知单
+            预付核销行.Misc.预付款通知单
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentApplyLineData.Supplier_SKey">
+            <summary>
+            供应商 序列化Key属性。（传递跨组织序列列字段）
+            预付核销行.Misc.供应商
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentApplyLineData.Supplier">
+            <summary>
+            供应商
+            预付核销行.Misc.供应商
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentApplyLineData.SrcPO_SKey">
+            <summary>
+            来源采购订单 序列化Key属性。（传递跨组织序列列字段）
+            预付核销行.Misc.来源采购订单
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentApplyLineData.SrcPO">
+            <summary>
+            来源采购订单
+            预付核销行.Misc.来源采购订单
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentApplyLineData.Currency_SKey">
+            <summary>
+            币种 序列化Key属性。（传递跨组织序列列字段）
+            预付核销行.Misc.币种
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PaymentBE.PaymentApplyLineData.Currency">
+            <summary>
+            币种
+            预付核销行.Misc.币种
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.PaymentBE.SubmintEventData">
+            <summary>
+            EntityData: 提交
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.PaymentBE.SubmintEventData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.PaymentBE.UnApprovedEventData">
+            <summary>
+            EntityData: 弃审
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.PaymentBE.UnApprovedEventData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.PrePaymentSumLineBE.PrePaymentSumLineData">
+            <summary>
+            付款通知单汇总行 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.PrePaymentSumLineBE.PrePaymentSumLineData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentSumLineBE.PrePaymentSumLineData.m_iD">
+            <summary>
+            ID
+            付款通知单汇总行.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentSumLineBE.PrePaymentSumLineData.m_createdOn">
+            <summary>
+            创建时间
+            付款通知单汇总行.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentSumLineBE.PrePaymentSumLineData.m_createdBy">
+            <summary>
+            创建人
+            付款通知单汇总行.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentSumLineBE.PrePaymentSumLineData.m_modifiedOn">
+            <summary>
+            修改时间
+            付款通知单汇总行.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentSumLineBE.PrePaymentSumLineData.m_modifiedBy">
+            <summary>
+            修改人
+            付款通知单汇总行.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentSumLineBE.PrePaymentSumLineData.m_sysVersion">
+            <summary>
+            事务版本
+            付款通知单汇总行.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentSumLineBE.PrePaymentSumLineData.m_lineNum">
+            <summary>
+            行号
+            付款通知单汇总行.Misc.行号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentSumLineBE.PrePaymentSumLineData.m_invoiceItemName">
+            <summary>
+            开票品名
+            付款通知单汇总行.Misc.开票品名
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentSumLineBE.PrePaymentSumLineData.m_invoiceQty">
+            <summary>
+            开票数量
+            付款通知单汇总行.Misc.开票数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentSumLineBE.PrePaymentSumLineData.m_invoicePrice">
+            <summary>
+            开票单价
+            付款通知单汇总行.Misc.开票单价
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentSumLineBE.PrePaymentSumLineData.m_invoiceMoney">
+            <summary>
+            开票金额
+            付款通知单汇总行.Misc.开票金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentSumLineBE.PrePaymentSumLineData.m_meno">
+            <summary>
+            备注
+            付款通知单汇总行.Misc.备注
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentSumLineBE.PrePaymentSumLineData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentSumLineBE.PrePaymentSumLineData.InvoiceUOM_SKey">
+            <summary>
+            开票单位 序列化Key属性。（传递跨组织序列列字段）
+            付款通知单汇总行.Misc.开票单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentSumLineBE.PrePaymentSumLineData.InvoiceUOM">
+            <summary>
+            开票单位
+            付款通知单汇总行.Misc.开票单位
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.BusExchangeBE.BusExchangeData">
+            <summary>
+            业务收汇 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.BusExchangeBE.BusExchangeData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BusExchangeBE.BusExchangeData.m_iD">
+            <summary>
+            ID
+            业务收汇.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BusExchangeBE.BusExchangeData.m_createdOn">
+            <summary>
+            创建时间
+            业务收汇.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BusExchangeBE.BusExchangeData.m_createdBy">
+            <summary>
+            创建人
+            业务收汇.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BusExchangeBE.BusExchangeData.m_modifiedOn">
+            <summary>
+            修改时间
+            业务收汇.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BusExchangeBE.BusExchangeData.m_modifiedBy">
+            <summary>
+            修改人
+            业务收汇.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BusExchangeBE.BusExchangeData.m_sysVersion">
+            <summary>
+            事务版本
+            业务收汇.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BusExchangeBE.BusExchangeData.m_exchangeMoney">
+            <summary>
+            收汇金额
+            业务收汇.Misc.收汇金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BusExchangeBE.BusExchangeData.m_exchangeDate">
+            <summary>
+            收汇日期
+            业务收汇.Misc.收汇日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BusExchangeBE.BusExchangeData.m_exchangeBy">
+            <summary>
+            确认收汇人
+            业务收汇.Misc.确认收汇人
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BusExchangeBE.BusExchangeData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BusExchangeBE.BusExchangeData.InvoiceGroup_SKey">
+            <summary>
+            发票组 序列化Key属性。（传递跨组织序列列字段）
+            业务收汇.Misc.发票组
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BusExchangeBE.BusExchangeData.InvoiceGroup">
+            <summary>
+            发票组
+            业务收汇.Misc.发票组
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BusExchangeBE.BusExchangeData.Org_SKey">
+            <summary>
+            组织 序列化Key属性。（传递跨组织序列列字段）
+            业务收汇.Misc.组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BusExchangeBE.BusExchangeData.Org">
+            <summary>
+            组织
+            业务收汇.Misc.组织
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.BonusCalculateRecordBE.BonusCalculateRecordData">
+            <summary>
+            奖金计算记录 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.BonusCalculateRecordBE.BonusCalculateRecordData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusCalculateRecordBE.BonusCalculateRecordData.m_iD">
+            <summary>
+            ID
+            奖金计算记录.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusCalculateRecordBE.BonusCalculateRecordData.m_createdOn">
+            <summary>
+            创建时间
+            奖金计算记录.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusCalculateRecordBE.BonusCalculateRecordData.m_createdBy">
+            <summary>
+            创建人
+            奖金计算记录.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusCalculateRecordBE.BonusCalculateRecordData.m_modifiedOn">
+            <summary>
+            修改时间
+            奖金计算记录.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusCalculateRecordBE.BonusCalculateRecordData.m_modifiedBy">
+            <summary>
+            修改人
+            奖金计算记录.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusCalculateRecordBE.BonusCalculateRecordData.m_sysVersion">
+            <summary>
+            事务版本
+            奖金计算记录.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusCalculateRecordBE.BonusCalculateRecordData.m_sourceType">
+            <summary>
+            来源类型
+            奖金计算记录.Misc.来源类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusCalculateRecordBE.BonusCalculateRecordData.m_oprator">
+            <summary>
+            操作人
+            奖金计算记录.Misc.操作人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusCalculateRecordBE.BonusCalculateRecordData.m_oprateTime">
+            <summary>
+            操作时间
+            奖金计算记录.Misc.操作时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusCalculateRecordBE.BonusCalculateRecordData.m_periodStatus">
+            <summary>
+            期间状态
+            奖金计算记录.Misc.期间状态
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusCalculateRecordBE.BonusCalculateRecordData.m_operatorBonus">
+            <summary>
+            业务员奖金单号
+            奖金计算记录.Misc.业务员奖金单号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusCalculateRecordBE.BonusCalculateRecordData.m_repairOperatorBonus">
+            <summary>
+            补算业务员奖金单号
+            奖金计算记录.Misc.补算业务员奖金单号
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusCalculateRecordBE.BonusCalculateRecordData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusCalculateRecordBE.BonusCalculateRecordData.SOBAccountingPeriod_SKey">
+            <summary>
+            账薄会计期间 序列化Key属性。（传递跨组织序列列字段）
+            奖金计算记录.Misc.账薄会计期间
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusCalculateRecordBE.BonusCalculateRecordData.SOBAccountingPeriod">
+            <summary>
+            账薄会计期间
+            奖金计算记录.Misc.账薄会计期间
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusCalculateRecordBE.BonusCalculateRecordData.Org_SKey">
+            <summary>
+            组织结构 序列化Key属性。（传递跨组织序列列字段）
+            奖金计算记录.Misc.组织结构
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusCalculateRecordBE.BonusCalculateRecordData.Org">
+            <summary>
+            组织结构
+            奖金计算记录.Misc.组织结构
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.BonusCalculateRecordBE.BonusCalculateRecordDTOData">
+            <summary>
+            奖金计算记录数据传输对象 DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.BonusCalculateRecordBE.BonusCalculateRecordDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.BonusCalculateRecordBE.BonusCalculateRecordDTOData.#ctor(System.Int64,System.DateTime,System.String,System.DateTime,System.String,System.Int64,System.Int32,UFIDA.U9.Base.SOB.SOBAccountingPeriodData,System.String,System.DateTime,System.Int32,UFIDA.U9.Base.Organization.OrganizationData,System.String,System.String)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusCalculateRecordBE.BonusCalculateRecordDTOData.m_iD">
+            <summary>
+            ID
+            奖金计算记录数据传输对象.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusCalculateRecordBE.BonusCalculateRecordDTOData.m_createdOn">
+            <summary>
+            创建时间
+            奖金计算记录数据传输对象.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusCalculateRecordBE.BonusCalculateRecordDTOData.m_createdBy">
+            <summary>
+            创建人
+            奖金计算记录数据传输对象.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusCalculateRecordBE.BonusCalculateRecordDTOData.m_modifiedOn">
+            <summary>
+            修改时间
+            奖金计算记录数据传输对象.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusCalculateRecordBE.BonusCalculateRecordDTOData.m_modifiedBy">
+            <summary>
+            修改人
+            奖金计算记录数据传输对象.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusCalculateRecordBE.BonusCalculateRecordDTOData.m_sysVersion">
+            <summary>
+            事务版本
+            奖金计算记录数据传输对象.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusCalculateRecordBE.BonusCalculateRecordDTOData.m_sourceType">
+            <summary>
+            来源类型
+            奖金计算记录数据传输对象.Misc.来源类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusCalculateRecordBE.BonusCalculateRecordDTOData.m_sOBAccountingPeriod">
+            <summary>
+            账薄会计期间
+            奖金计算记录数据传输对象.Misc.账薄会计期间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusCalculateRecordBE.BonusCalculateRecordDTOData.m_oprator">
+            <summary>
+            操作人
+            奖金计算记录数据传输对象.Misc.操作人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusCalculateRecordBE.BonusCalculateRecordDTOData.m_oprateTime">
+            <summary>
+            操作时间
+            奖金计算记录数据传输对象.Misc.操作时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusCalculateRecordBE.BonusCalculateRecordDTOData.m_periodStatus">
+            <summary>
+            期间状态
+            奖金计算记录数据传输对象.Misc.期间状态
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusCalculateRecordBE.BonusCalculateRecordDTOData.m_org">
+            <summary>
+            组织结构
+            奖金计算记录数据传输对象.Misc.组织结构
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusCalculateRecordBE.BonusCalculateRecordDTOData.m_operatorBonus">
+            <summary>
+            业务员奖金单号
+            奖金计算记录数据传输对象.Misc.业务员奖金单号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusCalculateRecordBE.BonusCalculateRecordDTOData.m_repairOperatorBonus">
+            <summary>
+            补算业务员奖金单号
+            奖金计算记录数据传输对象.Misc.补算业务员奖金单号
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.BonusOperatorDocTypeBE.BonusOperatorDocTypeData">
+            <summary>
+            业务员奖金单据类型 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.BonusOperatorDocTypeBE.BonusOperatorDocTypeData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusOperatorDocTypeBE.BonusOperatorDocTypeData.m_buzType">
+            <summary>
+            业务类型
+            业务员奖金单据类型.Misc.业务类型
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusOperatorDocTypeBE.BonusOperatorDocTypeData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocData">
+            <summary>
+            产品采购业务员奖金 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocData.m_bonusProductDocLine">
+            <summary>
+            产品采购业务员奖金行
+            产品采购业务员奖金.Misc.产品采购业务员奖金行
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocData.m_status">
+            <summary>
+            状态
+            产品采购业务员奖金.Misc.状态
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocData.m_oprator">
+            <summary>
+            制单人
+            产品采购业务员奖金.Misc.制单人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocData.m_oprateDate">
+            <summary>
+            制单日期
+            产品采购业务员奖金.Misc.制单日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocData.m_demo">
+            <summary>
+            备注
+            产品采购业务员奖金.Misc.备注
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocData.DocumentType_SKey">
+            <summary>
+            单据类型 序列化Key属性。（传递跨组织序列列字段）
+            产品采购业务员奖金.Misc.单据类型
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocData.DocumentType">
+            <summary>
+            单据类型
+            产品采购业务员奖金.Misc.单据类型
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocData.AccountPeriod_SKey">
+            <summary>
+            记账期间 序列化Key属性。（传递跨组织序列列字段）
+            产品采购业务员奖金.Misc.记账期间
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocData.AccountPeriod">
+            <summary>
+            记账期间
+            产品采购业务员奖金.Misc.记账期间
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocData.Currency_SKey">
+            <summary>
+            币种 序列化Key属性。（传递跨组织序列列字段）
+            产品采购业务员奖金.Misc.币种
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocData.Currency">
+            <summary>
+            币种
+            产品采购业务员奖金.Misc.币种
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocLineData">
+            <summary>
+            产品采购业务员奖金行 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocLineData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocLineData.m_bonusProductDoc">
+            <summary>
+            产品采购业务员奖金
+            产品采购业务员奖金行.Misc.产品采购业务员奖金
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocLineData.m_bonusProductDocSubLine">
+            <summary>
+            产品采购业务员奖金明细行
+            产品采购业务员奖金行.Misc.产品采购业务员奖金明细行
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocLineData.m_iD">
+            <summary>
+            ID
+            产品采购业务员奖金行.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocLineData.m_createdOn">
+            <summary>
+            创建时间
+            产品采购业务员奖金行.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocLineData.m_createdBy">
+            <summary>
+            创建人
+            产品采购业务员奖金行.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocLineData.m_modifiedOn">
+            <summary>
+            修改时间
+            产品采购业务员奖金行.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocLineData.m_modifiedBy">
+            <summary>
+            修改人
+            产品采购业务员奖金行.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocLineData.m_sysVersion">
+            <summary>
+            事务版本
+            产品采购业务员奖金行.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocLineData.m_docLineNo">
+            <summary>
+            行号
+            产品采购业务员奖金行.Misc.行号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocLineData.m_sumPayment">
+            <summary>
+            付款单总额
+            产品采购业务员奖金行.Misc.付款单总额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocLineData.m_sumPerformance">
+            <summary>
+            业绩单总额
+            产品采购业务员奖金行.Misc.业绩单总额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocLineData.m_productBonusTotal">
+            <summary>
+            新产品奖金合计
+            产品采购业务员奖金行.Misc.新产品奖金合计
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocLineData.m_depreciateBonusTotal">
+            <summary>
+            降价奖金合计
+            产品采购业务员奖金行.Misc.降价奖金合计
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocLineData.m_bonusTotal">
+            <summary>
+            奖金合计
+            产品采购业务员奖金行.Misc.奖金合计
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocLineData.m_descFlexField">
+            <summary>
+            实体扩展字段
+            产品采购业务员奖金行.Misc.实体扩展字段
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocLineData.m_lineDemo">
+            <summary>
+            备注
+            产品采购业务员奖金行.Misc.备注
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocLineData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocLineData.BonusProductDoc_SKey">
+            <summary>
+            产品采购业务员奖金 序列化Key属性。（传递跨组织序列列字段）
+            产品采购业务员奖金行.Misc.产品采购业务员奖金
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocLineData.Operators_SKey">
+            <summary>
+            业务员 序列化Key属性。（传递跨组织序列列字段）
+            产品采购业务员奖金行.Misc.业务员
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocLineData.Operators">
+            <summary>
+            业务员
+            产品采购业务员奖金行.Misc.业务员
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocLineData.Department_SKey">
+            <summary>
+            部门 序列化Key属性。（传递跨组织序列列字段）
+            产品采购业务员奖金行.Misc.部门
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocLineData.Department">
+            <summary>
+            部门
+            产品采购业务员奖金行.Misc.部门
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocSubLineData">
+            <summary>
+            产品采购业务员奖金明细行 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocSubLineData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocSubLineData.m_bonusProductDocLine">
+            <summary>
+            产品采购业务员奖金行
+            产品采购业务员奖金明细行.Misc.产品采购业务员奖金行
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocSubLineData.m_iD">
+            <summary>
+            ID
+            产品采购业务员奖金明细行.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocSubLineData.m_createdOn">
+            <summary>
+            创建时间
+            产品采购业务员奖金明细行.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocSubLineData.m_createdBy">
+            <summary>
+            创建人
+            产品采购业务员奖金明细行.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocSubLineData.m_modifiedOn">
+            <summary>
+            修改时间
+            产品采购业务员奖金明细行.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocSubLineData.m_modifiedBy">
+            <summary>
+            修改人
+            产品采购业务员奖金明细行.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocSubLineData.m_sysVersion">
+            <summary>
+            事务版本
+            产品采购业务员奖金明细行.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocSubLineData.m_docLineNo">
+            <summary>
+            行号
+            产品采购业务员奖金明细行.Misc.行号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocSubLineData.m_payment">
+            <summary>
+            付款单金额
+            产品采购业务员奖金明细行.Misc.付款单金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocSubLineData.m_practicalRcvTime">
+            <summary>
+            实际入库时间
+            产品采购业务员奖金明细行.Misc.实际入库时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocSubLineData.m_deliveryTime">
+            <summary>
+            应交货日期
+            产品采购业务员奖金明细行.Misc.应交货日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocSubLineData.m_deliveryExpect">
+            <summary>
+            交付预期
+            产品采购业务员奖金明细行.Misc.交付预期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocSubLineData.m_degradationCoefficient">
+            <summary>
+            降价系数
+            产品采购业务员奖金明细行.Misc.降价系数
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocSubLineData.m_bonus">
+            <summary>
+            奖金金额
+            产品采购业务员奖金明细行.Misc.奖金金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocSubLineData.m_paymentDocNo">
+            <summary>
+            付款单号
+            产品采购业务员奖金明细行.Misc.付款单号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocSubLineData.m_srcDocLineNo">
+            <summary>
+            来源行号
+            产品采购业务员奖金明细行.Misc.来源行号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocSubLineData.m_descFlexField">
+            <summary>
+            实体扩展字段
+            产品采购业务员奖金明细行.Misc.实体扩展字段
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocSubLineData.m_subLineDemo">
+            <summary>
+            备注
+            产品采购业务员奖金明细行.Misc.备注
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocSubLineData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocSubLineData.BonusProductDocLine_SKey">
+            <summary>
+            产品采购业务员奖金行 序列化Key属性。（传递跨组织序列列字段）
+            产品采购业务员奖金明细行.Misc.产品采购业务员奖金行
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocSubLineData.Operators_SKey">
+            <summary>
+            业务员 序列化Key属性。（传递跨组织序列列字段）
+            产品采购业务员奖金明细行.Misc.业务员
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocSubLineData.Operators">
+            <summary>
+            业务员
+            产品采购业务员奖金明细行.Misc.业务员
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocSubLineData.Department_SKey">
+            <summary>
+            部门 序列化Key属性。（传递跨组织序列列字段）
+            产品采购业务员奖金明细行.Misc.部门
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocSubLineData.Department">
+            <summary>
+            部门
+            产品采购业务员奖金明细行.Misc.部门
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocSubLineData.ProductCoefficient_SKey">
+            <summary>
+            产品系数 序列化Key属性。（传递跨组织序列列字段）
+            产品采购业务员奖金明细行.Misc.产品系数
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocSubLineData.ProductCoefficient">
+            <summary>
+            产品系数
+            产品采购业务员奖金明细行.Misc.产品系数
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocSubLineData.NewProductCoefficient_SKey">
+            <summary>
+            新产品系数 序列化Key属性。（传递跨组织序列列字段）
+            产品采购业务员奖金明细行.Misc.新产品系数
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocSubLineData.NewProductCoefficient">
+            <summary>
+            新产品系数
+            产品采购业务员奖金明细行.Misc.新产品系数
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocSubLineData.PaymentDoc_SKey">
+            <summary>
+            付款通知单 序列化Key属性。（传递跨组织序列列字段）
+            产品采购业务员奖金明细行.Misc.付款通知单
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocSubLineData.PaymentDoc">
+            <summary>
+            付款通知单
+            产品采购业务员奖金明细行.Misc.付款通知单
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocSubLineData.Item_SKey">
+            <summary>
+            料品 序列化Key属性。（传递跨组织序列列字段）
+            产品采购业务员奖金明细行.Misc.料品
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusProductDocBE.BonusProductDocSubLineData.Item">
+            <summary>
+            料品
+            产品采购业务员奖金明细行.Misc.料品
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocData">
+            <summary>
+            包装业务员奖金 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocData.m_bonusPackagingDocLine">
+            <summary>
+            包装业务员奖金行
+            包装业务员奖金.Misc.包装业务员奖金行
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocData.m_status">
+            <summary>
+            状态
+            包装业务员奖金.Misc.状态
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocData.m_oprator">
+            <summary>
+            制单人
+            包装业务员奖金.Misc.制单人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocData.m_oprateDate">
+            <summary>
+            制单日期
+            包装业务员奖金.Misc.制单日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocData.m_demo">
+            <summary>
+            备注
+            包装业务员奖金.Misc.备注
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocData.DocumentType_SKey">
+            <summary>
+            单据类型 序列化Key属性。（传递跨组织序列列字段）
+            包装业务员奖金.Misc.单据类型
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocData.DocumentType">
+            <summary>
+            单据类型
+            包装业务员奖金.Misc.单据类型
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocData.AccountPeriod_SKey">
+            <summary>
+            记账期间 序列化Key属性。（传递跨组织序列列字段）
+            包装业务员奖金.Misc.记账期间
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocData.AccountPeriod">
+            <summary>
+            记账期间
+            包装业务员奖金.Misc.记账期间
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocData.Currency_SKey">
+            <summary>
+            币种 序列化Key属性。（传递跨组织序列列字段）
+            包装业务员奖金.Misc.币种
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocData.Currency">
+            <summary>
+            币种
+            包装业务员奖金.Misc.币种
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocLineData">
+            <summary>
+            包装业务员奖金行 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocLineData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocLineData.m_bonusPackagingDoc">
+            <summary>
+            包装业务员奖金
+            包装业务员奖金行.Misc.包装业务员奖金
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocLineData.m_bonusPackagingDocSubLine">
+            <summary>
+            包装业务员奖金明细行
+            包装业务员奖金行.Misc.包装业务员奖金明细行
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocLineData.m_iD">
+            <summary>
+            ID
+            包装业务员奖金行.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocLineData.m_createdOn">
+            <summary>
+            创建时间
+            包装业务员奖金行.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocLineData.m_createdBy">
+            <summary>
+            创建人
+            包装业务员奖金行.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocLineData.m_modifiedOn">
+            <summary>
+            修改时间
+            包装业务员奖金行.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocLineData.m_modifiedBy">
+            <summary>
+            修改人
+            包装业务员奖金行.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocLineData.m_sysVersion">
+            <summary>
+            事务版本
+            包装业务员奖金行.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocLineData.m_docLineNo">
+            <summary>
+            行号
+            包装业务员奖金行.Misc.行号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocLineData.m_sumPayment">
+            <summary>
+            付款单总额
+            包装业务员奖金行.Misc.付款单总额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocLineData.m_bonusTotal">
+            <summary>
+            奖金合计
+            包装业务员奖金行.Misc.奖金合计
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocLineData.m_descFlexField">
+            <summary>
+            实体扩展字段
+            包装业务员奖金行.Misc.实体扩展字段
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocLineData.m_lineDemo">
+            <summary>
+            行备注
+            包装业务员奖金行.Misc.行备注
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocLineData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocLineData.BonusPackagingDoc_SKey">
+            <summary>
+            包装业务员奖金 序列化Key属性。（传递跨组织序列列字段）
+            包装业务员奖金行.Misc.包装业务员奖金
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocLineData.Operators_SKey">
+            <summary>
+            业务员 序列化Key属性。（传递跨组织序列列字段）
+            包装业务员奖金行.Misc.业务员
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocLineData.Operators">
+            <summary>
+            业务员
+            包装业务员奖金行.Misc.业务员
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocLineData.Department_SKey">
+            <summary>
+            部门 序列化Key属性。（传递跨组织序列列字段）
+            包装业务员奖金行.Misc.部门
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocLineData.Department">
+            <summary>
+            部门
+            包装业务员奖金行.Misc.部门
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocSubLineData">
+            <summary>
+            包装业务员奖金明细行 缺省DTO 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocSubLineData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocSubLineData.m_bonusPackagingDocLine">
+            <summary>
+            包装业务员奖金行
+            包装业务员奖金明细行.Misc.包装业务员奖金行
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocSubLineData.m_iD">
+            <summary>
+            ID
+            包装业务员奖金明细行.Key.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocSubLineData.m_createdOn">
+            <summary>
+            创建时间
+            包装业务员奖金明细行.Sys.创建时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocSubLineData.m_createdBy">
+            <summary>
+            创建人
+            包装业务员奖金明细行.Sys.创建人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocSubLineData.m_modifiedOn">
+            <summary>
+            修改时间
+            包装业务员奖金明细行.Sys.修改时间
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocSubLineData.m_modifiedBy">
+            <summary>
+            修改人
+            包装业务员奖金明细行.Sys.修改人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocSubLineData.m_sysVersion">
+            <summary>
+            事务版本
+            包装业务员奖金明细行.Sys.事务版本
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocSubLineData.m_docLineNo">
+            <summary>
+            行号
+            包装业务员奖金明细行.Misc.行号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocSubLineData.m_paymentRowCount">
+            <summary>
+            付款单行数
+            包装业务员奖金明细行.Misc.付款单行数
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocSubLineData.m_customerCoefficient">
+            <summary>
+            客户难易系数
+            包装业务员奖金明细行.Misc.客户难易系数
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocSubLineData.m_paymentMey">
+            <summary>
+            付款单小类金额
+            包装业务员奖金明细行.Misc.付款单小类金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocSubLineData.m_itemCoefficient">
+            <summary>
+            小类奖金系数
+            包装业务员奖金明细行.Misc.小类奖金系数
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocSubLineData.m_bonus">
+            <summary>
+            奖金金额
+            包装业务员奖金明细行.Misc.奖金金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocSubLineData.m_paymentDocNo">
+            <summary>
+            付款单号
+            包装业务员奖金明细行.Misc.付款单号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocSubLineData.m_srcDocLineNo">
+            <summary>
+            来源付款行号
+            包装业务员奖金明细行.Misc.来源付款行号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocSubLineData.m_descFlexField">
+            <summary>
+            实体扩展字段
+            包装业务员奖金明细行.Misc.实体扩展字段
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocSubLineData.m_expectMey">
+            <summary>
+            预期奖金
+            包装业务员奖金明细行.Misc.预期奖金
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocSubLineData.m_srcPODocNo">
+            <summary>
+            来源采购订单号
+            包装业务员奖金明细行.Misc.来源采购订单号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocSubLineData.m_subLineDemo">
+            <summary>
+            备注
+            包装业务员奖金明细行.Misc.备注
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocSubLineData.SysEntityType">
+            <summary>
+             实体类型. 
+             </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocSubLineData.BonusPackagingDocLine_SKey">
+            <summary>
+            包装业务员奖金行 序列化Key属性。（传递跨组织序列列字段）
+            包装业务员奖金明细行.Misc.包装业务员奖金行
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocSubLineData.Operators_SKey">
+            <summary>
+            业务员 序列化Key属性。（传递跨组织序列列字段）
+            包装业务员奖金明细行.Misc.业务员
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocSubLineData.Operators">
+            <summary>
+            业务员
+            包装业务员奖金明细行.Misc.业务员
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocSubLineData.Department_SKey">
+            <summary>
+            部门 序列化Key属性。（传递跨组织序列列字段）
+            包装业务员奖金明细行.Misc.部门
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocSubLineData.Department">
+            <summary>
+            部门
+            包装业务员奖金明细行.Misc.部门
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocSubLineData.CategoryCoefficient_SKey">
+            <summary>
+            类别系数 序列化Key属性。（传递跨组织序列列字段）
+            包装业务员奖金明细行.Misc.类别系数
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocSubLineData.CategoryCoefficient">
+            <summary>
+            类别系数
+            包装业务员奖金明细行.Misc.类别系数
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocSubLineData.PaymentDoc_SKey">
+            <summary>
+            付款通知单 序列化Key属性。（传递跨组织序列列字段）
+            包装业务员奖金明细行.Misc.付款通知单
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocSubLineData.PaymentDoc">
+            <summary>
+            付款通知单
+            包装业务员奖金明细行.Misc.付款通知单
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocSubLineData.Item_SKey">
+            <summary>
+            料品 序列化Key属性。（传递跨组织序列列字段）
+            包装业务员奖金明细行.Misc.料品
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocSubLineData.Item">
+            <summary>
+            料品
+            包装业务员奖金明细行.Misc.料品
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocSubLineData.SrcPO_SKey">
+            <summary>
+            来源采购订单 序列化Key属性。（传递跨组织序列列字段）
+            包装业务员奖金明细行.Misc.来源采购订单
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.BonusPackagingDocBE.BonusPackagingDocSubLineData.SrcPO">
+            <summary>
+            来源采购订单
+            包装业务员奖金明细行.Misc.来源采购订单
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.EnumBE.FICommonStatusEnumData">
+            <summary>
+            枚举值: 通用单据状态枚举 
+            
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.EnumBE.FICommonStatusEnumData.Opened">
+            <summary>
+            开立
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.EnumBE.FICommonStatusEnumData.Approving">
+            <summary>
+            审核中
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.EnumBE.FICommonStatusEnumData.Apporved">
+            <summary>
+            已审核
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.EnumBE.FICommonStatusEnumData.Closed">
+            <summary>
+            关闭
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.EnumBE.FICommonStatusEnumData.Hold">
+            <summary>
+            挂起
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.EnumBE.FICommonStatusEnumData.Empty">
+            <summary>
+            空值(-1)
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.EnumBE.DRSrcDocTypeEnumData">
+            <summary>
+            枚举值: 扣款登记来源类型枚举 
+            
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.EnumBE.DRSrcDocTypeEnumData.Rework">
+            <summary>
+            返工单
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.EnumBE.DRSrcDocTypeEnumData.Hand">
+            <summary>
+            手工创建
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.EnumBE.DRSrcDocTypeEnumData.ShipInvoice">
+            <summary>
+            出运发票费用单
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.EnumBE.DRSrcDocTypeEnumData.Empty">
+            <summary>
+            空值(-1)
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.EnumBE.DRObjectEnumData">
+            <summary>
+            枚举值: 扣款对象枚举 
+            
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.EnumBE.DRObjectEnumData.Suppler">
+            <summary>
+            供应商
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.EnumBE.DRObjectEnumData.Customer">
+            <summary>
+            客户
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.EnumBE.DRObjectEnumData.Org">
+            <summary>
+            组织
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.EnumBE.DRObjectEnumData.Empty">
+            <summary>
+            空值(-1)
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.EnumBE.DRReasonEnumData">
+            <summary>
+            枚举值: 扣款原因枚举 
+            
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.EnumBE.DRReasonEnumData.Empty">
+            <summary>
+            空值(-1)
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.EnumBE.DRStatusEnumData">
+            <summary>
+            枚举值: 扣款状态枚举 
+            
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.EnumBE.DRStatusEnumData.None">
+            <summary>
+            未扣款
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.EnumBE.DRStatusEnumData.Part">
+            <summary>
+            部分扣款
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.EnumBE.DRStatusEnumData.Closed">
+            <summary>
+            扣款关闭
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.EnumBE.DRStatusEnumData.Empty">
+            <summary>
+            空值(-1)
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.EnumBE.FIBusTypeEnumData">
+            <summary>
+            枚举值: 付款通知单业务类型枚举 
+            
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.EnumBE.FIBusTypeEnumData.Blue">
+            <summary>
+            蓝字
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.EnumBE.FIBusTypeEnumData.RedFlush">
+            <summary>
+            红字-红冲
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.EnumBE.FIBusTypeEnumData.Refund">
+            <summary>
+            红字-退款
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.EnumBE.FIBusTypeEnumData.Empty">
+            <summary>
+            空值(-1)
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.EnumBE.PrePaySrcDocTypeEnumData">
+            <summary>
+            枚举值: 预付款通知单来源类型枚举 
+            
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.EnumBE.PrePaySrcDocTypeEnumData.Hand">
+            <summary>
+            手工创建
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.EnumBE.PrePaySrcDocTypeEnumData.PO">
+            <summary>
+            采购订单
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.EnumBE.PrePaySrcDocTypeEnumData.Empty">
+            <summary>
+            空值(-1)
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.EnumBE.POTypeEnumData">
+            <summary>
+            枚举值: 内/外采 
+            
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.EnumBE.POTypeEnumData.INPM">
+            <summary>
+            内采
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.EnumBE.POTypeEnumData.OutPM">
+            <summary>
+            外采
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.EnumBE.POTypeEnumData.Empty">
+            <summary>
+            空值(-1)
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.EnumBE.PaySrcDocTypeEnumData">
+            <summary>
+            枚举值: 付款通知单来源类型枚举 
+            
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.EnumBE.PaySrcDocTypeEnumData.Customs">
+            <summary>
+            报关明细单
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.EnumBE.PaySrcDocTypeEnumData.TransIn">
+            <summary>
+            调入单
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.EnumBE.PaySrcDocTypeEnumData.Rcv">
+            <summary>
+            入库单
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.EnumBE.PaySrcDocTypeEnumData.Empty">
+            <summary>
+            空值(-1)
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.EnumBE.BonusOperatorsTypeEnumData">
+            <summary>
+            枚举值: 奖金计算业务员类型 
+            
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.EnumBE.BonusOperatorsTypeEnumData.ProductOperators">
+            <summary>
+            产品采购业务员
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.EnumBE.BonusOperatorsTypeEnumData.PackagingOperators">
+            <summary>
+            包装业务员
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.EnumBE.BonusOperatorsTypeEnumData.Empty">
+            <summary>
+            空值(-1)
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.EnumBE.PeriodStatusEnumData">
+            <summary>
+            枚举值: 会计期间状态 
+            
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.EnumBE.PeriodStatusEnumData.NoCalculate">
+            <summary>
+            未计算
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.EnumBE.PeriodStatusEnumData.Calculate">
+            <summary>
+            已计算
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.EnumBE.PeriodStatusEnumData.RepairCalculate">
+            <summary>
+            补算
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.EnumBE.PeriodStatusEnumData.Empty">
+            <summary>
+            空值(-1)
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.FIBE.Resource">
+            <summary>
+              强类型资源类，用于查找本地化字符串等。
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.FIBE.Resource.ResourceManager">
+            <summary>
+              返回此类使用的缓存 ResourceManager 实例。
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.FIBE.Resource.Culture">
+            <summary>
+              为使用此强类型资源类的所有资源查找
+              重写当前线程的 CurrentUICulture 属性。
+            </summary>
+        </member>
+    </members>
+</doc>

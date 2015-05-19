@@ -1,0 +1,1272 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UFIDA.U9.Cust.GS.FI.FIBP.Deploy</name>
+    </assembly>
+    <members>
+        <member name="T:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PurchaseOrderDTOData">
+            <summary>
+            采购订单DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PurchaseOrderDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PurchaseOrderDTOData.#ctor(System.String,System.String,System.Int64,System.Int64,System.String,System.String,System.Int64,System.String,System.String,System.Int64,System.String,System.String,System.Int64,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int64,System.String,System.String,System.Int64,System.String,System.String,System.DateTime,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.String,System.Decimal,System.Decimal)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PurchaseOrderDTOData.m_documentType">
+            <summary>
+            单据类型
+            采购订单DTO.Misc.单据类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PurchaseOrderDTOData.m_pODocNo">
+            <summary>
+            采购订单
+            采购订单DTO.Misc.采购订单
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PurchaseOrderDTOData.m_pODocID">
+            <summary>
+            采购订单ID
+            采购订单DTO.Misc.采购订单ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PurchaseOrderDTOData.m_supplier">
+            <summary>
+            供应商
+            采购订单DTO.Misc.供应商
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PurchaseOrderDTOData.m_supplier_Code">
+            <summary>
+            Supplier_Code
+            采购订单DTO.Misc.Supplier_Code
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PurchaseOrderDTOData.m_supplier_Name">
+            <summary>
+            Supplier_Name
+            采购订单DTO.Misc.Supplier_Name
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PurchaseOrderDTOData.m_pOOrg">
+            <summary>
+            采购组织
+            采购订单DTO.Misc.采购组织
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PurchaseOrderDTOData.m_pOOrg_Code">
+            <summary>
+            POOrg_Code
+            采购订单DTO.Misc.POOrg_Code
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PurchaseOrderDTOData.m_pOOrg_Name">
+            <summary>
+            POOrg_Name
+            采购订单DTO.Misc.POOrg_Name
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PurchaseOrderDTOData.m_srcOrg">
+            <summary>
+            来源组织
+            采购订单DTO.Misc.来源组织
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PurchaseOrderDTOData.m_srcOrg_Code">
+            <summary>
+            SrcOrg_Code
+            采购订单DTO.Misc.SrcOrg_Code
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PurchaseOrderDTOData.m_srcOrg_Name">
+            <summary>
+            SrcOrg_Name
+            采购订单DTO.Misc.SrcOrg_Name
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PurchaseOrderDTOData.m_currency">
+            <summary>
+            Currency
+            采购订单DTO.Misc.Currency
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PurchaseOrderDTOData.m_currency_Code">
+            <summary>
+            Currency_Code
+            采购订单DTO.Misc.Currency_Code
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PurchaseOrderDTOData.m_currency_Name">
+            <summary>
+            Currency_Name
+            采购订单DTO.Misc.Currency_Name
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PurchaseOrderDTOData.m_currency_Symbol">
+            <summary>
+            Currency_Symbol
+            采购订单DTO.Misc.Currency_Symbol
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PurchaseOrderDTOData.m_currency_MoneyRound_Precision">
+            <summary>
+            Currency_MoneyRound_Precision
+            采购订单DTO.Misc.Currency_MoneyRound_Precision
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PurchaseOrderDTOData.m_currency_MoneyRound_RoundType">
+            <summary>
+            Currency_MoneyRound_RoundType
+            采购订单DTO.Misc.Currency_MoneyRound_RoundType
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PurchaseOrderDTOData.m_currency_MoneyRound_RoundValue">
+            <summary>
+            Currency_MoneyRound_RoundValue
+            采购订单DTO.Misc.Currency_MoneyRound_RoundValue
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PurchaseOrderDTOData.m_buyer">
+            <summary>
+            采购员
+            采购订单DTO.Misc.采购员
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PurchaseOrderDTOData.m_buyer_Code">
+            <summary>
+            Buyer_Code
+            采购订单DTO.Misc.Buyer_Code
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PurchaseOrderDTOData.m_buyer_Name">
+            <summary>
+            Buyer_Name
+            采购订单DTO.Misc.Buyer_Name
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PurchaseOrderDTOData.m_dept">
+            <summary>
+            Dept
+            采购订单DTO.Misc.Dept
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PurchaseOrderDTOData.m_dept_Code">
+            <summary>
+            Dept_Code
+            采购订单DTO.Misc.Dept_Code
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PurchaseOrderDTOData.m_dept_Name">
+            <summary>
+            Dept_Name
+            采购订单DTO.Misc.Dept_Name
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PurchaseOrderDTOData.m_busDate">
+            <summary>
+            业务日期
+            采购订单DTO.Misc.业务日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PurchaseOrderDTOData.m_totalMoney">
+            <summary>
+            总金额
+            采购订单DTO.Misc.总金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PurchaseOrderDTOData.m_prePayMoney">
+            <summary>
+            已预付金额
+            采购订单DTO.Misc.已预付金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PurchaseOrderDTOData.m_preApplyMoney">
+            <summary>
+            预付回扣金额
+            采购订单DTO.Misc.预付回扣金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PurchaseOrderDTOData.m_redMoney">
+            <summary>
+            预付红冲金额
+            采购订单DTO.Misc.预付红冲金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PurchaseOrderDTOData.m_moveMoney">
+            <summary>
+            预付挪出金额
+            采购订单DTO.Misc.预付挪出金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PurchaseOrderDTOData.m_intoMoney">
+            <summary>
+            预付挪入金额
+            采购订单DTO.Misc.预付挪入金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PurchaseOrderDTOData.m_canPreMoney">
+            <summary>
+            可预付金额
+            采购订单DTO.Misc.可预付金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PurchaseOrderDTOData.m_thisPreMoney">
+            <summary>
+            本次预付金额
+            采购订单DTO.Misc.本次预付金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PurchaseOrderDTOData.m_meno">
+            <summary>
+            备注
+            采购订单DTO.Misc.备注
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PurchaseOrderDTOData.m_totalPayMoney">
+            <summary>
+            已制付款通知单金额
+            采购订单DTO.Misc.已制付款通知单金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PurchaseOrderDTOData.m_totalPayRedMoney">
+            <summary>
+            付款通知单红冲金额
+            采购订单DTO.Misc.付款通知单红冲金额
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentHeadDTOData">
+            <summary>
+            预付款通知单单头DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentHeadDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentHeadDTOData.#ctor(System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.String,System.Int64,System.Collections.Generic.List{UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentLineDTOData},System.Int64)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentHeadDTOData.m_srcPrePayDocNo">
+            <summary>
+            来源预付款通知单号
+            预付款通知单单头DTO.Misc.来源预付款通知单号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentHeadDTOData.m_srcPrePayDocID">
+            <summary>
+            来源预付款通知ID
+            预付款通知单单头DTO.Misc.来源预付款通知ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentHeadDTOData.m_prePaymentLineDTOs">
+            <summary>
+            PrePaymentLineDTOs
+            预付款通知单单头DTO.Misc.PrePaymentLineDTOs
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentHeadDTOData.m_iD">
+            <summary>
+            预付款通知单单头ID
+            预付款通知单单头DTO.Misc.预付款通知单单头ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentHeadDTOData.DocumentType_SKey">
+            <summary>
+            单据类型 序列化Key属性。（传递跨组织序列列字段）
+            预付款通知单单头DTO.Misc.单据类型
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentHeadDTOData.DocumentType">
+            <summary>
+            单据类型
+            预付款通知单单头DTO.Misc.单据类型
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentHeadDTOData.Currency_SKey">
+            <summary>
+            币种 序列化Key属性。（传递跨组织序列列字段）
+            预付款通知单单头DTO.Misc.币种
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentHeadDTOData.Currency">
+            <summary>
+            币种
+            预付款通知单单头DTO.Misc.币种
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentHeadDTOData.Supplier_SKey">
+            <summary>
+            供应商 序列化Key属性。（传递跨组织序列列字段）
+            预付款通知单单头DTO.Misc.供应商
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentHeadDTOData.Supplier">
+            <summary>
+            供应商
+            预付款通知单单头DTO.Misc.供应商
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentHeadDTOData.POOrg_SKey">
+            <summary>
+            采购组织 序列化Key属性。（传递跨组织序列列字段）
+            预付款通知单单头DTO.Misc.采购组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentHeadDTOData.POOrg">
+            <summary>
+            采购组织
+            预付款通知单单头DTO.Misc.采购组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentHeadDTOData.Dept_SKey">
+            <summary>
+            采购部门 序列化Key属性。（传递跨组织序列列字段）
+            预付款通知单单头DTO.Misc.采购部门
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentHeadDTOData.Dept">
+            <summary>
+            采购部门
+            预付款通知单单头DTO.Misc.采购部门
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentHeadDTOData.Buyer_SKey">
+            <summary>
+            采购员 序列化Key属性。（传递跨组织序列列字段）
+            预付款通知单单头DTO.Misc.采购员
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentHeadDTOData.Buyer">
+            <summary>
+            采购员
+            预付款通知单单头DTO.Misc.采购员
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentLineDTOData">
+            <summary>
+            预付款通知单行DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentLineDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentLineDTOData.#ctor(System.Int64,System.Decimal,System.String,System.Int32,System.Int64,System.Int64,System.Int32,UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentHeadDTOData,System.Int64,System.String,System.Int64,System.Decimal,System.Decimal)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentLineDTOData.m_prePayMoney">
+            <summary>
+            预付金额
+            预付款通知单行DTO.Misc.预付金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentLineDTOData.m_meno">
+            <summary>
+            Meno
+            预付款通知单行DTO.Misc.Meno
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentLineDTOData.m_srcMoveLineNum">
+            <summary>
+            来源挪入单行号
+            预付款通知单行DTO.Misc.来源挪入单行号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentLineDTOData.m_srcMoveDocID">
+            <summary>
+            来源挪入单ID
+            预付款通知单行DTO.Misc.来源挪入单ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentLineDTOData.m_srcPrePayLineID">
+            <summary>
+            来源蓝字预付单ID
+            预付款通知单行DTO.Misc.来源蓝字预付单ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentLineDTOData.m_srcPrePayLineNum">
+            <summary>
+            来源蓝字预付单行号
+            预付款通知单行DTO.Misc.来源蓝字预付单行号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentLineDTOData.m_prePaymentHeadDTO">
+            <summary>
+            预付款通知单单头DTO
+            预付款通知单行DTO.Misc.预付款通知单单头DTO
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentLineDTOData.m_iD">
+            <summary>
+            预付款通知单行ID
+            预付款通知单行DTO.Misc.预付款通知单行ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentLineDTOData.m_srcMoveDocNo">
+            <summary>
+            来源挪入单号
+            预付款通知单行DTO.Misc.来源挪入单号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentLineDTOData.m_srcMoveLineID">
+            <summary>
+            来源挪入单行ID
+            预付款通知单行DTO.Misc.来源挪入单行ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentLineDTOData.m_thisMoveMoney">
+            <summary>
+            本次挪出金额
+            预付款通知单行DTO.Misc.本次挪出金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentLineDTOData.m_thisRedMoney">
+            <summary>
+            本次红冲金额
+            预付款通知单行DTO.Misc.本次红冲金额
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentLineDTOData.PurchaseOrder_SKey">
+            <summary>
+            采购订单 序列化Key属性。（传递跨组织序列列字段）
+            预付款通知单行DTO.Misc.采购订单
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentLineDTOData.PurchaseOrder">
+            <summary>
+            采购订单
+            预付款通知单行DTO.Misc.采购订单
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PreDeductionRegisterDTOData">
+            <summary>
+            预付款扣款DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PreDeductionRegisterDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PreDeductionRegisterDTOData.#ctor(System.Int64,System.Int64,System.Decimal)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PreDeductionRegisterDTOData.m_thisDRMoney">
+            <summary>
+            本次扣款金额
+            预付款扣款DTO.Misc.本次扣款金额
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PreDeductionRegisterDTOData.PrePaymentLineKey_SKey">
+            <summary>
+            预付款通知单行 序列化Key属性。（传递跨组织序列列字段）
+            预付款扣款DTO.Misc.预付款通知单行
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PreDeductionRegisterDTOData.PrePaymentLineKey">
+            <summary>
+            预付款通知单行
+            预付款扣款DTO.Misc.预付款通知单行
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PreDeductionRegisterDTOData.DeductionRegisterKey_SKey">
+            <summary>
+            扣款登记 序列化Key属性。（传递跨组织序列列字段）
+            预付款扣款DTO.Misc.扣款登记
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PreDeductionRegisterDTOData.DeductionRegisterKey">
+            <summary>
+            扣款登记
+            预付款扣款DTO.Misc.扣款登记
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentDocTypeDTOData">
+            <summary>
+            预付款通知单据类型DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentDocTypeDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentDocTypeDTOData.#ctor(System.Int64,System.String,System.String,System.Boolean,System.Boolean,System.Int32,System.Boolean,System.Int32,System.Int32,System.Int32,System.Int64)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentDocTypeDTOData.m_iD">
+            <summary>
+            ID
+            预付款通知单据类型DTO.Misc.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentDocTypeDTOData.m_code">
+            <summary>
+            Code
+            预付款通知单据类型DTO.Misc.Code
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentDocTypeDTOData.m_name">
+            <summary>
+            Name
+            预付款通知单据类型DTO.Misc.Name
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentDocTypeDTOData.m_isDocNoEditable">
+            <summary>
+            单号是否可改
+            预付款通知单据类型DTO.Misc.单号是否可改
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentDocTypeDTOData.m_isSaveSubmit">
+            <summary>
+            保存即提交
+            预付款通知单据类型DTO.Misc.保存即提交
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentDocTypeDTOData.m_approveType">
+            <summary>
+            审批方式
+            预付款通知单据类型DTO.Misc.审批方式
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentDocTypeDTOData.m_isApprovingCanModify">
+            <summary>
+            审核中可改
+            预付款通知单据类型DTO.Misc.审核中可改
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentDocTypeDTOData.m_docHeaderSequenceStyle">
+            <summary>
+            编码方式
+            预付款通知单据类型DTO.Misc.编码方式
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentDocTypeDTOData.m_confirmType">
+            <summary>
+            确认方式
+            预付款通知单据类型DTO.Misc.确认方式
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentDocTypeDTOData.m_busType">
+            <summary>
+            业务类型
+            预付款通知单据类型DTO.Misc.业务类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PrePaymentBP.PrePaymentDocTypeDTOData.m_payReqDocType">
+            <summary>
+            请款单据类型
+            预付款通知单据类型DTO.Misc.请款单据类型
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.CalculationDRMoneyDTOData">
+            <summary>
+            计算扣款金额DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.CalculationDRMoneyDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.CalculationDRMoneyDTOData.#ctor(System.Int64,System.Decimal,System.String,System.DateTime,System.String)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.CalculationDRMoneyDTOData.m_entityKey">
+            <summary>
+            扣款登记单ID
+            计算扣款金额DTO.Misc.扣款登记单ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.CalculationDRMoneyDTOData.m_dRMoney">
+            <summary>
+            扣款金额
+            计算扣款金额DTO.Misc.扣款金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.CalculationDRMoneyDTOData.m_dRUser">
+            <summary>
+            扣款人
+            计算扣款金额DTO.Misc.扣款人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.CalculationDRMoneyDTOData.m_dRDate">
+            <summary>
+            扣款日期
+            计算扣款金额DTO.Misc.扣款日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.CalculationDRMoneyDTOData.m_docNo">
+            <summary>
+            单号
+            计算扣款金额DTO.Misc.单号
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.DeductionRegisterDTOData">
+            <summary>
+            扣款登记DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.DeductionRegisterDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.DeductionRegisterDTOData.#ctor(System.Int64,System.String,System.DateTime,System.Int32,System.Int64,System.String,System.Int64,System.Int64,System.Int32,System.Int64,System.Int64,System.Int64,System.Decimal,System.Int32,System.String,System.Int64,System.Int64,System.String,System.Int64,System.DateTime,System.String)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.DeductionRegisterDTOData.m_docNo">
+            <summary>
+            单号
+            扣款登记DTO.Misc.单号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.DeductionRegisterDTOData.m_businessDate">
+            <summary>
+            业务日期
+            扣款登记DTO.Misc.业务日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.DeductionRegisterDTOData.m_srcDocType">
+            <summary>
+            来源类型
+            扣款登记DTO.Misc.来源类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.DeductionRegisterDTOData.m_srcDocNo">
+            <summary>
+            来源单号
+            扣款登记DTO.Misc.来源单号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.DeductionRegisterDTOData.m_srcDocID">
+            <summary>
+            来源单据ID
+            扣款登记DTO.Misc.来源单据ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.DeductionRegisterDTOData.m_dRObject">
+            <summary>
+            扣款对象
+            扣款登记DTO.Misc.扣款对象
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.DeductionRegisterDTOData.m_dRMoney">
+            <summary>
+            扣款金额
+            扣款登记DTO.Misc.扣款金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.DeductionRegisterDTOData.m_dRReason">
+            <summary>
+            扣款原因
+            扣款登记DTO.Misc.扣款原因
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.DeductionRegisterDTOData.m_dRAssess">
+            <summary>
+            扣款依据
+            扣款登记DTO.Misc.扣款依据
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.DeductionRegisterDTOData.m_registerBy">
+            <summary>
+            开单人
+            扣款登记DTO.Misc.开单人
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.DeductionRegisterDTOData.m_registerDate">
+            <summary>
+            开单日期
+            扣款登记DTO.Misc.开单日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.DeductionRegisterDTOData.m_meno">
+            <summary>
+            备注
+            扣款登记DTO.Misc.备注
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.DeductionRegisterDTOData.DocumentType_SKey">
+            <summary>
+            单据类型 序列化Key属性。（传递跨组织序列列字段）
+            扣款登记DTO.Misc.单据类型
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.DeductionRegisterDTOData.DocumentType">
+            <summary>
+            单据类型
+            扣款登记DTO.Misc.单据类型
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.DeductionRegisterDTOData.SrcOrg_SKey">
+            <summary>
+            来源组织 序列化Key属性。（传递跨组织序列列字段）
+            扣款登记DTO.Misc.来源组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.DeductionRegisterDTOData.SrcOrg">
+            <summary>
+            来源组织
+            扣款登记DTO.Misc.来源组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.DeductionRegisterDTOData.Currency_SKey">
+            <summary>
+            币种 序列化Key属性。（传递跨组织序列列字段）
+            扣款登记DTO.Misc.币种
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.DeductionRegisterDTOData.Currency">
+            <summary>
+            币种
+            扣款登记DTO.Misc.币种
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.DeductionRegisterDTOData.Customer_SKey">
+            <summary>
+            客户 序列化Key属性。（传递跨组织序列列字段）
+            扣款登记DTO.Misc.客户
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.DeductionRegisterDTOData.Customer">
+            <summary>
+            客户
+            扣款登记DTO.Misc.客户
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.DeductionRegisterDTOData.Supplier_SKey">
+            <summary>
+            供应商 序列化Key属性。（传递跨组织序列列字段）
+            扣款登记DTO.Misc.供应商
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.DeductionRegisterDTOData.Supplier">
+            <summary>
+            供应商
+            扣款登记DTO.Misc.供应商
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.DeductionRegisterDTOData.DROrg_SKey">
+            <summary>
+            扣款组织 序列化Key属性。（传递跨组织序列列字段）
+            扣款登记DTO.Misc.扣款组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.DeductionRegisterDTOData.DROrg">
+            <summary>
+            扣款组织
+            扣款登记DTO.Misc.扣款组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.DeductionRegisterDTOData.RegisterOrg_SKey">
+            <summary>
+            开单组织 序列化Key属性。（传递跨组织序列列字段）
+            扣款登记DTO.Misc.开单组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.DeductionRegisterDTOData.RegisterOrg">
+            <summary>
+            开单组织
+            扣款登记DTO.Misc.开单组织
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.DeductionRegisterDTOData.RegisterDept_SKey">
+            <summary>
+            开单部门 序列化Key属性。（传递跨组织序列列字段）
+            扣款登记DTO.Misc.开单部门
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.DeductionRegisterDTOData.RegisterDept">
+            <summary>
+            开单部门
+            扣款登记DTO.Misc.开单部门
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.DeductionRegisterDTOData.Buyer_SKey">
+            <summary>
+            采购员 序列化Key属性。（传递跨组织序列列字段）
+            扣款登记DTO.Misc.采购员
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.DeductionRegisterBP.DeductionRegisterDTOData.Buyer">
+            <summary>
+            采购员
+            扣款登记DTO.Misc.采购员
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.PubBP.CommonDTOData">
+            <summary>
+            公共数据传输DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.PubBP.CommonDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.PubBP.CommonDTOData.#ctor(System.Int64,System.String,System.String)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PubBP.CommonDTOData.m_iD">
+            <summary>
+            ID
+            公共数据传输DTO.Misc.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PubBP.CommonDTOData.m_code">
+            <summary>
+            Code
+            公共数据传输DTO.Misc.Code
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PubBP.CommonDTOData.m_name">
+            <summary>
+            Name
+            公共数据传输DTO.Misc.Name
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.PubBP.ErrorMessageDTOData">
+            <summary>
+            错误数据公共返回DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.PubBP.ErrorMessageDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.PubBP.ErrorMessageDTOData.#ctor(System.Boolean,System.String)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PubBP.ErrorMessageDTOData.m_isSuccess">
+            <summary>
+            是否成功
+            错误数据公共返回DTO.Misc.是否成功
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PubBP.ErrorMessageDTOData.m_errorMessage">
+            <summary>
+            错误信息
+            错误数据公共返回DTO.Misc.错误信息
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.PubBP.CurrencyDTOData">
+            <summary>
+            币种档案数据传输DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.PubBP.CurrencyDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.PubBP.CurrencyDTOData.#ctor(System.Int64,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PubBP.CurrencyDTOData.m_iD">
+            <summary>
+            ID
+            币种档案数据传输DTO.Misc.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PubBP.CurrencyDTOData.m_code">
+            <summary>
+            Code
+            币种档案数据传输DTO.Misc.Code
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PubBP.CurrencyDTOData.m_name">
+            <summary>
+            Name
+            币种档案数据传输DTO.Misc.Name
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PubBP.CurrencyDTOData.m_symbol">
+            <summary>
+            Symbol
+            币种档案数据传输DTO.Misc.Symbol
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PubBP.CurrencyDTOData.m_moneyRound_Precision">
+            <summary>
+            MoneyRound_Precision
+            币种档案数据传输DTO.Misc.MoneyRound_Precision
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PubBP.CurrencyDTOData.m_moneyRound_RoundType">
+            <summary>
+            MoneyRound_RoundType
+            币种档案数据传输DTO.Misc.MoneyRound_RoundType
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PubBP.CurrencyDTOData.m_moneyRound_RoundValue">
+            <summary>
+            MoneyRound_RoundValue
+            币种档案数据传输DTO.Misc.MoneyRound_RoundValue
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PubBP.CurrencyDTOData.m_priceRound_Precision">
+            <summary>
+            PriceRound_Precision
+            币种档案数据传输DTO.Misc.PriceRound_Precision
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PubBP.CurrencyDTOData.m_priceRound_RoundType">
+            <summary>
+            PriceRound_RoundType
+            币种档案数据传输DTO.Misc.PriceRound_RoundType
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PubBP.CurrencyDTOData.m_priceRound_RoundValue">
+            <summary>
+            PriceRound_RoundValue
+            币种档案数据传输DTO.Misc.PriceRound_RoundValue
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData">
+            <summary>
+            付款通知单批量拉单返回DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.#ctor(System.Int64,System.String,System.Int32,System.Int64,System.String,System.String,System.Int64,System.String,System.Int64,System.String,System.Int64,System.String,System.String,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Int64,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int64,System.String,System.String,System.Int64,System.String,System.String,System.Decimal,System.Decimal,System.Int64,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.m_invocieGroup">
+            <summary>
+            发票组
+            付款通知单批量拉单返回DTO.Misc.发票组
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.m_invocieGroup_Code">
+            <summary>
+            InvocieGroup_Code
+            付款通知单批量拉单返回DTO.Misc.InvocieGroup_Code
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.m_srcDocType">
+            <summary>
+            来源类型
+            付款通知单批量拉单返回DTO.Misc.来源类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.m_supplier">
+            <summary>
+            供应商
+            付款通知单批量拉单返回DTO.Misc.供应商
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.m_supplier_Code">
+            <summary>
+            Supplier_Code
+            付款通知单批量拉单返回DTO.Misc.Supplier_Code
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.m_supplier_Name">
+            <summary>
+            Supplier_Name
+            付款通知单批量拉单返回DTO.Misc.Supplier_Name
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.m_srcDocID">
+            <summary>
+            来源单据ID
+            付款通知单批量拉单返回DTO.Misc.来源单据ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.m_srcDocNo">
+            <summary>
+            来源单据号
+            付款通知单批量拉单返回DTO.Misc.来源单据号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.m_srcPO">
+            <summary>
+            来源采购订单
+            付款通知单批量拉单返回DTO.Misc.来源采购订单
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.m_srcPODocNo">
+            <summary>
+            来源采购订单号
+            付款通知单批量拉单返回DTO.Misc.来源采购订单号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.m_item">
+            <summary>
+            料品
+            付款通知单批量拉单返回DTO.Misc.料品
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.m_itemCode">
+            <summary>
+            ItemCode
+            付款通知单批量拉单返回DTO.Misc.ItemCode
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.m_itemName">
+            <summary>
+            ItemName
+            付款通知单批量拉单返回DTO.Misc.ItemName
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.m_shipQty">
+            <summary>
+            出运数量
+            付款通知单批量拉单返回DTO.Misc.出运数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.m_purQty">
+            <summary>
+            采购数量
+            付款通知单批量拉单返回DTO.Misc.采购数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.m_rcvQty">
+            <summary>
+            收货数量
+            付款通知单批量拉单返回DTO.Misc.收货数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.m_canPayQty">
+            <summary>
+            可付款数量
+            付款通知单批量拉单返回DTO.Misc.可付款数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.m_thisPayQty">
+            <summary>
+            本次付款数量
+            付款通知单批量拉单返回DTO.Misc.本次付款数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.m_uOM">
+            <summary>
+            入库单位
+            付款通知单批量拉单返回DTO.Misc.入库单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.m_uOM_Code">
+            <summary>
+            UOM_Code
+            付款通知单批量拉单返回DTO.Misc.UOM_Code
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.m_uOM_Name">
+            <summary>
+            UOM_Name
+            付款通知单批量拉单返回DTO.Misc.UOM_Name
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.m_round_Precision">
+            <summary>
+            Round_Precision
+            付款通知单批量拉单返回DTO.Misc.Round_Precision
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.m_round_RoundType">
+            <summary>
+            Round_RoundType
+            付款通知单批量拉单返回DTO.Misc.Round_RoundType
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.m_round_RoundValue">
+            <summary>
+            Round_RoundValue
+            付款通知单批量拉单返回DTO.Misc.Round_RoundValue
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.m_purOper">
+            <summary>
+            采购员
+            付款通知单批量拉单返回DTO.Misc.采购员
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.m_purOper_Code">
+            <summary>
+            PurOper_Code
+            付款通知单批量拉单返回DTO.Misc.PurOper_Code
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.m_purOper_Name">
+            <summary>
+            PurOper_Name
+            付款通知单批量拉单返回DTO.Misc.PurOper_Name
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.m_iNVOper">
+            <summary>
+            库管员
+            付款通知单批量拉单返回DTO.Misc.库管员
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.m_iNVOper_Code">
+            <summary>
+            INVOper_Code
+            付款通知单批量拉单返回DTO.Misc.INVOper_Code
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.m_iNVOper_Name">
+            <summary>
+            INVOper_Name
+            付款通知单批量拉单返回DTO.Misc.INVOper_Name
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.m_purPrice">
+            <summary>
+            采购单价
+            付款通知单批量拉单返回DTO.Misc.采购单价
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.m_canPayMoney">
+            <summary>
+            可付款金额
+            付款通知单批量拉单返回DTO.Misc.可付款金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.m_currency">
+            <summary>
+            币种
+            付款通知单批量拉单返回DTO.Misc.币种
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.m_currency_Code">
+            <summary>
+            Currency_Code
+            付款通知单批量拉单返回DTO.Misc.Currency_Code
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.m_currency_Name">
+            <summary>
+            Currency_Name
+            付款通知单批量拉单返回DTO.Misc.Currency_Name
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.m_currency_MoneyRound_Precision">
+            <summary>
+            Currency_MoneyRound_Precision
+            付款通知单批量拉单返回DTO.Misc.Currency_MoneyRound_Precision
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.m_currency_MoneyRound_RoundType">
+            <summary>
+            Currency_MoneyRound_RoundType
+            付款通知单批量拉单返回DTO.Misc.Currency_MoneyRound_RoundType
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.m_currency_MoneyRound_RoundValue">
+            <summary>
+            Currency_MoneyRound_RoundValue
+            付款通知单批量拉单返回DTO.Misc.Currency_MoneyRound_RoundValue
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.m_currency_PriceRound_RoundValue">
+            <summary>
+            Currency_PriceRound_RoundValue
+            付款通知单批量拉单返回DTO.Misc.Currency_PriceRound_RoundValue
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.m_currency_PriceRound_RoundType">
+            <summary>
+            Currency_PriceRound_RoundType
+            付款通知单批量拉单返回DTO.Misc.Currency_PriceRound_RoundType
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.PaymentBP.PaymentSrcDocInfoDTOData.m_currency_PriceRound_Precision">
+            <summary>
+            Currency_PriceRound_Precision
+            付款通知单批量拉单返回DTO.Misc.Currency_PriceRound_Precision
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.OperatorBonusBP.BonusRecordDTOData">
+            <summary>
+            业务员奖金计算记录 DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.OperatorBonusBP.BonusRecordDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FI.OperatorBonusBP.BonusRecordDTOData.#ctor(System.Collections.Generic.List{System.Int32},System.Collections.Generic.List{UFIDA.U9.Cust.GS.FI.BonusCalculateRecordBE.BonusCalculateRecordDTOData})">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.OperatorBonusBP.BonusRecordDTOData.m_listYear">
+            <summary>
+            会计年度
+            业务员奖金计算记录.Misc.会计年度
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FI.OperatorBonusBP.BonusRecordDTOData.m_bonusCalculateRecord">
+            <summary>
+            奖金计算记录
+            业务员奖金计算记录.Misc.奖金计算记录
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FI.FIBP.Resource">
+            <summary>
+              强类型资源类，用于查找本地化字符串等。
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.FIBP.Resource.ResourceManager">
+            <summary>
+              返回此类使用的缓存 ResourceManager 实例。
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FI.FIBP.Resource.Culture">
+            <summary>
+              为使用此强类型资源类的所有资源查找
+              重写当前线程的 CurrentUICulture 属性。
+            </summary>
+        </member>
+    </members>
+</doc>

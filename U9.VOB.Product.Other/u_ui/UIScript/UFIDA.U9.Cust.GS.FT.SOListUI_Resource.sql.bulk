@@ -1,0 +1,47 @@
+{9CC14AC0-AD29-47f6-8711-C5047938016E}
+BaseFile|1
+UBF_RES_ResourceValue|6|47
+LanguageName, ResourceName, Status, Description, DisplayName, Type, Help, ComponentID, ParentHelpResourceName, ResourceID, ParentResourceName
+
+zh-CN	0b8c6e61-175d-43a6-89de-11ab86c1cb02	T		SoOrderSaleBListUIModel	UimComponent		56c5f870-b1c5-4f42-9322-1183e61ef15d		00795ae6-725e-45fa-8e5d-60b2fde9827c	
+zh-CN	98b870a8-8283-49c3-85c6-24592332480d	T		Case	UimGroup		56c5f870-b1c5-4f42-9322-1183e61ef15d		da1b2969-8a03-4fb5-b8f1-4e552f6a8cf2	
+zh-CN	f0a9883b-4921-489f-8b6c-866aa7cc9a4d	T		销售订单特价申请表头	UimUIViewInfo		56c5f870-b1c5-4f42-9322-1183e61ef15d		e271c9d9-842d-4bd9-aed0-4c1be81261c0	
+zh-CN	38a7c5a8-aa18-4498-a724-cc787603c40b	T		Key	UimUIViewInfoGroup		56c5f870-b1c5-4f42-9322-1183e61ef15d		c7950671-291b-4cab-9a0e-84c85cca1500	
+zh-CN	df75f574-da5c-45cf-abfe-5bce5596b72e	T		Misc	UimUIViewInfoGroup		56c5f870-b1c5-4f42-9322-1183e61ef15d		516317db-b1b1-4c4a-b073-ad34c48d89b1	
+zh-CN	c6fcc8f8-6475-4961-8ca6-8a4b57132650	F	ID	ID	UimUIViewInfoUIFieldInfo	单据基类.Key.ID	56c5f870-b1c5-4f42-9322-1183e61ef15d	35ca30b7-f9dd-410b-acda-6190361b6f79.53568056-b9ad-4c42-8622-2ef297be4821.a566a901-7150-45c5-bb4b-e3982743a036	5de604c8-4283-475e-b746-b8818ad60ee9	a566a901-7150-45c5-bb4b-e3982743a036
+zh-CN	9a3966cb-3090-4da3-b1b0-458c93332c85	T		查询	UimUIActionInfo		56c5f870-b1c5-4f42-9322-1183e61ef15d		537ea1a5-d3ca-492d-a745-019f4c1077ba	
+zh-CN	e951b7ad-7d5f-4066-a329-edcbf609130e	T		改变方案	UimUIActionInfo		56c5f870-b1c5-4f42-9322-1183e61ef15d		f3f30004-93bd-4425-8c5c-b6a432cb5fca	
+zh-CN	1a40f978-ea1d-4036-b333-4c1dbf9fcb3d	T		输出	UimUIActionInfo		56c5f870-b1c5-4f42-9322-1183e61ef15d		d757579c-21b2-4ceb-a7c9-74db8b92c562	
+zh-CN	f6d25b70-2406-4472-b40e-7a9c4f45631b	T		双击网格行	UimUIActionInfo		56c5f870-b1c5-4f42-9322-1183e61ef15d		6fe4e5c0-1d48-4993-a763-41fa733dc4ba	
+zh-CN	ddb8ff6f-97f7-4e8b-ba0e-c05d4927bb20	T		新增	UimUIActionInfo		56c5f870-b1c5-4f42-9322-1183e61ef15d		a6b2e92a-4a92-4837-a72c-68e7d032680d	
+zh-CN	6b0794fa-3888-4d1a-aaab-b9cffff3f201	T		打印	UimUIActionInfo		56c5f870-b1c5-4f42-9322-1183e61ef15d		ce41f893-f0d7-4193-b01a-c882a9ac9475	
+zh-CN	362a113e-64e6-4be2-a224-31400a7e799c	T		删除	UimUIActionInfo		56c5f870-b1c5-4f42-9322-1183e61ef15d		74c6a5ee-99b6-4d47-a5cb-095aea1a9548	
+zh-CN	5b792b89-2a35-4fe3-8c0d-d6b6a83b078d	F		销售订单特价申请表头	UiFormTitle		5b792b89-2a35-4fe3-8c0d-d6b6a83b078d		577de879-b764-49f0-aefe-b8f1f64fa60c	
+zh-CN	5528ee03-4c18-4415-88ba-e6064b282ffe	T		SoOrderTypeBListUIModel	UimComponent		111d53bc-60c9-4f48-b03f-daa4905fb311		29e1e321-54de-41ac-b74a-8d7bb62e3d08	
+zh-CN	a67a7fd8-4cf6-4809-977f-8039a6f0cecb	T		Case	UimGroup		111d53bc-60c9-4f48-b03f-daa4905fb311		8e169122-4e6a-4987-9505-d4eeacf3060f	
+zh-CN	32b44698-5a26-41d2-9db3-e02715dceaa4	T		单据业务类型	UimUIViewInfo		111d53bc-60c9-4f48-b03f-daa4905fb311		e3d00468-15d3-4bc6-a729-ffaf0f7df7ce	
+zh-CN	095d5e17-e28f-4758-84fe-d108a35904e4	T		Key	UimUIViewInfoGroup		111d53bc-60c9-4f48-b03f-daa4905fb311		6801e99f-eb61-4862-aa94-3cb26c60267c	
+zh-CN	9101776b-41d7-4489-a096-06ae9baab057	T		Misc	UimUIViewInfoGroup		111d53bc-60c9-4f48-b03f-daa4905fb311		d56069a1-5de7-4639-90cb-a661adf63c26	
+zh-CN	3dc49b5d-9931-4950-8d30-09d9d5e27a44	F	ID	ID	UimUIViewInfoUIFieldInfo	单据类型基类.Key.ID	111d53bc-60c9-4f48-b03f-daa4905fb311	009a5f75-27f1-484d-bf96-7305a7aaf7dd.bddb454f-3f45-4a98-8973-28d5d09260f7.dae443c3-f006-49e3-a87d-335706a7d400	aba1c384-9caf-4d76-ac3f-312f667d6851	dae443c3-f006-49e3-a87d-335706a7d400
+zh-CN	473e59cc-ba05-4201-a861-7a700d93b4b4	T		查询	UimUIActionInfo		111d53bc-60c9-4f48-b03f-daa4905fb311		e6577535-a0ba-49ac-a648-90650c04a36a	
+zh-CN	737d9989-b541-406c-8075-536260ab1980	T		改变方案	UimUIActionInfo		111d53bc-60c9-4f48-b03f-daa4905fb311		475a4da3-409c-4d10-a5f8-e44c2b958d33	
+zh-CN	574266c7-e6b9-4318-916e-bff7871ead5d	T		输出	UimUIActionInfo		111d53bc-60c9-4f48-b03f-daa4905fb311		ac35ce66-ecc0-408b-8031-525a9181c844	
+zh-CN	ad9cfe76-5514-431f-ae23-a965240e41ec	T		双击网格行	UimUIActionInfo		111d53bc-60c9-4f48-b03f-daa4905fb311		06ae0b97-6aa2-4306-8416-fe0f99aed8ed	
+zh-CN	f4fe9de2-ad33-4156-ac08-c2d2e976a974	T		新增	UimUIActionInfo		111d53bc-60c9-4f48-b03f-daa4905fb311		d4380f42-8ab7-4da3-b47f-5c2168f659b1	
+zh-CN	f713a429-6230-4803-a819-73367ab1dad0	T		打印	UimUIActionInfo		111d53bc-60c9-4f48-b03f-daa4905fb311		35b4cbfd-ba4a-467a-bd21-7752466d7622	
+zh-CN	f68f6892-fd6c-4cc4-ab28-37d8cead5ad1	T		删除	UimUIActionInfo		111d53bc-60c9-4f48-b03f-daa4905fb311		cb8a924a-7e72-4f94-98fd-1ad95cd7b651	
+zh-CN	47aad492-c48b-4f88-9829-5400c7046af4	F		单据业务类型	UiFormTitle		47aad492-c48b-4f88-9829-5400c7046af4		6d207a67-15b7-4d5a-9a35-9e0a0c4de383	
+zh-CN	157f61bc-ffc5-461b-9178-ad4113ca6888	T		OrderBomChangeBListUIModel	UimComponent		5b48f009-2b26-4790-874a-1b3d9ee4c511		f3aebed8-a350-4775-869b-75168ed6a242	
+zh-CN	10090407-358f-4132-8464-293a4a048c07	T		Case	UimGroup		5b48f009-2b26-4790-874a-1b3d9ee4c511		008566ea-b27a-428d-bd88-44ceef8b3ed0	
+zh-CN	ff80e1b2-e5c0-4372-836b-a4205e8cb543	T		随单Bom变更单单头	UimUIViewInfo		5b48f009-2b26-4790-874a-1b3d9ee4c511		c68df29c-d55c-4deb-8474-cab728c2d34e	
+zh-CN	9596d7b8-7333-48a2-9d69-f94aae92affa	T		Key	UimUIViewInfoGroup		5b48f009-2b26-4790-874a-1b3d9ee4c511		78880fe9-a13b-4ec0-80e4-de3c4340204a	
+zh-CN	59763f0c-9fd6-4315-96eb-a14df50b6c27	T		Misc	UimUIViewInfoGroup		5b48f009-2b26-4790-874a-1b3d9ee4c511		941c5ca2-b9cc-45f5-8da1-5404e435e346	
+zh-CN	72777834-4bfb-4b7b-9486-64df49716b2c	F	ID	ID	UimUIViewInfoUIFieldInfo	单据基类.Key.ID	5b48f009-2b26-4790-874a-1b3d9ee4c511	35ca30b7-f9dd-410b-acda-6190361b6f79.53568056-b9ad-4c42-8622-2ef297be4821.a566a901-7150-45c5-bb4b-e3982743a036	3aa262d0-44d5-4978-954d-9542d05f3674	a566a901-7150-45c5-bb4b-e3982743a036
+zh-CN	a56e3dbe-205c-4c2f-bf0c-145a0edac5df	T		查询	UimUIActionInfo		5b48f009-2b26-4790-874a-1b3d9ee4c511		fa636185-6fc4-4571-97bb-c584077fa032	
+zh-CN	f7abe4a5-36f1-41f1-8ae3-de7c8d8c6502	T		改变方案	UimUIActionInfo		5b48f009-2b26-4790-874a-1b3d9ee4c511		ef16bf44-8984-4f35-a520-93dcc5ad801d	
+zh-CN	f3217c50-a344-4bc0-a43a-c167ee40c7a3	T		输出	UimUIActionInfo		5b48f009-2b26-4790-874a-1b3d9ee4c511		666ca48a-8a6d-4670-9815-0d7889719475	
+zh-CN	f9302bd7-31cb-401e-8952-2d812fe5c054	T		双击网格行	UimUIActionInfo		5b48f009-2b26-4790-874a-1b3d9ee4c511		f09d3d63-c6d3-49c4-9317-4ab0d5455d45	
+zh-CN	9f248f16-62d7-4041-956b-44f45bf4e7f5	T		新增	UimUIActionInfo		5b48f009-2b26-4790-874a-1b3d9ee4c511		53b0cd8b-db2e-4c76-98e5-3242532dd2a9	
+zh-CN	411d4843-cee6-4cc4-8f32-0263c651cc49	T		打印	UimUIActionInfo		5b48f009-2b26-4790-874a-1b3d9ee4c511		6801ee25-8480-4d2a-ad4c-ffbf2d4f4521	
+zh-CN	8346cde6-b6d7-42a6-b4f7-f498dee3226e	T		删除	UimUIActionInfo		5b48f009-2b26-4790-874a-1b3d9ee4c511		60a4fa3e-063d-4d3e-b6bf-3bb7df0af858	
+zh-CN	55cf6a6c-1884-4aea-8dd5-fe989701fbb1	F		随单Bom变更单单头	UiFormTitle		55cf6a6c-1884-4aea-8dd5-fe989701fbb1		48ec4420-c6d0-4bba-ab0f-4dcca8ab8c37	

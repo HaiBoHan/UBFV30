@@ -1,0 +1,2612 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UFIDA.U9.Cust.GS.FT.FTBP.Deploy</name>
+    </assembly>
+    <members>
+        <member name="T:UFIDA.U9.Cust.GS.FT.SelectSOLineForShipBP.SOLineDTOData">
+            <summary>
+            销售订单行 DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.SelectSOLineForShipBP.SOLineDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.SelectSOLineForShipBP.SOLineDTOData.#ctor(System.Int64,System.String,System.String,System.Int64,System.String,System.String,System.Int64,System.String,System.String,System.Int64,System.String,System.String,System.Int64,System.String,System.String,System.String,System.Decimal,System.Decimal,System.Int64,System.String,System.String,System.String,System.Int64,System.String,System.String,System.Int64)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SelectSOLineForShipBP.SOLineDTOData.m_documentType">
+            <summary>
+            销售订单单据类型
+            销售订单行.Misc.销售订单单据类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SelectSOLineForShipBP.SOLineDTOData.m_documentType_Code">
+            <summary>
+            单据类型编码
+            销售订单行.Misc.单据类型编码
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SelectSOLineForShipBP.SOLineDTOData.m_documentType_Name">
+            <summary>
+            单据类型
+            销售订单行.Misc.单据类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SelectSOLineForShipBP.SOLineDTOData.m_sO">
+            <summary>
+            销售订单
+            销售订单行.Misc.销售订单
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SelectSOLineForShipBP.SOLineDTOData.m_sO_DocNo">
+            <summary>
+            销售订单号
+            销售订单行.Misc.销售订单号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SelectSOLineForShipBP.SOLineDTOData.m_docLineNo">
+            <summary>
+            销售订单行号
+            销售订单行.Misc.销售订单行号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SelectSOLineForShipBP.SOLineDTOData.m_org">
+            <summary>
+            接单组织
+            销售订单行.Misc.接单组织
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SelectSOLineForShipBP.SOLineDTOData.m_org_Code">
+            <summary>
+            组织编码
+            销售订单行.Misc.组织编码
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SelectSOLineForShipBP.SOLineDTOData.m_org_Name">
+            <summary>
+            组织名称
+            销售订单行.Misc.组织名称
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SelectSOLineForShipBP.SOLineDTOData.m_customer">
+            <summary>
+            客户
+            销售订单行.Misc.客户
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SelectSOLineForShipBP.SOLineDTOData.m_customer_Code">
+            <summary>
+            客户编码
+            销售订单行.Misc.客户编码
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SelectSOLineForShipBP.SOLineDTOData.m_customer_Name">
+            <summary>
+            客户
+            销售订单行.Misc.客户
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SelectSOLineForShipBP.SOLineDTOData.m_itemMaster">
+            <summary>
+            料品
+            销售订单行.Misc.料品
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SelectSOLineForShipBP.SOLineDTOData.m_itemMaster_Code">
+            <summary>
+            料品编码
+            销售订单行.Misc.料品编码
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SelectSOLineForShipBP.SOLineDTOData.m_itemMaster_Name">
+            <summary>
+            料品
+            销售订单行.Misc.料品
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SelectSOLineForShipBP.SOLineDTOData.m_sPECS">
+            <summary>
+            料号
+            销售订单行.Misc.料号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SelectSOLineForShipBP.SOLineDTOData.m_shipCanQty">
+            <summary>
+            可出运数量
+            销售订单行.Misc.可出运数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SelectSOLineForShipBP.SOLineDTOData.m_sOQty">
+            <summary>
+            订单数量
+            销售订单行.Misc.订单数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SelectSOLineForShipBP.SOLineDTOData.m_uom">
+            <summary>
+            计量单位
+            销售订单行.Misc.计量单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SelectSOLineForShipBP.SOLineDTOData.m_uom_Code">
+            <summary>
+            计量单位编码
+            销售订单行.Misc.计量单位编码
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SelectSOLineForShipBP.SOLineDTOData.m_uom_Name">
+            <summary>
+            计量单位
+            销售订单行.Misc.计量单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SelectSOLineForShipBP.SOLineDTOData.m_barginMode">
+            <summary>
+            成交方式
+            销售订单行.Misc.成交方式
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SelectSOLineForShipBP.SOLineDTOData.m_wh">
+            <summary>
+            存储地点
+            销售订单行.Misc.存储地点
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SelectSOLineForShipBP.SOLineDTOData.m_wh_Code">
+            <summary>
+            存储地点编码
+            销售订单行.Misc.存储地点编码
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SelectSOLineForShipBP.SOLineDTOData.m_wh_Name">
+            <summary>
+            存储地点
+            销售订单行.Misc.存储地点
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SelectSOLineForShipBP.SOLineDTOData.m_soLine">
+            <summary>
+            销售订单行ID
+            销售订单行.Misc.销售订单行ID
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FT.OrderCancelBP.SelfStorageDTOData">
+            <summary>
+            自备库存订单DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.OrderCancelBP.SelfStorageDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.OrderCancelBP.SelfStorageDTOData.#ctor(System.Int64,System.Decimal)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OrderCancelBP.SelfStorageDTOData.m_thisCancelQty">
+            <summary>
+            本次核销数量
+            自备库存订单DTO.Misc.本次核销数量
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderCancelBP.SelfStorageDTOData.SoLineID_Storage_SKey">
+            <summary>
+            库存类型的订单行ID 序列化Key属性。（传递跨组织序列列字段）
+            自备库存订单DTO.Misc.库存类型的订单行ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderCancelBP.SelfStorageDTOData.SoLineID_Storage">
+            <summary>
+            库存类型的订单行ID
+            自备库存订单DTO.Misc.库存类型的订单行ID
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FT.FTBP.Resource">
+            <summary>
+              强类型资源类，用于查找本地化字符串等。
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.FTBP.Resource.ResourceManager">
+            <summary>
+              返回此类使用的缓存 ResourceManager 实例。
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.FTBP.Resource.Culture">
+            <summary>
+              为使用此强类型资源类的所有资源查找
+              重写当前线程的 CurrentUICulture 属性。
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnBrokerageDtoData">
+            <summary>
+            佣金返回DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnBrokerageDtoData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnBrokerageDtoData.#ctor(System.Int64,System.Int64,System.Int32,System.Decimal,System.Int64,System.Decimal,System.Int32,System.Int64,System.Int64,System.Int64)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnBrokerageDtoData.m_brokerageType">
+            <summary>
+            佣金方式
+            佣金返回DTO.Misc.佣金方式
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnBrokerageDtoData.m_prices">
+            <summary>
+            单价
+            佣金返回DTO.Misc.单价
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnBrokerageDtoData.m_rato">
+            <summary>
+            比例
+            佣金返回DTO.Misc.比例
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnBrokerageDtoData.m_computes">
+            <summary>
+            计算原则
+            佣金返回DTO.Misc.计算原则
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnBrokerageDtoData.SoLineID_SKey">
+            <summary>
+            销售订单行ID 序列化Key属性。（传递跨组织序列列字段）
+            佣金返回DTO.Misc.销售订单行ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnBrokerageDtoData.SoLineID">
+            <summary>
+            销售订单行ID
+            佣金返回DTO.Misc.销售订单行ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnBrokerageDtoData.BrokerageID_SKey">
+            <summary>
+            客户产品收款人佣金ID 序列化Key属性。（传递跨组织序列列字段）
+            佣金返回DTO.Misc.客户产品收款人佣金ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnBrokerageDtoData.BrokerageID">
+            <summary>
+            客户产品收款人佣金ID
+            佣金返回DTO.Misc.客户产品收款人佣金ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnBrokerageDtoData.Currenty_SKey">
+            <summary>
+            币种 序列化Key属性。（传递跨组织序列列字段）
+            佣金返回DTO.Misc.币种
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnBrokerageDtoData.Currenty">
+            <summary>
+            币种
+            佣金返回DTO.Misc.币种
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnBrokerageDtoData.PayMan_SKey">
+            <summary>
+            收款人 序列化Key属性。（传递跨组织序列列字段）
+            佣金返回DTO.Misc.收款人
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnBrokerageDtoData.PayMan">
+            <summary>
+            收款人
+            佣金返回DTO.Misc.收款人
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnBrokerageDtoData.Customer_SKey">
+            <summary>
+            客户 序列化Key属性。（传递跨组织序列列字段）
+            佣金返回DTO.Misc.客户
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnBrokerageDtoData.Customer">
+            <summary>
+            客户
+            佣金返回DTO.Misc.客户
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnBrokerageDtoData.ShipPlanLineID_SKey">
+            <summary>
+            出运明细行ID 序列化Key属性。（传递跨组织序列列字段）
+            佣金返回DTO.Misc.出运明细行ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnBrokerageDtoData.ShipPlanLineID">
+            <summary>
+            出运明细行ID
+            佣金返回DTO.Misc.出运明细行ID
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FT.SoBP.FeeTypAmountDTOData">
+            <summary>
+            费用类型金额DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.SoBP.FeeTypAmountDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.SoBP.FeeTypAmountDTOData.#ctor(System.Int64,System.Decimal)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBP.FeeTypAmountDTOData.m_feeAmount">
+            <summary>
+            费用金额
+            费用类型金额DTO.Misc.费用金额
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.FeeTypAmountDTOData.FeeType_SKey">
+            <summary>
+            费用类型 序列化Key属性。（传递跨组织序列列字段）
+            费用类型金额DTO.Misc.费用类型
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.FeeTypAmountDTOData.FeeType">
+            <summary>
+            费用类型
+            费用类型金额DTO.Misc.费用类型
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.SupplierOrItemDTOData">
+            <summary>
+            供应商/料品DTO数据 DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.SupplierOrItemDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.SupplierOrItemDTOData.#ctor(System.Int64,System.String,System.String,System.Int64,System.String,System.String,System.Int64,System.String,System.String,System.Decimal,System.Int64,System.String,System.String,System.Int32,System.Int64,System.String,System.String,System.Int64,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int64,System.String,System.String,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.SupplierOrItemDTOData.m_shipItemFee">
+            <summary>
+            费用明细项ID
+            供应商/料品DTO数据.Misc.费用明细项ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.SupplierOrItemDTOData.m_shipItemFee_Code">
+            <summary>
+            费用明细项编码
+            供应商/料品DTO数据.Misc.费用明细项编码
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.SupplierOrItemDTOData.m_shipItemFee_Name">
+            <summary>
+            费用明细项名称
+            供应商/料品DTO数据.Misc.费用明细项名称
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.SupplierOrItemDTOData.m_shipFeeProject">
+            <summary>
+            费用大类
+            供应商/料品DTO数据.Misc.费用大类
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.SupplierOrItemDTOData.m_shipFeeProject_Code">
+            <summary>
+            费用项目编码
+            供应商/料品DTO数据.Misc.费用项目编码
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.SupplierOrItemDTOData.m_shipFeeProject_Name">
+            <summary>
+            费用项目名称
+            供应商/料品DTO数据.Misc.费用项目名称
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.SupplierOrItemDTOData.m_combination">
+            <summary>
+            税组合
+            供应商/料品DTO数据.Misc.税组合
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.SupplierOrItemDTOData.m_combination_Code">
+            <summary>
+            税组合编码
+            供应商/料品DTO数据.Misc.税组合编码
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.SupplierOrItemDTOData.m_combination_Name">
+            <summary>
+            税组合名称
+            供应商/料品DTO数据.Misc.税组合名称
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.SupplierOrItemDTOData.m_taxRate">
+            <summary>
+            税率
+            供应商/料品DTO数据.Misc.税率
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.SupplierOrItemDTOData.m_uom">
+            <summary>
+            单位
+            供应商/料品DTO数据.Misc.单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.SupplierOrItemDTOData.m_uom_Code">
+            <summary>
+            单位编码
+            供应商/料品DTO数据.Misc.单位编码
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.SupplierOrItemDTOData.m_uom_Name">
+            <summary>
+            单位
+            供应商/料品DTO数据.Misc.单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.SupplierOrItemDTOData.m_allocationWay">
+            <summary>
+            分摊方式
+            供应商/料品DTO数据.Misc.分摊方式
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.SupplierOrItemDTOData.m_supplier">
+            <summary>
+            供应商
+            供应商/料品DTO数据.Misc.供应商
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.SupplierOrItemDTOData.m_supplier_Code">
+            <summary>
+            供应商编码
+            供应商/料品DTO数据.Misc.供应商编码
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.SupplierOrItemDTOData.m_supplier_Name">
+            <summary>
+            供应商名称
+            供应商/料品DTO数据.Misc.供应商名称
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.SupplierOrItemDTOData.m_item">
+            <summary>
+            料品
+            供应商/料品DTO数据.Misc.料品
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.SupplierOrItemDTOData.m_item_Code">
+            <summary>
+            料号
+            供应商/料品DTO数据.Misc.料号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.SupplierOrItemDTOData.m_item_Name">
+            <summary>
+            品名
+            供应商/料品DTO数据.Misc.品名
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.SupplierOrItemDTOData.m_symbol">
+            <summary>
+            币种符号
+            供应商/料品DTO数据.Misc.币种符号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.SupplierOrItemDTOData.m_moneyRound_Precision">
+            <summary>
+            MoneyRound_Precision
+            供应商/料品DTO数据.Misc.MoneyRound_Precision
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.SupplierOrItemDTOData.m_moneyRound_RoundType">
+            <summary>
+            MoneyRound_RoundType
+            供应商/料品DTO数据.Misc.MoneyRound_RoundType
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.SupplierOrItemDTOData.m_moneyRound_RoundValue">
+            <summary>
+            MoneyRound_RoundValue
+            供应商/料品DTO数据.Misc.MoneyRound_RoundValue
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.SupplierOrItemDTOData.m_priceRound_Precision">
+            <summary>
+            PriceRound_Precision
+            供应商/料品DTO数据.Misc.PriceRound_Precision
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.SupplierOrItemDTOData.m_priceRound_RoundType">
+            <summary>
+            PriceRound_RoundType
+            供应商/料品DTO数据.Misc.PriceRound_RoundType
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.SupplierOrItemDTOData.m_priceRound_RoundValue">
+            <summary>
+            PriceRound_RoundValue
+            供应商/料品DTO数据.Misc.PriceRound_RoundValue
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.SupplierOrItemDTOData.m_currency">
+            <summary>
+            币种
+            供应商/料品DTO数据.Misc.币种
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.SupplierOrItemDTOData.m_currency_Code">
+            <summary>
+            币种编码
+            供应商/料品DTO数据.Misc.币种编码
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.SupplierOrItemDTOData.m_currency_Name">
+            <summary>
+            币种名称
+            供应商/料品DTO数据.Misc.币种名称
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.SupplierOrItemDTOData.m_uom_Round_Precision">
+            <summary>
+            Uom_Round_Precision
+            供应商/料品DTO数据.Misc.Uom_Round_Precision
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.SupplierOrItemDTOData.m_uom_Round_RoundType">
+            <summary>
+            Uom_Round_RoundType
+            供应商/料品DTO数据.Misc.Uom_Round_RoundType
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.SupplierOrItemDTOData.m_uom_Round_RoundValue">
+            <summary>
+            Uom_Round_RoundValue
+            供应商/料品DTO数据.Misc.Uom_Round_RoundValue
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnUpDownBrokerageDTOData">
+            <summary>
+            上下一行返回DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnUpDownBrokerageDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnUpDownBrokerageDTOData.#ctor(System.Int32,System.Int64,System.Int64,System.String,System.Decimal,System.String,System.Int64,System.Int64,System.String,System.Int64,System.Int64,System.Int32,System.Int32,System.String,System.Decimal,System.Decimal,System.Decimal)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnUpDownBrokerageDTOData.m_rowNo">
+            <summary>
+            行号
+            上下一行返回DTO.Misc.行号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnUpDownBrokerageDTOData.m_itemInfo_ItemName">
+            <summary>
+            料品名称
+            上下一行返回DTO.Misc.料品名称
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnUpDownBrokerageDTOData.m_qty">
+            <summary>
+            数量
+            上下一行返回DTO.Misc.数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnUpDownBrokerageDTOData.m_uom">
+            <summary>
+            单位
+            上下一行返回DTO.Misc.单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnUpDownBrokerageDTOData.m_itemInfo_Code">
+            <summary>
+            料品Code
+            上下一行返回DTO.Misc.料品Code
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnUpDownBrokerageDTOData.m_operateType">
+            <summary>
+            0销售订单佣金1出运明细佣金
+            上下一行返回DTO.Misc.0销售订单佣金1出运明细佣金
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnUpDownBrokerageDTOData.m_precision_Qty">
+            <summary>
+            精度
+            上下一行返回DTO.Misc.精度
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnUpDownBrokerageDTOData.m_currecy">
+            <summary>
+            币种
+            上下一行返回DTO.Misc.币种
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnUpDownBrokerageDTOData.m_finallyPriceTC">
+            <summary>
+            FinallyPriceTC
+            上下一行返回DTO.Misc.FinallyPriceTC
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnUpDownBrokerageDTOData.m_totalMoney">
+            <summary>
+            金额
+            上下一行返回DTO.Misc.金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnUpDownBrokerageDTOData.m_exportSales">
+            <summary>
+            外销价
+            上下一行返回DTO.Misc.外销价
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnUpDownBrokerageDTOData.SoID_SKey">
+            <summary>
+            销售订单ID 序列化Key属性。（传递跨组织序列列字段）
+            上下一行返回DTO.Misc.销售订单ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnUpDownBrokerageDTOData.SoID">
+            <summary>
+            销售订单ID
+            上下一行返回DTO.Misc.销售订单ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnUpDownBrokerageDTOData.SoLineID_SKey">
+            <summary>
+            销售订单行ID 序列化Key属性。（传递跨组织序列列字段）
+            上下一行返回DTO.Misc.销售订单行ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnUpDownBrokerageDTOData.SoLineID">
+            <summary>
+            销售订单行ID
+            上下一行返回DTO.Misc.销售订单行ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnUpDownBrokerageDTOData.ItemInfo_Item_SKey">
+            <summary>
+            料品 序列化Key属性。（传递跨组织序列列字段）
+            上下一行返回DTO.Misc.料品
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnUpDownBrokerageDTOData.ItemInfo_Item">
+            <summary>
+            料品
+            上下一行返回DTO.Misc.料品
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnUpDownBrokerageDTOData.Customer_SKey">
+            <summary>
+            客户 序列化Key属性。（传递跨组织序列列字段）
+            上下一行返回DTO.Misc.客户
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnUpDownBrokerageDTOData.Customer">
+            <summary>
+            客户
+            上下一行返回DTO.Misc.客户
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnUpDownBrokerageDTOData.ShipPlanID_SKey">
+            <summary>
+            出运明细订单ID 序列化Key属性。（传递跨组织序列列字段）
+            上下一行返回DTO.Misc.出运明细订单ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnUpDownBrokerageDTOData.ShipPlanID">
+            <summary>
+            出运明细订单ID
+            上下一行返回DTO.Misc.出运明细订单ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnUpDownBrokerageDTOData.ShipPlanLineID_SKey">
+            <summary>
+            出运明细行ID 序列化Key属性。（传递跨组织序列列字段）
+            上下一行返回DTO.Misc.出运明细行ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.ReturnUpDownBrokerageDTOData.ShipPlanLineID">
+            <summary>
+            出运明细行ID
+            上下一行返回DTO.Misc.出运明细行ID
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.GetBomDTOData">
+            <summary>
+            随单BOMDTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.GetBomDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.GetBomDTOData.#ctor(System.Int64,System.Int64,System.Decimal,System.Decimal,System.Int32,System.Int64,System.Decimal,System.Int64,System.Collections.Generic.List{System.Int64},System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.GetBomDTOData.m_sellNumber">
+            <summary>
+            销售数量
+            随单BOMDTO.Misc.销售数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.GetBomDTOData.m_needNumber">
+            <summary>
+            需求数量
+            随单BOMDTO.Misc.需求数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.GetBomDTOData.m_orderLineRow">
+            <summary>
+            销售订单行号
+            随单BOMDTO.Misc.销售订单行号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.GetBomDTOData.m_orderLine">
+            <summary>
+            销售订单行ID
+            随单BOMDTO.Misc.销售订单行ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.GetBomDTOData.m_loss">
+            <summary>
+            损耗率
+            随单BOMDTO.Misc.损耗率
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.GetBomDTOData.m_orderBomLine">
+            <summary>
+            订单随单BOM子表
+            随单BOMDTO.Misc.订单随单BOM子表
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.GetBomDTOData.m_parentPart_Code">
+            <summary>
+            母项Code
+            随单BOMDTO.Misc.母项Code
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.GetBomDTOData.m_parentPart_Name">
+            <summary>
+            母项Name
+            随单BOMDTO.Misc.母项Name
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.GetBomDTOData.m_subKey_Code">
+            <summary>
+            子项Code
+            随单BOMDTO.Misc.子项Code
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.GetBomDTOData.m_subKey_Name">
+            <summary>
+            子项Name
+            随单BOMDTO.Misc.子项Name
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.GetBomDTOData.m_subkeyType_Code">
+            <summary>
+            子项分类Code
+            随单BOMDTO.Misc.子项分类Code
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.GetBomDTOData.m_subkeyType_Name">
+            <summary>
+            子项分类Name
+            随单BOMDTO.Misc.子项分类Name
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.GetBomDTOData.ParentPart_SKey">
+            <summary>
+            母项 序列化Key属性。（传递跨组织序列列字段）
+            随单BOMDTO.Misc.母项
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.GetBomDTOData.ParentPart">
+            <summary>
+            母项
+            随单BOMDTO.Misc.母项
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.GetBomDTOData.SubKey_SKey">
+            <summary>
+            子项 序列化Key属性。（传递跨组织序列列字段）
+            随单BOMDTO.Misc.子项
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.GetBomDTOData.SubKey">
+            <summary>
+            子项
+            随单BOMDTO.Misc.子项
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.GetBomDTOData.SubkeyType_SKey">
+            <summary>
+            子项分类 序列化Key属性。（传递跨组织序列列字段）
+            随单BOMDTO.Misc.子项分类
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.GetBomDTOData.SubkeyType">
+            <summary>
+            子项分类
+            随单BOMDTO.Misc.子项分类
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.GetBomDTOData.OrderBomLine_SKey">
+            <summary>
+            订单随单BOM子表 序列化Key属性集合。（传递跨组织序列列字段） --??还有问题.
+            随单BOMDTO.Misc.订单随单BOM子表
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FT.SoBP.ReturnDiscountDTOData">
+            <summary>
+            客户产品折扣DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.SoBP.ReturnDiscountDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.SoBP.ReturnDiscountDTOData.#ctor(System.Decimal,System.Int32,System.Decimal,System.Decimal,System.Int64,System.Int64,System.Int64,System.Boolean)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBP.ReturnDiscountDTOData.m_discountPrices">
+            <summary>
+            单价
+            客户产品折扣DTO.Misc.单价
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBP.ReturnDiscountDTOData.m_discountType">
+            <summary>
+            折扣方式
+            客户产品折扣DTO.Misc.折扣方式
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBP.ReturnDiscountDTOData.m_discountRatio">
+            <summary>
+            折扣比例
+            客户产品折扣DTO.Misc.折扣比例
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBP.ReturnDiscountDTOData.m_exportPrices">
+            <summary>
+            外销价
+            客户产品折扣DTO.Misc.外销价
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBP.ReturnDiscountDTOData.m_soLineID">
+            <summary>
+            销售订单行ID
+            客户产品折扣DTO.Misc.销售订单行ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBP.ReturnDiscountDTOData.m_discountID">
+            <summary>
+            客户产品折扣ID
+            客户产品折扣DTO.Misc.客户产品折扣ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBP.ReturnDiscountDTOData.m_isReset">
+            <summary>
+            重置
+            客户产品折扣DTO.Misc.重置
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.ReturnDiscountDTOData.Currency_SKey">
+            <summary>
+            币种 序列化Key属性。（传递跨组织序列列字段）
+            客户产品折扣DTO.Misc.币种
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.ReturnDiscountDTOData.Currency">
+            <summary>
+            币种
+            客户产品折扣DTO.Misc.币种
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FT.OrderCancelBP.ReturnCancelDTOData">
+            <summary>
+            查询自备库存订单返回DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.OrderCancelBP.ReturnCancelDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.OrderCancelBP.ReturnCancelDTOData.#ctor(System.Int64,System.Int32,System.DateTime,System.Int64,System.Decimal,System.Decimal,System.Decimal,System.Int64,System.String,System.String,System.String,System.String)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OrderCancelBP.ReturnCancelDTOData.m_rowNo">
+            <summary>
+            行号
+            查询自备库存订单返回DTO.Misc.行号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OrderCancelBP.ReturnCancelDTOData.m_date">
+            <summary>
+            日期
+            查询自备库存订单返回DTO.Misc.日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OrderCancelBP.ReturnCancelDTOData.m_qty">
+            <summary>
+            数量
+            查询自备库存订单返回DTO.Misc.数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OrderCancelBP.ReturnCancelDTOData.m_thisCancelQty">
+            <summary>
+            本次核销数量
+            查询自备库存订单返回DTO.Misc.本次核销数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OrderCancelBP.ReturnCancelDTOData.m_notCancelQty">
+            <summary>
+            可核销数量
+            查询自备库存订单返回DTO.Misc.可核销数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OrderCancelBP.ReturnCancelDTOData.m_itemCode">
+            <summary>
+            料号
+            查询自备库存订单返回DTO.Misc.料号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OrderCancelBP.ReturnCancelDTOData.m_itemName">
+            <summary>
+            品名
+            查询自备库存订单返回DTO.Misc.品名
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OrderCancelBP.ReturnCancelDTOData.m_uomCode">
+            <summary>
+            单位Code
+            查询自备库存订单返回DTO.Misc.单位Code
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OrderCancelBP.ReturnCancelDTOData.m_uomName">
+            <summary>
+            单位名称
+            查询自备库存订单返回DTO.Misc.单位名称
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderCancelBP.ReturnCancelDTOData.SoID_SKey">
+            <summary>
+            销售订单ID 序列化Key属性。（传递跨组织序列列字段）
+            查询自备库存订单返回DTO.Misc.销售订单ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderCancelBP.ReturnCancelDTOData.SoID">
+            <summary>
+            销售订单ID
+            查询自备库存订单返回DTO.Misc.销售订单ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderCancelBP.ReturnCancelDTOData.ItemMasterID_SKey">
+            <summary>
+            料品 序列化Key属性。（传递跨组织序列列字段）
+            查询自备库存订单返回DTO.Misc.料品
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderCancelBP.ReturnCancelDTOData.ItemMasterID">
+            <summary>
+            料品
+            查询自备库存订单返回DTO.Misc.料品
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderCancelBP.ReturnCancelDTOData.UomID_SKey">
+            <summary>
+            计量单位 序列化Key属性。（传递跨组织序列列字段）
+            查询自备库存订单返回DTO.Misc.计量单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderCancelBP.ReturnCancelDTOData.UomID">
+            <summary>
+            计量单位
+            查询自备库存订单返回DTO.Misc.计量单位
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FT.FTPubBP.CurrencyDTOData">
+            <summary>
+            币种精度信息 DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.FTPubBP.CurrencyDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.FTPubBP.CurrencyDTOData.#ctor(System.Int64,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.FTPubBP.CurrencyDTOData.m_iD">
+            <summary>
+            币种
+            币种精度信息.Misc.币种
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.FTPubBP.CurrencyDTOData.m_code">
+            <summary>
+            编码
+            币种精度信息.Misc.编码
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.FTPubBP.CurrencyDTOData.m_name">
+            <summary>
+            名称
+            币种精度信息.Misc.名称
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.FTPubBP.CurrencyDTOData.m_symbol">
+            <summary>
+            Symbol
+            币种精度信息.Misc.Symbol
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.FTPubBP.CurrencyDTOData.m_moneyRound_Precision">
+            <summary>
+            MoneyRound_Precision
+            币种精度信息.Misc.MoneyRound_Precision
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.FTPubBP.CurrencyDTOData.m_moneyRound_RoundType">
+            <summary>
+            MoneyRound_RoundType
+            币种精度信息.Misc.MoneyRound_RoundType
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.FTPubBP.CurrencyDTOData.m_moneyRound_RoundValue">
+            <summary>
+            MoneyRound_RoundValue
+            币种精度信息.Misc.MoneyRound_RoundValue
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.FTPubBP.CurrencyDTOData.m_priceRound_Precision">
+            <summary>
+            PriceRound_Precision
+            币种精度信息.Misc.PriceRound_Precision
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.FTPubBP.CurrencyDTOData.m_priceRound_RoundType">
+            <summary>
+            PriceRound_RoundType
+            币种精度信息.Misc.PriceRound_RoundType
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.FTPubBP.CurrencyDTOData.m_priceRound_RoundValue">
+            <summary>
+            PriceRound_RoundValue
+            币种精度信息.Misc.PriceRound_RoundValue
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FT.SoBP.FeeDTOData">
+            <summary>
+            费用DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.SoBP.FeeDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.SoBP.FeeDTOData.#ctor(System.String,System.Decimal,System.String)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBP.FeeDTOData.m_sONO">
+            <summary>
+            销售订单单号
+            费用DTO.Misc.销售订单单号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBP.FeeDTOData.m_costMonery">
+            <summary>
+            费用金额
+            费用DTO.Misc.费用金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBP.FeeDTOData.m_costItem_Code">
+            <summary>
+            费用项目Code
+            费用DTO.Misc.费用项目Code
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.InBrokerageDTOData">
+            <summary>
+            佣金入口参数DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.InBrokerageDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.InBrokerageDTOData.#ctor(System.Int64,System.Int64,System.Int64,System.Int64)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.InBrokerageDTOData.SoLineID_SKey">
+            <summary>
+            销售订单行ID 序列化Key属性。（传递跨组织序列列字段）
+            佣金入口参数DTO.Misc.销售订单行ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.InBrokerageDTOData.SoLineID">
+            <summary>
+            销售订单行ID
+            佣金入口参数DTO.Misc.销售订单行ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.InBrokerageDTOData.Customer_SKey">
+            <summary>
+            客户 序列化Key属性。（传递跨组织序列列字段）
+            佣金入口参数DTO.Misc.客户
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.InBrokerageDTOData.Customer">
+            <summary>
+            客户
+            佣金入口参数DTO.Misc.客户
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.InBrokerageDTOData.ItemMaster_SKey">
+            <summary>
+            料品 序列化Key属性。（传递跨组织序列列字段）
+            佣金入口参数DTO.Misc.料品
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.InBrokerageDTOData.ItemMaster">
+            <summary>
+            料品
+            佣金入口参数DTO.Misc.料品
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.InBrokerageDTOData.ShipPlanLineID_SKey">
+            <summary>
+            出运明细单行ID 序列化Key属性。（传递跨组织序列列字段）
+            佣金入口参数DTO.Misc.出运明细单行ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SOLineBrokerageBP.InBrokerageDTOData.ShipPlanLineID">
+            <summary>
+            出运明细单行ID
+            佣金入口参数DTO.Misc.出运明细单行ID
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FT.SoBP.InDiscountDTOData">
+            <summary>
+            获取折扣参数DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.SoBP.InDiscountDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.SoBP.InDiscountDTOData.#ctor(System.Int64,System.Int64,System.Int64,System.Decimal,System.Int64)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBP.InDiscountDTOData.m_exportPrices">
+            <summary>
+            外销价
+            获取折扣参数DTO.Misc.外销价
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBP.InDiscountDTOData.m_soLineID">
+            <summary>
+            销售订单行ID
+            获取折扣参数DTO.Misc.销售订单行ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.InDiscountDTOData.Customer_SKey">
+            <summary>
+            客户 序列化Key属性。（传递跨组织序列列字段）
+            获取折扣参数DTO.Misc.客户
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.InDiscountDTOData.Customer">
+            <summary>
+            客户
+            获取折扣参数DTO.Misc.客户
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.InDiscountDTOData.ItemMaster_SKey">
+            <summary>
+            料品 序列化Key属性。（传递跨组织序列列字段）
+            获取折扣参数DTO.Misc.料品
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.InDiscountDTOData.ItemMaster">
+            <summary>
+            料品
+            获取折扣参数DTO.Misc.料品
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.InDiscountDTOData.Currency_SKey">
+            <summary>
+            币种 序列化Key属性。（传递跨组织序列列字段）
+            获取折扣参数DTO.Misc.币种
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.InDiscountDTOData.Currency">
+            <summary>
+            币种
+            获取折扣参数DTO.Misc.币种
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FT.BillNoRuleBP.BillNoDTOData">
+            <summary>
+            发票号DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.BillNoRuleBP.BillNoDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.BillNoRuleBP.BillNoDTOData.#ctor(System.String,System.Int32,System.Int64,System.DateTime,System.String)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.BillNoRuleBP.BillNoDTOData.m_billNoID">
+            <summary>
+            发票号
+            发票号DTO.Misc.发票号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.BillNoRuleBP.BillNoDTOData.m_billNoState">
+            <summary>
+            发票号状态
+            发票号DTO.Misc.发票号状态
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.BillNoRuleBP.BillNoDTOData.m_billNoRuleID">
+            <summary>
+            发票号规则ID
+            发票号DTO.Misc.发票号规则ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.BillNoRuleBP.BillNoDTOData.m_usedDate">
+            <summary>
+            使用日期
+            发票号DTO.Misc.使用日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.BillNoRuleBP.BillNoDTOData.m_usedPerson">
+            <summary>
+            使用人
+            发票号DTO.Misc.使用人
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FT.SoBP.ProjectDTOData">
+            <summary>
+            项目档案DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.SoBP.ProjectDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.SoBP.ProjectDTOData.#ctor(System.Int64,System.String,System.String)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBP.ProjectDTOData.m_soOrder">
+            <summary>
+            销售订单单号
+            项目档案DTO.Misc.销售订单单号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBP.ProjectDTOData.m_customerOrder">
+            <summary>
+            客户订单号
+            项目档案DTO.Misc.客户订单号
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.ProjectDTOData.SoLineID_SKey">
+            <summary>
+            销售订单行ID 序列化Key属性。（传递跨组织序列列字段）
+            项目档案DTO.Misc.销售订单行ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.ProjectDTOData.SoLineID">
+            <summary>
+            销售订单行ID
+            项目档案DTO.Misc.销售订单行ID
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FT.AssessTypeBP.ReturnUpDownAssessDTOData">
+            <summary>
+            上下行返回DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.AssessTypeBP.ReturnUpDownAssessDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.AssessTypeBP.ReturnUpDownAssessDTOData.#ctor(System.Int32,System.Int64,System.Int64,System.String,System.String,System.Decimal,System.String,System.Int64,System.Int32)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.AssessTypeBP.ReturnUpDownAssessDTOData.m_rowNo">
+            <summary>
+            行号
+            上下行返回DTO.Misc.行号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.AssessTypeBP.ReturnUpDownAssessDTOData.m_itemInfo_ItemCode">
+            <summary>
+            料品
+            上下行返回DTO.Misc.料品
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.AssessTypeBP.ReturnUpDownAssessDTOData.m_itemInfo_ItemName">
+            <summary>
+            品名
+            上下行返回DTO.Misc.品名
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.AssessTypeBP.ReturnUpDownAssessDTOData.m_qty">
+            <summary>
+            数量
+            上下行返回DTO.Misc.数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.AssessTypeBP.ReturnUpDownAssessDTOData.m_uom">
+            <summary>
+            单位
+            上下行返回DTO.Misc.单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.AssessTypeBP.ReturnUpDownAssessDTOData.m_precision_Qty">
+            <summary>
+            精度
+            上下行返回DTO.Misc.精度
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.AssessTypeBP.ReturnUpDownAssessDTOData.SoID_SKey">
+            <summary>
+            销售订单id 序列化Key属性。（传递跨组织序列列字段）
+            上下行返回DTO.Misc.销售订单id
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.AssessTypeBP.ReturnUpDownAssessDTOData.SoID">
+            <summary>
+            销售订单id
+            上下行返回DTO.Misc.销售订单id
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.AssessTypeBP.ReturnUpDownAssessDTOData.SoLineID_SKey">
+            <summary>
+            销售订单行 序列化Key属性。（传递跨组织序列列字段）
+            上下行返回DTO.Misc.销售订单行
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.AssessTypeBP.ReturnUpDownAssessDTOData.SoLineID">
+            <summary>
+            销售订单行
+            上下行返回DTO.Misc.销售订单行
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.AssessTypeBP.ReturnUpDownAssessDTOData.Cureency_SKey">
+            <summary>
+            币种 序列化Key属性。（传递跨组织序列列字段）
+            上下行返回DTO.Misc.币种
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.AssessTypeBP.ReturnUpDownAssessDTOData.Cureency">
+            <summary>
+            币种
+            上下行返回DTO.Misc.币种
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FT.BillNoRuleBP.EnumNameDtoData">
+            <summary>
+            枚举名称 DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.BillNoRuleBP.EnumNameDtoData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.BillNoRuleBP.EnumNameDtoData.#ctor(System.String)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.BillNoRuleBP.EnumNameDtoData.m_enumNmae">
+            <summary>
+            枚举名称
+            枚举名称.Misc.枚举名称
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FT.SynergyFindBP.SynergyFindDtoData">
+            <summary>
+            报关协同单查询DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.SynergyFindBP.SynergyFindDtoData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.SynergyFindBP.SynergyFindDtoData.#ctor(System.String,System.String,System.String,System.String,System.DateTime,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SynergyFindBP.SynergyFindDtoData.m_billNoItem">
+            <summary>
+            发票号组
+            报关协同单查询DTO.Misc.发票号组
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SynergyFindBP.SynergyFindDtoData.m_liOrderStatus">
+            <summary>
+            理单状态
+            报关协同单查询DTO.Misc.理单状态
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SynergyFindBP.SynergyFindDtoData.m_customer">
+            <summary>
+            客户
+            报关协同单查询DTO.Misc.客户
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SynergyFindBP.SynergyFindDtoData.m_salesStaff">
+            <summary>
+            外销员
+            报关协同单查询DTO.Misc.外销员
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SynergyFindBP.SynergyFindDtoData.m_shipPlanDate">
+            <summary>
+            出运日期
+            报关协同单查询DTO.Misc.出运日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SynergyFindBP.SynergyFindDtoData.m_specificationAmount">
+            <summary>
+            明细单金额
+            报关协同单查询DTO.Misc.明细单金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SynergyFindBP.SynergyFindDtoData.m_discountAmount">
+            <summary>
+            折扣金额
+            报关协同单查询DTO.Misc.折扣金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SynergyFindBP.SynergyFindDtoData.m_outsourcingAmount">
+            <summary>
+            外采金额
+            报关协同单查询DTO.Misc.外采金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SynergyFindBP.SynergyFindDtoData.m_insourcingAmount">
+            <summary>
+            内采金额
+            报关协同单查询DTO.Misc.内采金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SynergyFindBP.SynergyFindDtoData.m_predictionAmount">
+            <summary>
+            预计报关金额
+            报关协同单查询DTO.Misc.预计报关金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SynergyFindBP.SynergyFindDtoData.m_realAmount">
+            <summary>
+            实际报关金额
+            报关协同单查询DTO.Misc.实际报关金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SynergyFindBP.SynergyFindDtoData.m_differencesAmount">
+            <summary>
+            报关差异引用金额
+            报关协同单查询DTO.Misc.报关差异引用金额
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SynergyFindBP.SynergyFindDtoData.m_customsAmountDif">
+            <summary>
+            报关金额差异
+            报关协同单查询DTO.Misc.报关金额差异
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SynergyFindBP.SynergyFindDtoData.m_memo">
+            <summary>
+            备注
+            报关协同单查询DTO.Misc.备注
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SynergyFindBP.SynergyFindDtoData.m_customerCode">
+            <summary>
+            客户编码
+            报关协同单查询DTO.Misc.客户编码
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SynergyFindBP.SynergyFindDtoData.m_customerName">
+            <summary>
+            客户名称
+            报关协同单查询DTO.Misc.客户名称
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SynergyFindBP.SynergyFindDtoData.m_salesStaffCode">
+            <summary>
+            外销员编码
+            报关协同单查询DTO.Misc.外销员编码
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SynergyFindBP.SynergyFindDtoData.m_salesStaffName">
+            <summary>
+            外销员名称
+            报关协同单查询DTO.Misc.外销员名称
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.OrderBomChangeHeadDTOData">
+            <summary>
+            BOM变更单DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.OrderBomChangeHeadDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.OrderBomChangeHeadDTOData.#ctor(System.Int64,System.String,System.String,System.Int64,System.String,System.String,System.Int64,System.String,System.String,System.Int64,System.String,System.String,System.Int64,System.String,System.String)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.OrderBomChangeHeadDTOData.m_saleManCode">
+            <summary>
+            业务员Code
+            BOM变更单DTO.Misc.业务员Code
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.OrderBomChangeHeadDTOData.m_saleManName">
+            <summary>
+            业务员Name
+            BOM变更单DTO.Misc.业务员Name
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.OrderBomChangeHeadDTOData.m_departMentCode">
+            <summary>
+            部门Code
+            BOM变更单DTO.Misc.部门Code
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.OrderBomChangeHeadDTOData.m_departMentName">
+            <summary>
+            部门Name
+            BOM变更单DTO.Misc.部门Name
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.OrderBomChangeHeadDTOData.m_customerCode">
+            <summary>
+            客户Code
+            BOM变更单DTO.Misc.客户Code
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.OrderBomChangeHeadDTOData.m_customerName">
+            <summary>
+            客户Name
+            BOM变更单DTO.Misc.客户Name
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.OrderBomChangeHeadDTOData.m_getOrgCode">
+            <summary>
+            接单组织Code
+            BOM变更单DTO.Misc.接单组织Code
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.OrderBomChangeHeadDTOData.m_getOrgName">
+            <summary>
+            接单组织Name
+            BOM变更单DTO.Misc.接单组织Name
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.OrderBomChangeHeadDTOData.m_soOrderName">
+            <summary>
+            销售订单Name
+            BOM变更单DTO.Misc.销售订单Name
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.OrderBomChangeHeadDTOData.m_soOrderCode">
+            <summary>
+            销售订单Code
+            BOM变更单DTO.Misc.销售订单Code
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.OrderBomChangeHeadDTOData.SaleManID_SKey">
+            <summary>
+            业务员ID 序列化Key属性。（传递跨组织序列列字段）
+            BOM变更单DTO.Misc.业务员ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.OrderBomChangeHeadDTOData.SaleManID">
+            <summary>
+            业务员ID
+            BOM变更单DTO.Misc.业务员ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.OrderBomChangeHeadDTOData.DepartMentID_SKey">
+            <summary>
+            部门ID 序列化Key属性。（传递跨组织序列列字段）
+            BOM变更单DTO.Misc.部门ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.OrderBomChangeHeadDTOData.DepartMentID">
+            <summary>
+            部门ID
+            BOM变更单DTO.Misc.部门ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.OrderBomChangeHeadDTOData.CustomerID_SKey">
+            <summary>
+            客户ID 序列化Key属性。（传递跨组织序列列字段）
+            BOM变更单DTO.Misc.客户ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.OrderBomChangeHeadDTOData.CustomerID">
+            <summary>
+            客户ID
+            BOM变更单DTO.Misc.客户ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.OrderBomChangeHeadDTOData.GetOrgID_SKey">
+            <summary>
+            接单组织ID 序列化Key属性。（传递跨组织序列列字段）
+            BOM变更单DTO.Misc.接单组织ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.OrderBomChangeHeadDTOData.GetOrgID">
+            <summary>
+            接单组织ID
+            BOM变更单DTO.Misc.接单组织ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.OrderBomChangeHeadDTOData.SoID_SKey">
+            <summary>
+            销售订单ID 序列化Key属性。（传递跨组织序列列字段）
+            BOM变更单DTO.Misc.销售订单ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderBomChangeBP.OrderBomChangeHeadDTOData.SoID">
+            <summary>
+            销售订单ID
+            BOM变更单DTO.Misc.销售订单ID
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData">
+            <summary>
+            返回的出运明细单DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData.#ctor(System.Int64,System.String,System.DateTime,System.Int64,System.String,System.String,System.Int64,System.String,System.String,System.Int64,System.String,System.String,System.String,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Boolean,System.Int64,System.String,System.String,System.Int64,System.String,System.String,System.String,System.Int32,System.Int64,System.String,System.Int64,System.Int32,System.Int64,System.Int64,System.String,System.Decimal)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData.m_shipPlan">
+            <summary>
+            出运明细单ID
+            返回的出运明细单DTO.Misc.出运明细单ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData.m_docNo">
+            <summary>
+            出运明细单号
+            返回的出运明细单DTO.Misc.出运明细单号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData.m_date">
+            <summary>
+            日期
+            返回的出运明细单DTO.Misc.日期
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData.m_org">
+            <summary>
+            接单组织
+            返回的出运明细单DTO.Misc.接单组织
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData.m_org_Code">
+            <summary>
+            组织编码
+            返回的出运明细单DTO.Misc.组织编码
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData.m_org_Name">
+            <summary>
+            接单组织
+            返回的出运明细单DTO.Misc.接单组织
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData.m_customer">
+            <summary>
+            客户
+            返回的出运明细单DTO.Misc.客户
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData.m_customer_Code">
+            <summary>
+            客户编码
+            返回的出运明细单DTO.Misc.客户编码
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData.m_customer_Name">
+            <summary>
+            客户
+            返回的出运明细单DTO.Misc.客户
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData.m_itemMaster">
+            <summary>
+            料品
+            返回的出运明细单DTO.Misc.料品
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData.m_itemMaster_Code">
+            <summary>
+            料号
+            返回的出运明细单DTO.Misc.料号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData.m_itemMaster_Name">
+            <summary>
+            品名
+            返回的出运明细单DTO.Misc.品名
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData.m_sPECS">
+            <summary>
+            规格
+            返回的出运明细单DTO.Misc.规格
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData.m_qty">
+            <summary>
+            数量
+            返回的出运明细单DTO.Misc.数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData.m_shipCanQty">
+            <summary>
+            本次可装柜数量
+            返回的出运明细单DTO.Misc.本次可装柜数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData.m_outBoxNumner">
+            <summary>
+            外箱数
+            返回的出运明细单DTO.Misc.外箱数
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData.m_inBoxNumber">
+            <summary>
+            内箱数
+            返回的出运明细单DTO.Misc.内箱数
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData.m_bulks">
+            <summary>
+            体积
+            返回的出运明细单DTO.Misc.体积
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData.m_length">
+            <summary>
+            长
+            返回的出运明细单DTO.Misc.长
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData.m_width">
+            <summary>
+            宽
+            返回的出运明细单DTO.Misc.宽
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData.m_higth">
+            <summary>
+            高
+            返回的出运明细单DTO.Misc.高
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData.m_grossWeight">
+            <summary>
+            毛重
+            返回的出运明细单DTO.Misc.毛重
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData.m_netWeight">
+            <summary>
+            净重
+            返回的出运明细单DTO.Misc.净重
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData.m_isWms">
+            <summary>
+            已同步WMS
+            返回的出运明细单DTO.Misc.已同步WMS
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData.m_currenty">
+            <summary>
+            币种
+            返回的出运明细单DTO.Misc.币种
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData.m_currenty_Code">
+            <summary>
+            币种编码
+            返回的出运明细单DTO.Misc.币种编码
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData.m_currenty_Name">
+            <summary>
+            币种
+            返回的出运明细单DTO.Misc.币种
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData.m_saleMan">
+            <summary>
+            业务员
+            返回的出运明细单DTO.Misc.业务员
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData.m_saleMan_Code">
+            <summary>
+            业务员编码
+            返回的出运明细单DTO.Misc.业务员编码
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData.m_saleMan_Name">
+            <summary>
+            业务员
+            返回的出运明细单DTO.Misc.业务员
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData.m_packagingType">
+            <summary>
+            装箱方式
+            返回的出运明细单DTO.Misc.装箱方式
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData.m_rowNo">
+            <summary>
+            行号
+            返回的出运明细单DTO.Misc.行号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData.m_shipLine">
+            <summary>
+            出运明细行ID
+            返回的出运明细单DTO.Misc.出运明细行ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData.m_srcSONo">
+            <summary>
+            来源销售订单号
+            返回的出运明细单DTO.Misc.来源销售订单号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData.m_srcSO">
+            <summary>
+            来源销售订单ID
+            返回的出运明细单DTO.Misc.来源销售订单ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData.m_srcSOLineNo">
+            <summary>
+            来源销售订单行号
+            返回的出运明细单DTO.Misc.来源销售订单行号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData.m_srcSOLine">
+            <summary>
+            来源销售订单行ID
+            返回的出运明细单DTO.Misc.来源销售订单行ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData.m_billNoItem">
+            <summary>
+            发票号组
+            返回的出运明细单DTO.Misc.发票号组
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData.m_billNoItem_Name">
+            <summary>
+            发票号组名称
+            返回的出运明细单DTO.Misc.发票号组名称
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OperateShipPlanBP.ShipPlanByBillHeadDTOData.m_boxNumber">
+            <summary>
+            箱数
+            返回的出运明细单DTO.Misc.箱数
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FT.SoBP.CurrencyDtoData">
+            <summary>
+            币种DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.SoBP.CurrencyDtoData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.SoBP.CurrencyDtoData.#ctor(System.Int64,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Int64,System.String,System.String)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBP.CurrencyDtoData.m_currencyID">
+            <summary>
+            币种ID
+            币种DTO.Misc.币种ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBP.CurrencyDtoData.m_currencyCode">
+            <summary>
+            币种COde
+            币种DTO.Misc.币种COde
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBP.CurrencyDtoData.m_currencyName">
+            <summary>
+            币种Name
+            币种DTO.Misc.币种Name
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBP.CurrencyDtoData.m_moneyRound_Precision">
+            <summary>
+            MoneyRound_Precision
+            币种DTO.Misc.MoneyRound_Precision
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBP.CurrencyDtoData.m_moneyRound_RoundType">
+            <summary>
+            MoneyRound_RoundType
+            币种DTO.Misc.MoneyRound_RoundType
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBP.CurrencyDtoData.m_moneyRound_RoundValue">
+            <summary>
+            MoneyRound_RoundValue
+            币种DTO.Misc.MoneyRound_RoundValue
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBP.CurrencyDtoData.m_priceRound_Precision">
+            <summary>
+            PriceRound_Precision
+            币种DTO.Misc.PriceRound_Precision
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBP.CurrencyDtoData.m_priceRound_RoundType">
+            <summary>
+            PriceRound_RoundType
+            币种DTO.Misc.PriceRound_RoundType
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBP.CurrencyDtoData.m_priceRound_RoundValue">
+            <summary>
+            PriceRound_RoundValue
+            币种DTO.Misc.PriceRound_RoundValue
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBP.CurrencyDtoData.m_symbol">
+            <summary>
+            Symbol
+            币种DTO.Misc.Symbol
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBP.CurrencyDtoData.m_org">
+            <summary>
+            组织1
+            币种DTO.Misc.组织1
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBP.CurrencyDtoData.m_org_Code">
+            <summary>
+            Org_Code
+            币种DTO.Misc.Org_Code
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBP.CurrencyDtoData.m_org_Name">
+            <summary>
+            Org_Name
+            币种DTO.Misc.Org_Name
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FT.SoBP.OrderBomHeadDTOData">
+            <summary>
+            随单BOM头 DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.SoBP.OrderBomHeadDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.SoBP.OrderBomHeadDTOData.#ctor(System.Int64,System.Int64,System.Int64,System.Int64,System.Decimal,System.Int64,System.Decimal,System.Int64,System.Decimal,System.Int64,System.Int64,System.Int32,System.Int32,System.String,System.Int64,System.Int32,System.String,System.Int64,System.Decimal,System.Boolean)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBP.OrderBomHeadDTOData.m_dosage">
+            <summary>
+            用量
+            随单BOM头.Misc.用量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBP.OrderBomHeadDTOData.m_sellNumber">
+            <summary>
+            销售数量
+            随单BOM头.Misc.销售数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBP.OrderBomHeadDTOData.m_needNumber">
+            <summary>
+            需求数量
+            随单BOM头.Misc.需求数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBP.OrderBomHeadDTOData.m_orderLineRow">
+            <summary>
+            订单行号
+            随单BOM头.Misc.订单行号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBP.OrderBomHeadDTOData.m_sourceType">
+            <summary>
+            来源类型
+            随单BOM头.Misc.来源类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBP.OrderBomHeadDTOData.m_remark">
+            <summary>
+            备注
+            随单BOM头.Misc.备注
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBP.OrderBomHeadDTOData.m_supplierType">
+            <summary>
+            供应类型
+            随单BOM头.Misc.供应类型
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBP.OrderBomHeadDTOData.m_tier">
+            <summary>
+            层级
+            随单BOM头.Misc.层级
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBP.OrderBomHeadDTOData.m_loss">
+            <summary>
+            损耗率
+            随单BOM头.Misc.损耗率
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBP.OrderBomHeadDTOData.m_arrirmState">
+            <summary>
+            确认状态
+            随单BOM头.Misc.确认状态
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.OrderBomHeadDTOData.BomMaster_SKey">
+            <summary>
+            物料清单实体 序列化Key属性。（传递跨组织序列列字段）
+            随单BOM头.Misc.物料清单实体
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.OrderBomHeadDTOData.BomMaster">
+            <summary>
+            物料清单实体
+            随单BOM头.Misc.物料清单实体
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.OrderBomHeadDTOData.BomCompont_SKey">
+            <summary>
+            物料清单行实体 序列化Key属性。（传递跨组织序列列字段）
+            随单BOM头.Misc.物料清单行实体
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.OrderBomHeadDTOData.BomCompont">
+            <summary>
+            物料清单行实体
+            随单BOM头.Misc.物料清单行实体
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.OrderBomHeadDTOData.ParentPart_SKey">
+            <summary>
+            母项 序列化Key属性。（传递跨组织序列列字段）
+            随单BOM头.Misc.母项
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.OrderBomHeadDTOData.ParentPart">
+            <summary>
+            母项
+            随单BOM头.Misc.母项
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.OrderBomHeadDTOData.SubKey_SKey">
+            <summary>
+            子项 序列化Key属性。（传递跨组织序列列字段）
+            随单BOM头.Misc.子项
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.OrderBomHeadDTOData.SubKey">
+            <summary>
+            子项
+            随单BOM头.Misc.子项
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.OrderBomHeadDTOData.DosageUnit_SKey">
+            <summary>
+            用量单位 序列化Key属性。（传递跨组织序列列字段）
+            随单BOM头.Misc.用量单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.OrderBomHeadDTOData.DosageUnit">
+            <summary>
+            用量单位
+            随单BOM头.Misc.用量单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.OrderBomHeadDTOData.SellUnit_SKey">
+            <summary>
+            销售单位 序列化Key属性。（传递跨组织序列列字段）
+            随单BOM头.Misc.销售单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.OrderBomHeadDTOData.SellUnit">
+            <summary>
+            销售单位
+            随单BOM头.Misc.销售单位
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.OrderBomHeadDTOData.OrderLine_SKey">
+            <summary>
+            销售订单行 序列化Key属性。（传递跨组织序列列字段）
+            随单BOM头.Misc.销售订单行
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.OrderBomHeadDTOData.OrderLine">
+            <summary>
+            销售订单行
+            随单BOM头.Misc.销售订单行
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.OrderBomHeadDTOData.OrderHead_SKey">
+            <summary>
+            销售订单头 序列化Key属性。（传递跨组织序列列字段）
+            随单BOM头.Misc.销售订单头
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.OrderBomHeadDTOData.OrderHead">
+            <summary>
+            销售订单头
+            随单BOM头.Misc.销售订单头
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.OrderBomHeadDTOData.SalesMan_SKey">
+            <summary>
+            业务员子表 序列化Key属性。（传递跨组织序列列字段）
+            随单BOM头.Misc.业务员子表
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.OrderBomHeadDTOData.SalesMan">
+            <summary>
+            业务员子表
+            随单BOM头.Misc.业务员子表
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.OrderBomHeadDTOData.SubkeyType_SKey">
+            <summary>
+            子项分类 序列化Key属性。（传递跨组织序列列字段）
+            随单BOM头.Misc.子项分类
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.OrderBomHeadDTOData.SubkeyType">
+            <summary>
+            子项分类
+            随单BOM头.Misc.子项分类
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FT.SoBP.SupplierModeDTOData">
+            <summary>
+            查询供应方式传输DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.SoBP.SupplierModeDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.SoBP.SupplierModeDTOData.#ctor(System.Int64,System.Int32)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBP.SupplierModeDTOData.m_packMode">
+            <summary>
+            包装方式
+            查询供应方式传输DTO.Misc.包装方式
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.SupplierModeDTOData.SoLineListID_SKey">
+            <summary>
+            销售订单行ID集合 序列化Key属性。（传递跨组织序列列字段）
+            查询供应方式传输DTO.Misc.销售订单行ID集合
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBP.SupplierModeDTOData.SoLineListID">
+            <summary>
+            销售订单行ID集合
+            查询供应方式传输DTO.Misc.销售订单行ID集合
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FT.SalesManBP.SalesManDTOData">
+            <summary>
+            业务员DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.SalesManBP.SalesManDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.SalesManBP.SalesManDTOData.#ctor(System.Int64,System.Int64,System.Int64,System.String,System.Int32,System.String,System.String,System.String,System.String)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SalesManBP.SalesManDTOData.m_remark">
+            <summary>
+            备注
+            业务员DTO.Misc.备注
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SalesManBP.SalesManDTOData.m_rowID">
+            <summary>
+            行号
+            业务员DTO.Misc.行号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SalesManBP.SalesManDTOData.m_salesName">
+            <summary>
+            业务员名称
+            业务员DTO.Misc.业务员名称
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SalesManBP.SalesManDTOData.m_salesCode">
+            <summary>
+            业务员Code
+            业务员DTO.Misc.业务员Code
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SalesManBP.SalesManDTOData.m_deparmentName">
+            <summary>
+            部门名称
+            业务员DTO.Misc.部门名称
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SalesManBP.SalesManDTOData.m_deparmentCode">
+            <summary>
+            部门Code
+            业务员DTO.Misc.部门Code
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SalesManBP.SalesManDTOData.CustomerItemsID_SKey">
+            <summary>
+            客户料品交叉ID 序列化Key属性。（传递跨组织序列列字段）
+            业务员DTO.Misc.客户料品交叉ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SalesManBP.SalesManDTOData.CustomerItemsID">
+            <summary>
+            客户料品交叉ID
+            业务员DTO.Misc.客户料品交叉ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SalesManBP.SalesManDTOData.Sales_SKey">
+            <summary>
+            业务员 序列化Key属性。（传递跨组织序列列字段）
+            业务员DTO.Misc.业务员
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SalesManBP.SalesManDTOData.Sales">
+            <summary>
+            业务员
+            业务员DTO.Misc.业务员
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SalesManBP.SalesManDTOData.Deparment_SKey">
+            <summary>
+            部门 序列化Key属性。（传递跨组织序列列字段）
+            业务员DTO.Misc.部门
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SalesManBP.SalesManDTOData.Deparment">
+            <summary>
+            部门
+            业务员DTO.Misc.部门
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FT.CreateShipPlanBP.ShipPlanIDDTOData">
+            <summary>
+            生成的出运明细单 DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.CreateShipPlanBP.ShipPlanIDDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.CreateShipPlanBP.ShipPlanIDDTOData.#ctor(System.Int64,System.String)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.CreateShipPlanBP.ShipPlanIDDTOData.m_shipPlan">
+            <summary>
+            出运明细单ID
+            生成的出运明细单.Misc.出运明细单ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.CreateShipPlanBP.ShipPlanIDDTOData.m_docNo">
+            <summary>
+            出运明细单号
+            生成的出运明细单.Misc.出运明细单号
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FT.CreateShipPlanBP.SOLineIDDTOData">
+            <summary>
+            传入销售订单行数据 DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.CreateShipPlanBP.SOLineIDDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.CreateShipPlanBP.SOLineIDDTOData.#ctor(System.Int64,System.Decimal)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.CreateShipPlanBP.SOLineIDDTOData.m_sOLine">
+            <summary>
+            销售订单行ID
+            传入销售订单行数据.Misc.销售订单行ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.CreateShipPlanBP.SOLineIDDTOData.m_shipQty">
+            <summary>
+            本次出运数量
+            传入销售订单行数据.Misc.本次出运数量
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FT.SoBomBP.ReturnUpDownLineDtoData">
+            <summary>
+            上下一行返回DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.SoBomBP.ReturnUpDownLineDtoData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.SoBomBP.ReturnUpDownLineDtoData.#ctor(System.Int32,System.Int64,System.Int64,System.String,System.String,System.Decimal,System.String,System.Int32)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBomBP.ReturnUpDownLineDtoData.m_rowNo">
+            <summary>
+            行号
+            上下一行返回DTO.Misc.行号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBomBP.ReturnUpDownLineDtoData.m_itemInfo_ItemID">
+            <summary>
+            料号
+            上下一行返回DTO.Misc.料号
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBomBP.ReturnUpDownLineDtoData.m_itemInfo_ItemName">
+            <summary>
+            品名
+            上下一行返回DTO.Misc.品名
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBomBP.ReturnUpDownLineDtoData.m_qty">
+            <summary>
+            数量
+            上下一行返回DTO.Misc.数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBomBP.ReturnUpDownLineDtoData.m_uom">
+            <summary>
+            单位
+            上下一行返回DTO.Misc.单位
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBomBP.ReturnUpDownLineDtoData.m_precision_Qty">
+            <summary>
+            精度
+            上下一行返回DTO.Misc.精度
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBomBP.ReturnUpDownLineDtoData.SoID_SKey">
+            <summary>
+            销售订单ID 序列化Key属性。（传递跨组织序列列字段）
+            上下一行返回DTO.Misc.销售订单ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBomBP.ReturnUpDownLineDtoData.SoID">
+            <summary>
+            销售订单ID
+            上下一行返回DTO.Misc.销售订单ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBomBP.ReturnUpDownLineDtoData.SoLineID_SKey">
+            <summary>
+            销售订单行ID 序列化Key属性。（传递跨组织序列列字段）
+            上下一行返回DTO.Misc.销售订单行ID
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.SoBomBP.ReturnUpDownLineDtoData.SoLineID">
+            <summary>
+            销售订单行ID
+            上下一行返回DTO.Misc.销售订单行ID
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FT.SoBP.CommonDTOData">
+            <summary>
+            公共数据传输对象DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.SoBP.CommonDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.SoBP.CommonDTOData.#ctor(System.Int64,System.String,System.String)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBP.CommonDTOData.m_iD">
+            <summary>
+            ID
+            公共数据传输对象DTO.Misc.ID
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBP.CommonDTOData.m_code">
+            <summary>
+            Code
+            公共数据传输对象DTO.Misc.Code
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.SoBP.CommonDTOData.m_name">
+            <summary>
+            Name
+            公共数据传输对象DTO.Misc.Name
+            </summary>
+        </member>
+        <member name="T:UFIDA.U9.Cust.GS.FT.BillNoRuleBP.RepeatBillNoRuleDTOData">
+            <summary>
+            重复发票号规则DTO DTO :自定义的数据传输类型 
+            
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.BillNoRuleBP.RepeatBillNoRuleDTOData.#ctor">
+            <summary>
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:UFIDA.U9.Cust.GS.FT.BillNoRuleBP.RepeatBillNoRuleDTOData.#ctor(System.Int32,System.Int32,System.Int64)">
+            <summary>
+            Constructor Full Argument
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.BillNoRuleBP.RepeatBillNoRuleDTOData.m_billNoStart">
+            <summary>
+            起始值
+            重复发票号规则DTO.Misc.起始值
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.BillNoRuleBP.RepeatBillNoRuleDTOData.m_billNoEnd">
+            <summary>
+            结束值
+            重复发票号规则DTO.Misc.结束值
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.BillNoRuleBP.RepeatBillNoRuleDTOData.m_ruleID">
+            <summary>
+            规则编号ID
+            重复发票号规则DTO.Misc.规则编号ID
+            </summary>
+        </member>
+    </members>
+</doc>
