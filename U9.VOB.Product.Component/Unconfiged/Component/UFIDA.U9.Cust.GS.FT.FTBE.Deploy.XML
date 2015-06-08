@@ -661,6 +661,18 @@
             订单随单BOM表.Misc.提供受托加工
             </summary>
         </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OrderBomBE.OrderBomHeadData.m_parentDemandQty">
+            <summary>
+            父件需求数量
+            订单随单BOM表.Misc.父件需求数量
+            </summary>
+        </member>
+        <member name="F:UFIDA.U9.Cust.GS.FT.OrderBomBE.OrderBomHeadData.m_parentDosageQty">
+            <summary>
+            母件用量底数
+            订单随单BOM表.Misc.母件用量底数
+            </summary>
+        </member>
         <member name="P:UFIDA.U9.Cust.GS.FT.OrderBomBE.OrderBomHeadData.SysEntityType">
             <summary>
              实体类型. 

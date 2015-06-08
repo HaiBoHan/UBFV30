@@ -60,242 +60,242 @@ ID, UID, Name, CreatedBy, CreatedOn, ModifiedBy, ModifiedOn, AssemblyName
 UBF_MD_UIRefField|302|301
 ID, UID, Name, CreatedBy, CreatedOn, ModifiedBy, ModifiedOn, UIReference, Container, RefAttributeName, IsVisible, IsKey, IsEdit, IsName, Sequence, Length, IsParent
 
-@SNIndex+20	Click	OnNew	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+12	5694a2bd-0a62-43ad-97f6-e70cad5a8115
-@SNIndex+22	Click	OnDelete	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+13	34af9381-5f31-4d96-bb90-54480b8ed276
-@SNIndex+24	Click	OnOutPut	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+14	509c8677-58a1-4c8f-b47a-1f0d547a26eb
-@SNIndex+26	Click	OnPrint	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+15	f0bddcea-acf0-4484-982d-9be5ab007d10
-@SNIndex+28	TextChanged	OnCaseChanged	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+18	331492dc-13bc-4d6b-8f92-80a7572ddea7
-@SNIndex+30	Click	OnLookCase	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+16	e0352820-f5b5-40b4-bd19-a2ece42aaae5
-@SNIndex+32	GridRowDbClicked	OnGridRowDbClick	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+17	7aa35288-5250-4d55-b383-ef12b95424a5
-@SNIndex+51	Click	OnNew	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+44	7674478a-fc07-4ec1-8f07-a128e45a0a81
-@SNIndex+53	Click	OnDelete	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+45	8e211dce-bc43-4f3b-9265-5700edfaf6e9
-@SNIndex+55	Click	OnOutPut	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+46	f365d729-2064-4030-ae04-964c2b8f0506
-@SNIndex+57	Click	OnPrint	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+47	ace401cf-1ad1-4991-8b23-662264563e1a
-@SNIndex+59	Click	OnLookCase	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+48	b08f7a84-9646-4604-a721-c769d8de3589
-@SNIndex+61	GridRowDbClicked	OnGridRowDbClick	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+49	8e6b0f5e-be49-4f77-96ca-cdec151749ab
-@SNIndex+81	Click	OnNew	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+73	8252db66-aaf6-440f-8dbc-db9228289856
-@SNIndex+83	Click	OnDelete	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+74	29407c87-2a90-4f28-9b0b-4051aa30901c
-@SNIndex+85	Click	OnOutPut	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+75	9fc88897-3460-4883-a950-e4a591193ff6
-@SNIndex+87	Click	OnPrint	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+76	042f3202-781c-482b-a85d-3dc93128e6ac
-@SNIndex+89	TextChanged	OnCaseChanged	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+79	95486825-915f-4434-a76c-94862e7cfaca
-@SNIndex+91	Click	OnLookCase	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+77	1e23a4c9-f42c-4160-8d74-f905dc918534
-@SNIndex+93	GridRowDbClicked	OnGridRowDbClick	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+78	ea8f8f86-5237-49f1-a2c9-58410227d249
-@SNIndex+116	Click	OnNew	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+107	d4bce466-f21c-465e-b018-61a99f05daca
-@SNIndex+118	Click	OnDelete	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+108	a01c6b6e-07ce-4b3a-99d4-d0b3fc3622a8
-@SNIndex+120	Click	OnOutPut	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+109	b31dadc1-7513-41b9-9b52-ff39af108c43
-@SNIndex+122	Click	OnPrint	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+110	e07d0a7a-ee0b-41c0-bfef-7be8878a389d
-@SNIndex+124	Click	OnLookCase	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+111	9660d52b-a68b-4578-93c2-2ce0863cc98e
-@SNIndex+126	Click	OnListAdd	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+112	dc46a4de-7d99-4aa8-9296-353886bf9971
-@SNIndex+128	Click	OnListUpdate	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+113	83c9bb5f-2967-425d-8028-aa77cc589104
-@SNIndex+130	GridRowDbClicked	OnGridRowDbClick	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+114	a1277002-5987-4112-b2d1-eb0d47eb5d49
-@SNIndex+150	Click	OnNew	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+142	245c37e5-4989-4b7b-8b70-ce23b7c8150b
-@SNIndex+152	Click	OnDelete	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+143	af61ed10-f853-4f2c-8623-4b1c04deabde
-@SNIndex+154	Click	OnOutPut	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+144	67fd0a57-7054-4982-9748-6b519feea69c
-@SNIndex+156	Click	OnPrint	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+145	5e904cbc-7734-4b61-8570-2b326433e2e6
-@SNIndex+158	TextChanged	OnCaseChanged	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+148	4ba938f9-40a7-45a4-a00c-26274b81df51
-@SNIndex+160	Click	OnLookCase	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+146	7a027d10-0f93-4320-975e-9fc04d80a9b0
-@SNIndex+162	GridRowDbClicked	OnGridRowDbClick	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+147	1ce702c2-72b5-45d3-9a04-ebb48ed06d27
-@SNIndex+209	Click	OnNew	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+201	193fce3e-f109-4f57-a46f-a1f855220a6c
-@SNIndex+211	Click	OnDelete	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+202	2bbe5c25-fdf7-478d-8059-daef9034884b
-@SNIndex+213	Click	OnOutPut	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+203	1b57ba9b-ae16-462c-bb09-315afe7fecc4
-@SNIndex+215	Click	OnPrint	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+204	ba09eb5e-130f-4d45-ac7c-936955a427f2
-@SNIndex+217	TextChanged	OnCaseChanged	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+207	96cd051d-9022-4ba6-a3f2-54a11a78b917
-@SNIndex+219	Click	OnLookCase	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+205	011e30d6-87d3-487c-b0e5-53e1fab1b33a
-@SNIndex+221	GridRowDbClicked	OnGridRowDbClick	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+206	ac27ac1d-de7c-4d00-93b3-a3acafae1222
-@SNIndex+241	Click	OnNew	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+233	62519730-038b-44b3-b97d-0bfce3cab6b1
-@SNIndex+243	Click	OnDelete	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+234	8e6322d2-9a9e-4c32-ae25-f32a927ace5b
-@SNIndex+245	Click	OnOutPut	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+235	3fd08bf3-ddb2-4815-9676-2e44e8e80e5d
-@SNIndex+247	Click	OnPrint	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+236	27057d0d-1639-44e1-900f-9eb56e32c1b9
-@SNIndex+249	TextChanged	OnCaseChanged	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+239	2972c3b4-e502-4557-aab6-dc6279693185
-@SNIndex+251	Click	OnLookCase	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+237	c239b9fc-244c-4400-8088-e97e789f8fd2
-@SNIndex+253	GridRowDbClicked	OnGridRowDbClick	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+238	c96e5831-5b8d-4d47-a495-fc03d47cc4c8
-@SNIndex+273	Click	OnDelete	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+265	24d2f760-c7a4-427c-b87c-844793a22e8e
-@SNIndex+275	Click	OnOutPut	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+266	ea5af3e1-ce9e-4a01-918c-92e942fe5a8f
-@SNIndex+277	Click	OnPrint	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+267	d0154fea-6244-4b08-9e95-5afa7f8ddd2e
-@SNIndex+279	TextChanged	OnCaseChanged	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+271	1785f9a4-7591-43eb-8eaf-c2b445e15cb9
-@SNIndex+281	Click	OnLookCase	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+268	63d2f487-d391-4626-a889-22921695f1c0
-@SNIndex+283	Click		Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+269	e674776d-0ca2-47e0-b46d-cd78c5722818
-@SNIndex+285	GridRowDbClicked	OnGridRowDbClick	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	@SNIndex+270	05c5f537-6a9e-425d-96dd-f5c869a26ad8
-@SNIndex+12	5694a2bd-0a62-43ad-97f6-e70cad5a8115	BtnNew	e4f931cf-3846-49aa-a505-8db5b902a845	@SNIndex+11	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+13	34af9381-5f31-4d96-bb90-54480b8ed276	BtnDelete	e4f931cf-3846-49aa-a505-8db5b902a845	@SNIndex+11	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+14	509c8677-58a1-4c8f-b47a-1f0d547a26eb	BtnOutPut	e4f931cf-3846-49aa-a505-8db5b902a845	@SNIndex+11	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+15	f0bddcea-acf0-4484-982d-9be5ab007d10	BtnPrint	e4f931cf-3846-49aa-a505-8db5b902a845	@SNIndex+11	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+16	e0352820-f5b5-40b4-bd19-a2ece42aaae5	OnLookCase	e4f931cf-3846-49aa-a505-8db5b902a845	@SNIndex+11	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+17	7aa35288-5250-4d55-b383-ef12b95424a5	DataGrid1	e4f931cf-3846-49aa-a505-8db5b902a845	@SNIndex+11	DataGrid		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+18	331492dc-13bc-4d6b-8f92-80a7572ddea7	DDLCase	e4f931cf-3846-49aa-a505-8db5b902a845	@SNIndex+11	DropDownList		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+44	7674478a-fc07-4ec1-8f07-a128e45a0a81	BtnNew	1c0b02a8-6c5f-49d0-96a8-db0b705839e4	@SNIndex+43	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+45	8e211dce-bc43-4f3b-9265-5700edfaf6e9	BtnDelete	1c0b02a8-6c5f-49d0-96a8-db0b705839e4	@SNIndex+43	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+46	f365d729-2064-4030-ae04-964c2b8f0506	BtnOutPut	1c0b02a8-6c5f-49d0-96a8-db0b705839e4	@SNIndex+43	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+47	ace401cf-1ad1-4991-8b23-662264563e1a	BtnPrint	1c0b02a8-6c5f-49d0-96a8-db0b705839e4	@SNIndex+43	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+48	b08f7a84-9646-4604-a721-c769d8de3589	OnLookCase	1c0b02a8-6c5f-49d0-96a8-db0b705839e4	@SNIndex+43	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+49	8e6b0f5e-be49-4f77-96ca-cdec151749ab	DataGrid1	1c0b02a8-6c5f-49d0-96a8-db0b705839e4	@SNIndex+43	DataGrid		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+73	8252db66-aaf6-440f-8dbc-db9228289856	BtnNew	ceddb7fc-5659-43dc-acf0-df08be0ba819	@SNIndex+72	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+74	29407c87-2a90-4f28-9b0b-4051aa30901c	BtnDelete	ceddb7fc-5659-43dc-acf0-df08be0ba819	@SNIndex+72	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+75	9fc88897-3460-4883-a950-e4a591193ff6	BtnOutPut	ceddb7fc-5659-43dc-acf0-df08be0ba819	@SNIndex+72	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+76	042f3202-781c-482b-a85d-3dc93128e6ac	BtnPrint	ceddb7fc-5659-43dc-acf0-df08be0ba819	@SNIndex+72	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+77	1e23a4c9-f42c-4160-8d74-f905dc918534	OnLookCase	ceddb7fc-5659-43dc-acf0-df08be0ba819	@SNIndex+72	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+78	ea8f8f86-5237-49f1-a2c9-58410227d249	DataGrid1	ceddb7fc-5659-43dc-acf0-df08be0ba819	@SNIndex+72	DataGrid		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+79	95486825-915f-4434-a76c-94862e7cfaca	DDLCase	ceddb7fc-5659-43dc-acf0-df08be0ba819	@SNIndex+72	DropDownList		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+107	d4bce466-f21c-465e-b018-61a99f05daca	BtnNew	ca7cafbb-dbf4-4536-a0e3-c2c017afc1a1	@SNIndex+106	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+108	a01c6b6e-07ce-4b3a-99d4-d0b3fc3622a8	BtnDelete	ca7cafbb-dbf4-4536-a0e3-c2c017afc1a1	@SNIndex+106	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+109	b31dadc1-7513-41b9-9b52-ff39af108c43	BtnOutPut	ca7cafbb-dbf4-4536-a0e3-c2c017afc1a1	@SNIndex+106	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+110	e07d0a7a-ee0b-41c0-bfef-7be8878a389d	BtnPrint	ca7cafbb-dbf4-4536-a0e3-c2c017afc1a1	@SNIndex+106	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+111	9660d52b-a68b-4578-93c2-2ce0863cc98e	OnLookCase	ca7cafbb-dbf4-4536-a0e3-c2c017afc1a1	@SNIndex+106	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+112	dc46a4de-7d99-4aa8-9296-353886bf9971	btnListAdd	ca7cafbb-dbf4-4536-a0e3-c2c017afc1a1	@SNIndex+106	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+113	83c9bb5f-2967-425d-8028-aa77cc589104	btnListUpdate	ca7cafbb-dbf4-4536-a0e3-c2c017afc1a1	@SNIndex+106	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+114	a1277002-5987-4112-b2d1-eb0d47eb5d49	DataGrid1	ca7cafbb-dbf4-4536-a0e3-c2c017afc1a1	@SNIndex+106	DataGrid		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+142	245c37e5-4989-4b7b-8b70-ce23b7c8150b	BtnNew	431f2734-ecdc-4722-9835-1d170f6b4d7b	@SNIndex+141	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+143	af61ed10-f853-4f2c-8623-4b1c04deabde	BtnDelete	431f2734-ecdc-4722-9835-1d170f6b4d7b	@SNIndex+141	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+144	67fd0a57-7054-4982-9748-6b519feea69c	BtnOutPut	431f2734-ecdc-4722-9835-1d170f6b4d7b	@SNIndex+141	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+145	5e904cbc-7734-4b61-8570-2b326433e2e6	BtnPrint	431f2734-ecdc-4722-9835-1d170f6b4d7b	@SNIndex+141	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+146	7a027d10-0f93-4320-975e-9fc04d80a9b0	OnLookCase	431f2734-ecdc-4722-9835-1d170f6b4d7b	@SNIndex+141	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+147	1ce702c2-72b5-45d3-9a04-ebb48ed06d27	DataGrid1	431f2734-ecdc-4722-9835-1d170f6b4d7b	@SNIndex+141	DataGrid		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+148	4ba938f9-40a7-45a4-a00c-26274b81df51	DDLCase	431f2734-ecdc-4722-9835-1d170f6b4d7b	@SNIndex+141	DropDownList		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+181	94221e18-9cb9-4957-90fe-9961c49c52b3	BtnOk	5f2519bd-a9d2-48a9-a1ed-f7d6a81929e7	@SNIndex+180	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+182	e3063445-e089-453e-9530-a408346c1224	BtnClose	5f2519bd-a9d2-48a9-a1ed-f7d6a81929e7	@SNIndex+180	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+183	4f9b9abd-bd4c-44f1-955a-22dffa07cc29	DataGrid1	5f2519bd-a9d2-48a9-a1ed-f7d6a81929e7	@SNIndex+180	DataGrid		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+184	1deff20a-ede1-4093-b90a-d3a9c394a1c6	Remark0	5f2519bd-a9d2-48a9-a1ed-f7d6a81929e7	@SNIndex+180	TextBoxColumn	@SNIndex+183	1	SalesMan	Remark	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+185	4a44feab-793f-4037-b675-b6fa6e8f49d6	ID0	5f2519bd-a9d2-48a9-a1ed-f7d6a81929e7	@SNIndex+180	NumberColumn	@SNIndex+183	1	SalesMan	ID	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		0
-@SNIndex+186	2dc44151-7d8e-48e1-8388-7da20af8e7fc	SysVersion0	5f2519bd-a9d2-48a9-a1ed-f7d6a81929e7	@SNIndex+180	NumberColumn	@SNIndex+183	1	SalesMan	SysVersion	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		0
-@SNIndex+187	02b177c5-2d36-4e04-9542-1c031441538c	RowID1	5f2519bd-a9d2-48a9-a1ed-f7d6a81929e7	@SNIndex+180	NumberColumn	@SNIndex+183	1	SalesMan	RowID	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+188	6ff7d8d6-2a65-44c2-a20e-2393c387b21f	Sales0	5f2519bd-a9d2-48a9-a1ed-f7d6a81929e7	@SNIndex+180	ReferenceColumn	@SNIndex+183	1	SalesMan	Sales	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+189	ab574cfb-0a4a-4fbb-b45d-859b800daf2b	Deparment0	5f2519bd-a9d2-48a9-a1ed-f7d6a81929e7	@SNIndex+180	ReferenceColumn	@SNIndex+183	1	SalesMan	Deparment	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+201	193fce3e-f109-4f57-a46f-a1f855220a6c	BtnNew	6990508f-9c25-404d-a56f-f8c0f9fcf682	@SNIndex+200	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+202	2bbe5c25-fdf7-478d-8059-daef9034884b	BtnDelete	6990508f-9c25-404d-a56f-f8c0f9fcf682	@SNIndex+200	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+203	1b57ba9b-ae16-462c-bb09-315afe7fecc4	BtnOutPut	6990508f-9c25-404d-a56f-f8c0f9fcf682	@SNIndex+200	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+204	ba09eb5e-130f-4d45-ac7c-936955a427f2	BtnPrint	6990508f-9c25-404d-a56f-f8c0f9fcf682	@SNIndex+200	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+205	011e30d6-87d3-487c-b0e5-53e1fab1b33a	OnLookCase	6990508f-9c25-404d-a56f-f8c0f9fcf682	@SNIndex+200	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+206	ac27ac1d-de7c-4d00-93b3-a3acafae1222	DataGrid1	6990508f-9c25-404d-a56f-f8c0f9fcf682	@SNIndex+200	DataGrid		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+207	96cd051d-9022-4ba6-a3f2-54a11a78b917	DDLCase	6990508f-9c25-404d-a56f-f8c0f9fcf682	@SNIndex+200	DropDownList		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+233	62519730-038b-44b3-b97d-0bfce3cab6b1	BtnNew	8f4e92d1-5b33-4902-97fa-b61880d37308	@SNIndex+232	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+234	8e6322d2-9a9e-4c32-ae25-f32a927ace5b	BtnDelete	8f4e92d1-5b33-4902-97fa-b61880d37308	@SNIndex+232	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+235	3fd08bf3-ddb2-4815-9676-2e44e8e80e5d	BtnOutPut	8f4e92d1-5b33-4902-97fa-b61880d37308	@SNIndex+232	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+236	27057d0d-1639-44e1-900f-9eb56e32c1b9	BtnPrint	8f4e92d1-5b33-4902-97fa-b61880d37308	@SNIndex+232	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+237	c239b9fc-244c-4400-8088-e97e789f8fd2	OnLookCase	8f4e92d1-5b33-4902-97fa-b61880d37308	@SNIndex+232	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+238	c96e5831-5b8d-4d47-a495-fc03d47cc4c8	DataGrid1	8f4e92d1-5b33-4902-97fa-b61880d37308	@SNIndex+232	DataGrid		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+239	2972c3b4-e502-4557-aab6-dc6279693185	DDLCase	8f4e92d1-5b33-4902-97fa-b61880d37308	@SNIndex+232	DropDownList		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+265	24d2f760-c7a4-427c-b87c-844793a22e8e	BtnDelete	abdb808d-c4f6-40eb-b939-5b7b7d695d10	@SNIndex+264	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+266	ea5af3e1-ce9e-4a01-918c-92e942fe5a8f	BtnOutPut	abdb808d-c4f6-40eb-b939-5b7b7d695d10	@SNIndex+264	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+267	d0154fea-6244-4b08-9e95-5afa7f8ddd2e	BtnPrint	abdb808d-c4f6-40eb-b939-5b7b7d695d10	@SNIndex+264	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+268	63d2f487-d391-4626-a889-22921695f1c0	OnLookCase	abdb808d-c4f6-40eb-b939-5b7b7d695d10	@SNIndex+264	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+269	e674776d-0ca2-47e0-b46d-cd78c5722818	BtnSaveC	abdb808d-c4f6-40eb-b939-5b7b7d695d10	@SNIndex+264	Button		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+270	05c5f537-6a9e-425d-96dd-f5c869a26ad8	DataGrid1	abdb808d-c4f6-40eb-b939-5b7b7d695d10	@SNIndex+264	DataGrid		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+271	1785f9a4-7591-43eb-8eaf-c2b445e15cb9	DDLCase	abdb808d-c4f6-40eb-b939-5b7b7d695d10	@SNIndex+264	DropDownList		0			Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00		1
-@SNIndex+11	e4f931cf-3846-49aa-a505-8db5b902a845	99c3023a-ee81-485b-a906-6b95f3d4fc40	@SNIndex+0	BillNoRuleBListUIForm	f93c22ce-3360-47ad-90cf-755fe5ccde96	1	1	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	UFIDA.U9.Cust.GS.FT.BillNoRuleBListUIModel.BillNoRuleBListUIFormWebPart	UFIDA.U9.Cust.GS.FT.FTListUI.WebPart	.UI_列表Form带CheckBoxWebPart	0	992	504
-@SNIndex+43	1c0b02a8-6c5f-49d0-96a8-db0b705839e4	99c3023a-ee81-485b-a906-6b95f3d4fc40	@SNIndex+0	BillNoBListUIForm	34225c4d-85d6-4086-a7a4-d5036ef31c27	1	1	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	UFIDA.U9.Cust.GS.FT.BillNoBListUIModel.BillNoBListUIFormWebPart	UFIDA.U9.Cust.GS.FT.FTListUI.WebPart	.UI_列表Form带CheckBoxWebPart	0	600	456
-@SNIndex+72	ceddb7fc-5659-43dc-acf0-df08be0ba819	99c3023a-ee81-485b-a906-6b95f3d4fc40	@SNIndex+0	BillNoItemBListUIForm	9d36d4fd-cb22-41d4-ae6b-0653749dddc7	1	1	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	UFIDA.U9.Cust.GS.FT.BillNoItemBListUIModel.BillNoItemBListUIFormWebPart	UFIDA.U9.Cust.GS.FT.FTListUI.WebPart	.UI_列表Form带CheckBoxWebPart	0	992	504
-@SNIndex+106	ca7cafbb-dbf4-4536-a0e3-c2c017afc1a1	99c3023a-ee81-485b-a906-6b95f3d4fc40	@SNIndex+0	BrokerageBListUIForm	1519c72e-e5f6-46c0-ba11-d54fa549fff9	1	1	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	UFIDA.U9.Cust.GS.FT.BrokerageBListUIModel.BrokerageBListUIFormWebPart	UFIDA.U9.Cust.GS.FT.FTListUI.WebPart	.UI_列表Form带CheckBoxWebPart	0	992	504
-@SNIndex+141	431f2734-ecdc-4722-9835-1d170f6b4d7b	99c3023a-ee81-485b-a906-6b95f3d4fc40	@SNIndex+0	MarginBListUIForm	0b31e627-b5c3-4552-ab8c-80ce72d1774a	1	1	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	UFIDA.U9.Cust.GS.FT.MarginBListUIModel.MarginBListUIFormWebPart	UFIDA.U9.Cust.GS.FT.FTListUI.WebPart	.UI_列表Form带CheckBoxWebPart	0	992	504
-@SNIndex+180	5f2519bd-a9d2-48a9-a1ed-f7d6a81929e7	99c3023a-ee81-485b-a906-6b95f3d4fc40	@SNIndex+0	SalesManUIForm	58b79d3e-eccf-4c7d-8506-b06fea873fbf	1	1	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	UFIDA.U9.Cust.GS.FT.SalesManUIModel.SalesManUIFormWebPart	UFIDA.U9.Cust.GS.FT.FTListUI.WebPart	.UI_单列表WebPart	0	992	504
-@SNIndex+200	6990508f-9c25-404d-a56f-f8c0f9fcf682	99c3023a-ee81-485b-a906-6b95f3d4fc40	@SNIndex+0	AllFormTypeBListUIForm	c06c0461-8bf4-451d-9b6e-42820eb2624e	1	1	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	UFIDA.U9.Cust.GS.FT.AllFormTypeBListUIModel.AllFormTypeBListUIFormWebPart	UFIDA.U9.Cust.GS.FT.FTListUI.WebPart	.UI_列表Form带CheckBoxWebPart	0	992	504
-@SNIndex+232	8f4e92d1-5b33-4902-97fa-b61880d37308	99c3023a-ee81-485b-a906-6b95f3d4fc40	@SNIndex+0	DiscountBListUIForm	f79da8c4-b1a8-42f5-a63a-7d288669710f	1	1	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	UFIDA.U9.Cust.GS.FT.DiscountBListUIModel.DiscountBListUIFormWebPart	UFIDA.U9.Cust.GS.FT.FTListUI.WebPart	.UI_列表Form带CheckBoxWebPart	0	992	504
-@SNIndex+264	abdb808d-c4f6-40eb-b939-5b7b7d695d10	99c3023a-ee81-485b-a906-6b95f3d4fc40	@SNIndex+0	BillNoQryBListUIForm	dcac0f54-94a8-4abf-9248-ec92e514a6f2	1	1	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	UFIDA.U9.Cust.GS.FT.BillNoQryBListUIModel.BillNoQryBListUIFormWebPart	UFIDA.U9.Cust.GS.FT.FTListUI.WebPart	.UI_列表Form带CheckBoxWebPart	0	992	504
-@SNIndex+2	cad1b615-1a92-42c4-be48-6909171dc5db	BillNoRule	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	@SNIndex+1	1	0			8bbfb242-75dd-49c7-8c7f-0fc4f8e0ee4d	f93c22ce-3360-47ad-90cf-755fe5ccde96	00000000-0000-0000-0000-000000000000
-@SNIndex+34	25bc2496-7d4f-4fe9-886f-d304c6bb1ced	BillNo	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	@SNIndex+33	1	0			00312915-b79c-4707-ad84-3923c8a1b523	34225c4d-85d6-4086-a7a4-d5036ef31c27	00000000-0000-0000-0000-000000000000
-@SNIndex+63	30c26284-5fed-451b-8750-6db6dfda6e82	BillNoItemHead	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	@SNIndex+62	1	0			62a62a27-03a7-4e17-9cf4-7a44032d69f5	9d36d4fd-cb22-41d4-ae6b-0653749dddc7	00000000-0000-0000-0000-000000000000
-@SNIndex+95	69aa9dac-62cc-4133-8a84-92dbf392a932	BrokerageHead	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	@SNIndex+94	1	0			9bbe47e5-4a53-4558-b93c-76cfa86bafa6	1519c72e-e5f6-46c0-ba11-d54fa549fff9	00000000-0000-0000-0000-000000000000
-@SNIndex+132	569b3cd7-21f0-451a-b919-806bb0de941a	Margin	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+131	1	0			b940c7cc-4ed1-4c95-9996-bcaca7c4b4df	0b31e627-b5c3-4552-ab8c-80ce72d1774a	00000000-0000-0000-0000-000000000000
-@SNIndex+164	9b02ea66-1381-4725-be37-3e7161ac5398	SalesMan	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+163	1	0			092006e0-550e-4024-be31-4cf3dace0eaf	58b79d3e-eccf-4c7d-8506-b06fea873fbf	00000000-0000-0000-0000-000000000000
-@SNIndex+191	d4e0ba47-f8e2-461c-970c-5ecebcb78f87	AllFormType	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+190	1	0			c4dbb945-0017-4438-8bb0-e8b8e6bb39fa	c06c0461-8bf4-451d-9b6e-42820eb2624e	00000000-0000-0000-0000-000000000000
-@SNIndex+223	4efdef35-1991-4750-991c-d7c82aa0e4d4	DiscountHead	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+222	1	0			63f8c619-256b-45ae-bc0a-4c683b0050d7	f79da8c4-b1a8-42f5-a63a-7d288669710f	00000000-0000-0000-0000-000000000000
-@SNIndex+255	dcbdd052-f81f-4dd0-9480-6e8a7454f372	BillNo	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+254	1	0			00312915-b79c-4707-ad84-3923c8a1b523	dcac0f54-94a8-4abf-9248-ec92e514a6f2	00000000-0000-0000-0000-000000000000
-@SNIndex+11	e4f931cf-3846-49aa-a505-8db5b902a845	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	UFIDA.U9.Cust.GS.FT.BillNoRuleBListUIModel.BillNoRuleBListUIFormWebPart	UFIDA.U9.Cust.GS.FT.FTListUI.WebPart	UFIDA\U9\Cust\GS\FT\FTListUI	.UI_列表Form带CheckBoxWebPart
-@SNIndex+43	1c0b02a8-6c5f-49d0-96a8-db0b705839e4	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	UFIDA.U9.Cust.GS.FT.BillNoBListUIModel.BillNoBListUIFormWebPart	UFIDA.U9.Cust.GS.FT.FTListUI.WebPart	UFIDA\U9\Cust\GS\FT\FTListUI	.UI_列表Form带CheckBoxWebPart
-@SNIndex+72	ceddb7fc-5659-43dc-acf0-df08be0ba819	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	UFIDA.U9.Cust.GS.FT.BillNoItemBListUIModel.BillNoItemBListUIFormWebPart	UFIDA.U9.Cust.GS.FT.FTListUI.WebPart	UFIDA\U9\Cust\GS\FT\FTListUI	.UI_列表Form带CheckBoxWebPart
-@SNIndex+106	ca7cafbb-dbf4-4536-a0e3-c2c017afc1a1	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	UFIDA.U9.Cust.GS.FT.BrokerageBListUIModel.BrokerageBListUIFormWebPart	UFIDA.U9.Cust.GS.FT.FTListUI.WebPart	UFIDA\U9\Cust\GS\FT\FTListUI	.UI_列表Form带CheckBoxWebPart
-@SNIndex+141	431f2734-ecdc-4722-9835-1d170f6b4d7b	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	UFIDA.U9.Cust.GS.FT.MarginBListUIModel.MarginBListUIFormWebPart	UFIDA.U9.Cust.GS.FT.FTListUI.WebPart	UFIDA\U9\Cust\GS\FT\FTListUI	.UI_列表Form带CheckBoxWebPart
-@SNIndex+180	5f2519bd-a9d2-48a9-a1ed-f7d6a81929e7	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	UFIDA.U9.Cust.GS.FT.SalesManUIModel.SalesManUIFormWebPart	UFIDA.U9.Cust.GS.FT.FTListUI.WebPart	UFIDA\U9\Cust\GS\FT\FTListUI	.UI_单列表WebPart
-@SNIndex+200	6990508f-9c25-404d-a56f-f8c0f9fcf682	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	UFIDA.U9.Cust.GS.FT.AllFormTypeBListUIModel.AllFormTypeBListUIFormWebPart	UFIDA.U9.Cust.GS.FT.FTListUI.WebPart	UFIDA\U9\Cust\GS\FT\FTListUI	.UI_列表Form带CheckBoxWebPart
-@SNIndex+232	8f4e92d1-5b33-4902-97fa-b61880d37308	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	UFIDA.U9.Cust.GS.FT.DiscountBListUIModel.DiscountBListUIFormWebPart	UFIDA.U9.Cust.GS.FT.FTListUI.WebPart	UFIDA\U9\Cust\GS\FT\FTListUI	.UI_列表Form带CheckBoxWebPart
-@SNIndex+264	abdb808d-c4f6-40eb-b939-5b7b7d695d10	Administrator	2015-04-25T09:42:00	Administrator	2015-04-25T09:42:00	UFIDA.U9.Cust.GS.FT.BillNoQryBListUIModel.BillNoQryBListUIFormWebPart	UFIDA.U9.Cust.GS.FT.FTListUI.WebPart	UFIDA\U9\Cust\GS\FT\FTListUI	.UI_列表Form带CheckBoxWebPart
-@SNIndex+1	f93c22ce-3360-47ad-90cf-755fe5ccde96	BillNoRuleBListUIModel	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	@SNIndex+0
-@SNIndex+33	34225c4d-85d6-4086-a7a4-d5036ef31c27	BillNoBListUIModel	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	@SNIndex+0
-@SNIndex+62	9d36d4fd-cb22-41d4-ae6b-0653749dddc7	BillNoItemBListUIModel	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	@SNIndex+0
-@SNIndex+94	1519c72e-e5f6-46c0-ba11-d54fa549fff9	BrokerageBListUIModel	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	@SNIndex+0
-@SNIndex+131	0b31e627-b5c3-4552-ab8c-80ce72d1774a	MarginBListUIModel	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+0
-@SNIndex+163	58b79d3e-eccf-4c7d-8506-b06fea873fbf	SalesManUIModel	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+0
-@SNIndex+190	c06c0461-8bf4-451d-9b6e-42820eb2624e	AllFormTypeBListUIModel	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+0
-@SNIndex+222	f79da8c4-b1a8-42f5-a63a-7d288669710f	DiscountBListUIModel	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+0
-@SNIndex+254	dcac0f54-94a8-4abf-9248-ec92e514a6f2	BillNoQryBListUIModel	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+0
-@SNIndex+4	7992c9b6-f7a2-41ee-b57c-7475c70adefd	OnLookCase	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	@SNIndex+1	f93c22ce-3360-47ad-90cf-755fe5ccde96	Case
-@SNIndex+5	33677c4c-a687-4391-8330-febc3a98a3e7	OnCaseChanged	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	@SNIndex+1	f93c22ce-3360-47ad-90cf-755fe5ccde96	Case
-@SNIndex+6	ee9dab81-20ce-4818-927c-d15bb83c8ec4	OnOutPut	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	@SNIndex+1	f93c22ce-3360-47ad-90cf-755fe5ccde96	Case
-@SNIndex+7	ed7d0e48-4512-461b-b7b7-03412f14d29a	OnGridRowDbClick	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	@SNIndex+1	f93c22ce-3360-47ad-90cf-755fe5ccde96	Case
-@SNIndex+8	468ac3e3-d08d-4524-a848-4c5165d32b52	OnNew	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	@SNIndex+1	f93c22ce-3360-47ad-90cf-755fe5ccde96	Case
-@SNIndex+9	d14d66af-7062-4f63-8125-184e3b043690	OnPrint	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	@SNIndex+1	f93c22ce-3360-47ad-90cf-755fe5ccde96	Case
-@SNIndex+10	73c8f10e-2752-4a2d-80ee-a78480ef8beb	OnDelete	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	@SNIndex+1	f93c22ce-3360-47ad-90cf-755fe5ccde96	Case
-@SNIndex+36	8a42fa8d-7903-4b5a-90ef-e69aa7b9dc62	OnLookCase	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	@SNIndex+33	34225c4d-85d6-4086-a7a4-d5036ef31c27	Case
-@SNIndex+37	20060d41-14d0-403e-becd-6244c3ea0da4	OnCaseChanged	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	@SNIndex+33	34225c4d-85d6-4086-a7a4-d5036ef31c27	Case
-@SNIndex+38	6ca5573f-d9fb-40cd-94e2-9583bca5c7c6	OnOutPut	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	@SNIndex+33	34225c4d-85d6-4086-a7a4-d5036ef31c27	Case
-@SNIndex+39	db0f49a9-7552-4cbf-807e-796e6f5b006f	OnGridRowDbClick	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	@SNIndex+33	34225c4d-85d6-4086-a7a4-d5036ef31c27	Case
-@SNIndex+40	04b06eba-707c-4932-8d44-ff9c29d2cd74	OnNew	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	@SNIndex+33	34225c4d-85d6-4086-a7a4-d5036ef31c27	Case
-@SNIndex+41	c654ee50-68c2-4747-a25d-89654fc74193	OnPrint	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	@SNIndex+33	34225c4d-85d6-4086-a7a4-d5036ef31c27	Case
-@SNIndex+42	249309e2-68a9-4569-b742-d4d55529b6ac	OnDelete	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	@SNIndex+33	34225c4d-85d6-4086-a7a4-d5036ef31c27	Case
-@SNIndex+65	5fc904ce-7718-49f8-94d4-a219363f7e48	OnLookCase	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	@SNIndex+62	9d36d4fd-cb22-41d4-ae6b-0653749dddc7	Case
-@SNIndex+66	0746a345-6132-4ea2-83d3-74a3cc4a58e7	OnCaseChanged	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	@SNIndex+62	9d36d4fd-cb22-41d4-ae6b-0653749dddc7	Case
-@SNIndex+67	9efa324a-47e0-49d4-b9db-5a23cd8c7991	OnOutPut	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	@SNIndex+62	9d36d4fd-cb22-41d4-ae6b-0653749dddc7	Case
-@SNIndex+68	5e2d453d-c98d-480d-8718-a391a43d657a	OnGridRowDbClick	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	@SNIndex+62	9d36d4fd-cb22-41d4-ae6b-0653749dddc7	Case
-@SNIndex+69	943bb082-a629-4e46-a87e-b4893b327cbe	OnNew	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	@SNIndex+62	9d36d4fd-cb22-41d4-ae6b-0653749dddc7	Case
-@SNIndex+70	40fea9bf-5462-4bd8-b3ce-f4243bd136cc	OnPrint	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	@SNIndex+62	9d36d4fd-cb22-41d4-ae6b-0653749dddc7	Case
-@SNIndex+71	d18901e5-5946-49fc-94a0-3fdb9fe5fb2b	OnDelete	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	@SNIndex+62	9d36d4fd-cb22-41d4-ae6b-0653749dddc7	Case
-@SNIndex+97	1666ffc8-4121-4325-af53-559bc3a0fe48	OnLookCase	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	@SNIndex+94	1519c72e-e5f6-46c0-ba11-d54fa549fff9	Case
-@SNIndex+98	72641a8d-8239-46ee-b3a7-e2708b8ea3be	OnCaseChanged	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	@SNIndex+94	1519c72e-e5f6-46c0-ba11-d54fa549fff9	Case
-@SNIndex+99	4e01025a-d9ef-49fb-9252-109bbae5e885	OnOutPut	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	@SNIndex+94	1519c72e-e5f6-46c0-ba11-d54fa549fff9	Case
-@SNIndex+100	0d8fe29a-b414-4f1c-81b8-10c666456fb5	OnGridRowDbClick	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	@SNIndex+94	1519c72e-e5f6-46c0-ba11-d54fa549fff9	Case
-@SNIndex+101	1fbd564f-a58a-43f8-8edc-4b8750543869	OnNew	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	@SNIndex+94	1519c72e-e5f6-46c0-ba11-d54fa549fff9	Case
-@SNIndex+102	020eb4f0-5f29-4f47-b488-87e39ca3eb7f	OnPrint	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	@SNIndex+94	1519c72e-e5f6-46c0-ba11-d54fa549fff9	Case
-@SNIndex+103	0ad7b9b1-c174-4ce8-b29e-b9739ae9a66d	OnDelete	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	@SNIndex+94	1519c72e-e5f6-46c0-ba11-d54fa549fff9	Case
-@SNIndex+104	ad4e9693-2fb9-4b15-a74d-11b5b03e68c2	OnListAdd	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	@SNIndex+94	1519c72e-e5f6-46c0-ba11-d54fa549fff9	Case
-@SNIndex+105	3a75e245-95c4-42d8-9245-7f296df11ac9	OnListUpdate	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	@SNIndex+94	1519c72e-e5f6-46c0-ba11-d54fa549fff9	Case
-@SNIndex+134	dae006bf-0136-4d70-a765-76a792299cb7	OnLookCase	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+131	0b31e627-b5c3-4552-ab8c-80ce72d1774a	Case
-@SNIndex+135	36437e64-435d-42f6-ab65-04bdbd750346	OnCaseChanged	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+131	0b31e627-b5c3-4552-ab8c-80ce72d1774a	Case
-@SNIndex+136	57b9a9fa-b610-4d15-b13a-e1cd24d30b6b	OnOutPut	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+131	0b31e627-b5c3-4552-ab8c-80ce72d1774a	Case
-@SNIndex+137	920d6e15-9c26-4159-841a-9258c5b2a3ba	OnGridRowDbClick	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+131	0b31e627-b5c3-4552-ab8c-80ce72d1774a	Case
-@SNIndex+138	81d7b9b6-1da1-420e-9460-cecdc9b2afba	OnNew	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+131	0b31e627-b5c3-4552-ab8c-80ce72d1774a	Case
-@SNIndex+139	345c65e0-5db5-48eb-a222-3dfa85c63114	OnPrint	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+131	0b31e627-b5c3-4552-ab8c-80ce72d1774a	Case
-@SNIndex+140	ea00caac-1327-4bd7-a6bb-04c7561db795	OnDelete	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+131	0b31e627-b5c3-4552-ab8c-80ce72d1774a	Case
-@SNIndex+193	1f335080-22ff-408c-a70c-6b1b7978871a	OnLookCase	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+190	c06c0461-8bf4-451d-9b6e-42820eb2624e	Case
-@SNIndex+194	ac68fcac-ca2f-46da-a5e7-924d1967fb04	OnCaseChanged	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+190	c06c0461-8bf4-451d-9b6e-42820eb2624e	Case
-@SNIndex+195	9475dc42-14e0-459c-a787-8f0c5d0d971b	OnOutPut	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+190	c06c0461-8bf4-451d-9b6e-42820eb2624e	Case
-@SNIndex+196	c4bff350-1841-4c3d-8aac-ff764ed95548	OnGridRowDbClick	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+190	c06c0461-8bf4-451d-9b6e-42820eb2624e	Case
-@SNIndex+197	8313f1f0-9d0d-4b3d-a196-ef7c7d2f9e3f	OnNew	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+190	c06c0461-8bf4-451d-9b6e-42820eb2624e	Case
-@SNIndex+198	9d379048-3404-4c6d-815e-d471a2bc98ba	OnPrint	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+190	c06c0461-8bf4-451d-9b6e-42820eb2624e	Case
-@SNIndex+199	fbcdb338-1bc1-4325-99ed-fc90d54538be	OnDelete	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+190	c06c0461-8bf4-451d-9b6e-42820eb2624e	Case
-@SNIndex+225	4d61aef9-4c9b-4ac9-bb4a-dfe2176a47a2	OnLookCase	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+222	f79da8c4-b1a8-42f5-a63a-7d288669710f	Case
-@SNIndex+226	7d49ea7c-51d4-4e79-a4e9-7461ce30ebf6	OnCaseChanged	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+222	f79da8c4-b1a8-42f5-a63a-7d288669710f	Case
-@SNIndex+227	331220d9-56e2-4f7d-9cd1-b364643661e4	OnOutPut	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+222	f79da8c4-b1a8-42f5-a63a-7d288669710f	Case
-@SNIndex+228	769135e2-8907-4c3a-b416-61c2006d33fa	OnGridRowDbClick	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+222	f79da8c4-b1a8-42f5-a63a-7d288669710f	Case
-@SNIndex+229	c2d9ddfb-c3ba-416d-a295-3fb6b1fe64b1	OnNew	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+222	f79da8c4-b1a8-42f5-a63a-7d288669710f	Case
-@SNIndex+230	6c1ada62-bbf3-4fdd-9191-8a2b69d77f6b	OnPrint	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+222	f79da8c4-b1a8-42f5-a63a-7d288669710f	Case
-@SNIndex+231	db4ab2cb-0773-4866-9eb1-afce04a02195	OnDelete	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+222	f79da8c4-b1a8-42f5-a63a-7d288669710f	Case
-@SNIndex+257	e4c4ad84-7876-4af4-a3b7-5e3062a6e63f	OnLookCase	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+254	dcac0f54-94a8-4abf-9248-ec92e514a6f2	Case
-@SNIndex+258	63631a7a-a3c8-42df-9ab6-2f87fcb187d8	OnCaseChanged	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+254	dcac0f54-94a8-4abf-9248-ec92e514a6f2	Case
-@SNIndex+259	d50dc681-598e-4ed6-977f-620279370a4d	OnOutPut	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+254	dcac0f54-94a8-4abf-9248-ec92e514a6f2	Case
-@SNIndex+260	011f549c-368f-4a0a-a344-5446d1de3702	OnGridRowDbClick	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+254	dcac0f54-94a8-4abf-9248-ec92e514a6f2	Case
-@SNIndex+261	dffc4d0b-545d-44b2-8788-0395ab80e17d	OnNew	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+254	dcac0f54-94a8-4abf-9248-ec92e514a6f2	Case
-@SNIndex+262	e644d021-524b-4a5d-b0ac-1d60dbc4cbbb	OnPrint	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+254	dcac0f54-94a8-4abf-9248-ec92e514a6f2	Case
-@SNIndex+263	1213bb81-031b-4bb5-8745-eca51dc5723f	OnDelete	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+254	dcac0f54-94a8-4abf-9248-ec92e514a6f2	Case
-@SNIndex+3	70afe4b1-8efe-4c5b-a11c-89d32d6ed942	ID	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	@SNIndex+2	发票号规则.Key.ID	ba391065-6c27-4c82-acc8-b52b1c93a910		Key	0	0	cad1b615-1a92-42c4-be48-6909171dc5db	b43f7228-4ce3-4c65-8aaf-3d7931531f90
-@SNIndex+35	35866b65-9bef-46d1-a384-da848c3963e9	ID	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	@SNIndex+34	发票号分配.Key.ID	ba391065-6c27-4c82-acc8-b52b1c93a910		Key	0	0	25bc2496-7d4f-4fe9-886f-d304c6bb1ced	d0b0e72c-31dd-4832-984b-c2c4707d85da
-@SNIndex+64	4d3bd3ad-59fc-4617-81ff-92103ab434ec	ID	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	@SNIndex+63	发票号组表头.Key.ID	ba391065-6c27-4c82-acc8-b52b1c93a910		Key	0	0	30c26284-5fed-451b-8750-6db6dfda6e82	e855fa85-9fa0-44e1-aa0d-8d54cbfbaf9a
-@SNIndex+96	163525f0-83ee-46cb-b10b-dd39251c1e5c	ID	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	@SNIndex+95	Key.ID	ba391065-6c27-4c82-acc8-b52b1c93a910		Key	0	0	69aa9dac-62cc-4133-8a84-92dbf392a932	a566a901-7150-45c5-bb4b-e3982743a036
-@SNIndex+133	ddf38389-0fc7-42a2-bc96-7409c6ced150	ID	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+132	余量档案.Key.ID	ba391065-6c27-4c82-acc8-b52b1c93a910		Key	0	0	569b3cd7-21f0-451a-b919-806bb0de941a	255d6672-23c3-4082-a38c-3e94a50c187c
-@SNIndex+165	e6dbfe30-2123-4ae4-af8b-ae6e479d7da5	ID	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+164	业务员分配.Key.ID	ba391065-6c27-4c82-acc8-b52b1c93a910		Key	0	0	9b02ea66-1381-4725-be37-3e7161ac5398	146299d0-4e2e-4190-b9ba-3e571bea4dc1
-@SNIndex+166	f66399e3-213b-4764-b171-2367380ad20c	CreatedOn	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+164	业务员分配.Sys.创建时间	3834a958-120f-4ac9-8d60-1a7be6d3f12f		Sys	0	0	9b02ea66-1381-4725-be37-3e7161ac5398	2d706e0f-13c7-4e6a-89ca-387db5c2cfb1
-@SNIndex+167	8e302068-5e2c-4643-9638-1b6f9ba8a964	CreatedBy	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+164	业务员分配.Sys.创建人	3d174255-fd12-47f7-8844-3b5e4fae9e8c		Sys	0	0	9b02ea66-1381-4725-be37-3e7161ac5398	5d0359cd-308f-4647-862f-7f31ac28e861
-@SNIndex+168	4f334862-a592-41d8-8d7e-0818d088b44a	ModifiedOn	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+164	业务员分配.Sys.修改时间	3834a958-120f-4ac9-8d60-1a7be6d3f12f		Sys	0	0	9b02ea66-1381-4725-be37-3e7161ac5398	ec713d6b-a4c3-47d3-bf2d-e3a64e7fbbd3
-@SNIndex+169	c4ca82c4-b9ac-4006-897b-1eb30adfdb94	ModifiedBy	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+164	业务员分配.Sys.修改人	3d174255-fd12-47f7-8844-3b5e4fae9e8c		Sys	0	0	9b02ea66-1381-4725-be37-3e7161ac5398	9a49535c-d8dd-46be-836e-e068d94c3a83
-@SNIndex+170	6221e559-34e6-4b45-a0c4-338f65cbc5d2	SysVersion	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+164	业务员分配.Sys.事务版本	ba391065-6c27-4c82-acc8-b52b1c93a910	0	Sys	0	0	9b02ea66-1381-4725-be37-3e7161ac5398	368f91a7-bb73-4c9b-8626-b6af22d84b8e
-@SNIndex+171	17608749-9bbb-4675-8a91-69540e761c1b	CustomerItemsID	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+164	业务员分配.Misc.客户料品交叉关系	ba391065-6c27-4c82-acc8-b52b1c93a910		Misc	0	0	9b02ea66-1381-4725-be37-3e7161ac5398	ce0dedb4-8a54-4a63-a72a-41fdd48748dc
-@SNIndex+172	577f62fc-81e5-48d3-9e5c-6a98b84439c0	Sales	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+164	业务员分配.Misc.业务员	ba391065-6c27-4c82-acc8-b52b1c93a910		Misc	0	0	9b02ea66-1381-4725-be37-3e7161ac5398	ae47302c-ca0c-4925-9f65-d73f7b30cb5a
-@SNIndex+173	4f6c0e8c-1b88-47b7-b934-324a31bf2a1f	Sales_Code	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+164	业务员.Misc.编码	3d174255-fd12-47f7-8844-3b5e4fae9e8c		Misc	0	0	9b02ea66-1381-4725-be37-3e7161ac5398	7b6bdb86-8a5b-4248-8d6d-58b116be3463
-@SNIndex+174	7df5002a-ff8f-4fcc-9059-144b4650fd6d	Sales_Name	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+164	业务员.Misc.名称	3d174255-fd12-47f7-8844-3b5e4fae9e8c		Misc	0	0	9b02ea66-1381-4725-be37-3e7161ac5398	6d44a42d-ca14-412b-8bf9-62f532d2ffb4
-@SNIndex+175	0fba7934-3193-431e-8700-68b0f843b9da	Deparment	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+164	业务员分配.Misc.部门	ba391065-6c27-4c82-acc8-b52b1c93a910		Misc	0	0	9b02ea66-1381-4725-be37-3e7161ac5398	cdb56d1e-05a4-46b2-b1d7-3c078c33f3be
-@SNIndex+176	58007fa2-844e-45a3-afc8-f201bdddba48	Deparment_Code	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+164	部门.Misc.编码	3d174255-fd12-47f7-8844-3b5e4fae9e8c		Misc	0	0	9b02ea66-1381-4725-be37-3e7161ac5398	3c2c3f3f-aa05-4fe7-8b6f-19c0044dbe5b
-@SNIndex+177	3d3ce836-a1ce-46b9-b516-705bd14a3229	Deparment_Name	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+164	部门.Misc.名称	3d174255-fd12-47f7-8844-3b5e4fae9e8c		Misc	0	0	9b02ea66-1381-4725-be37-3e7161ac5398	dbcaf848-1522-461c-ad8f-18f6caf77ffc
-@SNIndex+178	11a680e2-5a66-4ec2-bed2-b425261e65d9	Remark	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+164	业务员分配.Misc.备注	3d174255-fd12-47f7-8844-3b5e4fae9e8c		Misc	0	0	9b02ea66-1381-4725-be37-3e7161ac5398	d5f97d35-c347-40f9-aa4c-0dc325cbeba9
-@SNIndex+179	a844a715-0890-46c5-b309-6d576196fa64	RowID	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+164	Misc.行号	d7c6031e-d3fe-41aa-a397-5edd86c10cae		Misc	0	0	9b02ea66-1381-4725-be37-3e7161ac5398	
-@SNIndex+192	1442d604-a86d-409a-90e3-d473f2a4a848	ID	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+191	单据类型基类.Key.ID	ba391065-6c27-4c82-acc8-b52b1c93a910		Key	0	0	d4e0ba47-f8e2-461c-970c-5ecebcb78f87	dae443c3-f006-49e3-a87d-335706a7d400
-@SNIndex+224	d2ae29cb-0b83-4c2f-ba8d-9d99684078ce	ID	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+223	产品客户折扣关系单头.Key.ID	ba391065-6c27-4c82-acc8-b52b1c93a910		Key	0	0	4efdef35-1991-4750-991c-d7c82aa0e4d4	1f0dd421-a799-4b1d-a3b4-81d0ebb6266c
-@SNIndex+256	dc3b9862-f6a5-48e7-ac90-5639c5d40611	ID	Administrator	2015-04-25T09:41:49	Administrator	2015-04-25T09:42:00	@SNIndex+255	发票号分配.Key.ID	ba391065-6c27-4c82-acc8-b52b1c93a910		Key	0	0	dcbdd052-f81f-4dd0-9480-6e8a7454f372	d0b0e72c-31dd-4832-984b-c2c4707d85da
-@SNIndex+0	99c3023a-ee81-485b-a906-6b95f3d4fc40	FTListUI	Administrator	2015-04-25T09:41:48	Administrator	2015-04-25T09:42:00	UFIDA.U9.Cust.GS.FT.FTListUI
+@SNIndex+20	Click	OnNew	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+12	5694a2bd-0a62-43ad-97f6-e70cad5a8115
+@SNIndex+22	Click	OnDelete	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+13	34af9381-5f31-4d96-bb90-54480b8ed276
+@SNIndex+24	Click	OnOutPut	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+14	509c8677-58a1-4c8f-b47a-1f0d547a26eb
+@SNIndex+26	Click	OnPrint	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+15	f0bddcea-acf0-4484-982d-9be5ab007d10
+@SNIndex+28	TextChanged	OnCaseChanged	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+18	331492dc-13bc-4d6b-8f92-80a7572ddea7
+@SNIndex+30	Click	OnLookCase	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+16	e0352820-f5b5-40b4-bd19-a2ece42aaae5
+@SNIndex+32	GridRowDbClicked	OnGridRowDbClick	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+17	7aa35288-5250-4d55-b383-ef12b95424a5
+@SNIndex+51	Click	OnNew	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+44	7674478a-fc07-4ec1-8f07-a128e45a0a81
+@SNIndex+53	Click	OnDelete	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+45	8e211dce-bc43-4f3b-9265-5700edfaf6e9
+@SNIndex+55	Click	OnOutPut	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+46	f365d729-2064-4030-ae04-964c2b8f0506
+@SNIndex+57	Click	OnPrint	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+47	ace401cf-1ad1-4991-8b23-662264563e1a
+@SNIndex+59	Click	OnLookCase	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+48	b08f7a84-9646-4604-a721-c769d8de3589
+@SNIndex+61	GridRowDbClicked	OnGridRowDbClick	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+49	8e6b0f5e-be49-4f77-96ca-cdec151749ab
+@SNIndex+81	Click	OnNew	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+73	8252db66-aaf6-440f-8dbc-db9228289856
+@SNIndex+83	Click	OnDelete	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+74	29407c87-2a90-4f28-9b0b-4051aa30901c
+@SNIndex+85	Click	OnOutPut	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+75	9fc88897-3460-4883-a950-e4a591193ff6
+@SNIndex+87	Click	OnPrint	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+76	042f3202-781c-482b-a85d-3dc93128e6ac
+@SNIndex+89	TextChanged	OnCaseChanged	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+79	95486825-915f-4434-a76c-94862e7cfaca
+@SNIndex+91	Click	OnLookCase	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+77	1e23a4c9-f42c-4160-8d74-f905dc918534
+@SNIndex+93	GridRowDbClicked	OnGridRowDbClick	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+78	ea8f8f86-5237-49f1-a2c9-58410227d249
+@SNIndex+116	Click	OnNew	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+107	d4bce466-f21c-465e-b018-61a99f05daca
+@SNIndex+118	Click	OnDelete	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+108	a01c6b6e-07ce-4b3a-99d4-d0b3fc3622a8
+@SNIndex+120	Click	OnOutPut	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+109	b31dadc1-7513-41b9-9b52-ff39af108c43
+@SNIndex+122	Click	OnPrint	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+110	e07d0a7a-ee0b-41c0-bfef-7be8878a389d
+@SNIndex+124	Click	OnLookCase	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+111	9660d52b-a68b-4578-93c2-2ce0863cc98e
+@SNIndex+126	Click	OnListAdd	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+112	dc46a4de-7d99-4aa8-9296-353886bf9971
+@SNIndex+128	Click	OnListUpdate	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+113	83c9bb5f-2967-425d-8028-aa77cc589104
+@SNIndex+130	GridRowDbClicked	OnGridRowDbClick	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+114	a1277002-5987-4112-b2d1-eb0d47eb5d49
+@SNIndex+150	Click	OnNew	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+142	245c37e5-4989-4b7b-8b70-ce23b7c8150b
+@SNIndex+152	Click	OnDelete	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+143	af61ed10-f853-4f2c-8623-4b1c04deabde
+@SNIndex+154	Click	OnOutPut	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+144	67fd0a57-7054-4982-9748-6b519feea69c
+@SNIndex+156	Click	OnPrint	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+145	5e904cbc-7734-4b61-8570-2b326433e2e6
+@SNIndex+158	TextChanged	OnCaseChanged	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+148	4ba938f9-40a7-45a4-a00c-26274b81df51
+@SNIndex+160	Click	OnLookCase	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+146	7a027d10-0f93-4320-975e-9fc04d80a9b0
+@SNIndex+162	GridRowDbClicked	OnGridRowDbClick	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+147	1ce702c2-72b5-45d3-9a04-ebb48ed06d27
+@SNIndex+209	Click	OnNew	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+201	193fce3e-f109-4f57-a46f-a1f855220a6c
+@SNIndex+211	Click	OnDelete	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+202	2bbe5c25-fdf7-478d-8059-daef9034884b
+@SNIndex+213	Click	OnOutPut	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+203	1b57ba9b-ae16-462c-bb09-315afe7fecc4
+@SNIndex+215	Click	OnPrint	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+204	ba09eb5e-130f-4d45-ac7c-936955a427f2
+@SNIndex+217	TextChanged	OnCaseChanged	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+207	96cd051d-9022-4ba6-a3f2-54a11a78b917
+@SNIndex+219	Click	OnLookCase	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+205	011e30d6-87d3-487c-b0e5-53e1fab1b33a
+@SNIndex+221	GridRowDbClicked	OnGridRowDbClick	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+206	ac27ac1d-de7c-4d00-93b3-a3acafae1222
+@SNIndex+241	Click	OnNew	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+233	62519730-038b-44b3-b97d-0bfce3cab6b1
+@SNIndex+243	Click	OnDelete	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+234	8e6322d2-9a9e-4c32-ae25-f32a927ace5b
+@SNIndex+245	Click	OnOutPut	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+235	3fd08bf3-ddb2-4815-9676-2e44e8e80e5d
+@SNIndex+247	Click	OnPrint	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+236	27057d0d-1639-44e1-900f-9eb56e32c1b9
+@SNIndex+249	TextChanged	OnCaseChanged	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+239	2972c3b4-e502-4557-aab6-dc6279693185
+@SNIndex+251	Click	OnLookCase	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+237	c239b9fc-244c-4400-8088-e97e789f8fd2
+@SNIndex+253	GridRowDbClicked	OnGridRowDbClick	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+238	c96e5831-5b8d-4d47-a495-fc03d47cc4c8
+@SNIndex+273	Click	OnDelete	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+265	24d2f760-c7a4-427c-b87c-844793a22e8e
+@SNIndex+275	Click	OnOutPut	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+266	ea5af3e1-ce9e-4a01-918c-92e942fe5a8f
+@SNIndex+277	Click	OnPrint	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+267	d0154fea-6244-4b08-9e95-5afa7f8ddd2e
+@SNIndex+279	TextChanged	OnCaseChanged	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+271	1785f9a4-7591-43eb-8eaf-c2b445e15cb9
+@SNIndex+281	Click	OnLookCase	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+268	63d2f487-d391-4626-a889-22921695f1c0
+@SNIndex+283	Click		Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+269	e674776d-0ca2-47e0-b46d-cd78c5722818
+@SNIndex+285	GridRowDbClicked	OnGridRowDbClick	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	@SNIndex+270	05c5f537-6a9e-425d-96dd-f5c869a26ad8
+@SNIndex+12	5694a2bd-0a62-43ad-97f6-e70cad5a8115	BtnNew	e4f931cf-3846-49aa-a505-8db5b902a845	@SNIndex+11	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+13	34af9381-5f31-4d96-bb90-54480b8ed276	BtnDelete	e4f931cf-3846-49aa-a505-8db5b902a845	@SNIndex+11	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+14	509c8677-58a1-4c8f-b47a-1f0d547a26eb	BtnOutPut	e4f931cf-3846-49aa-a505-8db5b902a845	@SNIndex+11	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+15	f0bddcea-acf0-4484-982d-9be5ab007d10	BtnPrint	e4f931cf-3846-49aa-a505-8db5b902a845	@SNIndex+11	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+16	e0352820-f5b5-40b4-bd19-a2ece42aaae5	OnLookCase	e4f931cf-3846-49aa-a505-8db5b902a845	@SNIndex+11	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+17	7aa35288-5250-4d55-b383-ef12b95424a5	DataGrid1	e4f931cf-3846-49aa-a505-8db5b902a845	@SNIndex+11	DataGrid		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+18	331492dc-13bc-4d6b-8f92-80a7572ddea7	DDLCase	e4f931cf-3846-49aa-a505-8db5b902a845	@SNIndex+11	DropDownList		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+44	7674478a-fc07-4ec1-8f07-a128e45a0a81	BtnNew	1c0b02a8-6c5f-49d0-96a8-db0b705839e4	@SNIndex+43	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+45	8e211dce-bc43-4f3b-9265-5700edfaf6e9	BtnDelete	1c0b02a8-6c5f-49d0-96a8-db0b705839e4	@SNIndex+43	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+46	f365d729-2064-4030-ae04-964c2b8f0506	BtnOutPut	1c0b02a8-6c5f-49d0-96a8-db0b705839e4	@SNIndex+43	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+47	ace401cf-1ad1-4991-8b23-662264563e1a	BtnPrint	1c0b02a8-6c5f-49d0-96a8-db0b705839e4	@SNIndex+43	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+48	b08f7a84-9646-4604-a721-c769d8de3589	OnLookCase	1c0b02a8-6c5f-49d0-96a8-db0b705839e4	@SNIndex+43	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+49	8e6b0f5e-be49-4f77-96ca-cdec151749ab	DataGrid1	1c0b02a8-6c5f-49d0-96a8-db0b705839e4	@SNIndex+43	DataGrid		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+73	8252db66-aaf6-440f-8dbc-db9228289856	BtnNew	ceddb7fc-5659-43dc-acf0-df08be0ba819	@SNIndex+72	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+74	29407c87-2a90-4f28-9b0b-4051aa30901c	BtnDelete	ceddb7fc-5659-43dc-acf0-df08be0ba819	@SNIndex+72	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+75	9fc88897-3460-4883-a950-e4a591193ff6	BtnOutPut	ceddb7fc-5659-43dc-acf0-df08be0ba819	@SNIndex+72	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+76	042f3202-781c-482b-a85d-3dc93128e6ac	BtnPrint	ceddb7fc-5659-43dc-acf0-df08be0ba819	@SNIndex+72	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+77	1e23a4c9-f42c-4160-8d74-f905dc918534	OnLookCase	ceddb7fc-5659-43dc-acf0-df08be0ba819	@SNIndex+72	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+78	ea8f8f86-5237-49f1-a2c9-58410227d249	DataGrid1	ceddb7fc-5659-43dc-acf0-df08be0ba819	@SNIndex+72	DataGrid		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+79	95486825-915f-4434-a76c-94862e7cfaca	DDLCase	ceddb7fc-5659-43dc-acf0-df08be0ba819	@SNIndex+72	DropDownList		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+107	d4bce466-f21c-465e-b018-61a99f05daca	BtnNew	ca7cafbb-dbf4-4536-a0e3-c2c017afc1a1	@SNIndex+106	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+108	a01c6b6e-07ce-4b3a-99d4-d0b3fc3622a8	BtnDelete	ca7cafbb-dbf4-4536-a0e3-c2c017afc1a1	@SNIndex+106	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+109	b31dadc1-7513-41b9-9b52-ff39af108c43	BtnOutPut	ca7cafbb-dbf4-4536-a0e3-c2c017afc1a1	@SNIndex+106	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+110	e07d0a7a-ee0b-41c0-bfef-7be8878a389d	BtnPrint	ca7cafbb-dbf4-4536-a0e3-c2c017afc1a1	@SNIndex+106	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+111	9660d52b-a68b-4578-93c2-2ce0863cc98e	OnLookCase	ca7cafbb-dbf4-4536-a0e3-c2c017afc1a1	@SNIndex+106	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+112	dc46a4de-7d99-4aa8-9296-353886bf9971	btnListAdd	ca7cafbb-dbf4-4536-a0e3-c2c017afc1a1	@SNIndex+106	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+113	83c9bb5f-2967-425d-8028-aa77cc589104	btnListUpdate	ca7cafbb-dbf4-4536-a0e3-c2c017afc1a1	@SNIndex+106	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+114	a1277002-5987-4112-b2d1-eb0d47eb5d49	DataGrid1	ca7cafbb-dbf4-4536-a0e3-c2c017afc1a1	@SNIndex+106	DataGrid		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+142	245c37e5-4989-4b7b-8b70-ce23b7c8150b	BtnNew	431f2734-ecdc-4722-9835-1d170f6b4d7b	@SNIndex+141	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+143	af61ed10-f853-4f2c-8623-4b1c04deabde	BtnDelete	431f2734-ecdc-4722-9835-1d170f6b4d7b	@SNIndex+141	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+144	67fd0a57-7054-4982-9748-6b519feea69c	BtnOutPut	431f2734-ecdc-4722-9835-1d170f6b4d7b	@SNIndex+141	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+145	5e904cbc-7734-4b61-8570-2b326433e2e6	BtnPrint	431f2734-ecdc-4722-9835-1d170f6b4d7b	@SNIndex+141	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+146	7a027d10-0f93-4320-975e-9fc04d80a9b0	OnLookCase	431f2734-ecdc-4722-9835-1d170f6b4d7b	@SNIndex+141	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+147	1ce702c2-72b5-45d3-9a04-ebb48ed06d27	DataGrid1	431f2734-ecdc-4722-9835-1d170f6b4d7b	@SNIndex+141	DataGrid		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+148	4ba938f9-40a7-45a4-a00c-26274b81df51	DDLCase	431f2734-ecdc-4722-9835-1d170f6b4d7b	@SNIndex+141	DropDownList		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+181	94221e18-9cb9-4957-90fe-9961c49c52b3	BtnOk	5f2519bd-a9d2-48a9-a1ed-f7d6a81929e7	@SNIndex+180	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+182	e3063445-e089-453e-9530-a408346c1224	BtnClose	5f2519bd-a9d2-48a9-a1ed-f7d6a81929e7	@SNIndex+180	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+183	4f9b9abd-bd4c-44f1-955a-22dffa07cc29	DataGrid1	5f2519bd-a9d2-48a9-a1ed-f7d6a81929e7	@SNIndex+180	DataGrid		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+184	1deff20a-ede1-4093-b90a-d3a9c394a1c6	Remark0	5f2519bd-a9d2-48a9-a1ed-f7d6a81929e7	@SNIndex+180	TextBoxColumn	@SNIndex+183	1	SalesMan	Remark	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+185	4a44feab-793f-4037-b675-b6fa6e8f49d6	ID0	5f2519bd-a9d2-48a9-a1ed-f7d6a81929e7	@SNIndex+180	NumberColumn	@SNIndex+183	1	SalesMan	ID	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		0
+@SNIndex+186	2dc44151-7d8e-48e1-8388-7da20af8e7fc	SysVersion0	5f2519bd-a9d2-48a9-a1ed-f7d6a81929e7	@SNIndex+180	NumberColumn	@SNIndex+183	1	SalesMan	SysVersion	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		0
+@SNIndex+187	02b177c5-2d36-4e04-9542-1c031441538c	RowID1	5f2519bd-a9d2-48a9-a1ed-f7d6a81929e7	@SNIndex+180	NumberColumn	@SNIndex+183	1	SalesMan	RowID	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+188	6ff7d8d6-2a65-44c2-a20e-2393c387b21f	Sales0	5f2519bd-a9d2-48a9-a1ed-f7d6a81929e7	@SNIndex+180	ReferenceColumn	@SNIndex+183	1	SalesMan	Sales	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+189	ab574cfb-0a4a-4fbb-b45d-859b800daf2b	Deparment0	5f2519bd-a9d2-48a9-a1ed-f7d6a81929e7	@SNIndex+180	ReferenceColumn	@SNIndex+183	1	SalesMan	Deparment	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+201	193fce3e-f109-4f57-a46f-a1f855220a6c	BtnNew	6990508f-9c25-404d-a56f-f8c0f9fcf682	@SNIndex+200	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+202	2bbe5c25-fdf7-478d-8059-daef9034884b	BtnDelete	6990508f-9c25-404d-a56f-f8c0f9fcf682	@SNIndex+200	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+203	1b57ba9b-ae16-462c-bb09-315afe7fecc4	BtnOutPut	6990508f-9c25-404d-a56f-f8c0f9fcf682	@SNIndex+200	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+204	ba09eb5e-130f-4d45-ac7c-936955a427f2	BtnPrint	6990508f-9c25-404d-a56f-f8c0f9fcf682	@SNIndex+200	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+205	011e30d6-87d3-487c-b0e5-53e1fab1b33a	OnLookCase	6990508f-9c25-404d-a56f-f8c0f9fcf682	@SNIndex+200	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+206	ac27ac1d-de7c-4d00-93b3-a3acafae1222	DataGrid1	6990508f-9c25-404d-a56f-f8c0f9fcf682	@SNIndex+200	DataGrid		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+207	96cd051d-9022-4ba6-a3f2-54a11a78b917	DDLCase	6990508f-9c25-404d-a56f-f8c0f9fcf682	@SNIndex+200	DropDownList		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+233	62519730-038b-44b3-b97d-0bfce3cab6b1	BtnNew	8f4e92d1-5b33-4902-97fa-b61880d37308	@SNIndex+232	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+234	8e6322d2-9a9e-4c32-ae25-f32a927ace5b	BtnDelete	8f4e92d1-5b33-4902-97fa-b61880d37308	@SNIndex+232	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+235	3fd08bf3-ddb2-4815-9676-2e44e8e80e5d	BtnOutPut	8f4e92d1-5b33-4902-97fa-b61880d37308	@SNIndex+232	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+236	27057d0d-1639-44e1-900f-9eb56e32c1b9	BtnPrint	8f4e92d1-5b33-4902-97fa-b61880d37308	@SNIndex+232	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+237	c239b9fc-244c-4400-8088-e97e789f8fd2	OnLookCase	8f4e92d1-5b33-4902-97fa-b61880d37308	@SNIndex+232	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+238	c96e5831-5b8d-4d47-a495-fc03d47cc4c8	DataGrid1	8f4e92d1-5b33-4902-97fa-b61880d37308	@SNIndex+232	DataGrid		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+239	2972c3b4-e502-4557-aab6-dc6279693185	DDLCase	8f4e92d1-5b33-4902-97fa-b61880d37308	@SNIndex+232	DropDownList		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+265	24d2f760-c7a4-427c-b87c-844793a22e8e	BtnDelete	abdb808d-c4f6-40eb-b939-5b7b7d695d10	@SNIndex+264	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+266	ea5af3e1-ce9e-4a01-918c-92e942fe5a8f	BtnOutPut	abdb808d-c4f6-40eb-b939-5b7b7d695d10	@SNIndex+264	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+267	d0154fea-6244-4b08-9e95-5afa7f8ddd2e	BtnPrint	abdb808d-c4f6-40eb-b939-5b7b7d695d10	@SNIndex+264	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+268	63d2f487-d391-4626-a889-22921695f1c0	OnLookCase	abdb808d-c4f6-40eb-b939-5b7b7d695d10	@SNIndex+264	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+269	e674776d-0ca2-47e0-b46d-cd78c5722818	BtnSaveC	abdb808d-c4f6-40eb-b939-5b7b7d695d10	@SNIndex+264	Button		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+270	05c5f537-6a9e-425d-96dd-f5c869a26ad8	DataGrid1	abdb808d-c4f6-40eb-b939-5b7b7d695d10	@SNIndex+264	DataGrid		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+271	1785f9a4-7591-43eb-8eaf-c2b445e15cb9	DDLCase	abdb808d-c4f6-40eb-b939-5b7b7d695d10	@SNIndex+264	DropDownList		0			Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08		1
+@SNIndex+11	e4f931cf-3846-49aa-a505-8db5b902a845	99c3023a-ee81-485b-a906-6b95f3d4fc40	@SNIndex+0	BillNoRuleBListUIForm	f93c22ce-3360-47ad-90cf-755fe5ccde96	1	1	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	UFIDA.U9.Cust.GS.FT.BillNoRuleBListUIModel.BillNoRuleBListUIFormWebPart	UFIDA.U9.Cust.GS.FT.FTListUI.WebPart	.UI_列表Form带CheckBoxWebPart	0	992	504
+@SNIndex+43	1c0b02a8-6c5f-49d0-96a8-db0b705839e4	99c3023a-ee81-485b-a906-6b95f3d4fc40	@SNIndex+0	BillNoBListUIForm	34225c4d-85d6-4086-a7a4-d5036ef31c27	1	1	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	UFIDA.U9.Cust.GS.FT.BillNoBListUIModel.BillNoBListUIFormWebPart	UFIDA.U9.Cust.GS.FT.FTListUI.WebPart	.UI_列表Form带CheckBoxWebPart	0	600	456
+@SNIndex+72	ceddb7fc-5659-43dc-acf0-df08be0ba819	99c3023a-ee81-485b-a906-6b95f3d4fc40	@SNIndex+0	BillNoItemBListUIForm	9d36d4fd-cb22-41d4-ae6b-0653749dddc7	1	1	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	UFIDA.U9.Cust.GS.FT.BillNoItemBListUIModel.BillNoItemBListUIFormWebPart	UFIDA.U9.Cust.GS.FT.FTListUI.WebPart	.UI_列表Form带CheckBoxWebPart	0	992	504
+@SNIndex+106	ca7cafbb-dbf4-4536-a0e3-c2c017afc1a1	99c3023a-ee81-485b-a906-6b95f3d4fc40	@SNIndex+0	BrokerageBListUIForm	1519c72e-e5f6-46c0-ba11-d54fa549fff9	1	1	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	UFIDA.U9.Cust.GS.FT.BrokerageBListUIModel.BrokerageBListUIFormWebPart	UFIDA.U9.Cust.GS.FT.FTListUI.WebPart	.UI_列表Form带CheckBoxWebPart	0	992	504
+@SNIndex+141	431f2734-ecdc-4722-9835-1d170f6b4d7b	99c3023a-ee81-485b-a906-6b95f3d4fc40	@SNIndex+0	MarginBListUIForm	0b31e627-b5c3-4552-ab8c-80ce72d1774a	1	1	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	UFIDA.U9.Cust.GS.FT.MarginBListUIModel.MarginBListUIFormWebPart	UFIDA.U9.Cust.GS.FT.FTListUI.WebPart	.UI_列表Form带CheckBoxWebPart	0	992	504
+@SNIndex+180	5f2519bd-a9d2-48a9-a1ed-f7d6a81929e7	99c3023a-ee81-485b-a906-6b95f3d4fc40	@SNIndex+0	SalesManUIForm	58b79d3e-eccf-4c7d-8506-b06fea873fbf	1	1	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	UFIDA.U9.Cust.GS.FT.SalesManUIModel.SalesManUIFormWebPart	UFIDA.U9.Cust.GS.FT.FTListUI.WebPart	.UI_单列表WebPart	0	992	504
+@SNIndex+200	6990508f-9c25-404d-a56f-f8c0f9fcf682	99c3023a-ee81-485b-a906-6b95f3d4fc40	@SNIndex+0	AllFormTypeBListUIForm	c06c0461-8bf4-451d-9b6e-42820eb2624e	1	1	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	UFIDA.U9.Cust.GS.FT.AllFormTypeBListUIModel.AllFormTypeBListUIFormWebPart	UFIDA.U9.Cust.GS.FT.FTListUI.WebPart	.UI_列表Form带CheckBoxWebPart	0	992	504
+@SNIndex+232	8f4e92d1-5b33-4902-97fa-b61880d37308	99c3023a-ee81-485b-a906-6b95f3d4fc40	@SNIndex+0	DiscountBListUIForm	f79da8c4-b1a8-42f5-a63a-7d288669710f	1	1	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	UFIDA.U9.Cust.GS.FT.DiscountBListUIModel.DiscountBListUIFormWebPart	UFIDA.U9.Cust.GS.FT.FTListUI.WebPart	.UI_列表Form带CheckBoxWebPart	0	992	504
+@SNIndex+264	abdb808d-c4f6-40eb-b939-5b7b7d695d10	99c3023a-ee81-485b-a906-6b95f3d4fc40	@SNIndex+0	BillNoQryBListUIForm	dcac0f54-94a8-4abf-9248-ec92e514a6f2	1	1	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	UFIDA.U9.Cust.GS.FT.BillNoQryBListUIModel.BillNoQryBListUIFormWebPart	UFIDA.U9.Cust.GS.FT.FTListUI.WebPart	.UI_列表Form带CheckBoxWebPart	0	992	504
+@SNIndex+2	cad1b615-1a92-42c4-be48-6909171dc5db	BillNoRule	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+1	1	0			8bbfb242-75dd-49c7-8c7f-0fc4f8e0ee4d	f93c22ce-3360-47ad-90cf-755fe5ccde96	00000000-0000-0000-0000-000000000000
+@SNIndex+34	25bc2496-7d4f-4fe9-886f-d304c6bb1ced	BillNo	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+33	1	0			00312915-b79c-4707-ad84-3923c8a1b523	34225c4d-85d6-4086-a7a4-d5036ef31c27	00000000-0000-0000-0000-000000000000
+@SNIndex+63	30c26284-5fed-451b-8750-6db6dfda6e82	BillNoItemHead	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+62	1	0			62a62a27-03a7-4e17-9cf4-7a44032d69f5	9d36d4fd-cb22-41d4-ae6b-0653749dddc7	00000000-0000-0000-0000-000000000000
+@SNIndex+95	69aa9dac-62cc-4133-8a84-92dbf392a932	BrokerageHead	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+94	1	0			9bbe47e5-4a53-4558-b93c-76cfa86bafa6	1519c72e-e5f6-46c0-ba11-d54fa549fff9	00000000-0000-0000-0000-000000000000
+@SNIndex+132	569b3cd7-21f0-451a-b919-806bb0de941a	Margin	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+131	1	0			b940c7cc-4ed1-4c95-9996-bcaca7c4b4df	0b31e627-b5c3-4552-ab8c-80ce72d1774a	00000000-0000-0000-0000-000000000000
+@SNIndex+164	9b02ea66-1381-4725-be37-3e7161ac5398	SalesMan	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+163	1	0			092006e0-550e-4024-be31-4cf3dace0eaf	58b79d3e-eccf-4c7d-8506-b06fea873fbf	00000000-0000-0000-0000-000000000000
+@SNIndex+191	d4e0ba47-f8e2-461c-970c-5ecebcb78f87	AllFormType	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+190	1	0			c4dbb945-0017-4438-8bb0-e8b8e6bb39fa	c06c0461-8bf4-451d-9b6e-42820eb2624e	00000000-0000-0000-0000-000000000000
+@SNIndex+223	4efdef35-1991-4750-991c-d7c82aa0e4d4	DiscountHead	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+222	1	0			63f8c619-256b-45ae-bc0a-4c683b0050d7	f79da8c4-b1a8-42f5-a63a-7d288669710f	00000000-0000-0000-0000-000000000000
+@SNIndex+255	dcbdd052-f81f-4dd0-9480-6e8a7454f372	BillNo	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+254	1	0			00312915-b79c-4707-ad84-3923c8a1b523	dcac0f54-94a8-4abf-9248-ec92e514a6f2	00000000-0000-0000-0000-000000000000
+@SNIndex+11	e4f931cf-3846-49aa-a505-8db5b902a845	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	UFIDA.U9.Cust.GS.FT.BillNoRuleBListUIModel.BillNoRuleBListUIFormWebPart	UFIDA.U9.Cust.GS.FT.FTListUI.WebPart	UFIDA\U9\Cust\GS\FT\FTListUI	.UI_列表Form带CheckBoxWebPart
+@SNIndex+43	1c0b02a8-6c5f-49d0-96a8-db0b705839e4	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	UFIDA.U9.Cust.GS.FT.BillNoBListUIModel.BillNoBListUIFormWebPart	UFIDA.U9.Cust.GS.FT.FTListUI.WebPart	UFIDA\U9\Cust\GS\FT\FTListUI	.UI_列表Form带CheckBoxWebPart
+@SNIndex+72	ceddb7fc-5659-43dc-acf0-df08be0ba819	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	UFIDA.U9.Cust.GS.FT.BillNoItemBListUIModel.BillNoItemBListUIFormWebPart	UFIDA.U9.Cust.GS.FT.FTListUI.WebPart	UFIDA\U9\Cust\GS\FT\FTListUI	.UI_列表Form带CheckBoxWebPart
+@SNIndex+106	ca7cafbb-dbf4-4536-a0e3-c2c017afc1a1	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	UFIDA.U9.Cust.GS.FT.BrokerageBListUIModel.BrokerageBListUIFormWebPart	UFIDA.U9.Cust.GS.FT.FTListUI.WebPart	UFIDA\U9\Cust\GS\FT\FTListUI	.UI_列表Form带CheckBoxWebPart
+@SNIndex+141	431f2734-ecdc-4722-9835-1d170f6b4d7b	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	UFIDA.U9.Cust.GS.FT.MarginBListUIModel.MarginBListUIFormWebPart	UFIDA.U9.Cust.GS.FT.FTListUI.WebPart	UFIDA\U9\Cust\GS\FT\FTListUI	.UI_列表Form带CheckBoxWebPart
+@SNIndex+180	5f2519bd-a9d2-48a9-a1ed-f7d6a81929e7	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	UFIDA.U9.Cust.GS.FT.SalesManUIModel.SalesManUIFormWebPart	UFIDA.U9.Cust.GS.FT.FTListUI.WebPart	UFIDA\U9\Cust\GS\FT\FTListUI	.UI_单列表WebPart
+@SNIndex+200	6990508f-9c25-404d-a56f-f8c0f9fcf682	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	UFIDA.U9.Cust.GS.FT.AllFormTypeBListUIModel.AllFormTypeBListUIFormWebPart	UFIDA.U9.Cust.GS.FT.FTListUI.WebPart	UFIDA\U9\Cust\GS\FT\FTListUI	.UI_列表Form带CheckBoxWebPart
+@SNIndex+232	8f4e92d1-5b33-4902-97fa-b61880d37308	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	UFIDA.U9.Cust.GS.FT.DiscountBListUIModel.DiscountBListUIFormWebPart	UFIDA.U9.Cust.GS.FT.FTListUI.WebPart	UFIDA\U9\Cust\GS\FT\FTListUI	.UI_列表Form带CheckBoxWebPart
+@SNIndex+264	abdb808d-c4f6-40eb-b939-5b7b7d695d10	Administrator	2015-06-05T09:21:08	Administrator	2015-06-05T09:21:08	UFIDA.U9.Cust.GS.FT.BillNoQryBListUIModel.BillNoQryBListUIFormWebPart	UFIDA.U9.Cust.GS.FT.FTListUI.WebPart	UFIDA\U9\Cust\GS\FT\FTListUI	.UI_列表Form带CheckBoxWebPart
+@SNIndex+1	f93c22ce-3360-47ad-90cf-755fe5ccde96	BillNoRuleBListUIModel	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+0
+@SNIndex+33	34225c4d-85d6-4086-a7a4-d5036ef31c27	BillNoBListUIModel	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+0
+@SNIndex+62	9d36d4fd-cb22-41d4-ae6b-0653749dddc7	BillNoItemBListUIModel	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+0
+@SNIndex+94	1519c72e-e5f6-46c0-ba11-d54fa549fff9	BrokerageBListUIModel	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+0
+@SNIndex+131	0b31e627-b5c3-4552-ab8c-80ce72d1774a	MarginBListUIModel	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+0
+@SNIndex+163	58b79d3e-eccf-4c7d-8506-b06fea873fbf	SalesManUIModel	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+0
+@SNIndex+190	c06c0461-8bf4-451d-9b6e-42820eb2624e	AllFormTypeBListUIModel	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+0
+@SNIndex+222	f79da8c4-b1a8-42f5-a63a-7d288669710f	DiscountBListUIModel	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+0
+@SNIndex+254	dcac0f54-94a8-4abf-9248-ec92e514a6f2	BillNoQryBListUIModel	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+0
+@SNIndex+4	7992c9b6-f7a2-41ee-b57c-7475c70adefd	OnLookCase	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+1	f93c22ce-3360-47ad-90cf-755fe5ccde96	Case
+@SNIndex+5	33677c4c-a687-4391-8330-febc3a98a3e7	OnCaseChanged	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+1	f93c22ce-3360-47ad-90cf-755fe5ccde96	Case
+@SNIndex+6	ee9dab81-20ce-4818-927c-d15bb83c8ec4	OnOutPut	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+1	f93c22ce-3360-47ad-90cf-755fe5ccde96	Case
+@SNIndex+7	ed7d0e48-4512-461b-b7b7-03412f14d29a	OnGridRowDbClick	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+1	f93c22ce-3360-47ad-90cf-755fe5ccde96	Case
+@SNIndex+8	468ac3e3-d08d-4524-a848-4c5165d32b52	OnNew	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+1	f93c22ce-3360-47ad-90cf-755fe5ccde96	Case
+@SNIndex+9	d14d66af-7062-4f63-8125-184e3b043690	OnPrint	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+1	f93c22ce-3360-47ad-90cf-755fe5ccde96	Case
+@SNIndex+10	73c8f10e-2752-4a2d-80ee-a78480ef8beb	OnDelete	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+1	f93c22ce-3360-47ad-90cf-755fe5ccde96	Case
+@SNIndex+36	8a42fa8d-7903-4b5a-90ef-e69aa7b9dc62	OnLookCase	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+33	34225c4d-85d6-4086-a7a4-d5036ef31c27	Case
+@SNIndex+37	20060d41-14d0-403e-becd-6244c3ea0da4	OnCaseChanged	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+33	34225c4d-85d6-4086-a7a4-d5036ef31c27	Case
+@SNIndex+38	6ca5573f-d9fb-40cd-94e2-9583bca5c7c6	OnOutPut	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+33	34225c4d-85d6-4086-a7a4-d5036ef31c27	Case
+@SNIndex+39	db0f49a9-7552-4cbf-807e-796e6f5b006f	OnGridRowDbClick	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+33	34225c4d-85d6-4086-a7a4-d5036ef31c27	Case
+@SNIndex+40	04b06eba-707c-4932-8d44-ff9c29d2cd74	OnNew	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+33	34225c4d-85d6-4086-a7a4-d5036ef31c27	Case
+@SNIndex+41	c654ee50-68c2-4747-a25d-89654fc74193	OnPrint	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+33	34225c4d-85d6-4086-a7a4-d5036ef31c27	Case
+@SNIndex+42	249309e2-68a9-4569-b742-d4d55529b6ac	OnDelete	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+33	34225c4d-85d6-4086-a7a4-d5036ef31c27	Case
+@SNIndex+65	5fc904ce-7718-49f8-94d4-a219363f7e48	OnLookCase	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+62	9d36d4fd-cb22-41d4-ae6b-0653749dddc7	Case
+@SNIndex+66	0746a345-6132-4ea2-83d3-74a3cc4a58e7	OnCaseChanged	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+62	9d36d4fd-cb22-41d4-ae6b-0653749dddc7	Case
+@SNIndex+67	9efa324a-47e0-49d4-b9db-5a23cd8c7991	OnOutPut	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+62	9d36d4fd-cb22-41d4-ae6b-0653749dddc7	Case
+@SNIndex+68	5e2d453d-c98d-480d-8718-a391a43d657a	OnGridRowDbClick	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+62	9d36d4fd-cb22-41d4-ae6b-0653749dddc7	Case
+@SNIndex+69	943bb082-a629-4e46-a87e-b4893b327cbe	OnNew	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+62	9d36d4fd-cb22-41d4-ae6b-0653749dddc7	Case
+@SNIndex+70	40fea9bf-5462-4bd8-b3ce-f4243bd136cc	OnPrint	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+62	9d36d4fd-cb22-41d4-ae6b-0653749dddc7	Case
+@SNIndex+71	d18901e5-5946-49fc-94a0-3fdb9fe5fb2b	OnDelete	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+62	9d36d4fd-cb22-41d4-ae6b-0653749dddc7	Case
+@SNIndex+97	1666ffc8-4121-4325-af53-559bc3a0fe48	OnLookCase	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+94	1519c72e-e5f6-46c0-ba11-d54fa549fff9	Case
+@SNIndex+98	72641a8d-8239-46ee-b3a7-e2708b8ea3be	OnCaseChanged	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+94	1519c72e-e5f6-46c0-ba11-d54fa549fff9	Case
+@SNIndex+99	4e01025a-d9ef-49fb-9252-109bbae5e885	OnOutPut	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+94	1519c72e-e5f6-46c0-ba11-d54fa549fff9	Case
+@SNIndex+100	0d8fe29a-b414-4f1c-81b8-10c666456fb5	OnGridRowDbClick	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+94	1519c72e-e5f6-46c0-ba11-d54fa549fff9	Case
+@SNIndex+101	1fbd564f-a58a-43f8-8edc-4b8750543869	OnNew	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+94	1519c72e-e5f6-46c0-ba11-d54fa549fff9	Case
+@SNIndex+102	020eb4f0-5f29-4f47-b488-87e39ca3eb7f	OnPrint	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+94	1519c72e-e5f6-46c0-ba11-d54fa549fff9	Case
+@SNIndex+103	0ad7b9b1-c174-4ce8-b29e-b9739ae9a66d	OnDelete	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+94	1519c72e-e5f6-46c0-ba11-d54fa549fff9	Case
+@SNIndex+104	ad4e9693-2fb9-4b15-a74d-11b5b03e68c2	OnListAdd	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+94	1519c72e-e5f6-46c0-ba11-d54fa549fff9	Case
+@SNIndex+105	3a75e245-95c4-42d8-9245-7f296df11ac9	OnListUpdate	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+94	1519c72e-e5f6-46c0-ba11-d54fa549fff9	Case
+@SNIndex+134	dae006bf-0136-4d70-a765-76a792299cb7	OnLookCase	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+131	0b31e627-b5c3-4552-ab8c-80ce72d1774a	Case
+@SNIndex+135	36437e64-435d-42f6-ab65-04bdbd750346	OnCaseChanged	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+131	0b31e627-b5c3-4552-ab8c-80ce72d1774a	Case
+@SNIndex+136	57b9a9fa-b610-4d15-b13a-e1cd24d30b6b	OnOutPut	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+131	0b31e627-b5c3-4552-ab8c-80ce72d1774a	Case
+@SNIndex+137	920d6e15-9c26-4159-841a-9258c5b2a3ba	OnGridRowDbClick	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+131	0b31e627-b5c3-4552-ab8c-80ce72d1774a	Case
+@SNIndex+138	81d7b9b6-1da1-420e-9460-cecdc9b2afba	OnNew	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+131	0b31e627-b5c3-4552-ab8c-80ce72d1774a	Case
+@SNIndex+139	345c65e0-5db5-48eb-a222-3dfa85c63114	OnPrint	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+131	0b31e627-b5c3-4552-ab8c-80ce72d1774a	Case
+@SNIndex+140	ea00caac-1327-4bd7-a6bb-04c7561db795	OnDelete	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+131	0b31e627-b5c3-4552-ab8c-80ce72d1774a	Case
+@SNIndex+193	1f335080-22ff-408c-a70c-6b1b7978871a	OnLookCase	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+190	c06c0461-8bf4-451d-9b6e-42820eb2624e	Case
+@SNIndex+194	ac68fcac-ca2f-46da-a5e7-924d1967fb04	OnCaseChanged	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+190	c06c0461-8bf4-451d-9b6e-42820eb2624e	Case
+@SNIndex+195	9475dc42-14e0-459c-a787-8f0c5d0d971b	OnOutPut	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+190	c06c0461-8bf4-451d-9b6e-42820eb2624e	Case
+@SNIndex+196	c4bff350-1841-4c3d-8aac-ff764ed95548	OnGridRowDbClick	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+190	c06c0461-8bf4-451d-9b6e-42820eb2624e	Case
+@SNIndex+197	8313f1f0-9d0d-4b3d-a196-ef7c7d2f9e3f	OnNew	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+190	c06c0461-8bf4-451d-9b6e-42820eb2624e	Case
+@SNIndex+198	9d379048-3404-4c6d-815e-d471a2bc98ba	OnPrint	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+190	c06c0461-8bf4-451d-9b6e-42820eb2624e	Case
+@SNIndex+199	fbcdb338-1bc1-4325-99ed-fc90d54538be	OnDelete	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+190	c06c0461-8bf4-451d-9b6e-42820eb2624e	Case
+@SNIndex+225	4d61aef9-4c9b-4ac9-bb4a-dfe2176a47a2	OnLookCase	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+222	f79da8c4-b1a8-42f5-a63a-7d288669710f	Case
+@SNIndex+226	7d49ea7c-51d4-4e79-a4e9-7461ce30ebf6	OnCaseChanged	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+222	f79da8c4-b1a8-42f5-a63a-7d288669710f	Case
+@SNIndex+227	331220d9-56e2-4f7d-9cd1-b364643661e4	OnOutPut	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+222	f79da8c4-b1a8-42f5-a63a-7d288669710f	Case
+@SNIndex+228	769135e2-8907-4c3a-b416-61c2006d33fa	OnGridRowDbClick	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+222	f79da8c4-b1a8-42f5-a63a-7d288669710f	Case
+@SNIndex+229	c2d9ddfb-c3ba-416d-a295-3fb6b1fe64b1	OnNew	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+222	f79da8c4-b1a8-42f5-a63a-7d288669710f	Case
+@SNIndex+230	6c1ada62-bbf3-4fdd-9191-8a2b69d77f6b	OnPrint	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+222	f79da8c4-b1a8-42f5-a63a-7d288669710f	Case
+@SNIndex+231	db4ab2cb-0773-4866-9eb1-afce04a02195	OnDelete	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+222	f79da8c4-b1a8-42f5-a63a-7d288669710f	Case
+@SNIndex+257	e4c4ad84-7876-4af4-a3b7-5e3062a6e63f	OnLookCase	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+254	dcac0f54-94a8-4abf-9248-ec92e514a6f2	Case
+@SNIndex+258	63631a7a-a3c8-42df-9ab6-2f87fcb187d8	OnCaseChanged	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+254	dcac0f54-94a8-4abf-9248-ec92e514a6f2	Case
+@SNIndex+259	d50dc681-598e-4ed6-977f-620279370a4d	OnOutPut	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+254	dcac0f54-94a8-4abf-9248-ec92e514a6f2	Case
+@SNIndex+260	011f549c-368f-4a0a-a344-5446d1de3702	OnGridRowDbClick	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+254	dcac0f54-94a8-4abf-9248-ec92e514a6f2	Case
+@SNIndex+261	dffc4d0b-545d-44b2-8788-0395ab80e17d	OnNew	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+254	dcac0f54-94a8-4abf-9248-ec92e514a6f2	Case
+@SNIndex+262	e644d021-524b-4a5d-b0ac-1d60dbc4cbbb	OnPrint	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+254	dcac0f54-94a8-4abf-9248-ec92e514a6f2	Case
+@SNIndex+263	1213bb81-031b-4bb5-8745-eca51dc5723f	OnDelete	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+254	dcac0f54-94a8-4abf-9248-ec92e514a6f2	Case
+@SNIndex+3	70afe4b1-8efe-4c5b-a11c-89d32d6ed942	ID	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+2	发票号规则.Key.ID	ba391065-6c27-4c82-acc8-b52b1c93a910		Key	0	0	cad1b615-1a92-42c4-be48-6909171dc5db	b43f7228-4ce3-4c65-8aaf-3d7931531f90
+@SNIndex+35	35866b65-9bef-46d1-a384-da848c3963e9	ID	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+34	发票号分配.Key.ID	ba391065-6c27-4c82-acc8-b52b1c93a910		Key	0	0	25bc2496-7d4f-4fe9-886f-d304c6bb1ced	d0b0e72c-31dd-4832-984b-c2c4707d85da
+@SNIndex+64	4d3bd3ad-59fc-4617-81ff-92103ab434ec	ID	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+63	发票号组表头.Key.ID	ba391065-6c27-4c82-acc8-b52b1c93a910		Key	0	0	30c26284-5fed-451b-8750-6db6dfda6e82	e855fa85-9fa0-44e1-aa0d-8d54cbfbaf9a
+@SNIndex+96	163525f0-83ee-46cb-b10b-dd39251c1e5c	ID	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+95	Key.ID	ba391065-6c27-4c82-acc8-b52b1c93a910		Key	0	0	69aa9dac-62cc-4133-8a84-92dbf392a932	a566a901-7150-45c5-bb4b-e3982743a036
+@SNIndex+133	ddf38389-0fc7-42a2-bc96-7409c6ced150	ID	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+132	余量档案.Key.ID	ba391065-6c27-4c82-acc8-b52b1c93a910		Key	0	0	569b3cd7-21f0-451a-b919-806bb0de941a	255d6672-23c3-4082-a38c-3e94a50c187c
+@SNIndex+165	e6dbfe30-2123-4ae4-af8b-ae6e479d7da5	ID	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+164	业务员分配.Key.ID	ba391065-6c27-4c82-acc8-b52b1c93a910		Key	0	0	9b02ea66-1381-4725-be37-3e7161ac5398	146299d0-4e2e-4190-b9ba-3e571bea4dc1
+@SNIndex+166	f66399e3-213b-4764-b171-2367380ad20c	CreatedOn	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+164	业务员分配.Sys.创建时间	3834a958-120f-4ac9-8d60-1a7be6d3f12f		Sys	0	0	9b02ea66-1381-4725-be37-3e7161ac5398	2d706e0f-13c7-4e6a-89ca-387db5c2cfb1
+@SNIndex+167	8e302068-5e2c-4643-9638-1b6f9ba8a964	CreatedBy	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+164	业务员分配.Sys.创建人	3d174255-fd12-47f7-8844-3b5e4fae9e8c		Sys	0	0	9b02ea66-1381-4725-be37-3e7161ac5398	5d0359cd-308f-4647-862f-7f31ac28e861
+@SNIndex+168	4f334862-a592-41d8-8d7e-0818d088b44a	ModifiedOn	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+164	业务员分配.Sys.修改时间	3834a958-120f-4ac9-8d60-1a7be6d3f12f		Sys	0	0	9b02ea66-1381-4725-be37-3e7161ac5398	ec713d6b-a4c3-47d3-bf2d-e3a64e7fbbd3
+@SNIndex+169	c4ca82c4-b9ac-4006-897b-1eb30adfdb94	ModifiedBy	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+164	业务员分配.Sys.修改人	3d174255-fd12-47f7-8844-3b5e4fae9e8c		Sys	0	0	9b02ea66-1381-4725-be37-3e7161ac5398	9a49535c-d8dd-46be-836e-e068d94c3a83
+@SNIndex+170	6221e559-34e6-4b45-a0c4-338f65cbc5d2	SysVersion	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+164	业务员分配.Sys.事务版本	ba391065-6c27-4c82-acc8-b52b1c93a910	0	Sys	0	0	9b02ea66-1381-4725-be37-3e7161ac5398	368f91a7-bb73-4c9b-8626-b6af22d84b8e
+@SNIndex+171	17608749-9bbb-4675-8a91-69540e761c1b	CustomerItemsID	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+164	业务员分配.Misc.客户料品交叉关系	ba391065-6c27-4c82-acc8-b52b1c93a910		Misc	0	0	9b02ea66-1381-4725-be37-3e7161ac5398	ce0dedb4-8a54-4a63-a72a-41fdd48748dc
+@SNIndex+172	577f62fc-81e5-48d3-9e5c-6a98b84439c0	Sales	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+164	业务员分配.Misc.业务员	ba391065-6c27-4c82-acc8-b52b1c93a910		Misc	0	0	9b02ea66-1381-4725-be37-3e7161ac5398	ae47302c-ca0c-4925-9f65-d73f7b30cb5a
+@SNIndex+173	4f6c0e8c-1b88-47b7-b934-324a31bf2a1f	Sales_Code	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+164	业务员.Misc.编码	3d174255-fd12-47f7-8844-3b5e4fae9e8c		Misc	0	0	9b02ea66-1381-4725-be37-3e7161ac5398	7b6bdb86-8a5b-4248-8d6d-58b116be3463
+@SNIndex+174	7df5002a-ff8f-4fcc-9059-144b4650fd6d	Sales_Name	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+164	业务员.Misc.名称	3d174255-fd12-47f7-8844-3b5e4fae9e8c		Misc	0	0	9b02ea66-1381-4725-be37-3e7161ac5398	6d44a42d-ca14-412b-8bf9-62f532d2ffb4
+@SNIndex+175	0fba7934-3193-431e-8700-68b0f843b9da	Deparment	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+164	业务员分配.Misc.部门	ba391065-6c27-4c82-acc8-b52b1c93a910		Misc	0	0	9b02ea66-1381-4725-be37-3e7161ac5398	cdb56d1e-05a4-46b2-b1d7-3c078c33f3be
+@SNIndex+176	58007fa2-844e-45a3-afc8-f201bdddba48	Deparment_Code	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+164	部门.Misc.编码	3d174255-fd12-47f7-8844-3b5e4fae9e8c		Misc	0	0	9b02ea66-1381-4725-be37-3e7161ac5398	3c2c3f3f-aa05-4fe7-8b6f-19c0044dbe5b
+@SNIndex+177	3d3ce836-a1ce-46b9-b516-705bd14a3229	Deparment_Name	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+164	部门.Misc.名称	3d174255-fd12-47f7-8844-3b5e4fae9e8c		Misc	0	0	9b02ea66-1381-4725-be37-3e7161ac5398	dbcaf848-1522-461c-ad8f-18f6caf77ffc
+@SNIndex+178	11a680e2-5a66-4ec2-bed2-b425261e65d9	Remark	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+164	业务员分配.Misc.备注	3d174255-fd12-47f7-8844-3b5e4fae9e8c		Misc	0	0	9b02ea66-1381-4725-be37-3e7161ac5398	d5f97d35-c347-40f9-aa4c-0dc325cbeba9
+@SNIndex+179	a844a715-0890-46c5-b309-6d576196fa64	RowID	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+164	Misc.行号	d7c6031e-d3fe-41aa-a397-5edd86c10cae		Misc	0	0	9b02ea66-1381-4725-be37-3e7161ac5398	
+@SNIndex+192	1442d604-a86d-409a-90e3-d473f2a4a848	ID	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+191	单据类型基类.Key.ID	ba391065-6c27-4c82-acc8-b52b1c93a910		Key	0	0	d4e0ba47-f8e2-461c-970c-5ecebcb78f87	dae443c3-f006-49e3-a87d-335706a7d400
+@SNIndex+224	d2ae29cb-0b83-4c2f-ba8d-9d99684078ce	ID	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+223	产品客户折扣关系单头.Key.ID	ba391065-6c27-4c82-acc8-b52b1c93a910		Key	0	0	4efdef35-1991-4750-991c-d7c82aa0e4d4	1f0dd421-a799-4b1d-a3b4-81d0ebb6266c
+@SNIndex+256	dc3b9862-f6a5-48e7-ac90-5639c5d40611	ID	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	@SNIndex+255	发票号分配.Key.ID	ba391065-6c27-4c82-acc8-b52b1c93a910		Key	0	0	dcbdd052-f81f-4dd0-9480-6e8a7454f372	d0b0e72c-31dd-4832-984b-c2c4707d85da
+@SNIndex+0	99c3023a-ee81-485b-a906-6b95f3d4fc40	FTListUI	Administrator	2015-06-05T09:20:59	Administrator	2015-06-05T09:21:08	UFIDA.U9.Cust.GS.FT.FTListUI

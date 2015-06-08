@@ -26891,6 +26891,20 @@
             </summary>
             <value></value>
         </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderBomBE.OrderBomHead.ParentDemandQty">
+            <summary>
+            父件需求数量 (该属性可为空,但有默认值)
+            订单随单BOM表.Misc.父件需求数量
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderBomBE.OrderBomHead.ParentDosageQty">
+            <summary>
+            母件用量底数 (该属性可为空,但有默认值)
+            订单随单BOM表.Misc.母件用量底数
+            </summary>
+            <value></value>
+        </member>
         <member name="P:UFIDA.U9.Cust.GS.FT.OrderBomBE.OrderBomHead.OrderBomLine">
             <summary>
             订单随单BOM子表 (该属性可为空,且无默认值)
@@ -27056,6 +27070,16 @@
         <member name="P:UFIDA.U9.Cust.GS.FT.OrderBomBE.OrderBomHead.Res_IsEntrustedProcessing">
             <summary>
             这种已经被取消，请使用这块代码的人自己调整程序，改为引用EntityRes.GetResource("IsEntrustedProcessing")的方式取资源
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderBomBE.OrderBomHead.Res_ParentDemandQty">
+            <summary>
+            这种已经被取消，请使用这块代码的人自己调整程序，改为引用EntityRes.GetResource("ParentDemandQty")的方式取资源
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderBomBE.OrderBomHead.Res_ParentDosageQty">
+            <summary>
+            这种已经被取消，请使用这块代码的人自己调整程序，改为引用EntityRes.GetResource("ParentDosageQty")的方式取资源
             </summary>
         </member>
         <member name="T:UFIDA.U9.Cust.GS.FT.OrderBomBE.OrderBomHead.EntityKey">
@@ -27436,6 +27460,22 @@
              OrginalData属性。只可读。
             提供受托加工 (该属性可为空,但有默认值)
             订单随单BOM表.Misc.提供受托加工
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderBomBE.OrderBomHead.EntityOriginal.ParentDemandQty">
+            <summary>
+             OrginalData属性。只可读。
+            父件需求数量 (该属性可为空,但有默认值)
+            订单随单BOM表.Misc.父件需求数量
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderBomBE.OrderBomHead.EntityOriginal.ParentDosageQty">
+            <summary>
+             OrginalData属性。只可读。
+            母件用量底数 (该属性可为空,但有默认值)
+            订单随单BOM表.Misc.母件用量底数
             </summary>
             <value></value>
         </member>
@@ -28024,6 +28064,16 @@
         <member name="P:UFIDA.U9.Cust.GS.FT.OrderBomBE.OrderBomHead.EntityRes.IsEntrustedProcessing">
             <summary>
             属性: 提供受托加工 的名称
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderBomBE.OrderBomHead.EntityRes.ParentDemandQty">
+            <summary>
+            属性: 父件需求数量 的名称
+            </summary>
+        </member>
+        <member name="P:UFIDA.U9.Cust.GS.FT.OrderBomBE.OrderBomHead.EntityRes.ParentDosageQty">
+            <summary>
+            属性: 母件用量底数 的名称
             </summary>
         </member>
         <member name="T:UFIDA.U9.Cust.GS.FT.OrderLineBrokerageBE.OrderLineBrokerage">
