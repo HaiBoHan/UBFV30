@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Configuration>
+	<ProjectPath></ProjectPath>
+	<!-- 说明: 目前该配置项也可使用模版,
+此配置读入后,会再经过模版处理,数据模型就为Project的模型,但由于在引用程序集处的使用.
+目前仅可使用的模型数据项为assemly(工程文件程序集名)-->
+	<!--Segment 表示段定义,表示如何得到下面的ProductLib的配置项-->
+
+	<SourceCodeConfig>
+		<Segment>${sub_seg(assembly, ".", 2)}</Segment>
+		<DefaultSet></DefaultSet>
+		<!-- 设置各自组件源码视图的目录及子目录 -->
+		<Items>
+		</Items>
+	</SourceCodeConfig>
+	<ProductLibConfig>
+		<Segment>${sub_seg(assembly, ".", 2)}</Segment>
+		<DefaultSet>Unconfiged\Component\</DefaultSet>
+		<!-- 设置在U9.VOB.Product.Component中的子目录 -->
+		<Items>
+
+			<!-- UBF -->
+			<!-- 暂时的，以后要改成规范的 -->
+			<Model>UBF\</Model>
+			<BP>UBF\</BP>
+			<MD>UBF\</MD>
+			<UI>UBF\</UI>
+			<!-- 以上需要规范化 -->
+			<Base>UBF\</Base>
+			<Management>UBF\</Management>
+			<Alert>UBF\</Alert>
+			<Monitor>UBF\</Monitor>
+			<Job>UBF\</Job>
+			<Message>UBF\</Message>
+			<MessageCenter>UBF\</MessageCenter>
+			<Notification>UBF\</Notification>
+		  <BS>UBF\</BS>
+		  <Security>UBF\</Security>
+			<SmartList>UBF\</SmartList>
+			<TaskCenter>UBF\</TaskCenter>
+			<Approval>UBF\</Approval>
+			<ApprovalBP>UBF\</ApprovalBP>
+			<List>UBF\</List>
+			<Query>UBF\</Query>
+      <SmartQuery>UBF\</SmartQuery>
+			<GeneralEvents>UBF\</GeneralEvents>
+			<ExportService>UBF\</ExportService>
+
+			<!-- APP -->
+			<!--CBO-->
+			<CBO>App\</CBO>
+
+			<!-->MFG<-->
+			<ECN>App\</ECN>
+			<CRP>App\</CRP>
+			<MRP>App\</MRP>
+			<PP>App\</PP>
+			<IC>App\</IC>
+  			<MO>App\</MO>
+  			<Complete>App\</Complete>
+			<SFC>App\</SFC>
+  			<Issue>App\</Issue>
+			<CA>App\</CA>
+			<MFG>App\</MFG>
+			<PMM>App\</PMM> 
+			<CBS>App\</CBS> 
+			<Kanban>App\</Kanban>
+
+			<!--FI-->
+			<AB>App\</AB>
+			<GL>App\</GL>
+			<AP>App\</AP>
+			<AR>App\</AR>
+			<AAI>App\</AAI>
+			<ABI>App\</ABI>
+      <CFP>App\</CFP>
+      <CM>App\</CM>
+      <NM>App\</NM>
+      <GC>App\</GC>
+      <RET>App\</RET>
+      <TB>App\</TB>
+      <FN>App\</FN>
+      <ER>App\</ER>
+      <IA>App\</IA>
+	  <CE>App\</CE>
+
+      <!-- HR -->				
+			<HI>App\</HI>
+			<PAY>App\</PAY>
+			<BEN>App\</BEN>
+			<QC>App\</QC> 
+			<FA>App\</FA> 
+			<PW>App\</PW>
+			<AM>App\</AM>
+
+			<!--SCM -->
+			<ABC>App\</ABC>
+			<ATP>App\</ATP>
+			<CC>App\</CC>
+			<BarCode>App\</BarCode>
+			<InvDoc>App\</InvDoc>
+			<InvPlan>App\</InvPlan>
+			<InvTrans>App\</InvTrans>
+			<Lot>App\</Lot>
+			<PR>App\</PR>
+			<PPR>App\</PPR>
+			<PriceCal>App\</PriceCal>
+			<PM>App\</PM>
+			<RMA>App\</RMA>
+			<SM>App\</SM>
+			<Sn>App\</Sn>
+			<SPL>App\</SPL>
+			<SPR>App\</SPR>
+			<TI>App\</TI>
+		  <VP>App\</VP>
+			<CP>App\</CP>
+      <DM>App\</DM>
+      
+      <!-- CS -->
+			<CS>CS\</CS>
+			<ISV>App\</ISV>
+		</Items>
+	</ProductLibConfig>
+
+	<MetadataLibConfig>
+		<Segment>${sub_seg(assembly, ".", 2)}</Segment>
+		<DefaultSet>Unconfiged\Metadata\</DefaultSet>
+		<!-- 设置在U9.VOB.Product.Metadata中的子目录 -->
+		<Items>
+			<!-- UBF -->
+			<!-- 暂时的，以后要改成规范的 -->
+			<Model>UBF\</Model>
+			<BP>UBF\</BP>
+			<MD>UBF\</MD>
+			<UI>UBF\</UI>
+			<!-- 以上需要规范化 -->
+			<Base>UBF\</Base>
+			<Management>UBF\</Management>
+			<Alert>UBF\</Alert>
+			<Monitor>UBF\</Monitor>
+			<Job>UBF\</Job>
+			<Message>UBF\</Message>
+			<MessageCenter>UBF\</MessageCenter>
+			<Notification>UBF\</Notification>
+		  <BS>UBF\</BS>
+		  <Security>UBF\</Security>
+			<SmartList>UBF\</SmartList>
+			<TaskCenter>UBF\</TaskCenter>
+			<Approval>UBF\</Approval>
+			<ApprovalBP>UBF\</ApprovalBP>
+			<List>UBF\</List>
+			<Query>UBF\</Query>
+      <SmartQuery>UBF\</SmartQuery>
+			<GeneralEvents>UBF\</GeneralEvents>
+			<ExportService>UBF\</ExportService>
+
+			<!-- APP -->
+			<!--CBO-->
+			<CBO>App\</CBO>
+
+			<!-->MFG<-->
+			<ECN>App\</ECN>
+			<CRP>App\</CRP>
+			<MRP>App\</MRP>
+			<PP>App\</PP>
+			<IC>App\</IC>
+  			<MO>App\</MO>
+		    <SFC>App\</SFC>
+  			<Issue>App\</Issue>
+  			<Complete>App\</Complete>
+			<CA>App\</CA>
+			<MFG>App\</MFG>
+			<PMM>App\</PMM> 
+			<CBS>App\</CBS> 
+			<Kanban>App\</Kanban>
+
+			<!--FI-->
+			<AB>App\</AB>
+			<GL>App\</GL>
+			<AP>App\</AP>
+			<AR>App\</AR>
+			<AAI>App\</AAI>
+			<ABI>App\</ABI>
+      <CFP>App\</CFP>
+      <CM>App\</CM>
+      <NM>App\</NM>
+      <GC>App\</GC>
+      <RET>App\</RET>
+      <TB>App\</TB>
+      <FN>App\</FN>
+      <ER>App\</ER>
+      <IA>App\</IA>
+	  <CE>App\</CE>
+  
+      <!-- HR -->			
+			<HI>App\</HI>
+			<PAY>App\</PAY>
+			<BEN>App\</BEN>
+			<QC>App\</QC> 
+			<FA>App\</FA> 
+			<PW>App\</PW> 
+			<AM>App\</AM> 
+			<!--SCM -->
+			<ABC>App\</ABC>
+			<ATP>App\</ATP>
+			<CC>App\</CC>
+			<BarCode>App\</BarCode>
+			<InvDoc>App\</InvDoc>
+			<InvPlan>App\</InvPlan>
+			<InvTrans>App\</InvTrans>
+			<Lot>App\</Lot>
+			<PR>App\</PR>
+			<PPR>App\</PPR>
+			<PriceCal>App\</PriceCal>
+			<PM>App\</PM>
+			<RMA>App\</RMA>
+			<PriceCal>App\</PriceCal>
+			<SM>App\</SM>
+			<Sn>App\</Sn>
+			<SO>App\</SO>
+			<SPL>App\</SPL>
+			<SPR>App\</SPR>
+			<TI>App\</TI>
+		  <VP>App\</VP>
+      <DM>App\</DM>
+      
+			<!-- CS -->
+			<CS>CS\</CS>
+			<ISV>App\</ISV>
+		</Items>
+	</MetadataLibConfig>
+	<DBScriptConfig>
+		<Segment>${sub_seg(assembly, ".", 2)}</Segment>
+		<DefaultSet>Unconfiged\DBScript\</DefaultSet>
+		<!-- 设置在U9.VOB.Product.Other\SqlScript\m_Depts中的子目录 -->
+		<Items>
+			<!-- UBF -->
+			<!-- 暂时的，以后要改成规范的 -->
+			<Model>c_ubf\DBScript\</Model>
+			<BP>c_ubf\DBScript\</BP>
+			<MD>..\a_first\</MD>
+			<UI>c_ubf\DBScript\</UI>
+			<!-- 以上需要规范化 -->
+			<Base>c_ubf\DBScript\</Base>
+			<Management>c_ubf\DBScript\</Management>
+			<Alert>c_ubf\DBScript\</Alert>
+			<Monitor>c_ubf\DBScript\</Monitor>
+			<Job>c_ubf\DBScript\</Job>
+			<Message>c_ubf\DBScript\</Message>
+			<MessageCenter>c_ubf\DBScript\</MessageCenter>
+			<Notification>c_ubf\DBScript\</Notification>
+		  <BS>c_ubf\DBScript\</BS>
+		  <Security>c_ubf\DBScript\</Security>
+			<SmartList>c_ubf\DBScript\</SmartList>
+			<List>c_ubf\DBScript\</List>
+			<TaskCenter>c_ubf\DBScript\</TaskCenter>
+			<Approval>c_ubf\DBScript\</Approval>
+			<ApprovalBP>c_ubf\DBScript\</ApprovalBP>
+			<Query>c_ubf\DBScript\</Query>
+      <SmartQuery>c_ubf\DBScript\</SmartQuery>
+			<GeneralEvents>c_ubf\DBScript\</GeneralEvents>
+			<ExportService>c_ubf\DBScript\</ExportService>
+
+			<!-- APP -->
+			<!--CBO-->
+			<CBO>h_app\DBScript\</CBO>
+
+			<!-->MFG<-->
+			<ECN>h_app\DBScript\</ECN>
+			<CRP>h_app\DBScript\</CRP>
+			<MRP>h_app\DBScript\</MRP>
+			<PP>h_app\DBScript\</PP>
+			<IC>h_app\DBScript\</IC>
+  			<MO>h_app\DBScript\</MO>
+  			<Complete>h_app\DBScript\</Complete>
+  			<SFC>h_app\DBScript\</SFC>
+  			<Issue>h_app\DBScript\</Issue>
+			<CA>h_app\DBScript\</CA>
+			<MFG>h_app\DBScript\</MFG>
+			  <PMM>h_app\DBScript\</PMM> 
+			  <CBS>h_app\DBScript\</CBS> 
+			<Kanban>h_app\DBScript\</Kanban>
+
+			<!-- HR -->
+			<HI>h_app\DBScript\</HI>
+			<PAY>h_app\DBScript\</PAY>
+			<BEN>h_app\DBScript\</BEN>
+			<QC>h_app\DBScript\</QC> 
+			<FA>h_app\DBScript\</FA> 
+			<PW>h_app\DBScript\</PW> 
+			<AM>h_app\DBScript\</AM> 
+
+			<!--FI-->
+			<AB>h_app\DBScript\</AB>
+			<GL>h_app\DBScript\</GL>
+			<AP>h_app\DBScript\</AP>
+			<AR>h_app\DBScript\</AR>
+			<AAI>h_app\DBScript\</AAI>
+      <CFP>h_app\DBScript\</CFP>
+      <CM>h_app\DBScript\</CM>
+      <NM>h_app\DBScript\</NM>
+      <GC>h_app\DBScript\</GC>
+      <RET>h_app\DBScript\</RET>
+      <TB>h_app\DBScript\</TB>
+      <FN>h_app\DBScript\</FN>
+      <ER>h_app\DBScript\</ER>
+      <ABI>h_app\DBScript\</ABI>
+      <IA>h_app\DBScript\</IA>
+	  <CE>h_app\DBScript\</CE>
+      
+      <!--SCM -->
+			<ABC>h_app\DBScript\</ABC>
+			<ATP>h_app\DBScript\</ATP>
+			<CC>h_app\DBScript\</CC>
+			<BarCode>h_app\DBScript\</BarCode>
+			<InvDoc>h_app\DBScript\</InvDoc>
+			<InvPlan>h_app\DBScript\</InvPlan>
+			<InvTrans>h_app\DBScript\</InvTrans>
+			<Lot>h_app\DBScript\</Lot>
+			<PR>h_app\DBScript\</PR>
+			<PPR>h_app\DBScript\</PPR>
+			<PriceCal>h_app\DBScript\</PriceCal>
+			<PM>h_app\DBScript\</PM>
+			<RMA>h_app\DBScript\</RMA>
+			<SM>h_app\DBScript\</SM>
+			<Sn>h_app\DBScript\</Sn>
+			<SPL>h_app\DBScript\</SPL>
+			<SPR>h_app\DBScript\</SPR>
+			<TI>h_app\DBScript\</TI>
+		  <VP>h_app\DBScript\</VP>
+			<CP>h_app\DBScript\</CP>
+      <DM>h_app\DBScript\</DM>
+      
+			<!-- CS -->
+			<CS>e_CS\DBScript\</CS>
+			<ISV>h_app\DBScript\</ISV>
+		</Items>
+	</DBScriptConfig>
+
+	<MetadataScriptConfig>
+		<Segment>${sub_seg(assembly, ".", 2)}</Segment>
+		<DefaultSet>Unconfiged\MetadataScript\</DefaultSet>
+		<!-- 设置在U9.VOB.Product.Other\SqlScript\m_Depts中的子目录 -->
+		<Items>
+			<!-- UBF -->
+			<!-- 暂时的，以后要改成规范的 -->
+			<Model>c_ubf\MetadataScript\</Model>
+			<BP>c_ubf\MetadataScript\</BP>
+			<MD>b_ubf_m\MDEntity\</MD>
+			<UI>c_ubf\MetadataScript\</UI>
+			<!-- 以上需要规范化 -->
+			<Base>c_ubf\MetadataScript\</Base>
+			<Management>c_ubf\MetadataScript\</Management>
+			<Alert>c_ubf\MetadataScript\</Alert>
+			<Monitor>c_ubf\MetadataScript\</Monitor>
+			<Job>c_ubf\MetadataScript\</Job>
+			<Message>c_ubf\MetadataScript\</Message>
+			<MessageCenter>c_ubf\MetadataScript\</MessageCenter>
+			<Notification>c_ubf\MetadataScript\</Notification>
+		  <BS>c_ubf\MetadataScript\</BS>
+		  <Security>c_ubf\MetadataScript\</Security>
+			<SmartList>c_ubf\MetadataScript\</SmartList>
+			<TaskCenter>c_ubf\MetadataScript\</TaskCenter>
+			<Approval>c_ubf\MetadataScript\</Approval>
+			<ApprovalBP>c_ubf\MetadataScript\</ApprovalBP>
+			<List>c_ubf\MetadataScript\</List>
+			<Query>c_ubf\MetadataScript\</Query>
+      <SmartQuery>c_ubf\MetadataScript\</SmartQuery>
+			<GeneralEvents>c_ubf\MetadataScript\</GeneralEvents>		
+			<ExportService>c_ubf\MetadataScript\</ExportService>
+
+			<!-- APP -->
+			<!--CBO-->
+			<CBO>h_app\MetadataScript\</CBO>
+
+			<!-->MFG<-->
+			<ECN>h_app\MetadataScript\</ECN>
+			<CRP>h_app\MetadataScript\</CRP>
+			<MRP>h_app\MetadataScript\</MRP>
+			<PP>h_app\MetadataScript\</PP>
+			<IC>h_app\MetadataScript\</IC>
+  			<MO>h_app\MetadataScript\</MO>
+  			<Complete>h_app\MetadataScript\</Complete>
+			<SFC>h_app\MetadataScript\</SFC>
+  			<Issue>h_app\MetadataScript\</Issue>
+			<CA>h_app\MetadataScript\</CA>
+			<MFG>h_app\MetadataScript\</MFG>
+			  <PMM>h_app\MetadataScript\</PMM> 
+			  <CBS>h_app\MetadataScript\</CBS> 
+			<Kanban>h_app\MetadataScript\</Kanban>
+
+			<!-- HR -->
+			<HI>h_app\MetadataScript\</HI>
+			<PAY>h_app\MetadataScript\</PAY>
+			<BEN>h_app\MetadataScript\</BEN>
+			<QC>h_app\MetadataScript\</QC> 
+			<FA>h_app\MetadataScript\</FA>
+			<PW>h_app\MetadataScript\</PW> 
+			<AM>h_app\MetadataScript\</AM> 
+      <!--FI-->
+			<AB>h_app\MetadataScript\</AB>
+			<GL>h_app\MetadataScript\</GL>
+			<AP>h_app\MetadataScript\</AP>
+			<AR>h_app\MetadataScript\</AR>
+			<AAI>h_app\MetadataScript\</AAI>
+			<ABI>h_app\MetadataScript\</ABI>
+      <CFP>h_app\MetadataScript\</CFP>
+      <CM>h_app\MetadataScript\</CM>
+      <NM>h_app\MetadataScript\</NM>
+      <GC>h_app\MetadataScript\</GC>
+      <RET>h_app\MetadataScript\</RET>
+     <TB>h_app\MetadataScript\</TB>
+      <FN>h_app\MetadataScript\</FN>
+      <ER>h_app\MetadataScript\</ER>
+      <IA>h_app\MetadataScript\</IA>
+	  <CE>h_app\MetadataScript\</CE>
+			<!--SCM -->
+			<ABC>h_app\MetadataScript\</ABC>
+			<ATP>h_app\MetadataScript\</ATP>
+			<CC>h_app\MetadataScript\</CC>
+			<BarCode>h_app\MetadataScript\</BarCode>
+			<InvDoc>h_app\MetadataScript\</InvDoc>
+			<InvPlan>h_app\MetadataScript\</InvPlan>
+			<InvTrans>h_app\MetadataScript\</InvTrans>
+			<Lot>h_app\MetadataScript\</Lot>
+			<PR>h_app\MetadataScript\</PR>
+			<PPR>h_app\MetadataScript\</PPR>
+			<PriceCal>h_app\MetadataScript\</PriceCal>
+			<PM>h_app\MetadataScript\</PM>
+			<RMA>h_app\MetadataScript\</RMA>
+			<SM>h_app\MetadataScript\</SM>
+			<Sn>h_app\MetadataScript\</Sn>
+			<SPL>h_app\MetadataScript\</SPL>
+			<SPR>h_app\MetadataScript\</SPR>
+			<TI>h_app\MetadataScript\</TI>
+		  <VP>h_app\MetadataScript\</VP>
+			<CP>h_app\MetadataScript\</CP>
+      <DM>h_app\MetadataScript\</DM>
+      
+			<!-- CS -->
+			<CS>e_CS\MetadataScript\</CS>
+			<ISV>h_app\MetadataScript\</ISV>
+		</Items>
+	</MetadataScriptConfig>
+
+	<UISourceCodeConfig>
+		<Segment>${sub_seg(assembly, ".", 2)}</Segment>
+		<DefaultSet></DefaultSet>
+		<!-- 设置各自UI源码视图的目录及子目录 -->
+		<Items> 			
+		</Items>
+	</UISourceCodeConfig>
+
+	<UIProductLibConfig>
+		<Segment>${sub_seg(assembly, ".", 2)}</Segment>
+		<!-- 多数界面组件在UI开发部，默认目录就设置到UI了 -->
+		<DefaultSet></DefaultSet>
+		<!-- 设置在U9.VOB.Product.WebPart中的子目录 -->
+		<Items>			
+		</Items>
+	</UIProductLibConfig>
+
+	<UIMetadataLibConfig>
+		<Segment>${sub_seg(assembly, ".", 2)}</Segment>
+		<DefaultSet>UI\</DefaultSet>
+		<!-- 设置在U9.VOB.Product.Metadata中的子目录 -->
+		<Items>
+		</Items>
+	</UIMetadataLibConfig>
+
+	<UIMetadataScriptConfig>
+		<Segment>${sub_seg(assembly, ".", 2)}</Segment>
+		<DefaultSet>u_ui\UIScript\</DefaultSet>
+		<!-- 设置在U9.VOB.Product.Other\SqlScript\m_Depts中的子目录 -->
+		<Items>	
+		</Items>
+	</UIMetadataScriptConfig>
+
+</Configuration>
