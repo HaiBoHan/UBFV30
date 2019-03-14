@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- 与UFSoft.UBF.CodeGenerator.TemplateTransConfig.xml配合使用，得到最终的生成路径 -->
+<Options RuntimeForReportDesigner="False">
+  <!--路径配置要求都是相对路径，路径的基准是UBFStudio的路径-->
+  <!-- 属性里设置的是测试用例生成路径，目前未用。-->
+  <Common TestTargetPath="..\..\..\" VSVersion="VS2010" Culture="zh-CN">
+    <BasePath>..\..\</BasePath>
+    <!-- 代码生成模型的路径，目前未用。 -->
+    <ModelTemplatePath>.\</ModelTemplatePath>
+    <!-- 模型代码生成路径，下级目录需要在<SourceCodeConfig>中配置。规范：每个源码视图都取统一的目录名 -->
+    <ModelTargetPath>..\..\..\</ModelTargetPath>
+    <!-- 系统引用库 -->
+    <ModelLibPath>.\Runtime</ModelLibPath>
+    <!-- 元数据发布路径，下级目录需要在<MetadataLibConfig>中配置 -->
+    <MetadataLibPath>..\..\U9.VOB.Product.Metadata</MetadataLibPath>
+    <!-- 应用组件运行库路径，下级目录需要在<ProductLibConfig>中配置 -->
+    <ProductLibPath>..\..\U9.VOB.Product.Component</ProductLibPath>
+    <!-- 目前未用 -->
+    <FormTemplatePath>..\Publish\UIFormTempl</FormTemplatePath>
+    <!-- 界面库路径，目前未用。如果需要，将来可以加上。 -->
+    <FormDependLibPath>..\..\U9.VOB.Product.WebPart</FormDependLibPath>
+    <!-- 界面生成路径，下级目录需要在<UISourceCodeConfig>中配置，类似ModelTargetPath -->
+    <FormTargetPath>..\..\..\</FormTargetPath>
+    <!-- 发布站点地址 -->
+    <PublishWebSite>..\..\U9.VOB.Product.U9\Portal</PublishWebSite>
+    <!-- 脚本生成路径,下级目录需要在<DBScriptConfig>中配置，类似ModelTargetPath -->
+    <ScriptTargetPath>..\..\U9.VOB.Product.Other</ScriptTargetPath>
+    <!-- 发布应用服务器路径 -->
+    <PublishAppServerPath>..\..\U9.VOB.Product.U9\ApplicationServer</PublishAppServerPath>
+  </Common>
+  <SourceControl>
+    <user>ufnet</user>
+    <password>ufnet</password>
+    <dbpath>\\10.9.2.71\UBF.MetaData\srcsafe.ini</dbpath>
+    <path>
+    </path>
+    <!-- <workingpath>..\..\..\UBFDocs</workingpath> -->
+    <workingpath>..\..\..\U9AppCode\U9.VOB.Apps.Cus\CusApp\HBHxxx\Model</workingpath>
+  </SourceControl>
+  <IDERecentFileList>
+    <File name="D:\U9Cust\UFIDA\U9Proj\U9AppCode\U9.VOB.Apps.Cus\CusApp\HBHMaLaZi\Model\HBHMaLeZiwfUI\HBHMaLeZiwfUI.ubfsln" />
+    <File name="D:\U9Cust\UFIDA\U9Proj\U9AppCode\U9.VOB.Apps.Cus\CusApp\HBHMaLaZi\Model\HBHMaLaZi.lq\HBHMaLaZi.lq.ubfsln" />
+    <File name="D:\U9Cust\UFIDA\U9Proj\U9AppCode\U9.VOB.Apps.Cus\CusApp\HBHNanTongHuaQing\Model\HBHNanTongHuaQingwf.ubfsln" />
+    <File name="D:\U9Cust\UFIDA\U9Proj\U9AppCode\U9.VOB.Apps.Cus\CusApp\HBHHuaShiJie\Model\HBHHuaShiJiesq\HBHHuaShiJiesq.ubfsln" />
+    <File name="D:\U9Cust\UFIDA\U9Proj\U9AppCode\U9.VOB.Apps.Cus\CusApp\HBHDaYunSY\Model\HBHDaYunsy\HBHDaYunsy.ubfsln" />
+    <File name="D:\U9Cust\UFIDA\U9Proj\U9AppCode\U9.VOB.Apps.Cus\CusApp\HBHDaYunSY\Model\HBHDaYunsygxl\HBHDaYunsygxl.ubfsln" />
+    <File name="D:\U9Cust\UFIDA\U9Proj\U9AppCode\U9.VOB.Apps.Cus\CusApp\HBHDaYunSY\Model\HBHDaYunsysq\HBHDaYunsysq\HBHDaYunsysq.ubfsln" />
+    <File name="D:\U9Cust\UFIDA\U9Proj\U9AppCode\U9.VOB.Apps.Cus\HBHCommon\HBHCommon\Model\U9CommonSV\U9CommonSV.ubfsln" />
+    <File name="D:\U9Cust\UFIDA\U9Proj\U9AppCode\U9.VOB.Apps.Cus\CusApp\HBHWanShiDa\Model\HBHWanShiDacjh.ubfsln" />
+    <File name="D:\U9Cust\UFIDA\U9Proj\U9AppCode\U9.VOB.Apps.Cus\CusApp\HBHJinLong\Model\HBHJinLongwf\HBHJinLongwf.ubfsln" />
+  </IDERecentFileList>
+  <Dictionary>
+    <Item Type="Resource" CommonDictionary="CommonResourceDictionary.xml" LocalDictionary="LocalCommonResourceDictionary.xml" isDefault="false" isSelected="false" />
+    <Item Type="Dictionary" CommonDictionary="CommonDic.xml" LocalDictionary="LocalCommonDic.xml" isDefault="true" isSelected="true" />
+    <ViewColumn>
+      <DisplayName visible="true" />
+      <Description visible="true" />
+    </ViewColumn>
+  </Dictionary>
+  <MDExplorer>
+    <SourceType>PubAssembly</SourceType>
+    <ModelType>Domain</ModelType>
+    <Extension>*.MetaData.dll</Extension>
+    <AssemblySets>
+    </AssemblySets>
+  </MDExplorer>
+</Options>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <ServerName>localhost</ServerName>
+  <ServerPort>80</ServerPort>
+  <!-- <Version>3.0</Version> -->
+  <!-- <Version>5.0</Version> -->
+  <!-- <Version>2.1</Version> -->
+  <Version>5.0</Version>
+  <IsUseLocalCode>false</IsUseLocalCode>
+  <IsAllInOne>true</IsAllInOne>
+</Configuration>

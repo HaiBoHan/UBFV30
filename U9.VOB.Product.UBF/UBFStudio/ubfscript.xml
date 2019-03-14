@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<function-binding>
+  <assembly name="UFIDA.U9.Expression.CustomFunction" >
+    <type name="UFIDA.U9.Expression.CustomFunction.CreateObject" >
+      <function name="new" method="New" />
+    </type>
+    <type name="UFIDA.U9.Expression.CustomFunction.RegisterFunction" >
+      <function name="register" method="Register" />
+    </type>
+    <type name="UFIDA.U9.Expression.CustomFunction.CBOCustomerFuntion" >
+      <function name="GetPositionByOperaters" method="GetPositionByOperaters" />
+      <function name="GetPositionByUser" method="GetPositionByUser" />
+      <function name="GetPositionByEmployee" method="GetPositionByEmployee" />
+      <function name="GetPositionByCreateBy" method="GetPositionByCreateBy" />
+      <function name="GetUserByCreateBy" method="GetUserByCreateBy" />
+      <function name="GetItemCategoryByItem" method="GetItemCategoryByItem" />
+      <function name="GetJobByOperaters" method="GetJobByOperaters" />
+      <function name="GetJobByUser" method="GetJobByUser" />
+      <function name="GetJobByEmployee" method="GetJobByEmployee" />
+      <function name="GetJobByCreateBy" method="GetJobByCreateBy" />
+      <function name="GetUsersByJob" method="GetUsersByJob" />
+      <function name="GetUsersByReportObject" method="GetUsersByReportObject" />
+      <function name="GetEmployeeByOperaters" method="GetEmployeeByOperaters" />
+      <function name="GetEmployeeByCreateBy" method="GetEmployeeByCreateBy" />
+      <function name="GetEmployeeByUser" method="GetEmployeeByUser" />
+      <function name="GetEmployeeByUserID" method="GetEmployeeByUserID" />
+      <function name="GetUsersByPosition" method="GetUsersByPosition" />
+      <function name="GetPositionByOperatersForPL" method="GetPositionByOperatersForPL" />
+      <!--	<function name="GetPRTotalMny" method="GetPRTotalMny" /> -->
+    </type>
+  </assembly>
+
+  <assembly name="UFIDA.U9.CBO.HRBE.dll" >
+    <type name="UFIDA.U9.CBO.HR.Job.Job" >
+      <function name="ConstructJobReportObject" method="ConstructJobReportObject" />
+      <function name="GetEmployeeByCurrentUser" method="GetEmployeeByCurrentUser" />
+    </type>
+    <type name="UFIDA.U9.CBO.HR.Position.Position" >
+      <function name="GetPositionWorkOrg" method="GetPositionWorkOrg" />
+    </type>
+  </assembly>
+  <assembly name="UFIDA.U9.CBO.SCMBE.dll" >
+    <type name="UFIDA.U9.CBO.SCM.PrepayPolicy.CoummonFunction" >
+      <function name="GetPositionByPP" method="GetPositionByPP" />
+    </type>
+  </assembly>
+  <assembly name="UFIDA.U9.MO.MOBP.dll" >
+    <type name="UFIDA.U9.MO.MO.MOExpress" >
+      <function name="GetMOApproveUriByEntity" method="GetMOApproveUriByEntity" />
+      <function name="GetIssueApproveUirByEntity" method="GetIssueApproveUirByEntity" />
+    </type>
+  </assembly>
+
+  <assembly name="UFIDA.U9.TI.TIBP.dll" >
+    <type name="UFIDA.U9.TI.SaleInvoice.SaleInvoiceExtend" >
+      <function name="GetTIUriByEntity" method="GetTIUriByEntity" />
+    </type>
+  </assembly>
+
+  <assembly name="ExpressionCommonFunction" >
+    <type name="ExpressionCommonFunction.CommonFunction" >
+      <function name="Ceiling" method="Ceiling" />
+      <function name="Floor" method="Floor" />
+      <function name="Round" method="Round" />
+      <function name="Abs" method="Abs" />
+      <function name="Mod" method="Mod" />
+      <function name="Exp" method="Exp" />
+      <function name="Power" method="Power" />
+      <function name="Len" method="Len" />
+      <function name="Left" method="Left" />
+      <function name="Right" method="Right" />
+      <function name="FunRef" method="FunRef" />
+      <function name="FunEnum" method="FunEnum" />
+      <function name="Trim" method="Trim" />
+      <function name="LTrim" method="LTrim" />
+      <function name="RTrim" method="RTrim" />
+      <function name="Lcase" method="Lcase" />
+      <function name="Ucase" method="Ucase" />
+      <function name="Substr" method="Substr" />
+      <function name="Replace" method="Replace" />
+      <function name="Empty" method="Empty" />
+      <function name="Year" method="Year" />
+      <function name="Month" method="Month" />
+      <function name="Day" method="Day" />
+      <function name="Today" method="Today" />
+      <function name="StrToFloat" method="StrToFloat" />
+      <function name="FloatToStr" method="FloatToStr" />
+      <function name="StrToDate" method="StrToDate" />
+      <function name="DateToStr" method="DateToStr" />
+      <function name="Context" method="ExpressionContext" />
+      <function name="dateadd" method="dateadd" />
+      <function name="GetCurrentUserCode" method="GetCurrentUserCode" />
+      <function name="GetCurrentUserName" method="GetCurrentUserName" />
+      <function name="GetCurrentUserID" method="GetCurrentUserID" />
+      <function name="GetCurrentOrgCode" method="GetCurrentOrgCode" />
+      <function name="GetCurrentOrgName" method="GetCurrentOrgName" />
+      <function name="GetCurrentOrgID" method="GetCurrentOrgID" />
+      <function name="GetLoginDateTime" method="GetLoginDateTime" />
+      <function name="GetCurrentCulture" method="GetCurrentCulture" />
+      <function name="GetCurrentContact" method="GetCurrentContact" />
+      <function name="IsNullDate" method="IsNullDate" />
+      <function name="IIF" method="IIF" />
+    </type>
+  </assembly>
+  <assembly name="UFIDA.U9.GL.GLBP.dll" >
+    <type name="UFIDA.U9.GL.RecurringTemplate.CalcTemplateFormula" >
+      <function name="GLAccountBalanceBase" method="GLAccountBalanceBase" />
+      <function name="GLAccountTransactionBase" method="GLAccountTransactionBase" />
+      <function name="GLAccountBalance" method="GLAccountBalance" />
+      <function name="GLAccountTransaction" method="GLAccountTransaction" />
+      <function name="GLNetIncome" method="GLNetIncome" />
+      <function name="GLCashFlow" method="GLCashFlow" />
+      <function name="GLMemoTransaction" method="GLMemoTransaction" />
+      <function name="GLMemoBalance" method="GLMemoBalance" />
+      <function name="GLDifferenceTransactionOfVoucher" method="GLDifferenceTransactionOfVoucher" />
+      <function name="GLVoucherOfCashFlow" method="GLVoucherOfCashFlow" />
+      <function name="GLVoucher" method="GLVoucher" />
+      <function name="GCAccountBalance" method="GLAccountBalance" />
+      <function name="GCAccountTransaction" method="GLAccountTransaction" />
+      <function name="GCNetIncome" method="GLNetIncome" />
+      <function name="GCInterBalanceEnd" method="GCInterBalanceEnd" />
+      <function name="GCLineNum" method="GCLineNum" />
+      <function name="GCInvestScale" method="GCInvestScale" />
+    </type>
+  </assembly>
+  <assembly name="UFIDA.U9.FA.DepreciationMethodFunc.dll" >
+    <type name="UFIDA.U9.FA.DepreciationMethodFunc.CustomDepreciationMethod" >
+      <function name="GetRatioFormulaFunction" method="GetRatioFormulaFunction" />
+      <function name="GetDepreciateValueFormulaFunction" method="GetDepreciateValueFormulaFunction" />
+    </type>
+  </assembly>
+  <assembly name="UFIDA.U9.InvTrans.InvTransBE.dll" >
+    <type name="UFIDA.U9.InvTrans.Trans.CoummonFunction" >
+      <function name="GetLegacyOrgCode" method="GetLegacyOrgCode" />
+      <function name="GetDocTypeCode" method="GetDocTypeCode" />
+      <function name="GetDocTypeName" method="GetDocTypeName" />
+      <function name="GetSobAccPeriod_InvTrans" method="GetSobAccPeriod_InvTrans" />
+      <function name="GetDocTypeEnum" method="GetDocTypeEnum" />
+      <function name="GetOppsiteOrgName" method="GetOppsiteOrgName" />
+      <function name="GetOppsiteOrgCodeAccordPeriod" method="GetOppsiteOrgCodeAccordPeriod" />
+      <function name="GetMacTradeAndMacAssociateChild" method="GetMacTradeAndMacAssociateChild" />
+
+    </type>
+  </assembly>
+  <assembly name="UFIDA.U9.AP.APBE.dll" >
+    <type name="UFIDA.U9.AP.APMatch.CoummonFunction" >
+      <function name="GetMatchLayerValue" method="GetMatchLayerValue" />
+    </type>
+  </assembly>
+  <assembly name="UFIDA.U9.PM.PMBE.dll" >
+    <type name="UFIDA.U9.PM.Rcv.CoummonFunction" >
+      <function name="IsPresentToCost" method="IsPresentToCost" />
+      <function name="IsFromSDPressntDealMode" method="IsFromSDPressntDealMode" />
+      <function name="IsFromSDSparePartMode" method="IsFromSDSparePartMode" />
+      <function name="CalDispenseFeeACExpression" method="CalDispenseFeeACExpression" />
+      <function name="GetUriByRcvForApproval" method="GetUriByRcvForApproval" />
+      <function name="CalTotalFeeTaxACExpression" method="CalTotalFeeTaxACExpression" />
+      <function name="CalDispenseNetFeeACExpression" method="CalDispenseNetFeeACExpression" />
+      <function name="CalDispenseNetFeeFCExpression" method="CalDispenseNetFeeFCExpression" />
+      <function name="CalSumDispenseLineUsedNetMnyFC" method="CalSumDispenseLineUsedNetMnyFC" />
+    </type>
+    <type name="UFIDA.U9.PM.PO.CoummonFunction" >
+      <function name="GetPositionByPO" method="GetPositionByPO" />
+      <function name="GetUriByPOForApproval" method="GetUriByPOForApproval" />
+    </type>
+    <type name="UFIDA.U9.PM.PC.CoummonFunction" >
+      <function name="GetPositionByPC" method="GetPositionByPC" />
+    </type>
+    <type name="UFIDA.U9.PM.POChange.CoummonFunction" >
+      <function name="GetPositionByPOChange" method="GetPositionByPOChange" />
+      <function name="GetCustomerBeforeModfiyPO" method="GetCustomerBeforeModfiyPO" />
+      <function name="GetCustomerCategoryBeforeModifyPO" method="GetCustomerCategoryBeforeModifyPO" />
+      <function name="GetTotalMoneyTCBeforeModfiyPO" method="GetTotalMoneyTCBeforeModfiyPO" />
+      <function name="GetTCBeforeModifyPO" method="GetTCBeforeModifyPO" />
+      <function name="GetTotalMoneyACBeforeModfiyPO" method="GetTotalMoneyACBeforeModfiyPO" />
+      <function name="GetACBeforeModifyPO" method="GetACBeforeModifyPO" />
+      <function name="GetTotalMoneyFCBeforeModfiyPO" method="GetTotalMoneyFCBeforeModfiyPO" />
+      <function name="GetFCBeforeModifyPO" method="GetFCBeforeModifyPO" />
+      <function name="GetCustomerAfterModfiyPO" method="GetCustomerAfterModfiyPO" />
+      <function name="GetCustomerCategoryAfterModifyPO" method="GetCustomerCategoryAfterModifyPO" />
+      <function name="GetTotalMoneyTCAfterModfiyPO" method="GetTotalMoneyTCAfterModfiyPO" />
+      <function name="GetTCAfterModifyPO" method="GetTCAfterModifyPO" />
+      <function name="GetTotalMoneyACAfterModfiyPO" method="GetTotalMoneyACAfterModfiyPO" />
+      <function name="GetACAfterModifyPO" method="GetACAfterModifyPO" />
+      <function name="GetTotalMoneyFCAfterModfiy" method="GetTotalMoneyFCAfterModfiyPO" />
+      <function name="GetFCAfterModifyPO" method="GetFCAfterModifyPO" />
+      <function name="TotalMoneyFCBalancePO" method="TotalMoneyFCBalancePO" />
+      <function name="TotalMoneyACBalancePO" method="TotalMoneyACBalancePO" />
+      <function name="TotalMoneyTCBalancePO" method="TotalMoneyTCBalancePO" />
+      <function name="GetItemBeforeModifyPOLine" method="GetItemBeforeModifyPOLine" />
+      <function name="GetItemSaleCategoryBeforeModifyPOLine" method="GetItemSaleCategoryBeforeModifyPOLine" />
+      <function name="GetItemStockCategoryBeforeModifyPOLine" method="GetItemStockCategoryBeforeModifyPOLine" />
+      <function name="GetItemAfterModifyPOLine" method="GetItemAfterModifyPOLine" />
+      <function name="GetItemSaleCategoryAfterModifyPOLine" method="GetItemSaleCategoryAfterModifyPOLine" />
+      <function name="GetItemStockCategoryAfterModifyPOLine" method="GetItemStockCategoryAfterModifyPOLine" />
+      <function name="GetFinallyPriceTCBeforeModifyPOLine" method="GetFinallyPriceTCBeforeModifyPOLine" />
+      <function name="GetTotalMoneyTCBeforeModifyPOLine" method="GetTotalMoneyTCBeforeModifyPOLine" />
+      <function name="GetTotalMoneyACBeforeModifyPOLine" method="GetTotalMoneyACBeforeModifyPOLine" />
+      <function name="GetTotalMoneyFCBeforeModifyPOLine" method="GetTotalMoneyFCBeforeModifyPOLine" />
+      <function name="GetFinallyPriceTCAfterModifyPOLine" method="GetFinallyPriceTCAfterModifyPOLine" />
+      <function name="GetTotalMoneyTCAfterModifyPOLine" method="GetTotalMoneyTCAfterModifyPOLine" />
+      <function name="GetTotalMoneyACAfterModifyPOLine" method="GetTotalMoneyACAfterModifyPOLine" />
+      <function name="GetTotalMoneyFCAfterModifyPOLine" method="GetTotalMoneyFCAfterModifyPOLine" />
+      <function name="GetFinallyPriceTCBalancePOLine" method="GetFinallyPriceTCBalancePOLine" />
+      <function name="GetTotalMoneyFCBalancePOLine" method="GetTotalMoneyFCBalancePOLine" />
+      <function name="GetTotalMoneyTCBalancePOLine" method="GetTotalMoneyTCBalancePOLine" />
+      <function name="GetTotalMoneyACBalancePOLine" method="GetTotalMoneyACBalancePOLine" />
+      <function name="GetWHBeforeModifyPOShipLine" method="GetWHBeforeModifyPOShipLine" />
+      <function name="GetShiperOrgBeforeModifyPOShipLine" method="GetShiperOrgBeforeModifyPOShipLine" />
+      <function name="GetTotalMoneyTCBeforeModifyPOShipLine" method="GetTotalMoneyTCBeforeModifyPOShipLine" />
+      <function name="GetShipPlanQtyPUBeforeModifyPOShipLine" method="GetShipPlanQtyPUBeforeModifyPOShipLine" />
+      <function name="GetTotalMoneyACBeforeModifyPOShipLine" method="GetTotalMoneyACBeforeModifyPOShipLine" />
+      <function name="GetTotalMoneyFCBeforeModifyPOShipLine" method="GetTotalMoneyFCBeforeModifyPOShipLine" />
+      <function name="GetWHAfterModifyPOShipLine" method="GetWHAfterModifyPOShipLine" />
+      <function name="GetShiperOrgAfterModifyPOShipLine" method="GetShiperOrgAfterModifyPOShipLine" />
+      <function name="GetTotalMoneyTCAfterModifyPOShipLine" method="GetTotalMoneyTCAfterModifyPOShipLine" />
+      <function name="GetShipPlanQtyPUAfterModifyPOShipLine" method="GetShipPlanQtyPUAfterModifyPOShipLine" />
+      <function name="GetTotalMoneyACAfterModifyPOShipLine" method="GetTotalMoneyACAfterModifyPOShipLine" />
+      <function name="GetTotalMoneyFCAfterModifyPOShipLine" method="GetTotalMoneyFCAfterModifyPOShipLine" />
+      <function name="TotalMoneyFCBalancePOShipLine" method="TotalMoneyFCBalancePOShipLine" />
+      <function name="TotalMoneyTCBalancePOShipLine" method="TotalMoneyTCBalancePOShipLine" />
+      <function name="TotalMoneyACBalancePOShipLine" method="TotalMoneyACBalancePOShipLine" />
+    </type>
+  </assembly>
+  <assembly name="UFIDA.U9.SM.SMBE.dll" >
+    <type name="UFIDA.U9.SM.CoummonFunction" >
+      <function name="GetFreeMode" method="GetFreeMode" />
+      <function name="GetACToFCExRate" method="GetACToFCExRate" />
+      <function name="GetACToFCExRateType" method="GetACToFCExRateType" />
+      <function name="GetQuoUriByEntity" method="GetQuoUriByEntity" />
+      <function name="GetPositionBySC" method="GetPositionBySC" />
+      <function name="GetSOUriByEntity" method="GetSOUriByEntity" />
+      <function name="GetShipUriByEntity" method="GetShipUriByEntity" />
+      <function name="GetPreShipUriByEntity" method="GetPreShipUriByEntity" />
+      <function name="GetCustomerBeforeModfiy" method="GetCustomerBeforeModfiy" />
+      <function name="GetCustomerCategoryBeforeModify" method="GetCustomerCategoryBeforeModify" />
+      <function name="GetTotalMoneyTCBeforeModifySOM" method="GetTotalMoneyTCBeforeModifySOM" />
+      <function name="GetTCBeforeModify" method="GetTCBeforeModify" />
+      <function name="GetTotalMoneyACBeforeModifySOM" method="GetTotalMoneyACBeforeModifySOM" />
+      <function name="GetACBeforeModify" method="GetACBeforeModify" />
+      <function name="GetTotalMoneyFCBeforeModifySOM" method="GetTotalMoneyFCBeforeModifySOM" />
+      <function name="GetFCBeforeModify" method="GetFCBeforeModify" />
+      <function name="GetCustomerAfterModfiy" method="GetCustomerAfterModfiy" />
+      <function name="GetCustomerCategoryAfterModify" method="GetCustomerCategoryAfterModify" />
+      <function name="GetTotalMoneyTCAfterModifySOM" method="GetTotalMoneyTCAfterModifySOM" />
+      <function name="GetTCAfterModify" method="GetTCAfterModify" />
+      <function name="GetTotalMoneyACAfterModifySOM" method="GetTotalMoneyACAfterModifySOM" />
+      <function name="GetACAfterModify" method="GetACAfterModify" />
+      <function name="GetTotalMoneyFCAfterModifySOM" method="GetTotalMoneyFCAfterModifySOM" />
+      <function name="GetFCAfterModify" method="GetFCAfterModify" />
+      <function name="TotalMoneyFCBalanceSOM" method="TotalMoneyFCBalanceSOM" />
+      <function name="TotalMoneyACBalanceSOM" method="TotalMoneyACBalanceSOM" />
+      <function name="TotalMoneyTCBalanceSOM" method="TotalMoneyTCBalanceSOM" />
+      <function name="GetSOLineModifyType" method="GetSOLineModifyType" />
+      <function name="GetItemBeforeModify" method="GetItemBeforeModify" />
+      <function name="GetItemSaleCategoryBeforeModify" method="GetItemSaleCategoryBeforeModify" />
+      <function name="GetItemStockCategoryBeforeModify" method="GetItemStockCategoryBeforeModify" />
+      <function name="GetItemAfterModify" method="GetItemAfterModify" />
+      <function name="GetItemSaleCategoryAfterModify" method="GetItemSaleCategoryAfterModify" />
+      <function name="GetItemStockCategoryAfterModify" method="GetItemStockCategoryAfterModify" />
+      <function name="GetFinallyPriceTCBeforeModify" method="GetFinallyPriceTCBeforeModify" />
+      <function name="GetTotalMoneyTCBeforeModifySOMSOLine" method="GetTotalMoneyTCBeforeModifySOMSOLine" />
+      <function name="GetTotalMoneyACBeforeModifySOMSOLine" method="GetTotalMoneyACBeforeModifySOMSOLine" />
+      <function name="GetTotalMoneyFCBeforeModifySOMSOLine" method="GetTotalMoneyFCBeforeModifySOMSOLine" />
+      <function name="GetFinallyPriceTCAfterModify" method="GetFinallyPriceTCAfterModify" />
+      <function name="GetTotalMoneyTCAfterModifySOMSOLine" method="GetTotalMoneyTCAfterModifySOMSOLine" />
+      <function name="GetTotalMoneyACAfterModifySOMSOLine" method="GetTotalMoneyACAfterModifySOMSOLine" />
+      <function name="GetTotalMoneyFCAfterModifySOMSOLine" method="GetTotalMoneyFCAfterModifySOMSOLine" />
+      <function name="GetFinallyPriceTCBalance" method="GetFinallyPriceTCBalance" />
+      <function name="GetTotalMoneyFCBalanceSOMSOLine" method="GetTotalMoneyFCBalanceSOMSOLine" />
+      <function name="GetTotalMoneyTCBalanceSOMSOLine" method="GetTotalMoneyTCBalanceSOMSOLine" />
+      <function name="GetTotalMoneyACBalanceSOMSOLine" method="GetTotalMoneyACBalanceSOMSOLine" />
+      <function name="GetSOShiplineModifyType" method="GetSOShiplineModifyType" />
+      <function name="GetWHBeforeModify" method="GetWHBeforeModify" />
+      <function name="GetShiperOrgBeforeModify" method="GetShiperOrgBeforeModify" />
+      <function name="GetShipPlanQtyPUBeforeModify" method="GetShipPlanQtyPUBeforeModify" />
+      <function name="GetTotalMoneyTCBeforeModifySOMSOShipline" method="GetTotalMoneyTCBeforeModifySOMSOShipline" />
+      <function name="GetTotalMoneyACBeforeModifySOMSOShipline" method="GetTotalMoneyACBeforeModifySOMSOShipline" />
+      <function name="GetTotalMoneyFCBeforeModifySOMSOShipline" method="GetTotalMoneyFCBeforeModifySOMSOShipline" />
+      <function name="GetWHAfterModify" method="GetWHAfterModify" />
+      <function name="GetShiperOrgAfterModify" method="GetShiperOrgAfterModify" />
+      <function name="GetTotalMoneyTCAfterModifySOMSOShipline" method="GetTotalMoneyTCAfterModifySOMSOShipline" />
+      <function name="GetShipPlanQtyPUAfterModify" method="GetShipPlanQtyPUAfterModify" />
+      <function name="GetTotalMoneyACAfterModifySOMSOShipline" method="GetTotalMoneyACAfterModifySOMSOShipline" />
+      <function name="GetTotalMoneyFCAfterModifySOMSOShipline" method="GetTotalMoneyFCAfterModifySOMSOShipline" />
+      <function name="TotalMoneyFCBalanceSOMSOShipline" method="TotalMoneyFCBalanceSOMSOShipline" />
+      <function name="TotalMoneyTCBalanceSOMSOShipline" method="TotalMoneyTCBalanceSOMSOShipline" />
+      <function name="TotalMoneyACBalanceSOMSOShipline" method="TotalMoneyACBalanceSOMSOShipline" />
+      <function name="GetSOARLineModifyType" method="GetSOARLineModifyType" />
+      <function name="GetSumConfirmTotalMoneyACBeforeModify" method="GetSumConfirmTotalMoneyACBeforeModify" />
+      <function name="GetSumConfirmTotalMoneyACAfterModify" method="GetSumConfirmTotalMoneyACAfterModify" />
+      <function name="SumConfirmTotalMoneyACBalance" method="SumConfirmTotalMoneyACBalance" />
+      <function name="GetSORecLineModifyType" method="GetSORecLineModifyType" />
+      <function name="GetSumReceiveTotalMoneyACBeforeModify" method="GetSumReceiveTotalMoneyACBeforeModify" />
+      <function name="GetSumReceiveTotalMoneyACAfterModify" method="GetSumReceiveTotalMoneyACAfterModify" />
+      <function name="SumReceiveTotalMoneyACBalance" method="SumReceiveTotalMoneyACBalance" />
+    </type>
+  </assembly>
+  <assembly name="UFIDA.U9.BS.MessageCenter.dll" >
+    <type name="UFIDA.U9.BS.MessageCenter.Template.MCFunction" >
+      <function name="PropertyValueChangedFromTo" method="PropertyValueChangedFromTo" />
+      <function name="PropertyValueChangedTo" method="PropertyValueChangedTo" />
+      <function name="PropertyValueChangedFrom" method="PropertyValueChangedFrom" />
+      <function name="PropertyValueChanged" method="PropertyValueChanged" />
+    </type>
+  </assembly>
+
+  <assembly name="UFIDA.U9.InvDoc.InvDocBE.dll" >
+    <type name="UFIDA.U9.InvDoc.InvDocPub" >
+      <function name="GetSobAccPeriod_InvDoc" method="GetSobAccPeriod_InvDoc" />
+    </type>
+    <type name="UFIDA.U9.InvDoc.InvDocBE.CostAdjustBE.CoummonFunction" >
+      <function name="GetCostAdjustReason" method="GetCostAdjustReason" />
+    </type>
+  </assembly>
+
+  <assembly name="UFIDA.U9.CC.CCBE.dll" >
+    <type name="UFIDA.U9.CC.CreditObjectPolicy.ObjectCreditLevelApproval" >
+      <function name="GetDisplayName" method="GetDisplayName" />
+    </type>
+  </assembly>
+  <assembly name="UFIDA.U9.CC.CCBE.dll" >
+    <type name="UFIDA.U9.CC.CreditObjectPolicy.ObjectCreditLevelApproval" >
+      <function name="GetDisplayName" method="GetDisplayName" />
+    </type>
+  </assembly>
+  <assembly name="UFIDA.U9.PAY.PayBP.dll" >
+    <type name="UFIDA.U9.PAY.PayExpression.PayFunctions" >
+      <function name="GetEmployeeSalaryDocItemValue" method="GetEmployeeSalaryDocItemValue" />
+      <function name="IsEmployeeJobJoinDate" method="IsEmployeeJobJoinDate" />
+      <function name="IsEmployeeProbationDate" method="IsEmployeeProbationDate" />
+      <function name="IsEmployeeTransferDate" method="IsEmployeeTransferDate" />
+      <function name="IsEmployeePayAdjustPeriod" method="IsEmployeePayAdjustPeriod" />
+      <function name="GetEmployeePayAdjustDate" method="GetEmployeePayAdjustDate" />
+      <function name="IsEmployeeDimissionDate" method="IsEmployeeDimissionDate" />
+      <function name="GetSalaryItemPeriod" method="GetSalaryItemPeriod" />
+      <function name="GetEmployeeAttendInfo" method="GetEmployeeAttendInfo" />
+      <function name="GetEmployeeCheckResult" method="GetEmployeeCheckResult" />
+      <function name="GetEmployeePayMoney" method="GetEmployeePayMoney" />
+      <function name="GetAwardPunishRecord" method="GetAwardPunishRecord" />
+      <function name="GetPayDays" method="GetPayDays" />
+      <function name="GetEmployeePaySum" method="GetEmployeePaySum" />
+      <function name="GetBen" method="GetBen" />
+      <function name="GetPersonAge" method="GetPersonAge" />
+      <function name="GetWorkAge" method="GetWorkAge" />
+      <function name="GetEmployeeInnerAge" method="GetEmployeeInnerAge" />
+      <function name="GetCodeNameIDStr" method="GetCodeNameIDStr" />
+      <function name="GetEObjectAppointedValue" method="GetEObjectAppointedValue" />
+
+    </type>
+  </assembly>
+  <assembly name="UFIDA.U9.CBO.HRBP.dll" >
+    <type name="UFIDA.U9.CBO.HRBP.HRExpressionBP.HRExpressions" >
+      <function name="PIDCard4China" method="PIDCard4China" />
+      <function name="PIDCard4Taiwan" method="PIDCard4Taiwan" />
+      <function name="PIDCard4ChinaHK" method="PIDCard4ChinaHK" />
+    </type>
+  </assembly>
+  <assembly name="UFIDA.U9.PR.PRBE.dll" >
+    <type name="UFIDA.U9.PR.PurchaseRequest.ApproveCoummonFunction" >
+      <function name="GetPositionByPR" method="GetPositionByPR" />
+      <function name="GetUriByPRForApproval" method="GetUriByPRForApproval" />
+    </type>
+  </assembly>
+  <assembly name="UFIDA.U9.PR.PRBE.dll" >
+    <type name="UFIDA.U9.PR.PurchaseRequest.CommonFunctionExtend" >
+      <function name="HasGatherPurMode" method="HasGatherPurMode" />
+    </type>
+  </assembly>
+  <assembly name="UFIDA.U9.CBO.FI_TBBP.dll" >
+    <type name="UFIDA.U9.CBO.FI.TB.Expression.TBFunctions" >
+      <function name="TBFigureValFunction" method="GetFigureValFunction" />
+    </type>
+  </assembly>
+
+  <assembly name="UFIDA.U9.DM.DMBE.dll" >
+    <type name="UFIDA.U9.DM.RtnBack.RtnBillBody" >
+      <function name="GetApproveItemCode" method="GetApproveItemCode" />
+    </type>
+    <type name="UFIDA.U9.DM.RtnProfit.RtnProfitBillBody" >
+      <function name="GetApproveItemCode" method="GetApproveItemCode" />
+    </type>
+    <type name="UFIDA.U9.DM.RtnProfitApply.RtnProfitApplyBillBody" >
+      <function name="GetApproveItemCode" method="GetApproveItemCode" />
+    </type>
+    <type name="UFIDA.U9.DM.RtnPointBill.RtnPointLine" >
+      <function name="GetApproveItemCode" method="GetApproveItemCode" />
+    </type>
+    <type name="UFIDA.U9.DM.RtnPointApplyBill.RPALine" >
+      <function name="GetApproveItemCode" method="GetApproveItemCode" />
+    </type>
+  </assembly>
+
+  <assembly name="UFIDA.U9.CS.Workflow.WorkflowBP.dll" >
+    <type name="UFIDA.U9.CS.Workflow.WorkflowBP.Experssion.ExprFunction" >
+      <function name="GetWFCurrentEntity" method="GetWFCurrentEntity" />
+      <function name="GetWFPrevOperator" method="GetWFPrevOperator" />
+      <function name="GetWFSender" method="GetWFSender" />
+      <function name="GetWFBusinessSender" method="GetWFBusinessSender" />
+    </type>
+  </assembly>
+  <sql  name="fn_GL_BalanceDirection"  owner="dbo"/>
+  <sql  name="fn_GL_CalBalanceByMemoBook"  owner="dbo"/>
+  <sql  name="fn_GL_GetVoucherSourceMethod"  owner="dbo"/>
+  <sql  name="F_GetStatPeriodByDate" owner="dbo"/>
+  <sql  name="F_GetNextStatPeriodByDate" owner="dbo"/>
+  <sql  name="fn_GL_CalUnitPrice" owner="dbo"/>
+  <sql  name="fn_GL_CalBudgetEncumbMoney" owner="dbo"/>
+  <sql  name="fn_GL_SplitSegmentName" owner="dbo"/>
+  <sql  name="fn_GL_SplitSegmentNameForAccount" owner="dbo"/>
+  <sql  name="fn_Rpt_ItemFreeIsEffectCost" owner="dbo"/>
+  <sql  name="wtd" owner="dbo"/>
+  <sql  name="mtd" owner="dbo"/>
+  <sql  name="ytd" owner="dbo"/>
+  <sql  name="WTD" owner="dbo"/>
+  <sql  name="MTD" owner="dbo"/>
+  <sql  name="YTD" owner="dbo"/>
+  <sql  name="IIF" owner="dbo"/>
+  <sql  name="iif" owner="dbo"/>
+  <sql  name="fn_GetResultByDate" owner="dbo"/>
+  <sql  name="fn_IIF_AreEqual" owner="dbo"/>
+  <sql  name="fn_IIF_DecimalEqual" owner="dbo"/>
+  <sql  name="F_GetEnumName" owner="dbo"/>
+  <sql  name="F_GetMD5key" owner="dbo"/>
+  <sql  name="fn_AP_GetAPBillCanEnjoyDiscount" owner="dbo"/>
+  <sql  name="fn_AP_GetAPBillInstalmentLineCanEnjoyDiscount" owner="dbo"/>
+  <sql  name="fn_AP_GetAPBillLineCanEnjoyDiscount" owner="dbo"/>
+  <sql  name="fn_AP_GetAPBillLineSettlementMethodID" owner="dbo"/>
+  <sql  name="fn_AR_GetARBillCanEnjoyDiscount" owner="dbo"/>
+  <sql  name="fn_AR_GetARBillInstalmentLineCanEnjoyDiscount" owner="dbo"/>
+  <sql  name="fn_AR_GetARBillLineSettlementMethodID" owner="dbo"/>
+  <sql  name="fn_AP_GetPaymentBillLineMoneyBalance" owner="dbo"/>
+  <sql  name="fn_AP_GetPaymentSubstituteLineMoneyBalance" owner="dbo"/>
+  <sql  name="fn_AR_GenReceivalHeadAndUseLineCheckLog" owner="dbo"/>
+  <sql  name="fn_AR_GetReceivalBillLineMoneyBalance" owner="dbo"/>
+  <sql  name="fn_AR_GetReceivalSubstituteLineMoneyBalance" owner="dbo"/>
+  <sql  name="fn_AR_GetRecTotalMoneyBalance"  owner="dbo"/>
+  <sql  name="fn_AR_GetLowerMaturity"  owner="dbo"/>
+  <sql  name="fn_AR_GetRecMethod" owner="dbo"/>
+  <sql  name="fn_AR_IsExistRecMethod" owner="dbo"/>
+  <sql  name="fn_AR_GetARBillHeadCanEnjoyDiscount" owner="dbo"/>
+  <sql  name="fn_AR_GetARBillLineCanEnjoyDiscount" owner="dbo"/>
+  <sql  name="fn_AR_GetARInstalmentCanEnjoyDiscount" owner="dbo"/>
+  <sql  name="fn_AR_GetStatementDirect" owner="dbo"/>
+  <sql  name="fn_AP_GetAPBillHeadCanEnjoyDiscount" owner="dbo"/>
+  <sql  name="fn_AP_GetAPBillLineCanEnjoyDiscount" owner="dbo"/>
+  <sql  name="fn_AP_GetAPInstalmentCanEnjoyDiscount" owner="dbo"/>
+  <sql  name="fn_AP_GetLowerMaturity" owner="dbo"/>
+  <sql  name="fn_AP_GetPayMethod" owner="dbo"/>
+  <sql  name="fn_AP_IsExistPayMethod" owner="dbo"/>
+  <sql  name="fn_AP_GetPayTotalMoneyBalance" owner="dbo"/>
+  <sql  name="fn_AP_GetStatementDirect" owner="dbo"/>
+  <sql  name="fn_PP_GetReqAvalibleRate" owner="dbo"/>
+  <sql  name="fn_SDQuery_SDSumQuery_GetTotalMoney"  owner="dbo"/>
+  <sql  name="fn_SDQuery_GetDays" owner="dbo" />
+  <sql  name="Pro_GetAllChildOrg"  owner="dbo"/>
+  <sql  name="fn_GetSOShipLinesStatus"  owner="dbo"/>
+  <sql  name="fn_GetSOLineCloseType"  owner="dbo"/>
+  <sql  name="F_GetEntityDisplayName" owner="dbo"/>
+  <sql  name="fn_HR_GetDimissionCount" owner="dbo"/>
+  <sql  name="fn_HR_IsChildOrg" owner="dbo"/>
+  <sql  name="fn_HR_GetAssignmentNum" owner="dbo"/>
+  <sql  name="fn_HR_GetHRBudget" owner="dbo"/>
+  <sql  name="fn_HR_GetFirstAssignment" owner="dbo"/>
+  <sql  name="fn_HR_GetLastAssignment" owner="dbo"/>
+  <sql  name="fn_Hr_GetCountry" owner="dbo"/>
+  <sql  name="fn_HR_IsChildDept" owner="dbo"/>
+  <sql  name="fn_HR_GetvalidateAssignment" owner="dbo"/>
+  <sql  name="fn_HR_GetValidestAssignment" owner="dbo"/>
+  <sql  name="fn_HR_GetLastCategory" owner="dbo"/>
+  <sql  name="fn_HR_GetLastAbility" owner="dbo"/>
+  <sql  name="fn_HR_GetLastMarriage" owner="dbo"/>
+  <sql  name="fn_HR_GetLastPersonTitle" owner="dbo"/>
+  <sql  name="fn_HR_GetLastEducation" owner="dbo"/>
+  <sql  name="fn_HR_GetLastQualification" owner="dbo"/>
+  <sql  name="fn_HR_GetLastPolitical" owner="dbo"/>
+  <sql  name="fn_HR_GetLastJobHistory" owner="dbo"/>
+  <sql  name="fn_HR_GetLastPunish" owner="dbo"/>
+  <sql  name="fn_HR_GetLastAward" owner="dbo"/>
+  <sql  name="fn_HR_Trunc" owner="dbo"/>
+  <sql  name="fn_HR_Carry" owner="dbo"/>
+  <sql  name="fn_HR_Rounding" owner="dbo"/>
+  <sql  name="fn_HR_YearInterval" owner="dbo"/>
+  <sql  name="fn_HR_GetYearFixedNumberSegment" owner="dbo"/>
+  <sql  name="fn_HR_GetFamilyInfo" owner="dbo"/>
+  <sql  name="fn_HR_GetEducationInfo" owner="dbo"/>
+  <sql  name="fn_HR_GetJobHistoryInfo" owner="dbo"/>
+  <sql  name="fn_HR_GetAuditOrg" owner="dbo"/>
+  <sql  name="fn_HR_GetHRAuditOrg" owner="dbo"/>
+  <sql  name="fn_HR_GetAuditOrgBySalaryItem" owner="dbo"/>
+  <sql  name="fn_HR_GetHRBusinessOrg" owner="dbo"/>
+  <sql  name="fn_Hr_GetDefaultPaiedID" owner="dbo"/>
+  <sql  name="fn_Hr_GetBenPaiedOrg" owner="dbo"/>
+  <sql  name="fn_Hr_GetParentDept" owner="dbo"/>
+  <sql  name="fn_Hr_GetDefaultAudit" owner="dbo"/>
+  <sql  name="fn_Hr_GetPeriodOfSalaryItem" owner="dbo"/>
+  <sql  name="fn_HR_GetSplitMiddle" owner="dbo"/>
+
+
+  <sql  name="StrToFloat" owner="dbo"/>
+  <sql  name="FloatToStr" owner="dbo"/>
+  <sql  name="StrToDate" owner="dbo"/>
+  <sql  name="DateToStr" owner="dbo"/>
+  <sql  name="FunRef" owner="dbo"/>
+  <sql  name="FunEnum" owner="dbo"/>
+  <sql  name="Year" owner="dbo"/>
+  <sql  name="Month" owner="dbo"/>
+  <sql  name="Day" owner="dbo"/>
+  <sql  name="Today" owner="dbo"/>
+  <sql  name="Lcase" owner="dbo"/>
+  <sql  name="Ucase" owner="dbo"/>
+  <sql  name="Substr" owner="dbo"/>
+  <sql  name="Mod" owner="dbo"/>
+  <sql  name="F_PM_GetPOMemo" owner="dbo"/>
+
+  <sql  name="F_PM_GetRcvTaxDetailData" owner="dbo"/>
+  <sql  name="fn_HR_GetBenefitFund" owner="dbo"/>
+  <sql  name="DaysBetween" owner="dbo"/>
+  <sql  name="YearsBetween" owner="dbo"/>
+  <sql  name="WeeksBetween" owner="dbo"/>
+  <sql  name="MonthsBetween" owner="dbo"/>
+  <sql  name="QuartersBetween" owner="dbo"/>
+  <sql  name="Ages" owner="dbo"/>
+  <sql  name="fn_Hr_GetPayRelationOrg" owner="dbo"/>
+
+  <sql  name="F_SM_GetSOMemo" owner="dbo"/>
+  <sql  name="fn_InvMonTotal_IsFreeItemAffectCost" owner="dbo"/>
+  <sql  name="fn_Invtrans_IsNullEntity" owner="dbo"/>
+  <sql  name="fn_GetUOMRatioInClass" owner="dbo"/>
+  <sql  name="fn_GetRoundValue" owner="dbo"/>
+  <sql  name="fn_MRP_GetConvertRatio" owner="dbo"/>
+  <sql  name="fn_MOIssueDoc_GetRoundValue" owner="dbo"/>
+  <sql  name="F_PM_GetSplitStr" owner="dbo"/>
+  <sql  name="fn_PM_IsChildOrg" owner="dbo"/>
+  <sql  name="Fn_Report_UOMRatioToBase" owner="dbo"/>
+  <sql  name="Fn_Report_UOMQtyConvert" owner="dbo"/>
+  <sql  name="fn_Report_GetConvertRatio" owner="dbo"/>
+  <sql  name="Fn_Report_Abs" owner="dbo"/>
+
+  <sql  name="fn_os_GetStatPeriod" owner="dbo"/>
+  <sql  name="fn_os_GetDayCapacity" owner="dbo"/>
+  <sql  name="fn_os_GetUOMRatio" owner="dbo"/>
+  <sql  name="fn_os_GetTimeInterval" owner="dbo"/>
+
+  <!--sql function -->
+  <sql  name="sqlCeiling" method="Ceiling" />
+  <sql  name="sqlFloor" method="Floor" />
+  <sql  name="sqlRound" method="Round" />
+  <sql  name="sqlAbs" method="Abs" />
+  <sql  name="sqlExp" method="Exp" />
+  <sql  name="sqlPower" method="Power" />
+  <sql  name="sqlLen" method="Len" />
+  <sql  name="sqlLeft" method="Left" />
+  <sql  name="sqlRight" method="Right" />
+  <sql  name="sqlLTrim" method="LTrim" />
+  <sql  name="sqlRTrim" method="RTrim" />
+  <sql  name="sqlReplace" method="Replace" />
+  <sql  name="sqlYear" method="Year" />
+  <sql  name="sqlMonth" method="Month" />
+  <sql  name="sqlDay" method="Day" />
+</function-binding>

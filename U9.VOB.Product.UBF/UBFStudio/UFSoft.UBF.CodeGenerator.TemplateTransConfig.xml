@@ -505,6 +505,9 @@
 
       <!-- GreatStar -->
       <Cust>GreatStar\${sub_seg(assembly, ".", 4)}\Code\</Cust>
+
+      <!-- WanShiDa.KaoHe (UFIDA.CUST.HX.SDWS.SDWSBP) -->
+      <HX>U9AppCode\U9.VOB.Apps.Cus\CusApp\HBHWanShiDa\Code_KaoHe\</HX>
 		
 		</Items>
 	</UISourceCodeConfig>
